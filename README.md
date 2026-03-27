@@ -1,5 +1,5 @@
 # lazy-phone-user
-tasker project for the average lazy user. This needs llamalab automate, auto input, auto notification. There are Tasks that have are specific to doing one thing which could've been a block but no thanks to the android drama going on, I've had to set some sdk, root & shizuku checks which if available would be one action block else it would either be an entire user input simulation or nothing at all with just a tts/toast msg depending on the display's state (lock set/unset)
+tasker project for the average lazy user. This needs llamalab automate, auto input, auto notification. There are Tasks that have are specific to doing one thing which could've been a block but no thanks to the android drama going on, I've had to set some checks for sdk level < 34, root & or shizuku being there which if the conditions are satisfied would be one action block for things that require root/shizuku else it would either be an entire user input simulation or nothing at all with just a tts/toast msg depending on the display's state (lock set/unset)
 
 ## setup
 1. import the automate flo's into automate
