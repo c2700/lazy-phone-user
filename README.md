@@ -68,6 +68,8 @@ tasker project for the average lazy user. This needs llamalab automate, auto inp
 34. `Wan Check Switch` - checks if wan is reachable when connected via wan iface, which then waits for `Ping Test` to set HIGH_PING global var & based on the var's value changes or leaves it as is
 35. `Ping Test` - constantly checks the ping state (5 pkts)
 36. `Map (Un)Set` - toggle map app settings
-37. `OBD2 (Un)Set` - toggle obd2 app settings
-38. `Intent Recvr` - broadcast receiver for anything else from anywhere else neededf (automate for this case like setting global vars)
-39. `Work Profile Set` - toggle settings, var.s & values for work profiles
+37. `Intent Recvr` - broadcast receiver for anything else from anywhere else neededf (automate for this case like setting global vars)
+38. `Work Profile Set` - toggle settings, var.s & values for work profiles
+39. `Bluetooth Set` - profile to enable bluetooth
+40. `Bluetooth Connection Check` - trigger to get connection/disconnection event
+41. `Bluetooth Unset` - profile to disable bluetooth
