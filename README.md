@@ -18,6 +18,7 @@ tasker project for the average lazy user. This needs llamalab automate, auto inp
     - `Mobile Data Var Set via Automate` will need the `Tasker - Cellular Data state check` flo from automate to be running
 11. (disable/delete if not needed which you would need to do to the `OBD2 (Un)Set` profile as well) set your obd apps as the entry app in `OBD2 Fg Flags (Un)Set` profile & the very same obd apps as auto notification entry in `OBD2 Bg Flags (Un)Set` profile
 12. At `Ping Test` task you might want to make changes in the numbers at action (conditional actually) 14 & 18 if you think the numbers don't apply to your use case
+14. you may need to change the `Data` field in the `Send Intent` action in tasker which are intended to invoke Automate flos (which will be indicated with the label in the action), if the "Flow URI" field in the imported automate flo's start block changes, to whatever the content has been changed to in automate's start block.
 13. if you do not want the toasts from the `Ping test` & `WAN check` the actions to disable/delete are the following
 
      - `Ping Test` Task
