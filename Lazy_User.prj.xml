@@ -618,7 +618,7 @@ Notes:
 	<Profile sr="prof151" ve="2">
 		<cdate>1775404361885</cdate>
 		<clp>true</clp>
-		<edate>1775428611473</edate>
+		<edate>1775431396153</edate>
 		<flags>8</flags>
 		<id>151</id>
 		<mid0>2</mid0>
@@ -1159,7 +1159,7 @@ Notes:
 	<Profile sr="prof170" ve="2">
 		<cdate>1775404361911</cdate>
 		<clp>true</clp>
-		<edate>1775430631848</edate>
+		<edate>1775431411254</edate>
 		<flags>8</flags>
 		<id>170</id>
 		<mid0>100</mid0>
@@ -1273,11 +1273,10 @@ Notes:
 	<Profile sr="prof182" ve="2">
 		<cdate>1775404361921</cdate>
 		<clp>true</clp>
-		<edate>1775430714326</edate>
+		<edate>1775431462273</edate>
 		<flags>8</flags>
 		<id>182</id>
-		<mid0>111</mid0>
-		<mid1>3</mid1>
+		<mid0>123</mid0>
 		<nme>Redundant Net Src</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -1409,7 +1408,6 @@ Notes:
 	</Profile>
 	<Profile sr="prof186" ve="2">
 		<cdate>1775404361855</cdate>
-		<clp>true</clp>
 		<edate>1775405662619</edate>
 		<flags>8</flags>
 		<id>186</id>
@@ -1428,12 +1426,12 @@ Notes:
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>181,153,157,148,134,186,182,167,150,136,160,146,165,159,131,139,170,141,135,138,180,152,166,143,154,168,169,132,151,161,149,147,140,133,142,184,155,145,185,137,183,158,156</pids>
-		<tids>51,123,43,113,68,32,47,87,100,96,55,37,122,109,125,118,88,92,57,42,48,40,127,50,130,66,49,52,104,93,119,187,53,97,56,124,95,106,115,39,99,117,64,110,44,112,94,46,128,189,107,111,69,65,105,38,45,90,3,108,67,86,2,33,101,89,121,129,91</tids>
+		<pids>186,169,167,134,157,135,141,132,148,146,152,138,185,133,159,161,182,137,147,154,160,143,168,149,153,184,180,139,150,151,155,142,158,145,136,183,181,170,165,166,156,140,131</pids>
+		<tids>43,125,100,87,48,123,52,96,39,51,93,108,40,50,104,67,117,57,37,49,53,113,109,32,66,115,38,189,64,105,107,187,112,99,68,91,119,124,95,129,88,47,55,42,94,65,86,44,130,128,127,45,106,118,56,69,89,97,90,122,121,2,92,110,101,33,46</tids>
 	</Project>
 	<Task sr="task100">
 		<cdate>1759448761509</cdate>
-		<edate>1775430337492</edate>
+		<edate>1775431411254</edate>
 		<id>100</id>
 		<nme>Net Src Switch</nme>
 		<pri>100</pri>
@@ -2228,77 +2226,6 @@ Notes:
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task111">
-		<cdate>1774497072954</cdate>
-		<edate>1775430714326</edate>
-		<id>111</id>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>39</code>
-			<coll>false</coll>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">"Net Set (User)", "Net Set", "Net Unset"</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>159</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>40</code>
-			<on>false</on>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>137</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">Wan Check Switch</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%TRUN</lhs>
-					<op>2</op>
-					<rhs>*Wan Check Switch*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Redundant Net Src Switch</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>39</code>
-			<coll>false</coll>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">"Net Set (User)", "Net Set", "Net Unset"</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>159</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>40</code>
-			<on>false</on>
 		</Action>
 	</Task>
 	<Task sr="task112">
@@ -3186,7 +3113,7 @@ Notes:
 	</Task>
 	<Task sr="task125">
 		<cdate>1759650620765</cdate>
-		<edate>1775409561773</edate>
+		<edate>1775432444410</edate>
 		<id>125</id>
 		<nme>Wan Check Switch</nme>
 		<pri>100</pri>
@@ -4249,7 +4176,7 @@ Notes:
 	</Task>
 	<Task sr="task2">
 		<cdate>1775427384957</cdate>
-		<edate>1775428611473</edate>
+		<edate>1775431396153</edate>
 		<id>2</id>
 		<Action sr="act0" ve="7">
 			<code>39</code>
@@ -4296,29 +4223,6 @@ Notes:
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>40</code>
-		</Action>
-	</Task>
-	<Task sr="task3">
-		<cdate>1775427647370</cdate>
-		<edate>1775428482525</edate>
-		<id>3</id>
-		<Action sr="act0" ve="7">
-			<code>39</code>
-			<coll>false</coll>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">"Net Set (User)", "Net Set", "Net Unset"</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>159</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>40</code>
-			<on>false</on>
 		</Action>
 	</Task>
 	<Task sr="task32">
@@ -4592,7 +4496,7 @@ Notes:
 	</Task>
 	<Task sr="task40">
 		<cdate>1771129901910</cdate>
-		<edate>1775142132399</edate>
+		<edate>1775431625202</edate>
 		<id>40</id>
 		<nme>Ping Test</nme>
 		<pri>100</pri>
