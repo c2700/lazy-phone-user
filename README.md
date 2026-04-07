@@ -1,5 +1,13 @@
-# lazy-phone-user
-tasker project for the average lazy user. This needs llamalab automate, auto input, auto notification. There are Tasks that have are specific to doing one thing which could've been a block but no thanks to the android drama going on, I've had to set some checks for sdk level < 34, root & or shizuku being there which if the conditions are satisfied would be one action block for things that require root/shizuku else it would either be an entire user input simulation or nothing at all with just a tts/toast msg depending on the display's state (lock set/unset)
+## lazy-phone-user
+Tasker project for the average lazy user. wifi/data/location/low power mode/airplane mode/bluetooth toggling or cpu settings based on the set apps/conditions. works on rooted & non-rooted phones. There are tasks that are specific to doing one thing which could've been just one action but no thanks to the android drama going on, I've had to set some checks for sdk level < 34, root & or shizuku being there which if the conditions are satisfied would be one action block for things that require root/shizuku else it would either be an entire user input simulation using through autoinput or nothing at all with just a tts/toast msg depending on the display's state (lock set/unset) 
+
+### Requiremed apps
+ 1. Tasker
+ 2. llamalab automate
+ 3. autoinput
+ 4. autonotification. 
+
+
 
 ## setup
 1. import the automate flo's into automate
@@ -12,7 +20,7 @@ tasker project for the average lazy user. This needs llamalab automate, auto inp
 8. (optional if this is not needed) remove/disable the `Work Profile Set` profile & if needed/wanted remove the WORK_PROFILE global var from all other actions, conditions & profiles. The action for it is created the way it is for when corporate apps are installed onto a work profile & one needs to show their activity as online at all times or needs to be responsive & needs connectivity at all times as long as there's some source of connectivity & for as long as the work profile's active.
 9. `Gaming Clock` & `Regular CPU Usage`. Reconfigure the cpu list with their respective low & high clocks & governors configured. (I have set my `Gaming Clock` task to the highest that was available with all core governors to performance & the `Regular CPU Usage` all to schedutil (those were the only governors available for both my phone's kernels).
 10. `(Un)Set Sim Presence Airplane Mode` or `(Un)Set Sim Presence Airplane Mode via Automate` profiles. Enable/delete ONLY ONE of since they do the same thing (toggle airplane mode on sim presence) with the only difference being the Action in the `intent received` event from both profiles being
-    - android's built-in `SIM_STATE_CHANGED` broadcast is said to be unreliable since android 14 (https://issuetracker.google.com/issues/302614301). I haven't faced that issue on android 13
+    - android's built-in `SIM_STATE_CHANGED` broadcast is said to be unreliable since android 14 (https://issuetracker.google.com/issues/302614301). I haven't faced that issue on android 13. Only "weird" thing is that I've been seeing that profile being triggered with that broadcast many times even when I haven't ejected/inserted the sim card
     - `SIM_PRESENT` is a custom broadcast sent from automate to tasker & this flo needs to be left running 
 11. enable/delete ONLY ONE of `Mobile Data Var Set via Automate` or `Mobile Data Var Set`.
     - `Mobile Data Var Set` - do a `find setting` after toggling the data in the profile so it gets you the right state of your cellular data
