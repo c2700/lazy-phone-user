@@ -77,7 +77,7 @@ tasker project for the average lazy user. This needs llamalab automate, auto inp
 40. `Bluetooth Set` - profile to enable bluetooth
 41. `Bluetooth Connection Check` - trigger to get connection/disconnection event
 42. `Bluetooth Unset` - profile to disable bluetooth
-43. `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the list I had a tough time getting it to move around. now that the AI button's been added which which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the last who's toggle will remain obstructed instead of the one's that are of use to the user
+43. `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the list I had a tough time getting it to move around. now that the AI button's been added which which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the list who's toggle will remain obstructed instead of the one's that are of use to the user
 
-### There maybe slight delays in running tasks triggered by the low power mode profiles which send intents to llamalab automate for weaker phones
+<b>There maybe slight delays in running tasks triggered by the low power mode profiles which send intents to llamalab automate for weaker phones. if at times the network toggling profiles do not enable the relavant network ifaces (data/wifi), try the "run an action" & just to see if the actions & tasks are running right which if it doesn't a god ol reboot to the phone should fix that issue <b>
 
