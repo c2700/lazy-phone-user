@@ -1,25 +1,25 @@
 <TaskerData sr="" dvi="1" tv="6.6.20">
-	<Profile sr="prof135" ve="2">
-		<cdate>1775510464766</cdate>
+	<Profile sr="prof132" ve="2">
+		<cdate>1775526981842</cdate>
 		<clp>true</clp>
-		<edate>1775412460357</edate>
+		<edate>1775766077272</edate>
 		<flags>8</flags>
-		<id>135</id>
-		<mid0>37</mid0>
-		<mid1>38</mid1>
+		<id>132</id>
+		<mid0>42</mid0>
+		<mid1>43</mid1>
 		<nme>Work Profile Set</nme>
 		<State sr="con0" ve="2">
 			<code>194</code>
 		</State>
 	</Profile>
-	<Profile sr="prof136" ve="2">
-		<cdate>1775510464773</cdate>
+	<Profile sr="prof133" ve="2">
+		<cdate>1775526981849</cdate>
 		<clp>true</clp>
-		<edate>1775512484410</edate>
+		<edate>1775771435684</edate>
 		<flags>8</flags>
-		<id>136</id>
+		<id>133</id>
 		<limit>true</limit>
-		<mid0>194</mid0>
+		<mid0>87</mid0>
 		<nme>(Un)Set Sim Presence Airplane Mode</nme>
 		<Event sr="con0" ve="2">
 			<code>599</code>
@@ -30,14 +30,14 @@
 			<Str sr="arg4" ve="3"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof137" ve="2">
-		<cdate>1775510464777</cdate>
+	<Profile sr="prof134" ve="2">
+		<cdate>1775526981853</cdate>
 		<clp>true</clp>
 		<edate>1775411488833</edate>
 		<flags>8</flags>
-		<id>137</id>
+		<id>134</id>
 		<limit>true</limit>
-		<mid0>132</mid0>
+		<mid0>37</mid0>
 		<nme>Alarmy Call</nme>
 		<Time sr="con0">
 			<fh>-1</fh>
@@ -48,13 +48,13 @@
 			<tm>-1</tm>
 		</Time>
 	</Profile>
-	<Profile sr="prof138" ve="2">
-		<cdate>1775510464777</cdate>
+	<Profile sr="prof135" ve="2">
+		<cdate>1775526981853</cdate>
 		<clp>true</clp>
-		<edate>1775513137519</edate>
+		<edate>1775771490828</edate>
 		<flags>8</flags>
-		<id>138</id>
-		<mid0>53</mid0>
+		<id>135</id>
+		<mid0>64</mid0>
 		<nme>screen On Locked</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -84,15 +84,15 @@
 			<Str sr="arg1" ve="3"/>
 		</State>
 	</Profile>
-	<Profile sr="prof139" ve="2">
-		<cdate>1775510464780</cdate>
+	<Profile sr="prof136" ve="2">
+		<cdate>1775526981858</cdate>
 		<clp>true</clp>
 		<edate>1774445487814</edate>
 		<flags>8</flags>
-		<id>139</id>
+		<id>136</id>
 		<limit>true</limit>
-		<mid0>90</mid0>
-		<mid1>89</mid1>
+		<mid0>95</mid0>
+		<mid1>94</mid1>
 		<nme>Gaming</nme>
 		<App sr="con0" ve="2">
 			<cls0>com.u8.sdk.U8UnityContext</cls0>
@@ -128,13 +128,13 @@
 			<pkg9>com.arkgames.ggplay.tlonglobal</pkg9>
 		</App>
 	</Profile>
-	<Profile sr="prof140" ve="2">
-		<cdate>1775510464786</cdate>
+	<Profile sr="prof137" ve="2">
+		<cdate>1775526981865</cdate>
 		<clp>true</clp>
-		<edate>1775248830677</edate>
+		<edate>1775771487750</edate>
 		<flags>8</flags>
-		<id>140</id>
-		<mid0>119</mid0>
+		<id>137</id>
+		<mid0>124</mid0>
 		<nme>screen Unlocked No Low Power</nme>
 		<State sr="con0" ve="2">
 			<code>10</code>
@@ -149,14 +149,14 @@
 			<code>1000</code>
 		</Event>
 	</Profile>
-	<Profile sr="prof141" ve="2">
-		<cdate>1775510464791</cdate>
+	<Profile sr="prof138" ve="2">
+		<cdate>1775526981869</cdate>
 		<clp>true</clp>
 		<edate>1775411520675</edate>
 		<flags>8</flags>
-		<id>141</id>
+		<id>138</id>
 		<limit>true</limit>
-		<mid0>119</mid0>
+		<mid0>124</mid0>
 		<nme>screen On No Low Power</nme>
 		<State sr="con0" ve="2">
 			<code>10</code>
@@ -168,13 +168,13 @@
 			<Int sr="arg0" val="1"/>
 		</State>
 	</Profile>
-	<Profile sr="prof142" ve="2">
-		<cdate>1775510464791</cdate>
+	<Profile sr="prof139" ve="2">
+		<cdate>1775526981870</cdate>
 		<clp>true</clp>
 		<edate>1775411009019</edate>
 		<flags>8</flags>
-		<id>142</id>
-		<mid0>101</mid0>
+		<id>139</id>
+		<mid0>107</mid0>
 		<nme>Clipboard Link Sanitizer</nme>
 		<Event sr="con0" ve="2">
 			<code>2097</code>
@@ -185,27 +185,27 @@
 			<Int sr="arg1" val="0"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof143" ve="2">
-		<cdate>1775510464791</cdate>
+	<Profile sr="prof140" ve="2">
+		<cdate>1775526981870</cdate>
 		<clp>true</clp>
 		<edate>1775411480920</edate>
 		<flags>8</flags>
-		<id>143</id>
-		<mid0>121</mid0>
+		<id>140</id>
+		<mid0>125</mid0>
 		<nme>Alarm Vol Auto Set</nme>
 		<Event sr="con0" ve="2">
 			<code>305</code>
 			<Str sr="arg0" ve="3"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof145" ve="2">
-		<cdate>1775510464791</cdate>
+	<Profile sr="prof141" ve="2">
+		<cdate>1775526981870</cdate>
 		<clp>true</clp>
-		<edate>1775410935103</edate>
+		<edate>1775771471517</edate>
 		<flags>8</flags>
-		<id>145</id>
-		<mid0>129</mid0>
-		<mid1>130</mid1>
+		<id>141</id>
+		<mid0>27</mid0>
+		<mid1>32</mid1>
 		<nme>wifi var set</nme>
 		<State sr="con0" ve="2">
 			<code>160</code>
@@ -215,13 +215,13 @@
 			<Int sr="arg3" val="2"/>
 		</State>
 	</Profile>
-	<Profile sr="prof146" ve="2">
-		<cdate>1775510464795</cdate>
+	<Profile sr="prof142" ve="2">
+		<cdate>1775526981870</cdate>
 		<clp>true</clp>
-		<edate>1775411479436</edate>
+		<edate>1775765966172</edate>
 		<flags>8</flags>
-		<id>146</id>
-		<mid0>125</mid0>
+		<id>142</id>
+		<mid0>130</mid0>
 		<nme>Wifi Hotspot Autoset Stuff</nme>
 		<Event sr="con0" ve="2">
 			<code>599</code>
@@ -232,14 +232,14 @@
 			<Str sr="arg4" ve="3"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof147" ve="2">
-		<cdate>1775510464798</cdate>
+	<Profile sr="prof143" ve="2">
+		<cdate>1775526981882</cdate>
 		<clp>true</clp>
 		<edate>1775141980245</edate>
 		<flags>8</flags>
-		<id>147</id>
+		<id>143</id>
 		<limit>true</limit>
-		<mid0>52</mid0>
+		<mid0>57</mid0>
 		<nme>Autoread Whatsapp</nme>
 		<Time sr="con0">
 			<fh>-1</fh>
@@ -266,39 +266,58 @@
 			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof148" ve="2">
-		<cdate>1775510464799</cdate>
+	<Profile sr="prof145" ve="2">
+		<cdate>1775526981882</cdate>
 		<clp>true</clp>
-		<edate>1775411476263</edate>
+		<edate>1775773656014</edate>
 		<flags>8</flags>
-		<id>148</id>
-		<mid0>134</mid0>
-		<mid1>42</mid1>
+		<id>145</id>
+		<mid0>39</mid0>
+		<mid1>46</mid1>
 		<nme>Fg Net Flags Set</nme>
 		<App sr="con0" ve="2">
 			<cls0>com.android.vending.AssetBrowserActivity</cls0>
 			<cls1>com.whatsapp.Main</cls1>
 			<cls2>com.google.android.apps.chrome.Main</cls2>
 			<cls3>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls3>
+			<cls4>com.google.android.maps.MapsActivity</cls4>
 			<flags>2</flags>
 			<label0>Play Store</label0>
 			<label1>WhatsApp</label1>
 			<label2>Chrome</label2>
 			<label3>YouTube</label3>
+			<label4>Maps</label4>
 			<pkg0>com.android.vending</pkg0>
 			<pkg1>com.whatsapp</pkg1>
 			<pkg2>com.android.chrome</pkg2>
 			<pkg3>com.google.android.youtube</pkg3>
+			<pkg4>com.google.android.apps.maps</pkg4>
 		</App>
+		<State sr="con1" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%PHONE_LOCKED</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
 	</Profile>
-	<Profile sr="prof149" ve="2">
-		<cdate>1775510464799</cdate>
+	<Profile sr="prof146" ve="2">
+		<cdate>1775526981883</cdate>
 		<clp>true</clp>
 		<edate>1775411475494</edate>
 		<flags>8</flags>
-		<id>149</id>
-		<mid0>33</mid0>
-		<mid1>122</mid1>
+		<id>146</id>
+		<mid0>40</mid0>
+		<mid1>127</mid1>
 		<nme>Bg Net (Un)Set</nme>
 		<State sr="con0" ve="2">
 			<code>40830242</code>
@@ -376,13 +395,13 @@ Notific...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg3" val="1"/>
 		</State>
 	</Profile>
-	<Profile sr="prof150" ve="2">
-		<cdate>1775510464799</cdate>
+	<Profile sr="prof147" ve="2">
+		<cdate>1775526981883</cdate>
 		<clp>true</clp>
-		<edate>1775517058244</edate>
+		<edate>1775776739217</edate>
 		<flags>8</flags>
-		<id>150</id>
-		<mid0>43</mid0>
+		<id>147</id>
+		<mid0>47</mid0>
 		<nme>Net Unset</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -425,13 +444,13 @@ Notific...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg1" ve="3"/>
 		</State>
 	</Profile>
-	<Profile sr="prof151" ve="2">
-		<cdate>1775510464807</cdate>
+	<Profile sr="prof148" ve="2">
+		<cdate>1775526981884</cdate>
 		<clp>true</clp>
-		<edate>1775517047415</edate>
+		<edate>1775774124205</edate>
 		<flags>8</flags>
-		<id>151</id>
-		<mid0>45</mid0>
+		<id>148</id>
+		<mid0>49</mid0>
 		<nme>Fg Net Flags Unset</nme>
 		<App sr="con0" ve="2">
 			<cls0>com.android.settings.Settings$BluetoothSettingsActivity</cls0>
@@ -443,6 +462,7 @@ Notific...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<cls6>com.android.settings.Settings$WifiInfoActivity</cls6>
 			<cls7>com.android.settings.Settings$ConfigureWifiSettingsActivity</cls7>
 			<cls8>com.android.mail.ui.settings.PublicPreferenceActivity</cls8>
+			<cls9>com.android.settings.Settings</cls9>
 			<flags>3</flags>
 			<label0>Bluetooth</label0>
 			<label1>Hotspot &amp; tethering</label1>
@@ -458,6 +478,8 @@ WifiInfoActivity</label6>
 			<label7>Wi‑Fi preferences</label7>
 			<label8>Settings
 com.android.mail.ui.settings.PublicPreferenceActivity</label8>
+			<label9>Settings
+Settings</label9>
 			<pin>true</pin>
 			<pkg0>com.android.settings</pkg0>
 			<pkg1>com.android.settings</pkg1>
@@ -468,26 +490,39 @@ com.android.mail.ui.settings.PublicPreferenceActivity</label8>
 			<pkg6>com.android.settings</pkg6>
 			<pkg7>com.android.settings</pkg7>
 			<pkg8>com.google.android.gm</pkg8>
+			<pkg9>com.android.settings</pkg9>
 		</App>
 		<State sr="con1" ve="2">
 			<code>165</code>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%FG_NET_APP_NAME</lhs>
 					<op>13</op>
 					<rhs></rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%PHONE_LOCKED</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
 			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof152" ve="2">
-		<cdate>1775510464808</cdate>
+	<Profile sr="prof149" ve="2">
+		<cdate>1775526981890</cdate>
 		<clp>true</clp>
 		<edate>1775410949244</edate>
 		<flags>8</flags>
-		<id>152</id>
-		<mid0>113</mid0>
-		<mid1>124</mid1>
+		<id>149</id>
+		<mid0>119</mid0>
+		<mid1>129</mid1>
 		<nme>Map Fg Flags (Un)Set</nme>
 		<App sr="con0" ve="2">
 			<cls0>com.google.android.maps.MapsActivity</cls0>
@@ -505,15 +540,15 @@ com.android.mail.ui.settings.PublicPreferenceActivity</label8>
 			<pkg3>com.olacabs.customer</pkg3>
 		</App>
 	</Profile>
-	<Profile sr="prof153" ve="2">
-		<cdate>1775510464812</cdate>
+	<Profile sr="prof150" ve="2">
+		<cdate>1775526981893</cdate>
 		<clp>true</clp>
-		<edate>1775517100989</edate>
+		<edate>1775771473593</edate>
 		<flags>8</flags>
-		<id>153</id>
+		<id>150</id>
 		<limit>true</limit>
-		<mid0>50</mid0>
-		<mid1>51</mid1>
+		<mid0>55</mid0>
+		<mid1>56</mid1>
 		<nme>Mobile Data Var Set</nme>
 		<Share sr="Share">
 			<b>false</b>
@@ -531,14 +566,14 @@ Notes:
 			<Str sr="arg2" ve="3">1</Str>
 		</State>
 	</Profile>
-	<Profile sr="prof154" ve="2">
-		<cdate>1775510464812</cdate>
+	<Profile sr="prof151" ve="2">
+		<cdate>1775526981894</cdate>
 		<clp>true</clp>
 		<edate>1775410949073</edate>
 		<flags>8</flags>
-		<id>154</id>
-		<mid0>47</mid0>
-		<mid1>49</mid1>
+		<id>151</id>
+		<mid0>51</mid0>
+		<mid1>53</mid1>
 		<nme>Map Bg Flags (Un)Set</nme>
 		<State sr="con0" ve="2">
 			<code>40830242</code>
@@ -615,27 +650,27 @@ Notes:
 			<Int sr="arg3" val="1"/>
 		</State>
 	</Profile>
-	<Profile sr="prof155" ve="2">
-		<cdate>1775510464812</cdate>
+	<Profile sr="prof152" ve="2">
+		<cdate>1775526981894</cdate>
 		<clp>true</clp>
-		<edate>1775513875842</edate>
+		<edate>1775776413288</edate>
 		<flags>8</flags>
-		<id>155</id>
-		<mid0>39</mid0>
+		<id>152</id>
+		<mid0>44</mid0>
 		<nme>Check Set Stuff At Boot</nme>
 		<Event sr="con0" ve="2">
 			<code>411</code>
 			<pri>0</pri>
 		</Event>
 	</Profile>
-	<Profile sr="prof156" ve="2">
-		<cdate>1775510464818</cdate>
+	<Profile sr="prof153" ve="2">
+		<cdate>1775526981902</cdate>
 		<clp>true</clp>
 		<edate>1775411473355</edate>
 		<flags>8</flags>
-		<id>156</id>
-		<mid0>128</mid0>
-		<mid1>127</mid1>
+		<id>153</id>
+		<mid0>3</mid0>
+		<mid1>131</mid1>
 		<nme>Usb Tether Autoset Stuff</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -648,13 +683,13 @@ Notes:
 			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof157" ve="2">
-		<cdate>1775510464819</cdate>
+	<Profile sr="prof154" ve="2">
+		<cdate>1775526981902</cdate>
 		<clp>true</clp>
-		<edate>1775428660957</edate>
+		<edate>1775771459881</edate>
 		<flags>8</flags>
-		<id>157</id>
-		<mid0>133</mid0>
+		<id>154</id>
+		<mid0>38</mid0>
 		<nme>Wan Check Switch</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -729,14 +764,14 @@ Notes:
 			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof158" ve="2">
-		<cdate>1775510464820</cdate>
+	<Profile sr="prof155" ve="2">
+		<cdate>1775526981903</cdate>
 		<clp>true</clp>
 		<edate>1775519667143</edate>
 		<flags>8</flags>
-		<id>158</id>
-		<mid0>46</mid0>
-		<mid1>44</mid1>
+		<id>155</id>
+		<mid0>50</mid0>
+		<mid1>48</mid1>
 		<nme>Ping Test</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -777,13 +812,13 @@ Notes:
 			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof159" ve="2">
-		<cdate>1775510464821</cdate>
+	<Profile sr="prof156" ve="2">
+		<cdate>1775526981903</cdate>
 		<clp>true</clp>
-		<edate>1775395386161</edate>
+		<edate>1775771568294</edate>
 		<flags>8</flags>
-		<id>159</id>
-		<mid0>112</mid0>
+		<id>156</id>
+		<mid0>118</mid0>
 		<nme>screen Off Low Power</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -813,13 +848,13 @@ Notes:
 			<Str sr="arg1" ve="3"/>
 		</State>
 	</Profile>
-	<Profile sr="prof160" ve="2">
-		<cdate>1775510464821</cdate>
+	<Profile sr="prof157" ve="2">
+		<cdate>1775526981903</cdate>
 		<clp>true</clp>
-		<edate>1775512463321</edate>
+		<edate>1775771481876</edate>
 		<flags>8</flags>
-		<id>160</id>
-		<mid0>57</mid0>
+		<id>157</id>
+		<mid0>67</mid0>
 		<nme>(Un)Set Sim Presence Airplane Mode via Automate</nme>
 		<Event sr="con0" ve="2">
 			<code>599</code>
@@ -830,13 +865,13 @@ Notes:
 			<Str sr="arg4" ve="3"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof161" ve="2">
-		<cdate>1775510464828</cdate>
+	<Profile sr="prof158" ve="2">
+		<cdate>1775526981908</cdate>
 		<clp>true</clp>
-		<edate>1775519841305</edate>
+		<edate>1775773634695</edate>
 		<flags>8</flags>
-		<id>161</id>
-		<mid0>94</mid0>
+		<id>158</id>
+		<mid0>100</mid0>
 		<nme>Net Set</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -867,14 +902,14 @@ Notes:
 			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof165" ve="2">
-		<cdate>1775510464828</cdate>
+	<Profile sr="prof159" ve="2">
+		<cdate>1775526981909</cdate>
 		<clp>true</clp>
 		<edate>1775142090338</edate>
 		<flags>8</flags>
-		<id>165</id>
-		<mid0>64</mid0>
-		<mid1>65</mid1>
+		<id>159</id>
+		<mid0>68</mid0>
+		<mid1>69</mid1>
 		<nme>Map (Un)Set</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -893,13 +928,14 @@ Notes:
 			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof166" ve="2">
-		<cdate>1775510464828</cdate>
-		<edate>1775525103103</edate>
+	<Profile sr="prof160" ve="2">
+		<cdate>1775526981909</cdate>
+		<clp>true</clp>
+		<edate>1775771638359</edate>
 		<flags>8</flags>
-		<id>166</id>
-		<mid0>66</mid0>
-		<mid1>67</mid1>
+		<id>160</id>
+		<mid0>86</mid0>
+		<mid1>88</mid1>
 		<nme>Net Set (User)</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -973,6 +1009,7 @@ Notes:
 			<code>165</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
+				<bool1>Or</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%PHONE_LOCKED</lhs>
 					<op>2</op>
@@ -983,17 +1020,22 @@ Notes:
 					<op>2</op>
 					<rhs>on</rhs>
 				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%WAN_ACCESSIBLE</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
 			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof167" ve="2">
-		<cdate>1775510464828</cdate>
+	<Profile sr="prof161" ve="2">
+		<cdate>1775526981909</cdate>
 		<clp>true</clp>
 		<edate>1775402097880</edate>
 		<flags>8</flags>
-		<id>167</id>
-		<mid0>68</mid0>
-		<mid1>87</mid1>
+		<id>161</id>
+		<mid0>89</mid0>
+		<mid1>92</mid1>
 		<nme>OBD2 Fg Flags (Un)Set</nme>
 		<App sr="con0" ve="2">
 			<cls0>crc6499ccedf271453986.MainActivity</cls0>
@@ -1002,13 +1044,13 @@ Notes:
 			<pkg0>com.ovz.carscanner</pkg0>
 		</App>
 	</Profile>
-	<Profile sr="prof168" ve="2">
-		<cdate>1775510464836</cdate>
+	<Profile sr="prof165" ve="2">
+		<cdate>1775526981917</cdate>
 		<clp>true</clp>
 		<edate>1775519567195</edate>
 		<flags>8</flags>
-		<id>168</id>
-		<mid0>88</mid0>
+		<id>165</id>
+		<mid0>93</mid0>
 		<nme>Airplane Boarding</nme>
 		<Event sr="con0" ve="2">
 			<code>599</code>
@@ -1019,27 +1061,27 @@ Notes:
 			<Str sr="arg4" ve="3"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof169" ve="2">
-		<cdate>1775510464837</cdate>
+	<Profile sr="prof166" ve="2">
+		<cdate>1775526981917</cdate>
 		<clp>true</clp>
-		<edate>1775410934726</edate>
+		<edate>1775771467182</edate>
 		<flags>8</flags>
-		<id>169</id>
-		<mid0>91</mid0>
-		<mid1>92</mid1>
+		<id>166</id>
+		<mid0>96</mid0>
+		<mid1>97</mid1>
 		<nme>Shizuku Var Set</nme>
 		<State sr="con0" ve="2">
 			<code>198</code>
 		</State>
 	</Profile>
-	<Profile sr="prof170" ve="2">
-		<cdate>1775510464837</cdate>
+	<Profile sr="prof167" ve="2">
+		<cdate>1775526981917</cdate>
 		<clp>true</clp>
-		<edate>1774280631552</edate>
+		<edate>1775771469625</edate>
 		<flags>8</flags>
-		<id>170</id>
-		<mid0>97</mid0>
-		<mid1>104</mid1>
+		<id>167</id>
+		<mid0>105</mid0>
+		<mid1>108</mid1>
 		<nme>Adb Wifi State Var Set</nme>
 		<State sr="con0" ve="2">
 			<code>186</code>
@@ -1048,14 +1090,14 @@ Notes:
 			<Str sr="arg2" ve="3">1</Str>
 		</State>
 	</Profile>
-	<Profile sr="prof180" ve="2">
-		<cdate>1775510464837</cdate>
+	<Profile sr="prof168" ve="2">
+		<cdate>1775526981917</cdate>
 		<clp>true</clp>
 		<edate>1775402098066</edate>
 		<flags>8</flags>
-		<id>180</id>
-		<mid0>107</mid0>
-		<mid1>108</mid1>
+		<id>168</id>
+		<mid0>112</mid0>
+		<mid1>113</mid1>
 		<nme>OBD2 Bg Flags (Un)Set</nme>
 		<State sr="con0" ve="2">
 			<code>40830242</code>
@@ -1132,13 +1174,13 @@ Notes:
 			<Int sr="arg3" val="1"/>
 		</State>
 	</Profile>
-	<Profile sr="prof181" ve="2">
-		<cdate>1775510464838</cdate>
+	<Profile sr="prof169" ve="2">
+		<cdate>1775526981918</cdate>
 		<clp>true</clp>
 		<edate>1775402096473</edate>
 		<flags>8</flags>
-		<id>181</id>
-		<mid0>110</mid0>
+		<id>169</id>
+		<mid0>117</mid0>
 		<nme>Bluetooth Set</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -1157,27 +1199,27 @@ Notes:
 			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof182" ve="2">
-		<cdate>1775510464843</cdate>
+	<Profile sr="prof170" ve="2">
+		<cdate>1775526981922</cdate>
 		<clp>true</clp>
 		<edate>1774532997720</edate>
 		<flags>8</flags>
-		<id>182</id>
-		<mid0>115</mid0>
-		<mid1>118</mid1>
+		<id>170</id>
+		<mid0>121</mid0>
+		<mid1>123</mid1>
 		<nme>VPN state</nme>
 		<State sr="con0" ve="2">
 			<code>136</code>
 			<Int sr="arg0" val="0"/>
 		</State>
 	</Profile>
-	<Profile sr="prof183" ve="2">
-		<cdate>1775510464843</cdate>
+	<Profile sr="prof180" ve="2">
+		<cdate>1775526981922</cdate>
 		<clp>true</clp>
 		<edate>1775518504663</edate>
 		<flags>8</flags>
-		<id>183</id>
-		<mid0>109</mid0>
+		<id>180</id>
+		<mid0>115</mid0>
 		<nme>Net Src Disconnected Switch</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -1242,13 +1284,13 @@ Notes:
 			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof184" ve="2">
-		<cdate>1775510464844</cdate>
+	<Profile sr="prof181" ve="2">
+		<cdate>1775526981922</cdate>
 		<clp>true</clp>
-		<edate>1775517107814</edate>
+		<edate>1775771476258</edate>
 		<flags>8</flags>
-		<id>184</id>
-		<mid0>99</mid0>
+		<id>181</id>
+		<mid0>106</mid0>
 		<nme>Mobile Data Var Set via Automate</nme>
 		<Share sr="Share">
 			<b>false</b>
@@ -1268,13 +1310,13 @@ Notes:
 			<Str sr="arg4" ve="3"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof185" ve="2">
-		<cdate>1775510464844</cdate>
+	<Profile sr="prof182" ve="2">
+		<cdate>1775526981922</cdate>
 		<clp>true</clp>
 		<edate>1775517814657</edate>
 		<flags>8</flags>
-		<id>185</id>
-		<mid0>117</mid0>
+		<id>182</id>
+		<mid0>122</mid0>
 		<nme>Intent Recvr</nme>
 		<Event sr="con0" ve="2">
 			<code>599</code>
@@ -1285,13 +1327,14 @@ Notes:
 			<Str sr="arg4" ve="3"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof186" ve="2">
-		<cdate>1775510464844</cdate>
+	<Profile sr="prof183" ve="2">
+		<cdate>1775526981923</cdate>
 		<clp>true</clp>
-		<edate>1775520222578</edate>
+		<edate>1775771663435</edate>
 		<flags>8</flags>
-		<id>186</id>
-		<mid0>131</mid0>
+		<id>183</id>
+		<limit>true</limit>
+		<mid0>33</mid0>
 		<nme>Redundant Net Src</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -1356,13 +1399,13 @@ Notes:
 			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof187" ve="2">
-		<cdate>1775510464844</cdate>
+	<Profile sr="prof184" ve="2">
+		<cdate>1775526981923</cdate>
 		<clp>true</clp>
-		<edate>1775411698540</edate>
+		<edate>1775695227228</edate>
 		<flags>8</flags>
-		<id>187</id>
-		<mid0>95</mid0>
+		<id>184</id>
+		<mid0>101</mid0>
 		<nme>Bluetooth Connection Check</nme>
 		<Event sr="con0" ve="2">
 			<code>2080</code>
@@ -1374,13 +1417,13 @@ Notes:
 			<Str sr="arg2" ve="3"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof189" ve="2">
-		<cdate>1775510464849</cdate>
+	<Profile sr="prof185" ve="2">
+		<cdate>1775526981926</cdate>
 		<clp>true</clp>
 		<edate>1775402194535</edate>
 		<flags>8</flags>
-		<id>189</id>
-		<mid0>96</mid0>
+		<id>185</id>
+		<mid0>104</mid0>
 		<nme>Bluetooth Unset</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -1405,14 +1448,15 @@ Notes:
 			</ConditionList>
 		</State>
 	</Profile>
-	<Profile sr="prof190" ve="2">
-		<cdate>1775510464859</cdate>
+	<Profile sr="prof186" ve="2">
+		<cdate>1775526981933</cdate>
 		<clp>true</clp>
-		<edate>1775514700708</edate>
+		<edate>1775737341841</edate>
 		<flags>8</flags>
-		<id>190</id>
+		<id>186</id>
 		<limit>true</limit>
-		<mid0>40</mid0>
+		<mid0>45</mid0>
+		<mid1>197</mid1>
 		<nme>Bottom "Buffer" Profile. Not To Be Used</nme>
 		<Time sr="con0">
 			<fh>11</fh>
@@ -1421,14 +1465,14 @@ Notes:
 			<tm>50</tm>
 		</Time>
 	</Profile>
-	<Profile sr="prof191" ve="2">
-		<cdate>1775510464859</cdate>
+	<Profile sr="prof187" ve="2">
+		<cdate>1775526981933</cdate>
 		<clp>true</clp>
-		<edate>1775405662619</edate>
+		<edate>1775771442397</edate>
 		<flags>8</flags>
-		<id>191</id>
-		<mid0>69</mid0>
-		<mid1>86</mid1>
+		<id>187</id>
+		<mid0>90</mid0>
+		<mid1>91</mid1>
 		<nme>Charging No Low Power</nme>
 		<State sr="con0" ve="2">
 			<code>10</code>
@@ -1442,13 +1486,240 @@ Notes:
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>152,158,167,168,159,150,135,165,148,185,138,187,166,145,161,155,141,143,170,151,157,182,154,147,137,190,153,139,160,180,184,186,142,169,136,181,146,140,189,156,149,191,183</pids>
-		<tids>38,57,87,133,46,90,33,96,125,48,123,94,97,106,51,131,92,67,95,56,105,134,89,109,115,112,53,129,37,39,118,55,119,43,66,101,88,65,68,93,42,194,50,121,124,117,122,45,113,91,44,64,49,110,86,52,104,127,69,132,130,107,128,40,99,108,47</tids>
+		<pids>185,156,135,132,141,151,150,182,154,136,138,159,158,147,146,165,145,170,140,180,169,153,139,137,152,187,181,161,183,166,133,142,148,157,149,160,143,134,155,186,167,168,184</pids>
+		<tids>52,32,118,122,110,45,65,47,94,50,57,130,37,87,64,66,33,128,197,38,115,124,99,121,112,93,42,97,51,123,113,55,90,108,49,106,131,105,53,107,44,101,95,104,88,3,48,68,129,119,125,43,100,86,56,91,109,69,46,117,39,89,40,96,27,127,67,92</tids>
 	</Project>
+	<Task sr="task100">
+		<cdate>1774800744997</cdate>
+		<edate>1775520145145</edate>
+		<id>100</id>
+		<nme>Net Set</nme>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Enabling net stuff</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>39</code>
+			<coll>false</coll>
+			<Str sr="arg0" ve="3">%profile</Str>
+			<Str sr="arg1" ve="3">"Wan Check Switch", "Ping Test", "Net Src Disconnected Switch"</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">%profile</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Redundant Net Src Switch</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>3</op>
+					<rhs>*CONNECTION*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%MDATA</lhs>
+					<op>3</op>
+					<rhs>enabled</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>39</code>
+			<coll>false</coll>
+			<Str sr="arg0" ve="3">%profile</Str>
+			<Str sr="arg1" ve="3">"Wan Check Switch", "Ping Test", "Net Src Disconnected Switch"</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">%profile</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>40</code>
+		</Action>
+	</Task>
 	<Task sr="task101">
+		<cdate>1759618008133</cdate>
+		<edate>1775695227228</edate>
+		<id>101</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BT_CONNECTED</Str>
+			<Str sr="arg1" ve="3">%bt_connected</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task104">
+		<cdate>1759623613029</cdate>
+		<edate>1775402194535</edate>
+		<id>104</id>
+		<Action sr="act0" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="15"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggle Bluetooth</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%BLUE</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%BT_CONNECTED</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task105">
+		<cdate>1774261499905</cdate>
+		<edate>1774280619073</edate>
+		<id>105</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ADB_WIFI</Str>
+			<Str sr="arg1" ve="3">enabled</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task106">
+		<cdate>1759498246654</cdate>
+		<edate>1775771476258</edate>
+		<id>106</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SIMSTATE</lhs>
+					<op>2</op>
+					<rhs>ready</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MDATA</Str>
+			<Str sr="arg1" ve="3">enabled</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>enabled</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MDATA</Str>
+			<Str sr="arg1" ve="3">disabled</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%state</lhs>
+					<op>2</op>
+					<rhs>disabled</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MDATA</Str>
+			<Str sr="arg1" ve="3">no_sim</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SIMSTATE</lhs>
+					<op>3</op>
+					<rhs>ready</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task107">
 		<cdate>1737079191529</cdate>
 		<edate>1775516917793</edate>
-		<id>101</id>
+		<id>107</id>
 		<nme>Link Sanitizer</nme>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -1506,10 +1777,10 @@ Notes:
 			<code>38</code>
 		</Action>
 	</Task>
-	<Task sr="task104">
+	<Task sr="task108">
 		<cdate>1774280625491</cdate>
-		<edate>1774280631551</edate>
-		<id>104</id>
+		<edate>1775771469625</edate>
+		<id>108</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%ADB_WIFI</Str>
@@ -1521,10 +1792,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task105">
+	<Task sr="task109">
 		<cdate>1763676627921</cdate>
 		<edate>1775142194368</edate>
-		<id>105</id>
+		<id>109</id>
 		<nme>Unset All Alarms</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -1546,10 +1817,10 @@ Notes:
 			<code>245</code>
 		</Action>
 	</Task>
-	<Task sr="task106">
+	<Task sr="task110">
 		<cdate>1774281828665</cdate>
 		<edate>1775513187783</edate>
-		<id>106</id>
+		<id>110</id>
 		<nme>Toggle Bluetooth</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -1691,10 +1962,10 @@ Notes:
 			<code>218</code>
 		</Action>
 	</Task>
-	<Task sr="task107">
+	<Task sr="task112">
 		<cdate>1759618008133</cdate>
 		<edate>1775400699085</edate>
-		<id>107</id>
+		<id>112</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">bg obd flag set</Str>
@@ -1725,10 +1996,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task108">
+	<Task sr="task113">
 		<cdate>1759623613029</cdate>
 		<edate>1775400700383</edate>
-		<id>108</id>
+		<id>113</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">bg obd flag unset</Str>
@@ -1759,10 +2030,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task109">
+	<Task sr="task115">
 		<cdate>1759448761509</cdate>
-		<edate>1775514634322</edate>
-		<id>109</id>
+		<edate>1775735034518</edate>
+		<id>115</id>
 		<nme>Net Src Switch</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -1884,10 +2155,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task110">
+	<Task sr="task117">
 		<cdate>1759618008133</cdate>
 		<edate>1775400656181</edate>
-		<id>110</id>
+		<id>117</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -1913,10 +2184,10 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task112">
+	<Task sr="task118">
 		<cdate>1737079191529</cdate>
-		<edate>1775513764819</edate>
-		<id>112</id>
+		<edate>1775771568294</edate>
+		<id>118</id>
 		<nme>Enable Low Power Mode</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -2238,10 +2509,10 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task113">
+	<Task sr="task119">
 		<cdate>1759617745959</cdate>
 		<edate>1775142053037</edate>
-		<id>113</id>
+		<id>119</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -2273,10 +2544,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task115">
+	<Task sr="task121">
 		<cdate>1759618008133</cdate>
 		<edate>1774532997720</edate>
-		<id>115</id>
+		<id>121</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%VPN_CONN</Str>
@@ -2288,10 +2559,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task117">
+	<Task sr="task122">
 		<cdate>1773392882216</cdate>
 		<edate>1775517814657</edate>
-		<id>117</id>
+		<id>122</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -2463,10 +2734,10 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task118">
+	<Task sr="task123">
 		<cdate>1774305573575</cdate>
 		<edate>1774305579037</edate>
-		<id>118</id>
+		<id>123</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%VPN_CONN</Str>
@@ -2478,10 +2749,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task119">
+	<Task sr="task124">
 		<cdate>1737079191529</cdate>
-		<edate>1775415004740</edate>
-		<id>119</id>
+		<edate>1775771487750</edate>
+		<id>124</id>
 		<nme>Disable Low Power Mode</nme>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -2555,10 +2826,10 @@ Notes:
 			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task121">
+	<Task sr="task125">
 		<cdate>1770843983360</cdate>
 		<edate>1775409465178</edate>
-		<id>121</id>
+		<id>125</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -2577,10 +2848,10 @@ Notes:
 			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task122">
+	<Task sr="task127">
 		<cdate>1759723867582</cdate>
 		<edate>1775142884856</edate>
-		<id>122</id>
+		<id>127</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -2617,10 +2888,10 @@ Notes:
 			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task123">
+	<Task sr="task128">
 		<cdate>1762037634313</cdate>
 		<edate>1775411467217</edate>
-		<id>123</id>
+		<id>128</id>
 		<nme>All Vol Set</nme>
 		<Action sr="act0" ve="7">
 			<code>387</code>
@@ -2695,10 +2966,10 @@ Notes:
 			<Int sr="arg2" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task124">
+	<Task sr="task129">
 		<cdate>1760255206501</cdate>
 		<edate>1775142051718</edate>
-		<id>124</id>
+		<id>129</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -2730,10 +3001,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task125">
+	<Task sr="task130">
 		<cdate>1770849271409</cdate>
-		<edate>1775142211864</edate>
-		<id>125</id>
+		<edate>1775765966172</edate>
+		<id>130</id>
 		<nme>Hotspot Autoset Network Profiles</nme>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -2858,10 +3129,10 @@ Notes:
 			<code>40</code>
 		</Action>
 	</Task>
-	<Task sr="task127">
+	<Task sr="task131">
 		<cdate>1770852080495</cdate>
 		<edate>1774531121939</edate>
-		<id>127</id>
+		<id>131</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>39</code>
@@ -2897,10 +3168,108 @@ Notes:
 			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task128">
+	<Task sr="task197">
+		<cdate>1775737347442</cdate>
+		<edate>1775776455546</edate>
+		<id>197</id>
+		<nme>Test</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>220</code>
+			<on>false</on>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>206</code>
+			<on>false</on>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>218</code>
+			<on>false</on>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>30</code>
+			<on>false</on>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>365</code>
+			<on>false</on>
+			<Bundle sr="arg0">
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg1" ve="3">GetCurrentAppAndActivity()</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>360</code>
+			<on>false</on>
+			<Bundle sr="arg0">
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg1" ve="3">%package</Str>
+			<Str sr="arg2" ve="3">%activity</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="30"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Str sr="arg8" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tmp</Str>
+			<Str sr="arg1" ve="3">%PENABLED</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%tmp</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>360</code>
+			<Bundle sr="arg0">
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg1" ve="3">h</Str>
+			<Str sr="arg2" ve="3">%tmp(2:)</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="30"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Str sr="arg8" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task27">
+		<cdate>1761968839860</cdate>
+		<edate>1774562229054</edate>
+		<id>27</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%WIFI_CONNECTED</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task3">
 		<cdate>1770852167723</cdate>
 		<edate>1775409558992</edate>
-		<id>128</id>
+		<id>3</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>39</code>
@@ -2951,26 +3320,10 @@ Notes:
 			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task129">
-		<cdate>1761968839860</cdate>
-		<edate>1774562229054</edate>
-		<id>129</id>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%WIFI_CONNECTED</Str>
-			<Str sr="arg1" ve="3">yes</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-	</Task>
-	<Task sr="task130">
+	<Task sr="task32">
 		<cdate>1761968949593</cdate>
-		<edate>1774464269156</edate>
-		<id>130</id>
+		<edate>1775771471517</edate>
+		<id>32</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -2983,10 +3336,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task131">
+	<Task sr="task33">
 		<cdate>1759093117144</cdate>
-		<edate>1775520312847</edate>
-		<id>131</id>
+		<edate>1775773672311</edate>
+		<id>33</id>
 		<nme>Redundant Net Src Switch</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -3400,10 +3753,10 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task132">
+	<Task sr="task37">
 		<cdate>1747516216841</cdate>
-		<edate>1775400528499</edate>
-		<id>132</id>
+		<edate>1775773678500</edate>
+		<id>37</id>
 		<nme>Alarmy Call</nme>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3460,10 +3813,10 @@ Notes:
 			<Int sr="arg4" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task133">
+	<Task sr="task38">
 		<cdate>1759650620765</cdate>
-		<edate>1775432444410</edate>
-		<id>133</id>
+		<edate>1775776829523</edate>
+		<id>38</id>
 		<nme>Wan Check Switch</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -4161,10 +4514,10 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task134">
+	<Task sr="task39">
 		<cdate>1759612460120</cdate>
 		<edate>1775410657353</edate>
-		<id>134</id>
+		<id>39</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>335</code>
@@ -4222,281 +4575,10 @@ Notes:
 			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task194">
-		<cdate>1775512432687</cdate>
-		<edate>1775514637379</edate>
-		<id>194</id>
-		<nme>(Un)Set Sim Presence Airplane Mode</nme>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%tmp_bt</Str>
-			<Str sr="arg1" ve="3">yes</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<bool1>Or</bool1>
-				<Condition sr="c0" ve="3">
-					<lhs>%BG_OBD</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%FG_OBD</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%BT_CONNECTED</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%tmp_wifi</Str>
-			<Str sr="arg1" ve="3">yes</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%WIFII</lhs>
-					<op>2</op>
-					<rhs>*CONNECTION*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>333</code>
-			<Int sr="arg0" val="0"/>
-			<Bundle sr="arg1">
-				<Vals sr="val"/>
-			</Bundle>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%sim_present</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>333</code>
-			<Int sr="arg0" val="1"/>
-			<Bundle sr="arg1">
-				<Vals sr="val"/>
-			</Bundle>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%sim_present</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%AIR</lhs>
-					<op>2</op>
-					<rhs>on</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>425</code>
-			<Int sr="arg0" val="1"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<bool1>Or</bool1>
-				<bool2>Or</bool2>
-				<bool3>Or</bool3>
-				<Condition sr="c0" ve="3">
-					<lhs>%tmp_wifi</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%APP_NET</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%BG_NET</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
-					<lhs>%VPN_CONN</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-				<Condition sr="c4" ve="3">
-					<lhs>%WORK_PROFILE</lhs>
-					<op>2</op>
-					<rhs>enabled</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Toggle Bluetooth</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%tmp_bt</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%BLUE</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>905</code>
-			<Int sr="arg0" val="3"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%BG_MAP</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%FG_MAP</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>877</code>
-			<label>Tasker - low power mode enable (Automate flo)</label>
-			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/21/statements/40</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3">com.llamalab.automate</Str>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="2"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>35</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<bool1>Or</bool1>
-				<Condition sr="c0" ve="3">
-					<lhs>%qtime</lhs>
-					<op>7</op>
-					<rhs>5</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%SIMSTATE</lhs>
-					<op>2</op>
-					<rhs>ready</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%SIMSTATE</lhs>
-					<op>3</op>
-					<rhs>ready</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>123</code>
-			<Str sr="arg0" ve="3">getprop gsm.sim.state</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">%output</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>590</code>
-			<Str sr="arg0" ve="3">%output</Str>
-			<Str sr="arg1" ve="3">,</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%sim_present</Str>
-			<Str sr="arg1" ve="3">false</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>39</code>
-			<coll>false</coll>
-			<Str sr="arg0" ve="3">%stat</Str>
-			<Str sr="arg1" ve="3">%output()</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%sim_present</Str>
-			<Str sr="arg1" ve="3">true</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%stat</lhs>
-					<op>2</op>
-					<rhs>LOADED</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>40</code>
-		</Action>
-	</Task>
-	<Task sr="task33">
+	<Task sr="task40">
 		<cdate>1759613166125</cdate>
 		<edate>1775315717524</edate>
-		<id>33</id>
+		<id>40</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -4533,10 +4615,10 @@ Notes:
 			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task37">
+	<Task sr="task42">
 		<cdate>1759507551015</cdate>
-		<edate>1775197273715</edate>
-		<id>37</id>
+		<edate>1775766077272</edate>
+		<id>42</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -4661,10 +4743,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task38">
+	<Task sr="task43">
 		<cdate>1759507628127</cdate>
 		<edate>1775141994468</edate>
-		<id>38</id>
+		<id>43</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -4735,10 +4817,10 @@ Notes:
 			<on>false</on>
 		</Action>
 	</Task>
-	<Task sr="task39">
+	<Task sr="task44">
 		<cdate>1775427384957</cdate>
-		<edate>1775513875842</edate>
-		<id>39</id>
+		<edate>1775776413288</edate>
+		<id>44</id>
 		<Action sr="act0" ve="7">
 			<code>39</code>
 			<coll>false</coll>
@@ -4786,10 +4868,10 @@ Notes:
 			<code>40</code>
 		</Action>
 	</Task>
-	<Task sr="task40">
+	<Task sr="task45">
 		<cdate>1775110824754</cdate>
-		<edate>1775514700708</edate>
-		<id>40</id>
+		<edate>1775737341841</edate>
+		<id>45</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>360</code>
@@ -4813,10 +4895,10 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task42">
+	<Task sr="task46">
 		<cdate>1775316698194</cdate>
-		<edate>1775410661395</edate>
-		<id>42</id>
+		<edate>1775662691064</edate>
+		<id>46</id>
 		<Action sr="act0" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%FG_NET_APP_NAME</Str>
@@ -4825,12 +4907,16 @@ Notes:
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task43">
+	<Task sr="task47">
 		<cdate>1759616184933</cdate>
-		<edate>1775519929313</edate>
-		<id>43</id>
+		<edate>1775776739217</edate>
+		<id>47</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
+			<code>425</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Toggle Data</Str>
 			<Int sr="arg1">
@@ -4852,10 +4938,6 @@ Notes:
 					<rhs>enabled</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>425</code>
-			<Int sr="arg0" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -4904,10 +4986,10 @@ Notes:
 			<Str sr="arg1" ve="3">Ping Test</Str>
 		</Action>
 	</Task>
-	<Task sr="task44">
+	<Task sr="task48">
 		<cdate>1771100693993</cdate>
 		<edate>1775519667143</edate>
-		<id>44</id>
+		<id>48</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>137</code>
@@ -4944,10 +5026,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task45">
+	<Task sr="task49">
 		<cdate>1759612559032</cdate>
-		<edate>1775517047415</edate>
-		<id>45</id>
+		<edate>1775772900971</edate>
+		<id>49</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -5022,7 +5104,7 @@ Notes:
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>548</code>
-			<Str sr="arg0" ve="3">flag unset fg net app</Str>
+			<Str sr="arg0" ve="3">Unset fg net app flags</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg10" ve="3"/>
 			<Int sr="arg11" val="1"/>
@@ -5055,10 +5137,10 @@ Notes:
 			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task46">
+	<Task sr="task50">
 		<cdate>1771129901910</cdate>
 		<edate>1775431625202</edate>
-		<id>46</id>
+		<id>50</id>
 		<nme>Ping Test</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -5388,10 +5470,10 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task47">
+	<Task sr="task51">
 		<cdate>1759618008133</cdate>
 		<edate>1775142056875</edate>
-		<id>47</id>
+		<id>51</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">bg loc flag set &amp; loc enabled</Str>
@@ -5422,10 +5504,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task48">
+	<Task sr="task52">
 		<cdate>1657974116786</cdate>
-		<edate>1775520052635</edate>
-		<id>48</id>
+		<edate>1775776815310</edate>
+		<id>52</id>
 		<nme>Toggle Data</nme>
 		<pri>100</pri>
 		<rty>1</rty>
@@ -5485,7 +5567,7 @@ Notes:
 		<Action sr="act11" ve="7">
 			<code>35</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
+			<Int sr="arg1" val="2"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -5621,7 +5703,7 @@ Notes:
 		<Action sr="act8" ve="7">
 			<code>35</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
+			<Int sr="arg1" val="2"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -5650,10 +5732,10 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task49">
+	<Task sr="task53">
 		<cdate>1759623613029</cdate>
 		<edate>1775142058350</edate>
-		<id>49</id>
+		<id>53</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">bg loc flag unset</Str>
@@ -5684,10 +5766,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task50">
+	<Task sr="task55">
 		<cdate>1759498246654</cdate>
-		<edate>1775517100989</edate>
-		<id>50</id>
+		<edate>1775771473593</edate>
+		<id>55</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -5724,10 +5806,10 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task51">
+	<Task sr="task56">
 		<cdate>1759498284403</cdate>
 		<edate>1775054910540</edate>
-		<id>51</id>
+		<id>56</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%MDATA</Str>
@@ -5763,10 +5845,10 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task52">
+	<Task sr="task57">
 		<cdate>1737034421599</cdate>
 		<edate>1775344048426</edate>
-		<id>52</id>
+		<id>57</id>
 		<nme>Autoread Whatsapp</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -5844,10 +5926,10 @@ Notes:
 			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task53">
+	<Task sr="task64">
 		<cdate>1771948370126</cdate>
-		<edate>1775513137519</edate>
-		<id>53</id>
+		<edate>1775771490828</edate>
+		<id>64</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>808</code>
@@ -5858,10 +5940,10 @@ Notes:
 			<Int sr="arg0" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task55">
+	<Task sr="task65">
 		<cdate>1773002626961</cdate>
-		<edate>1775142141979</edate>
-		<id>55</id>
+		<edate>1775737454095</edate>
+		<id>65</id>
 		<nme>Gaming Clock</nme>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -5976,10 +6058,10 @@ Notes:
 			<Int sr="arg3" val="2419200"/>
 		</Action>
 	</Task>
-	<Task sr="task56">
+	<Task sr="task66">
 		<cdate>1773002626961</cdate>
 		<edate>1774591757435</edate>
-		<id>56</id>
+		<id>66</id>
 		<nme>Regular Cpu Usage</nme>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -6094,10 +6176,10 @@ Notes:
 			<Int sr="arg3" val="1766400"/>
 		</Action>
 	</Task>
-	<Task sr="task57">
+	<Task sr="task67">
 		<cdate>1773392882216</cdate>
-		<edate>1775512463321</edate>
-		<id>57</id>
+		<edate>1775771481876</edate>
+		<id>67</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -6268,10 +6350,10 @@ Notes:
 			<code>38</code>
 		</Action>
 	</Task>
-	<Task sr="task64">
+	<Task sr="task68">
 		<cdate>1759618008133</cdate>
 		<edate>1775142090338</edate>
-		<id>64</id>
+		<id>68</id>
 		<Action sr="act0" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="1"/>
@@ -6281,10 +6363,10 @@ Notes:
 			<Int sr="arg0" val="3"/>
 		</Action>
 	</Task>
-	<Task sr="task65">
+	<Task sr="task69">
 		<cdate>1759623613029</cdate>
 		<edate>1775142088544</edate>
-		<id>65</id>
+		<id>69</id>
 		<Action sr="act0" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="0"/>
@@ -6294,10 +6376,10 @@ Notes:
 			<Int sr="arg0" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task66">
+	<Task sr="task86">
 		<cdate>1759616184933</cdate>
-		<edate>1775315726259</edate>
-		<id>66</id>
+		<edate>1775666663988</edate>
+		<id>86</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>39</code>
@@ -6344,10 +6426,281 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task67">
+	<Task sr="task87">
+		<cdate>1775512432687</cdate>
+		<edate>1775771435684</edate>
+		<id>87</id>
+		<nme>(Un)Set Sim Presence Airplane Mode</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tmp_bt</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%BG_OBD</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%FG_OBD</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%BT_CONNECTED</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tmp_wifi</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>2</op>
+					<rhs>*CONNECTION*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>333</code>
+			<Int sr="arg0" val="0"/>
+			<Bundle sr="arg1">
+				<Vals sr="val"/>
+			</Bundle>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%sim_present</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>333</code>
+			<Int sr="arg0" val="1"/>
+			<Bundle sr="arg1">
+				<Vals sr="val"/>
+			</Bundle>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%sim_present</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%AIR</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>425</code>
+			<Int sr="arg0" val="1"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<bool2>Or</bool2>
+				<bool3>Or</bool3>
+				<Condition sr="c0" ve="3">
+					<lhs>%tmp_wifi</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%APP_NET</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%BG_NET</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%VPN_CONN</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+				<Condition sr="c4" ve="3">
+					<lhs>%WORK_PROFILE</lhs>
+					<op>2</op>
+					<rhs>enabled</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggle Bluetooth</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%tmp_bt</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%BLUE</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>905</code>
+			<Int sr="arg0" val="3"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%BG_MAP</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%FG_MAP</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>877</code>
+			<label>Tasker - low power mode enable (Automate flo)</label>
+			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/21/statements/40</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.llamalab.automate</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="2"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%qtime</lhs>
+					<op>7</op>
+					<rhs>5</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SIMSTATE</lhs>
+					<op>2</op>
+					<rhs>ready</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%SIMSTATE</lhs>
+					<op>3</op>
+					<rhs>ready</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>123</code>
+			<Str sr="arg0" ve="3">getprop gsm.sim.state</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%output</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%output</Str>
+			<Str sr="arg1" ve="3">,</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%sim_present</Str>
+			<Str sr="arg1" ve="3">false</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>39</code>
+			<coll>false</coll>
+			<Str sr="arg0" ve="3">%stat</Str>
+			<Str sr="arg1" ve="3">%output()</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%sim_present</Str>
+			<Str sr="arg1" ve="3">true</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%stat</lhs>
+					<op>2</op>
+					<rhs>LOADED</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>40</code>
+		</Action>
+	</Task>
+	<Task sr="task88">
 		<cdate>1774211395155</cdate>
-		<edate>1775525103103</edate>
-		<id>67</id>
+		<edate>1775666660933</edate>
+		<id>88</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>39</code>
@@ -6365,10 +6718,10 @@ Notes:
 			<code>40</code>
 		</Action>
 	</Task>
-	<Task sr="task68">
+	<Task sr="task89">
 		<cdate>1774212690470</cdate>
 		<edate>1775142100484</edate>
-		<id>68</id>
+		<id>89</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Fg obd flag set</Str>
@@ -6399,10 +6752,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task69">
+	<Task sr="task90">
 		<cdate>1775404626097</cdate>
-		<edate>1775405642479</edate>
-		<id>69</id>
+		<edate>1775771442397</edate>
+		<id>90</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%LOW_POWER_MODE</Str>
@@ -6429,10 +6782,10 @@ Notes:
 			<Int sr="arg7" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task86">
+	<Task sr="task91">
 		<cdate>1775405372420</cdate>
 		<edate>1775405662619</edate>
-		<id>86</id>
+		<id>91</id>
 		<Action sr="act0" ve="7">
 			<code>559</code>
 			<Str sr="arg0" ve="3">Low power on</Str>
@@ -6458,10 +6811,10 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task87">
+	<Task sr="task92">
 		<cdate>1774212720567</cdate>
 		<edate>1775076260892</edate>
-		<id>87</id>
+		<id>92</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Fg obd flag unset</Str>
@@ -6492,10 +6845,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task88">
+	<Task sr="task93">
 		<cdate>1773392882216</cdate>
 		<edate>1775519567195</edate>
-		<id>88</id>
+		<id>93</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>159</code>
@@ -6629,10 +6982,10 @@ Notes:
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task89">
+	<Task sr="task94">
 		<cdate>1774251935207</cdate>
 		<edate>1774286616067</edate>
-		<id>89</id>
+		<id>94</id>
 		<Action sr="act0" ve="7">
 			<code>175</code>
 			<Int sr="arg0" val="0"/>
@@ -6661,10 +7014,10 @@ Notes:
 			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task90">
+	<Task sr="task95">
 		<cdate>1774251967923</cdate>
 		<edate>1774305922845</edate>
-		<id>90</id>
+		<id>95</id>
 		<Action sr="act0" ve="7">
 			<code>175</code>
 			<Int sr="arg0" val="0"/>
@@ -6693,10 +7046,10 @@ Notes:
 			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task91">
+	<Task sr="task96">
 		<cdate>1774261499905</cdate>
-		<edate>1774445444682</edate>
-		<id>91</id>
+		<edate>1775771467182</edate>
+		<id>96</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%SHIZUKU_RUNNING</Str>
@@ -6708,10 +7061,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task92">
+	<Task sr="task97">
 		<cdate>1774261519582</cdate>
 		<edate>1774302201347</edate>
-		<id>92</id>
+		<id>97</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -6724,10 +7077,10 @@ Notes:
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task93">
+	<Task sr="task99">
 		<cdate>1774794130821</cdate>
-		<edate>1775518432616</edate>
-		<id>93</id>
+		<edate>1775773895047</edate>
+		<id>99</id>
 		<nme>Check Set Stuff At Boot</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -6743,6 +7096,7 @@ Notes:
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFII</lhs>
@@ -6916,6 +7270,20 @@ Notes:
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
+		<Action sr="act22" ve="7">
+			<code>360</code>
+			<Bundle sr="arg0">
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg1" ve="3">jnw</Str>
+			<Str sr="arg2" ve="3">%tmp_enabled_profiles()</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="30"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Str sr="arg8" ve="3"/>
+		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%WIFI_CONNECTED</Str>
@@ -6981,233 +7349,6 @@ Notes:
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task94">
-		<cdate>1774800744997</cdate>
-		<edate>1775520145145</edate>
-		<id>94</id>
-		<nme>Net Set</nme>
-		<Action sr="act0" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Enabling net stuff</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>39</code>
-			<coll>false</coll>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">"Wan Check Switch", "Ping Test", "Net Src Disconnected Switch"</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>40</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Redundant Net Src Switch</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%WIFII</lhs>
-					<op>3</op>
-					<rhs>*CONNECTION*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%MDATA</lhs>
-					<op>3</op>
-					<rhs>enabled</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>39</code>
-			<coll>false</coll>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Str sr="arg1" ve="3">"Wan Check Switch", "Ping Test", "Net Src Disconnected Switch"</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">%profile</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>40</code>
-		</Action>
-	</Task>
-	<Task sr="task95">
-		<cdate>1759618008133</cdate>
-		<edate>1775411698540</edate>
-		<id>95</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%BT_CONNECTED</Str>
-			<Str sr="arg1" ve="3">%bt_connected</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-	</Task>
-	<Task sr="task96">
-		<cdate>1759623613029</cdate>
-		<edate>1775402194535</edate>
-		<id>96</id>
-		<Action sr="act0" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="15"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Toggle Bluetooth</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%BLUE</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%BT_CONNECTED</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task97">
-		<cdate>1774261499905</cdate>
-		<edate>1774280619073</edate>
-		<id>97</id>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%ADB_WIFI</Str>
-			<Str sr="arg1" ve="3">enabled</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-	</Task>
-	<Task sr="task99">
-		<cdate>1759498246654</cdate>
-		<edate>1775517107814</edate>
-		<id>99</id>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%SIMSTATE</lhs>
-					<op>2</op>
-					<rhs>ready</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%MDATA</Str>
-			<Str sr="arg1" ve="3">enabled</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%state</lhs>
-					<op>2</op>
-					<rhs>enabled</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%MDATA</Str>
-			<Str sr="arg1" ve="3">disabled</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%state</lhs>
-					<op>2</op>
-					<rhs>disabled</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%MDATA</Str>
-			<Str sr="arg1" ve="3">no_sim</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%SIMSTATE</lhs>
-					<op>3</op>
-					<rhs>ready</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 	</Task>
 </TaskerData>
