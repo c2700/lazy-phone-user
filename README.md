@@ -21,9 +21,9 @@ TLDR: toggle/auto-setting wan connectivity/maps relevant settings/low power & ai
 1. `Mobile Data Var Set via Automate` & `Mobile Data Var Set`
 2. `(Un)Set Sim Presence Airplane Mode via Automate` & `(Un)Set Sim Presence Airplane Mode`
 
-## <b>Setup<b>
+## <b>Setup</b>
 import the automate flows (the `.flo` files) into automate & the taskert project `Lazy_User.prj.xml` into Tasker
-#### tasker
+#### <b>tasker</b>
 1. set your entry apps you always need WAN connectivity for when in foreground in the `Fg Net Flags Set` profile (ANY & EVERY app that you deem needing net including maps, games, browsers, ftp clients etc. goes here).
 2. `Fg Net Flags UnSet` - recreate the app context with the invert option selected & set `mobile data settings` app or the `settings` app itself & any other apps you DON'T want this profile's app context to be pickuped up on while being in that app/activity. Idea is something along the lines of "need wan connectivity for f-droid to download stuff (which is already downloading) & all of a sudden get a call & the call activity takes the foreground over f-droid's activity & you don't want that wan connectivity to be disturbed while the call activity is in the foreground & until the download is complete. I have set only play store & whatsapp on both activities & added some settings activities that the app profile trigger showed in the `Fg Net Flags UnSet` profile to make it more easier to set up
 3. set your apps (for notification) in the `Bg Net (Un)Set` profile's auto notification event...idea is to set WAN connectivity enabled for those apps you would want the network to be left enabled until done, like downloads
