@@ -12,7 +12,7 @@ TLDR: toggle/auto-setting wan connectivity/maps relevant settings/low power & ai
 
 # disclaimers:
 1. There maybe slight delays in running tasks triggered by the low power mode profiles which send intents to llamalab automate for weaker phones.
-2. if at times the network toggling profiles do not enable the relavant network ifaces (data/wifi), try the action of toggling one of those ifaces from the `run an action` option from tasker just to see if the action's being run which if it doesn't a good old reboot to the phone should "fix" that issue (just check with the `run an action` option again if it still persists) <b>
+2. if at times the network toggling profiles do not enable the relavant network ifaces (data/wifi), try the action of toggling one of those ifaces from the `run an action` option from tasker just to see if the action's being run which if it doesn't a good old reboot to the phone should "fix" that issue (just check with the `run an action` option again if it still persists)
 3. if certain profile's actions/tasks aren't triggered, try performing actions/op.s that gets the profile inactive & back active just to get the task/actions re-triggered
 4. There are tasks that are specific to doing one thing which could've been just one action but no thanks to the android drama going on, I've had to set some checks for sdk level < 34, root & or shizuku being there which if the conditions are satisfied would be one action for things that require root/shizuku else it would either be an entire user input simulation through autoinput or no action at all with just a tts/toast msg saying "x is left enabled/disabled" depending on the display's state (lock set/unset)
 
