@@ -20,13 +20,11 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 4. There are tasks that are specific to doing one thing which could've been just one action but no thanks to the android drama going on, I've had to set some checks for SDK level < 34, root & or shizuku being there which if the conditions are satisfied would be one action for things that require root/shizuku else it would either be an entire user input simulation through autoinput or no action at all with just a tts/toast msg saying "x is left enabled/disabled" depending on the display's state (lock set/unset)
 
 # setup
-#### list of profiles to be mututally exclusively enabled to avoid unexpected behaviours or clash in tasks
+#### a. import the automate flows (the `.flo` files from the `Automate flows` directory) into automate & the tasker project `Lazy_User.prj.xml` into Tasker
+#### b. <b>list of profiles to be mututally exclusively enabled to avoid unexpected behaviours or clash in tasks</b>
 1. `Mobile Data Var Set via Automate` & `Mobile Data Var Set`
 2. `(Un)Set Sim Presence Airplane Mode via Automate` & `(Un)Set Sim Presence Airplane Mode`
-
-## <b>Configuration</b>
-import the automate flows (the `.flo` files from the `Automate flows` directory) into automate & the tasker project `Lazy_User.prj.xml` into Tasker
-#### <b>tasker</b>
+#### c. <b>Tasker Configuration</b>
 1. set your apps you always need WAN connectivity for when in foreground/opened in the `Fg Net Flags Set` profile's app context (ANY & EVERY app that you deem needing net including maps, games, browsers, ftp clients etc. goes here).
 2. `Fg Net Flags UnSet` - recreate the app context with the invert option selected & set `mobile data settings` app or the `settings` app itself & any other apps you DON'T want this profile's app context to be picked up on while being in that app/activity. Idea is something along the lines of "need wan connectivity for f-droid to download stuff (which is already downloading) & all of a sudden get a call & the call activity takes the foreground over f-droid's activity & you don't want that wan connectivity to be disturbed while the call activity is in the foreground & until the download is complete. I have set only play store & whatsapp on both activities & added some settings activities that the app profile trigger showed in the `Fg Net Flags UnSet` profile to make it more easier to set up
 3. set your apps (for notification) in the `Bg Net (Un)Set` profile's auto notification event...idea is to set WAN connectivity enabled for those apps you would want the network to be left enabled until done, like downloads
@@ -138,3 +136,4 @@ import the automate flows (the `.flo` files from the `Automate flows` directory)
 * `BG_MAP` (true|false) - value is toggled when a map app is or is not running in the foreground
 * `FG_MAP` (true|false) - same as `FG_MAP` but for background
 * `WAKE_UP_NUM` (phone number) - stores the number of who needs to be called at a scheduled time set from automate's `Alarmy call` flow (mostly for when one is asked to be "woken up" & you're sound asleep)
+
