@@ -106,8 +106,8 @@ import the automate flows (the `.flo` files from the `Automate flows` directory)
 * `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane Mode` flo running when enabling this profile
 
 
-9. <b>not as a automation usage but just for tasker interactivity convenience</b>
-	* `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the list I had a tough time getting it to move around. now that the AI button's been added which which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the list who's toggle will remain obstructed instead of the one's that are of use to the user
+##### 9. <b>not as a automation usage but just for tasker interactivity convenience</b>
+* `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the list I had a tough time getting it to move around. now that the AI button's been added which which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the list who's toggle will remain obstructed instead of the one's that are of use to the user
 
 ### custom global vars set & used by profiles & tasks from the above group of profiles
 1. `APP_NET`, `BG_NET`, `WORK_PROFILE`, `MDATA`, `ADB_WIFI`, `WIFI_CONNECTED`, `WAN_ACCESSIBLE`, `VPN_CONN`, `FG_NET_APP_NAME`, `ROOT_STAT`, SHIZUKU_RUNNING`, `HIGH_PING` - [network toggle & check profiles](#global-var-setter-profiles-for-phone-settings)
