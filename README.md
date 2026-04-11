@@ -12,7 +12,9 @@ TLDR: toggle/auto-setting wan connectivity/maps relevant settings/low power & ai
 
 # disclaimers:
 1. There maybe slight delays in running tasks triggered by the low power mode profiles which send intents to llamalab automate for weaker phones.
-2. if at times the network toggling profiles do not enable the relavant network ifaces (data/wifi), try the action of toggling one of those ifaces from the `run an action` option from tasker just to see if the action's being run which if it doesn't a good old reboot to the phone should "fix" that issue (just check with the `run an action` option again if it still persists)
+2. if at times actions/tasks don't run, try performing said action/task from the `run an action` option from tasker just to see if the action's being run which if it doesn't, try one few or all of the below
+    - reboot
+    - disable tasker, reboot & `run an action` as a test which if it does work then enable tasker
 3. if certain profile's actions/tasks aren't triggered, try performing actions/op.s that gets the profile inactive & back active just to get the task/actions re-triggered
 4. There are tasks that are specific to doing one thing which could've been just one action but no thanks to the android drama going on, I've had to set some checks for sdk level < 34, root & or shizuku being there which if the conditions are satisfied would be one action for things that require root/shizuku else it would either be an entire user input simulation through autoinput or no action at all with just a tts/toast msg saying "x is left enabled/disabled" depending on the display's state (lock set/unset)
 
@@ -45,47 +47,93 @@ import the automate flows (the `.flo` files) into automate & the taskert project
 15. if you do not want the toasts from the `Ping test` & `WAN check` the actions to disable/delete are the following
 
 ## What each Tasker profiles do
-0. `Check Set Stuff At Boot` - after boot (basically unlock after boot), initializes stuff for the workflow, like setting global vars & enables/disables profiles as needed for the workflow to work right
-1. `Intent Recvr` - broadcast receiver for anything else from anywhere else needed (automate for this case like setting global vars)
-2. `wifi var set` - set mobile data stats as global variable(s) whenever wifi is toggled (used by the net management profiles)
-3. `Mobile Data Var Set` - set mobile data stats as global variable(s) whenever data is toggled (used by the net management profiles)
-4. `Mobile Data Var Set via Automate` - set mobile data stats as global variable(s). (used by the net management profiles but triggered by intents sent from automate)
-5. `Shizuku Var Set` - set Shizuku Var Set stats as global variable (used by profiles/tasks to check if it's running & then perform actions that require root/shizuku)
-6. `VPN state` - set vpn stat as global variable. sure I could have used `VPN_CONNECTED` but that var wasn't avaialable until I used the `VPN Connected` context for this profile
-7. `Adb Wifi State Var Set` - set Adb Wifi State stats as global variable (used by the net management profiles)
-8. `(Un)Set Sim Presence Airplane Mode` - toggle airplane mode when sim inserted/ejected. Uses android's `SIM_STATE_CHANGED` broadcast
-9. `(Un)Set Sim Presence Airplane Mode via Automate` - toggle airplane mode when sim inserted/ejected. custom broadcast `SIM_PRESENT` is sent by automate. keep `Tasker - Sim Check.flo` running when enabling this.
-10. `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane Mode` flo running when enabling this profile
-11. `Work Profile Set` - toggle settings, var.s & values for your work profile
-12. `Fg Net Flags Set` -  set global variable(s) to enable wan connectivity for net requiring apps running in the foreground
-13. `Fg Net Flags Unset` - set stats as global variable(s) to disable wan connectivity for when net requiring apps are not running in the foreground. There's a delay of 10 seconds for the `Fg Net Flags Set` profile to be active which if it isn't the global var `%APP_NET` is to `no` which satisfies one of the `set variable` context's conditions from the `Net Unset` profile
-14. `Bg Net (Un)Set` - set/unset stats as global variable(s) to toggle WAN connectivity
-15. `Wifi Hotspot Autoset Stuff` - when hotspot is set, disables all wan related profiles (in case one wants to change stuff at will)
-16. `Usb Tether Autoset Stuff` - same as `Wifi Hotspot Autoset Stuff` but applicable for usb tethering
-17. `Net Set` - global var.s set from `Fg Net Flags Set`, `Fg Net Flags Unset`, `Bg Net (Un)Set`, `Work Profile Set` & `VPN state` profiles which if set to be enabled then Enable wan connectivity.
-18. `Net Set (User)` - when this profile active, disables all wan TOGGLING/IFACE SWITCHING profiles when user enables any wan connectivity while no wan managing profiles are active or have performed actions that DON'T trigger said wan managing profiles to be active (`Net Set`, `Wan Check Switch`, `Ping Test` ,`Net Unset`, `Net Src Disconnected Switch`). enables said disabled profiles when this profile inactive
-19. `Net Src Disconnected Switch` - switch to data when wifi gets disconnected
-20. `Redundant Net Src` - when data & wifi are enabled & wifi is connected, disable data. vice versa is also applicable
-21. `Wan Check Switch` - checks if wan is reachable when connected via enabled/active/connected wan iface, which then waits for `Ping Test` to set `HIGH_PING` global var & based on the var's value shows an input dialog to change the ssid to which if selected no prompts to change to cellular data to which if selected no then leaves the iface as is by stopping the profile assigned task.
-22. `Ping Test` - constantly checks ping timings (5 pkts)
-23. `Net Unset` - disable wan connectivity. Active when ALL wan connectivity profiles (`Fg Net Flags Set`, `Fg Net Flags Unset`, `Bg Net (Un)Set`, `VPN state` & `Work Profile Set`) have set their global var.s to those values that set this profile active to disable all wan connectivity
-24. `Map Fg Flags (Un)Set` - set global variable(s) to be used to toggle settings for maps in foreground
-25. `Map Bg Flags (Un)Set` - same purpose as `Map Fg Flags (Un)Set` but for when the apps are running in the background
-26. `Map (Un)Set` - toggle map app settings
-27. `Bluetooth Connection Check` - trigger to get connection/disconnection event. wait for 15 seconds before disconnecting. the wait time is to wait for any other connections or for a reconnection
-28. `OBD2 Bg Flags (Un)Set` - set stats for global variable(s) to be used to toggle settings for set obd2 apps running in foreground
-29. `OBD2 Fg Flags (Un)Set` - same purpose as `OBD2 Bg Flags (Un)Set` but for when the apps running in the background
-30. `Bluetooth Set` - profile to enable bluetooth (dependent on the global var.s set byt obd2 & bluetooth check profiles)
-31. `Bluetooth Unset` - profile to disable bluetooth (dependent on the global var.s set byt obd2 & bluetooth check profiles)
-32. `Alarmy Call` - use this if one asked you to call them to be woken up. This profile is "managed" (enabling & disabling the profile & setting the phone number as a global var for the profile to use) by the `Tasker - Alarmy Call` flo from automate to set the number/contact
-33. `Gaming` - cpu state toggles when enter/opening games
-34. `screen Off Low Power` - set low power mode when screen is off. Mutually exclusive toggles the `screen On No Low Power` & `screen On Locked` profiles depending on the presence of a lock being set
-35. `screen On No Low Power` - disable all low power settings when screen is on (no lock is set)
-36. `screen On Locked` - when phone is locked but screen is up
-37. `screen Unlocked No Low Power` - disable all low power settings when unlocked
-38. `Charging No Low Power` - when power source is plugged in, disable power save mode
-39. `Clipboard Link Sanitizer` - literally what it says. for now only "sanitization" it does is on youtube share linke which is just taking away the strings matching `?sid.*`
-40. `Alarm Vol Auto Set` - set all alarm vol to max when an alarm's about to ring
-41. `Autoread Whatsapp` - literally what it says (except set your own interval if you need to)
-42. `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the list I had a tough time getting it to move around. now that the AI button's been added which which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the list who's toggle will remain obstructed instead of the one's that are of use to the user
+##### 1. <b>workflow base & entry point. stuff profiles here can be used to initiate/start the workflow & be used as a common entrypoint for implicit intents to trigger the profiles/tasks/actions</b>
+	* `Check Set Stuff At Boot` - after boot (basically unlock after boot), initializes stuff for the workflow, like setting global vars & enables/disables profiles as needed for the workflow to work right
+	* `Intent Recvr` - broadcast receiver for anything else from anywhere else needed (automate for this case like setting global vars)
 
+##### 2. <b>global var setter profiles for phone settings</b>
+	* `wifi var set` - set mobile data stats as global variable(s) whenever wifi is toggled (used by the net management profiles)
+	* `Shizuku Var Set` - set Shizuku Var Set stats as global variable (used by profiles/tasks to check if it's running & then perform actions that require root/shizuku)
+	* `VPN state` - set vpn stat as global variable. sure I could have used `VPN_CONNECTED` but that var wasn't avaialable until I used the `VPN Connected` context for this profile
+	* `Adb Wifi State Var Set` - set Adb Wifi State stats as global variable (used by the net management profiles)
+	* `Mobile Data Var Set` - set mobile data stats as global variable(s) whenever data is toggled (used by the net management profiles)
+	* `Mobile Data Var Set via Automate` - set mobile data stats as global variable(s). (used by the net management profiles but triggered by intents sent from automate)
+	* `Bluetooth Connection Check` - trigger to get connection/disconnection event. wait for 15 seconds before disconnecting. the wait time is to wait for any other connections or for a reconnection
+
+##### 3. <b>profile for airplane mode based on sim presence</b>
+	* `(Un)Set Sim Presence Airplane Mode` - toggle airplane mode when sim inserted/ejected. Uses android's `SIM_STATE_CHANGED` broadcast
+	* `(Un)Set Sim Presence Airplane Mode via Automate` - toggle airplane mode when sim inserted/ejected. custom broadcast `SIM_PRESENT` is sent by automate. keep `Tasker - Sim Check.flo` running when enabling this.
+
+##### 4. <b>WAN iface toggle</b>
+	* `Work Profile Set` - toggle settings, var.s & values for your work profile
+	* `Fg Net Flags Set` -  set global variable(s) to enable wan connectivity for net requiring apps running in the foreground
+	* `Fg Net Flags Unset` - set stats as global variable(s) to disable wan connectivity for when net requiring apps are not running in the foreground. There's a delay of 14 seconds for the `Fg Net Flags Set` profile to be active which if it isn't the global var `%APP_NET` is to `no` which satisfies one of the `set variable` context's conditions from the `Net Unset` profile
+	* `Bg Net (Un)Set` - set/unset stats as global variable(s) to toggle WAN connectivity
+	* `Wifi Hotspot Autoset Stuff` - when hotspot is set, disables all wan related profiles (in case one wants to change stuff at will)
+	* `Usb Tether Autoset Stuff` - same as `Wifi Hotspot Autoset Stuff` but applicable for usb tethering
+	* `Net Set` - global var.s set from `Fg Net Flags Set`, `Fg Net Flags Unset`, `Bg Net (Un)Set`, `Work Profile Set` & `VPN state` profiles which if set to be enabled then Enable wan connectivity.
+	* `Net Set (User)` - when this profile active, disables all wan TOGGLING/IFACE SWITCHING profiles when user enables any wan connectivity while no wan managing profiles are active or have performed actions that DON'T trigger said wan managing profiles to be active (`Net Set`, `Wan Check Switch`, `Ping Test` ,`Net Unset`, `Net Src Disconnected Switch`). enables said disabled profiles when this profile inactive
+	* `Net Src Disconnected Switch` - switch to data when wifi gets disconnected
+	* `Redundant Net Src` - when data & wifi are enabled & wifi is connected, disable data. vice versa is also applicable
+	* `Wan Check Switch` - checks if wan is reachable when connected via enabled/active/connected wan iface, which then waits for `Ping Test` to set `HIGH_PING` global var & based on the var's value shows an input dialog to change the ssid to which if selected no prompts to change to cellular data to which if selected no then leaves the iface as is by stopping the profile assigned task.
+	* `Ping Test` - constantly checks ping timings (10 pkts)
+	* `Net Unset` - disable wan connectivity. Active when ALL wan connectivity profiles (`Fg Net Flags Set`, `Fg Net Flags Unset`, `Bg Net (Un)Set`, `VPN state` & `Work Profile Set`) have set their global var.s to those values that set this profile active to disable all wan connectivity
+
+##### 5. <b>Map settings</b>
+	* `Map Fg Flags (Un)Set` - set global variable(s) to be used to toggle settings for maps in foreground
+	* `Map Bg Flags (Un)Set` - same purpose as `Map Fg Flags (Un)Set` but for when the apps are running in the background
+	* `Map (Un)Set` - toggle map app settings
+
+##### 6. <b>Bluetooth toggle</b>
+	* `OBD2 Bg Flags (Un)Set` - set stats for global variable(s) to be used to toggle settings for set obd2 apps running in foreground
+	* `OBD2 Fg Flags (Un)Set` - same purpose as `OBD2 Bg Flags (Un)Set` but for when the apps running in the background
+	* `Bluetooth Set` - profile to enable bluetooth (dependent on the global var.s set byt obd13 & bluetooth check profiles)
+	* `Bluetooth Unset` - profile to disable bluetooth (dependent on the global var.s set byt obd14 & bluetooth check profiles)
+
+##### 7. <b>low power based on lock & screen state</b>
+	* `screen Off Low Power` - set low power mode when screen is off. Mutually exclusive toggles the `screen On No Low Power` & `screen On Locked` profiles depending on the presence of a lock being set
+	* `screen On No Low Power` - disable all low power settings when screen is on (no lock is set)
+	* `screen On Locked` - when phone is locked but screen is up
+	* `screen Unlocked No Low Power` - disable all low power settings when unlocked
+	* `Charging No Low Power` - when power source is plugged in, disable power save mode
+
+##### 8. <b>other stuff</b>
+	* `Clipboard Link Sanitizer` - literally what it says. for now only "sanitization" it does is on youtube share linke which is just taking away the strings matching `?sid.*`
+	* `Alarm Vol Auto Set` - set all alarm vol to max when an alarm's about to ring
+	* `Autoread Whatsapp` - literally what it says (except set your own interval if you need to)
+	* `Alarmy Call` - use this if one asked you to call them to be woken up. This profile is "managed" (enabling & disabling the profile & setting the phone number as a global var for the profile to use) by the `Tasker - Alarmy Call` flo from automate to set the number/contact
+	* `Gaming` - cpu state toggles when enter/opening games
+	* `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane Mode` flo running when enabling this profile
+
+
+9. <b>not as a automation usage but just for tasker interactivity convenience</b>
+	* `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the list I had a tough time getting it to move around. now that the AI button's been added which which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the list who's toggle will remain obstructed instead of the one's that are of use to the user
+
+### custom global vars set & used by profiles & tasks from the above group of profiles
+    1. `APP_NET`, `BG_NET`, `WORK_PROFILE`, `MDATA`, `ADB_WIFI`, `WIFI_CONNECTED`, `WAN_ACCESSIBLE`, `VPN_CONN`, `FG_NET_APP_NAME`, `ROOT_STAT`, SHIZUKU_RUNNING`, `HIGH_PING` - [network toggle & check profiles](#global-var-setter-profiles-for-phone-settings)
+    2. `BG_OBD`,`FG_OBD`,`BT_CONNECTED`,  `ROOT_STAT`, `SHIZUKU_RUNNING` - [bluetooth toggle profiles](#bluetooth-toggle)
+    3. `LOW_POWER_MODE`, `PHONE_LOCKED`, `ROOT_STAT` - [low power & screen lock profiles](#low-power-based-on-lock-&-screen-state)
+    4. `BG_MAP`, `FG_MAP` - [Map settings toggling profiles](#map-settings)
+    5. `WAKE_UP_NUM` - [other stuff](#other-stuff)
+
+### when each of those global vars (more like flags) & what they mean
+* `APP_NET` (yes|no) - value is toggled when a wan connection needing app is or is not in the foreground
+* `BG_NET` (yes|no) - same as `APP_NET` but for background config.ed apps
+* `WORK_PROFILE` (enabled|disabled) - set when work profile is toggled
+* `MDATA` (enabled|disabled) - set when cellular data is toggled
+* `ADB_WIFI` (enabled|disabled) - set when adb wifi (wireless adb) is toggled
+* `WIFI_CONNECTED` (yes|no) - set when wifi has made a connection to an ssid
+* `WAN_ACCESSIBLE` (yes|no) - yes when values/variables from the `Get Network Info` action confirms yet. (found in the `Wan Check Switch` task's 4th action)
+* `HIGH_PING` (yes|no) - set when ping is stable/unstable based on the hardcoded numbers in the `Ping Test` task
+* `VPN_CONN` (yes|no) - set when any VPN connection is made 
+* `FG_NET_APP_NAME` (name of the foreground app opened) - name of the net needing foreground running app
+* `SHIZUKU_RUNNING` (yes|no) - set yes when shizuku is running else set to no
+* `ROOT_STAT` (su|nosu) - set to "su" if root is present, "nosu" if not & is checked at boot since it's running from `Check Set Stuff At Boot` profile & Task. Or this can be set from running the task itself
+* `BG_OBD` (yes|no) - when set obd app is running in the foreground
+* `FG_OBD` (yes|no) - same as `BG_OBD` but for background
+* `BT_CONNECTED` (true|false) - toggled when a bluetooth connection is connected/disconnected
+* `LOW_POWER_MODE` (enabled|disabled) - value is toggled when low power mode is toggled 
+* `PHONE_LOCKED` (true|false) - toggled when phone is locked/unlocked
+* `BG_MAP` (true|false) - value is toggled when a map app is or is not running in the foreground
+* `FG_MAP` (true|false) - same as `FG_MAP` but for background
+* `WAKE_UP_NUM` (phone number) - stores the number of who needs to be called at a scheduled time set from automate's `Alarmy call` flow (mostly for when one is asked to be "woken up" & you're sound asleep)
