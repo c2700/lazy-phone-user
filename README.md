@@ -56,7 +56,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 
 ## What each Tasker profiles do
 ##### 1. <b>workflow base & entry point. stuff profiles here can be used to initiate/start the workflow & be used as a common entrypoint for implicit intents to trigger the profiles/tasks/actions</b>
-* `Check Set Stuff At Boot` - after boot (basically unlock after boot), initializes stuff for the workflow, like setting global vars & enables/disables profiles as needed for the workflow to work right
+* `Check Set Stuff At Boot` - after boot (basically unlock after boot), initializes stuff for the workflow, like setting global vars & enables/disables profiles as needed for the workflow to work right. Also uses the `Tasker - Check Set boot stuff.flo`
 * `Intent Recvr` - broadcast receiver for anything else from anywhere else needed (automate for this case like setting global vars)
 
 ##### 2. <b>global var setter profiles for phone settings</b>
@@ -99,7 +99,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Bluetooth Unset` - profile to disable bluetooth (dependent on the global var.s set by obd2 & bluetooth check profiles)
 
 ##### 7. <b>low power based on lock & screen state</b>
-* `screen Off Low Power` - set low power mode when screen is off. Mutually exclusive toggles the `screen On No Low Power` & `screen On Locked` profiles depending on the presence of a lock being set
+* `screen Off Low Power` - set low power mode when screen is off. Mutually exclusive toggles the `screen On No Low Power` & `screen On Locked` profiles depending on the presence of a lock being set. invokes `Tasker - low power mode enable.flo` to set `PHONE_LOCKED` & switch bluetooth off if connections are 0 & toggle the relevant screen off/scree lock profiles 
 * `screen On No Low Power` - disable all low power settings when screen is on (no lock is set)
 * `screen On Locked` - when phone is locked but screen is up
 * `screen Unlocked No Low Power` - disable all low power settings when unlocked
@@ -109,9 +109,9 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Clipboard Link Sanitizer` - literally what it says. for now only "sanitization" it does is on youtube share links in the clipboard which is just taking away the strings matching `?sid.*`
 * `Alarm Vol Auto Set` - set all alarm vol to max when an alarm's about to ring
 * `Autoread Whatsapp` - literally what it says (except set your own interval if you need to)
-* `Alarmy Call` - use this if one asked you to call them to be woken up. This profile is "managed" (enabling & disabling the profile & setting the phone number as a global var for the profile to use) by the `Tasker - Alarmy Call` flo from automate to set the number/contact
+* `Alarmy Call` - to call one at a scheduled time if you forget to (I use this when one asks me to wake them up from a phone call). This profile is toggled by (enabling & disabling the profile & setting the phone number as a global var for the profile to use)  run `Tasker - Alarmy call.flo` from automate to set the number/contact
 * `Gaming` - cpu state toggles when enter/opening games
-* `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane boarding` flo running when enabling this profile
+* `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane boarding.flo` running when enabling this profile
 
 
 ##### 9. <b>not as a automation usage but just for tasker interactivity convenience</b>
