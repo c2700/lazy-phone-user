@@ -21,7 +21,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 
 # setup
 #### a. import the automate flows (the `.flo` files from the `Automate flows` directory) into automate & the tasker project `Lazy_User.prj.xml` into Tasker
-#### b. <b>list of profiles to be mututally exclusively enabled to avoid unexpected behaviours or clash in tasks</b>
+#### b. <b>list of profiles to be mutually exclusively enabled to avoid unexpected behaviours or clash in tasks</b>
 1. `Mobile Data Var Set via Automate` & `Mobile Data Var Set`
 2. `(Un)Set Sim Presence Airplane Mode via Automate` & `(Un)Set Sim Presence Airplane Mode`
 #### c. <b>Tasker Configuration</b>
@@ -33,9 +33,9 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 6. Open up `Toggle Data` task & replace the actions in the Autoinput Action (the configuration argument) at action number 15 with whatever actions you need to perform to get cellular data enabled from the `Mobile Data settings` activity. (the activity, button placement, UI differs from android flavour to flavour)
 7. (optional if this is not needed) remove/disable the `Work Profile Set` profile & if needed/wanted remove the WORK_PROFILE global var from all other actions, conditions & profiles. The action for it is created the way it is for when corporate apps are installed onto a work profile & one needs to show their activity as online at all times or needs to be responsive & needs connectivity at all times as long as there's some source of connectivity & for as long as the work profile's active.
 8. `Gaming Clock` & `Regular CPU Usage`. Reconfigure the cpu list with their respective low & high clocks & governors configured. (I have set my `Gaming Clock` task to the highest that was available with all core governors to performance & the `Regular CPU Usage` all to schedutil (those were the only governors available for both my phone's kernels). you're gonna need to delete/add some cpu actions depending on your phone's hardware
-9. `(Un)Set Sim Presence Airplane Mode` or `(Un)Set Sim Presence Airplane Mode via Automate` profiles to be mutually exclusively enabled. The only difference between the 2 profiles is that the Action in the `intent received` event from both profiles are
+9. `(Un)Set Sim Presence Airplane Mode` or `(Un)Set Sim Presence Airplane Mode via Automate` (profiles to be mutually exclusively enabled). The only difference between the 2 profiles is that the Action in the `intent received` event from both profiles are
     - android's built-in `SIM_STATE_CHANGED` (used by `(Un)Set Sim Presence Airplane Mode`) broadcast is said to be unreliable since android 13 (https://issuetracker.google.com/issues/302614301). I haven't faced that issue on android 13. Only "weird" thing is that I've been seeing that profile being triggered with that broadcast many times even when I haven't ejected/inserted the sim card
-    - `SIM_PRESENT` (used by `(Un)Set Sim Presence Airplane Mode via Automate`) is a custom broadcast sent from automate to tasker & the `Tasker - Airplane mode.flo` needs to be left running for this profile & it's task to work as expected
+    - `SIM_PRESENT` (used by `(Un)Set Sim Presence Airplane Mode via Automate`) is a custom broadcast sent from automate to tasker & the `Tasker - Sim Check.flo` needs to be left running for this profile & it's task to work as expected
 10. `Mobile Data Var Set via Automate` or `Mobile Data Var Set` (to be mutually exclusively enabled)
     - `Mobile Data Var Set` - do a `find setting` (the magnifying glass next to the `Name` field) in the profile's `custom setting` context, toggle cellular data & you got the custom setting name that gets you the cellular data state filled in the Name field
     - `Mobile Data Var Set via Automate` will need the `Tasker - Cellular Data state check.flo` to be left running
@@ -44,6 +44,15 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 13. you may need to change the `Data` field in the `Send Intent` action in all tasker tasks which are intended to invoke Automate flows (the flow to be invoked will be indicated in the `send intent` action's label field) to whatever the content has been changed to in the flow's start block. do this IF the "Flow URI" field in the imported automate flow's start block differs from what's there in tasker's `send intent` action's Data field.
 14. reboot the phone or run the `Check Set Stuff At Boot` TASK to initialize global vars & run the needed automate flo's based on the selected profiles
 15. if you do not want the toasts from the `Ping test` & `WAN check` the actions to disable/delete are the following
+     - `Ping Test` Task
+        - action 1
+        - action 17
+        - action 21
+
+     - `WAN Check Switch` Task
+        - action 3
+        - action 19
+        - action 40
 
 ## What each Tasker profiles do
 ##### 1. <b>workflow base & entry point. stuff profiles here can be used to initiate/start the workflow & be used as a common entrypoint for implicit intents to trigger the profiles/tasks/actions</b>
