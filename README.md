@@ -111,7 +111,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Autoread Whatsapp` - literally what it says (except set your own interval if you need to)
 * `Alarmy Call` - use this if one asked you to call them to be woken up. This profile is "managed" (enabling & disabling the profile & setting the phone number as a global var for the profile to use) by the `Tasker - Alarmy Call` flo from automate to set the number/contact
 * `Gaming` - cpu state toggles when enter/opening games
-* `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane Boarding` flo running when enabling this profile
+* `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane boarding` flo running when enabling this profile
 
 
 ##### 9. <b>not as a automation usage but just for tasker interactivity convenience</b>
