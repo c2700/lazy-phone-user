@@ -57,7 +57,8 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 ## What each Tasker profiles do
 ##### 1. <b>workflow base & entry point. stuff profiles here can be used to initiate/start the workflow & be used as a common entrypoint for implicit intents to trigger the profiles/tasks/actions</b>
 * `Check Set Stuff At Boot` - after boot (basically unlock after boot), initializes stuff for the workflow, like setting global vars & enables/disables profiles as needed for the workflow to work right. Also uses the `Tasker - Check Set boot stuff.flo`
-* `Intent Recvr` - broadcast receiver for anything else from anywhere else needed (automate for this case like setting global vars)
+* `Custom Intent Recvr` - a "sinkhole"/"dump" of sorts for implicit intents (I use this to set global var.s & toggle profiles......for now atleast).
+* `Tasker Log Clear` - literally what it says.
 
 ##### 2. <b>global var setter profiles for phone settings</b>
 * `wifi var set` - set wifi stats as global variable(s) whenever wifi is toggled (used by the net management profiles)
@@ -67,17 +68,16 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Mobile Data Var Set` - set mobile data stats as global variable(s) whenever data is toggled (used by the net management profiles)
 * `Mobile Data Var Set via Automate` - set mobile data stats as global variable(s). (used by the net management profiles but triggered by intents sent from automate)
 * `Bluetooth Connection Check` - trigger to get connection/disconnection event. wait for 15 seconds before disconnecting. the wait time is to wait for any other connections or for a reconnection
-* `Custom Intent Recvr` - a "sinkhole"/"dump" of sorts for implicit intents with payloads (I use this for implicit intents atleast, which also sets some global vars).
 * `Low Power State` - set global var of low power state.
 * `Phone Unlock State` - set the global var of phone's screen state when phone is unlocked.
-* `Phone Lock State` - set global var of phone's lock state when locked which is evaluated when screen is off.
+* `Phone Lock State` - set lock state of the phone into relevant global var.s. Evaluated when screen is off.
+* `Work Profile Set` - toggle settings, var.s & values for your work profile
 
 ##### 3. <b>profile for airplane mode based on sim presence</b>
 * `(Un)Set Sim Presence Airplane Mode` - toggle airplane mode when sim inserted/ejected. Uses android's `SIM_STATE_CHANGED` broadcast
 * `(Un)Set Sim Presence Airplane Mode via Automate` - toggle airplane mode when sim inserted/ejected. custom broadcast `SIM_PRESENT` is sent by automate. keep `Tasker - Sim Check.flo` running when enabling this.
 
 ##### 4. <b>WAN iface toggle</b>
-* `Work Profile Set` - toggle settings, var.s & values for your work profile
 * `Fg Net Flags Set` -  set global variable(s) to enable wan connectivity for net requiring apps running in the foreground
 * `Fg Net Flags Set (Optional)` - Same as Fg Net Flags Set except the user will be prompted for if WAN has to be enabled/disabled which (un)sets the same flags by the `Fg Net Flags Set` profile.
 * `Fg Net Flags Unset` - set stats as global variable(s) to disable wan connectivity for when net requiring apps are not running in the foreground. There's a delay of 14 seconds for the `Fg Net Flags Set` profile to be active which if it isn't the global var `%APP_NET` is to `no` which satisfies one of the `set variable` context's conditions from the `Net Unset` profile
@@ -100,11 +100,11 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 ##### 6. <b>Bluetooth toggle</b>
 * `OBD2 Bg Flags (Un)Set` - set stats for global variable(s) to be used to toggle settings for set obd2 apps running in background
 * `OBD2 Fg Flags (Un)Set` - same purpose as `OBD2 Bg Flags (Un)Set` but for when the apps running in the foreground
-* `Bluetooth Set` - profile to enable bluetooth (dependent on the global var.s set byt obd2 & bluetooth check profiles)
+* `Bluetooth Set` - profile to enable bluetooth (dependent on the global var.s set by obd2 & bluetooth check profiles)
 * `Bluetooth Unset` - profile to disable bluetooth (dependent on the global var.s set by obd2 & bluetooth check profiles)
 
 ##### 7. <b>low power based on lock & screen state</b>
-* `screen Off Low Power` - set low power mode when screen is off. Mutually exclusive toggles the `screen On No Low Power` & `screen On Locked` profiles depending on the presence of a lock being set. invokes `Tasker - low power mode enable.flo` to set `PHONE_LOCKED` & switch bluetooth off if connections are 0 & toggle the relevant screen off/scree lock profiles 
+* `screen Off Low Power` - set low power mode when screen is off. `Test Display` action to set `PHONE_LOCKED` & `PHONE_LOCK_SET` values & switch bluetooth off if connections are 0
 * `screen On No Low Power` - disable all low power settings when screen is on (no lock is set)
 * `screen On Locked` - when phone is locked but screen is up
 * `screen Unlocked No Low Power` - disable all low power settings when unlocked
@@ -117,7 +117,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Alarmy Call` - to call one at a scheduled time if you forget to (I use this when one asks me to wake them up from a phone call). This profile is toggled by (enabling & disabling the profile & setting the phone number as a global var for the profile to use)  run `Tasker - Alarmy call.flo` from automate to set the number/contact
 * `Gaming` - cpu state toggles when enter/opening games
 * `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane boarding.flo` running when enabling this profile
-* `Tasker Log Clear` - literally what it says.
+* the rest of the profiles (mostly being ones containing `=` & words in it like `Net Mgr`) are just profile separators. when making changes to the entry/exit actions, they shouldn't make any changes to how project's workflow.
 
 
 ##### 9. <b>not as a automation usage but just for tasker interactivity convenience</b>
@@ -137,7 +137,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `MDATA` (enabled|disabled) - set when cellular data is toggled
 * `ADB_WIFI` (enabled|disabled) - set when adb wifi (wireless adb) is toggled
 * `WIFI_CONNECTED` (yes|no) - set when wifi has made a connection to an ssid
-* `WAN_ACCESSIBLE` (yes|no) - yes when values/variables from the `Get Network Info` action confirms yet. (found in the `Wan Check Switch` task's 4th action)
+* `WAN_ACCESSIBLE` (yes|no) - yes when values/variables from the `Get Network Info` action confirms yes. (found in the `Wan Check Switch` task's 4th action)
 * `HIGH_PING` (yes|no) - set when ping is stable/unstable based on the hardcoded ping response numbers in the `Ping Test` task
 * `VPN_CONN` (yes|no) - set when any VPN connection is made 
 * `FG_NET_APP_NAME` (name of the foreground app opened) - name of the net needing foreground running app
@@ -154,3 +154,60 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `WAKE_UP_NUM` (phone number) - stores the number of who needs to be called at a scheduled time set from automate's `Alarmy call` flow (mostly for when one is asked to be "woken up" & you're sound asleep)
 * `NET_SRC_TOGGLE_COUNT` - keeps a count of number of times WAN src was toggled which if exceeded (4 times) the workflow will prompt the user for if the toggling needs to continue to which if clicked yes will reset the counter back to 0 else will keep the WAN toggling profiles to inactive until ping state says "stable ping" which also resets the WAN switch counter to 0
 
+#### This is ordering in which I keep the profiles in tasker to make maintainability & sensibility RELATIVELY easier than the mixup order you get when you import the project & unfortunately there's no option to preserve the profile ordering
+    `
+    Check Set Stuff At Boot
+    Custom Intent Recvr
+    Tasker Log Clear
+    ======== Global Var Setters ========
+    Phone Lock State
+    Phone Unlock State
+    Low Power State
+    wifi var set
+    Shizuku Var Set
+    Adb Wifi State Var Set
+    VPN state
+    Work Profile Set
+    Mobile Data Var Set
+    Mobile Data Var Set via Automate
+    (Un)Set Sim Presence Airplane Mode
+    (Un)Set Sim Presence Airplane Mode via Automate
+    ========= Low Power Mgr =========
+    screen Off Low Power
+    screen On Locked
+    screen On No Low Power
+    screen Unlocked No Low Power
+    Charging No Low Power
+    ============ Net Mgr ===========
+    Fg Net Flags Set (Optional)
+    Fg Net Flags Set
+    Fg Net Flags Unset
+    Bg Net (Un)Set
+    Wifi Hotspot Autoset Stuff
+    Usb Tether Autoset Stuff
+    Redundant Net Src
+    Net Set (User)
+    Net Set
+    Ping Test
+    Wan Check Switch
+    Net Src Disconnected Switch
+    Net Unset
+    ============ Map Set ============
+    Map Fg Flags (Un)Set
+    Map Bg Flags (Un)Set
+    Map (Un)Set
+    =========== Bluetooth Stuff ========
+    OBD2 Fg Flags (Un)Set
+    OBD2 Bg Flags (Un)Set
+    Bluetooth Set
+    Bluetooth Connection Check
+    Bluetooth Unset
+    ============= Others =============
+    Alarmy Call
+    Gaming
+    Clipboard Link Sanitizer
+    Alarm Vol Auto Set
+    Autoread Whatsapp
+    Airplane Boarding
+    Bottom "Buffer" Profile. Not To Be Used
+    `
