@@ -81,7 +81,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Fg Net Flags Set` -  set global variable(s) to enable wan connectivity for net requiring apps running in the foreground
 * `Fg Net Flags Set (Optional)` - Same as Fg Net Flags Set except the user will be prompted for if WAN has to be enabled/disabled which (un)sets the same flags by the `Fg Net Flags Set` profile.
 * `Fg Net Flags Unset` - set stats as global variable(s) to disable wan connectivity for when net requiring apps are not running in the foreground. There's a delay of 14 seconds for the `Fg Net Flags Set` profile to be active which if it isn't the global var `%APP_NET` is to `no` which satisfies one of the `set variable` context's conditions from the `Net Unset` profile
-* `Bg Net (Un)Set` - set/unset stats as global variable(s) to toggle WAN connectivity. Now limited to downloading & navigation
+* `Bg Net (Un)Set` - set/unset stats as global variable(s) to toggle WAN connectivity. Now limited to downloading & navigation (The Input Dialog at action 3 is left disabled for trying out other combos of the auto-notification payload)
 * `Wifi Hotspot Autoset Stuff` - when hotspot is set, disables all wan related profiles (in case one wants to change stuff at will)
 * `Usb Tether Autoset Stuff` - same as `Wifi Hotspot Autoset Stuff` but applicable for usb tethering
 * `Net Set` - global var.s set from `Fg Net Flags Set`, `Fg Net Flags Unset`, `Bg Net (Un)Set`, `Work Profile Set` & `VPN state` profiles which if set to be enabled then Enable wan connectivity.
@@ -154,8 +154,8 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `WAKE_UP_NUM` (phone number) - stores the number of who needs to be called at a scheduled time set from automate's `Alarmy call` flow (mostly for when one is asked to be "woken up" & you're sound asleep)
 * `NET_SRC_TOGGLE_COUNT` - keeps a count of number of times WAN src was toggled which if exceeded (4 times) the workflow will prompt the user for if the toggling needs to continue to which if clicked yes will reset the counter back to 0 else will keep the WAN toggling profiles to inactive until ping state says "stable ping" which also resets the WAN switch counter to 0
 
-#### This is ordering in which I keep the profiles in tasker to make maintainability & sensibility RELATIVELY easier than the mixup order you get when you import the project & unfortunately there's no option to preserve the profile ordering
-    `
+### This is ordering in which I keep the profiles in tasker to make maintainability & sensibility RELATIVELY easier than the mixup order you get when you import the project & unfortunately there's no option to preserve the profile ordering
+
     Check Set Stuff At Boot
     Custom Intent Recvr
     Tasker Log Clear
@@ -210,4 +210,3 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     Autoread Whatsapp
     Airplane Boarding
     Bottom "Buffer" Profile. Not To Be Used
-    `
