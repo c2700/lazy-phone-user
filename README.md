@@ -117,11 +117,12 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Alarmy Call` - to call one at a scheduled time if you forget to (I use this when one asks me to wake them up from a phone call). This profile is toggled by (enabling & disabling the profile & setting the phone number as a global var for the profile to use)  run `Tasker - Alarmy call.flo` from automate to set the number/contact
 * `Gaming` - cpu state toggles when enter/opening games
 * `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane boarding.flo` running when enabling this profile
-* the rest of the profiles (mostly being ones containing `=` & words in it like `Net Mgr`) are just profile separators. when making changes to the entry/exit actions, they shouldn't make any changes to how project's workflow.
+* `Toggle Dev State Per App` - disable dev mode when entering apps that complain about, enable when exiting with "show touches" & adb enabled
 
 
 ##### 9. <b>not as a automation usage but just for tasker interactivity convenience</b>
 * `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the task list I had a tough time getting it to move around. now that the AI button's been added which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the list who's toggle will remain obstructed instead of the one's that are of use to the user. (TLDR: just a UI inconvenience mitigator)
+* the rest of the profiles (mostly being ones containing `=` & words in it like `Net Mgr`) are just profile separators. when making changes to the entry/exit actions, they shouldn't make any changes to how project's workflow.
 
 ### custom global vars set & used by profiles & tasks from the above group of profiles
 1. `PHONE_LOCK_SET`, `NET_SRC_TOGGLE_COUNT`, `APP_NET`, `BG_NET`, `WORK_PROFILE`, `MDATA`, `ADB_WIFI`, `WIFI_CONNECTED`, `WAN_ACCESSIBLE`, `VPN_CONN`, `FG_NET_APP_NAME`, `ROOT_STAT`, `SHIZUKU_RUNNING`, `HIGH_PING` - [network toggle & check profiles](#global-var-setter-profiles-for-phone-settings) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
