@@ -1,8 +1,7 @@
 <TaskerData sr="" dvi="1" tv="6.6.20">
 	<Profile sr="prof395" ve="2">
 		<cdate>1778888113953</cdate>
-		<clp>true</clp>
-		<edate>1778957488859</edate>
+		<edate>1779062487766</edate>
 		<flags>8</flags>
 		<id>395</id>
 		<mid0>331</mid0>
@@ -30,16 +29,6 @@
 					<lhs>%SCREEN</lhs>
 					<op>2</op>
 					<rhs>on</rhs>
-				</Condition>
-			</ConditionList>
-		</State>
-		<State sr="con2" ve="2">
-			<code>165</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%WAN_ACCESSIBLE</lhs>
-					<op>3</op>
-					<rhs>yes</rhs>
 				</Condition>
 			</ConditionList>
 		</State>
@@ -261,7 +250,7 @@
 	<Profile sr="prof402" ve="2">
 		<cdate>1778888113973</cdate>
 		<clp>true</clp>
-		<edate>1778889060624</edate>
+		<edate>1778959327536</edate>
 		<flags>8</flags>
 		<id>402</id>
 		<mid0>388</mid0>
@@ -452,56 +441,12 @@
 	<Profile sr="prof409" ve="2">
 		<cdate>1778888114002</cdate>
 		<clp>true</clp>
-		<edate>1778935079275</edate>
+		<edate>1779062466622</edate>
 		<flags>8</flags>
 		<id>409</id>
 		<mid0>354</mid0>
 		<nme>Clipboard Link Sanitizer</nme>
-		<State sr="con0" ve="2">
-			<code>563660487</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>Command: all
-Sender: all
-Subje...</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<configcaseinsensitiveimage>false</configcaseinsensitiveimage>
-					<configcaseinsensitiveimage-type>java.lang.Boolean</configcaseinsensitiveimage-type>
-					<configcaseinsensitivesub>false</configcaseinsensitivesub>
-					<configcaseinsensitivesub-type>java.lang.Boolean</configcaseinsensitivesub-type>
-					<configcaseinsensitivetext>false</configcaseinsensitivetext>
-					<configcaseinsensitivetext-type>java.lang.Boolean</configcaseinsensitivetext-type>
-					<configexactimage>false</configexactimage>
-					<configexactimage-type>java.lang.Boolean</configexactimage-type>
-					<configexactsub>false</configexactsub>
-					<configexactsub-type>java.lang.Boolean</configexactsub-type>
-					<configexacttext>false</configexacttext>
-					<configexacttext-type>java.lang.Boolean</configexacttext-type>
-					<configinstant>false</configinstant>
-					<configinstant-type>java.lang.Boolean</configinstant-type>
-					<configregeximage>false</configregeximage>
-					<configregeximage-type>java.lang.Boolean</configregeximage-type>
-					<configregexsub>false</configregexsub>
-					<configregexsub-type>java.lang.Boolean</configregexsub-type>
-					<configregextext>false</configregextext>
-					<configregextext-type>java.lang.Boolean</configregextext-type>
-					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>10000</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
-					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<plugininstanceid>78808473-720f-4411-bdd6-9a0fb555b1a3</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autoshare.intent.IntentReceiveShare</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autoshare</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autoshare.activity.ActivityConfigReceiveShare</Str>
-			<Int sr="arg3" val="1"/>
-		</State>
-		<Event sr="con1" ve="2">
+		<Event sr="con0" ve="2">
 			<code>2097</code>
 			<pri>0</pri>
 			<Bundle sr="arg0">
@@ -605,7 +550,7 @@ Subje...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof414" ve="2">
 		<cdate>1778888114007</cdate>
 		<clp>true</clp>
-		<edate>1778953921447</edate>
+		<edate>1779042239308</edate>
 		<flags>8</flags>
 		<id>414</id>
 		<mid0>384</mid0>
@@ -658,7 +603,7 @@ Subje...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof415" ve="2">
 		<cdate>1778888114011</cdate>
 		<clp>true</clp>
-		<edate>1778944363205</edate>
+		<edate>1778977728861</edate>
 		<flags>8</flags>
 		<id>415</id>
 		<mid0>386</mid0>
@@ -706,7 +651,7 @@ Subje...</com.twofortyfouram.locale.intent.extra.BLURB>
 					<InvertCategoryName-type>java.lang.Boolean</InvertCategoryName-type>
 					<InvertPackage>false</InvertPackage>
 					<InvertPackage-type>java.lang.Boolean</InvertPackage-type>
-					<InvertText>true</InvertText>
+					<InvertText>false</InvertText>
 					<InvertText-type>java.lang.Boolean</InvertText-type>
 					<InvertTitle>false</InvertTitle>
 					<InvertTitle-type>java.lang.Boolean</InvertTitle-type>
@@ -915,7 +860,7 @@ Notes:
 	<Profile sr="prof421" ve="2">
 		<cdate>1778888114024</cdate>
 		<clp>true</clp>
-		<edate>1778723983631</edate>
+		<edate>1778961015297</edate>
 		<flags>8</flags>
 		<id>421</id>
 		<mid0>383</mid0>
@@ -1033,7 +978,7 @@ Notes:
 	<Profile sr="prof423" ve="2">
 		<cdate>1778888114024</cdate>
 		<clp>true</clp>
-		<edate>1778935038050</edate>
+		<edate>1778960943624</edate>
 		<flags>8</flags>
 		<id>423</id>
 		<mid0>362</mid0>
@@ -1089,7 +1034,7 @@ Notes:
 	<Profile sr="prof425" ve="2">
 		<cdate>1778888114028</cdate>
 		<clp>true</clp>
-		<edate>1777100985809</edate>
+		<edate>1779042225752</edate>
 		<flags>8</flags>
 		<id>425</id>
 		<mid0>349</mid0>
@@ -1434,7 +1379,7 @@ Notes:
 	<Profile sr="prof436" ve="2">
 		<cdate>1778888114044</cdate>
 		<clp>true</clp>
-		<edate>1778719764747</edate>
+		<edate>1778959188116</edate>
 		<flags>8</flags>
 		<id>436</id>
 		<mid0>365</mid0>
@@ -1516,7 +1461,7 @@ Notes:
 	<Profile sr="prof438" ve="2">
 		<cdate>1778888114044</cdate>
 		<clp>true</clp>
-		<edate>1776698851405</edate>
+		<edate>1778959366391</edate>
 		<flags>8</flags>
 		<id>438</id>
 		<mid0>350</mid0>
@@ -1601,7 +1546,7 @@ Notes:
 	<Profile sr="prof442" ve="2">
 		<cdate>1778888114048</cdate>
 		<clp>true</clp>
-		<edate>1778955749110</edate>
+		<edate>1779042257598</edate>
 		<flags>8</flags>
 		<id>442</id>
 		<mid0>369</mid0>
@@ -1689,7 +1634,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof443" ve="2">
 		<cdate>1778888113969</cdate>
 		<clp>true</clp>
-		<edate>1778958694097</edate>
+		<edate>1778959827549</edate>
 		<flags>8</flags>
 		<id>443</id>
 		<limit>true</limit>
@@ -1719,10 +1664,9 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof448" ve="2">
 		<cdate>1778888113969</cdate>
 		<clp>true</clp>
-		<edate>1778958869620</edate>
+		<edate>1779047609969</edate>
 		<flags>8</flags>
 		<id>448</id>
-		<limit>true</limit>
 		<mid0>449</mid0>
 		<nme>============= Others =============</nme>
 		<Loc sr="con0">
@@ -1779,8 +1723,8 @@ SmartWakeupActivity</label5>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>425,402,439,409,407,403,406,399,416,415,396,418,422,397,441,438,412,429,410,446,398,434,435,433,430,419,448,401,400,405,408,431,432,443,395,437,454,420,450,427,421,428,404,424,426,423,413,440,452,411,436,414,442,417</pids>
-		<tids>320,358,378,392,344,360,363,355,349,325,390,343,347,334,353,447,340,336,387,380,393,362,327,357,379,333,370,372,326,455,345,391,342,366,385,322,383,338,331,365,335,329,377,373,324,445,328,376,348,382,386,337,368,364,351,339,394,350,375,354,323,371,352,359,453,381,330,451,369,361,389,374,356,321,341,319,332,346,384,388,367,449</tids>
+		<pids>436,400,448,398,425,405,395,424,430,420,446,437,435,441,404,406,438,417,399,440,443,432,411,415,423,408,439,396,428,416,426,434,431,452,414,401,450,422,442,412,429,454,433,419,413,409,427,421,397,403,407,402,410,418</pids>
+		<tids>320,321,339,337,380,375,379,324,348,390,360,378,349,383,338,389,381,319,363,333,445,327,344,370,326,364,376,393,352,387,357,451,351,391,392,373,336,369,331,334,341,332,362,322,329,345,371,455,449,323,340,447,342,453,346,367,330,372,358,328,354,386,374,356,350,368,377,355,335,382,366,325,361,385,365,394,359,384,388,347,353,343</tids>
 	</Project>
 	<Task sr="task319">
 		<cdate>1759618008133</cdate>
@@ -2779,7 +2723,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task330">
 		<cdate>1775737347442</cdate>
-		<edate>1778927443213</edate>
+		<edate>1779001767918</edate>
 		<id>330</id>
 		<nme>Test</nme>
 		<pri>100</pri>
@@ -2845,6 +2789,17 @@ SmartWakeupActivity</label5>
 			<Str sr="arg9" ve="3"/>
 		</Action>
 		<Action sr="act15" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">Aouh</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
 			<code>460</code>
 			<Bundle sr="arg0">
 				<Vals sr="val"/>
@@ -2930,7 +2885,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task331">
 		<cdate>1759612460120</cdate>
-		<edate>1778955754757</edate>
+		<edate>1779062484483</edate>
 		<id>331</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -2962,47 +2917,30 @@ SmartWakeupActivity</label5>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>549</code>
 			<Str sr="arg0" ve="3">%FG_NET_APP_NAME</Str>
-			<Str sr="arg1" ve="3">%app_name</Str>
+			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%APP_NET</lhs>
+					<lhs>%input</lhs>
 					<op>2</op>
-					<rhs>yes</rhs>
+					<rhs>no</rhs>
 				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>390</code>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-			<Str sr="arg1" ve="3">YesOrNo</Str>
-			<Str sr="arg2" ve="3">Enable WAN?</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="30"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%WAN_ACCESSIBLE</lhs>
+				<Condition sr="c1" ve="3">
+					<lhs>%PACTIVE</lhs>
 					<op>3</op>
-					<rhs>yes</rhs>
+					<rhs>*Fg Net Set*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act12" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%APP_NET</Str>
 			<Str sr="arg1" ve="3">yes</Str>
@@ -3019,53 +2957,116 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>549</code>
+		<Action sr="act2" ve="7">
+			<code>547</code>
 			<Str sr="arg0" ve="3">%FG_NET_APP_NAME</Str>
-			<Int sr="arg1" val="0"/>
+			<Str sr="arg1" ve="3">%app_name</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
-				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%input</lhs>
+					<lhs>%WAN_ACCESSIBLE</lhs>
 					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%err</lhs>
-					<op>12</op>
-					<rhs></rhs>
+					<rhs>yes</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-	</Task>
-	<Task sr="task332">
-		<cdate>1775316698194</cdate>
-		<edate>1778957488859</edate>
-		<id>332</id>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
+		<Action sr="act4" ve="7">
+			<code>390</code>
+			<Bundle sr="arg0">
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg1" ve="3">YesOrNo</Str>
+			<Str sr="arg2" ve="3">Enable WAN?</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="30"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%WAN_ACCESSIBLE</lhs>
+					<op>3</op>
+					<rhs>yes</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%TRUN</lhs>
+					<op>3</op>
+					<rhs>*Redundant Net Src*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%input</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="2"/>
+			<Int sr="arg1" val="3"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TRUN</lhs>
+					<op>2</op>
+					<rhs>*Redundant Net Src*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%TRUN</lhs>
+					<op>3</op>
+					<rhs>*Redundant Net Src*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%WAN_ACCESSIBLE</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task332">
+		<cdate>1775316698194</cdate>
+		<edate>1779062487766</edate>
+		<id>332</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%FG_NET_APP_NAME</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PACTIVE</lhs>
-					<op>3</op>
-					<rhs>*Fg Net Flags Set*</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task333">
@@ -4375,7 +4376,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task350">
 		<cdate>1759618008133</cdate>
-		<edate>1776698851405</edate>
+		<edate>1778959366391</edate>
 		<id>350</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -4555,7 +4556,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task354">
 		<cdate>1737079191529</cdate>
-		<edate>1778935079275</edate>
+		<edate>1779062466622</edate>
 		<id>354</id>
 		<nme>Link Sanitizer</nme>
 		<pri>6</pri>
@@ -4998,7 +4999,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task362">
 		<cdate>1737079191529</cdate>
-		<edate>1778935038050</edate>
+		<edate>1778960943624</edate>
 		<id>362</id>
 		<nme>Enable Low Power Mode</nme>
 		<pri>6</pri>
@@ -5729,7 +5730,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task365">
 		<cdate>1773392882216</cdate>
-		<edate>1778719764747</edate>
+		<edate>1778959188116</edate>
 		<id>365</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5899,7 +5900,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task368">
 		<cdate>1759723867582</cdate>
-		<edate>1778943026332</edate>
+		<edate>1778977725815</edate>
 		<id>368</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -5939,7 +5940,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task369">
 		<cdate>1759612559032</cdate>
-		<edate>1778955555011</edate>
+		<edate>1779002691190</edate>
 		<id>369</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5965,6 +5966,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
+				<bool1>Or</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFI_CONNECTED</lhs>
 					<op>2</op>
@@ -5974,6 +5976,11 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 					<lhs>%MDATA</lhs>
 					<op>2</op>
 					<rhs>enabled</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%WAN_ACCESSIBLE</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -6345,7 +6352,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task374">
 		<cdate>1778646957644</cdate>
-		<edate>1778723983631</edate>
+		<edate>1778961015297</edate>
 		<id>374</id>
 		<Action sr="act0" ve="7">
 			<code>137</code>
@@ -7028,7 +7035,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task383">
 		<cdate>1759650620765</cdate>
-		<edate>1778702472005</edate>
+		<edate>1778960952486</edate>
 		<id>383</id>
 		<nme>Wan Check Switch</nme>
 		<pri>100</pri>
@@ -7756,7 +7763,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task384">
 		<cdate>1759612460120</cdate>
-		<edate>1778953921447</edate>
+		<edate>1779004547858</edate>
 		<id>384</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -7827,7 +7834,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task386">
 		<cdate>1759613166125</cdate>
-		<edate>1778944363205</edate>
+		<edate>1778977728861</edate>
 		<id>386</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -7845,10 +7852,22 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%ancategoryname</lhs>
-					<op>4</op>
+					<op>5</op>
 					<rhs>%bg_net_regex</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%antitle</lhs>
+					<op>4</op>
+					<rhs>.*(Finish|Complete|done).*</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%antext</lhs>
+					<op>2</op>
+					<rhs>.*(Finish|Complete|done).*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -8033,7 +8052,7 @@ fi</Str>
 	</Task>
 	<Task sr="task388">
 		<cdate>1759507551015</cdate>
-		<edate>1778889060624</edate>
+		<edate>1778959327536</edate>
 		<id>388</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -8558,7 +8577,7 @@ done</Str>
 	</Task>
 	<Task sr="task445">
 		<cdate>1778889602687</cdate>
-		<edate>1778889609971</edate>
+		<edate>1778959827549</edate>
 		<id>445</id>
 		<Action sr="act0" ve="7">
 			<code>137</code>
