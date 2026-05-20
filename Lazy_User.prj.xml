@@ -35,7 +35,7 @@
 	<Profile sr="prof20" ve="2">
 		<cdate>1779092182109</cdate>
 		<clp>true</clp>
-		<edate>1779092579441</edate>
+		<edate>1779104958911</edate>
 		<flags>8</flags>
 		<id>20</id>
 		<mid0>24</mid0>
@@ -43,9 +43,12 @@
 		<nme>Toggle Dev State Per App</nme>
 		<App sr="con0" ve="2">
 			<cls0>com.dreamplug.tapui.activity.PaymentStatusActivity</cls0>
+			<cls1>com.hdfcbank.android.now.launcher_41cf6fca43d944f0d836ecaaae18dee1bb3e1bfba101fcc59764bc1b35526221</cls1>
 			<flags>2</flags>
 			<label0>CRED</label0>
+			<label1>HDFC Bank App</label1>
 			<pkg0>com.dreamplug.androidapp</pkg0>
+			<pkg1>com.hdfcbank.android.now</pkg1>
 		</App>
 	</Profile>
 	<Profile sr="prof395" ve="2">
@@ -153,7 +156,7 @@
 	<Profile sr="prof397" ve="2">
 		<cdate>1778888113958</cdate>
 		<clp>true</clp>
-		<edate>1778724543940</edate>
+		<edate>1779217303789</edate>
 		<flags>8</flags>
 		<id>397</id>
 		<mid0>335</mid0>
@@ -259,9 +262,10 @@
 	<Profile sr="prof399" ve="2">
 		<cdate>1778888113962</cdate>
 		<clp>true</clp>
-		<edate>1777615867634</edate>
+		<edate>1779274033092</edate>
 		<flags>8</flags>
 		<id>399</id>
+		<limit>true</limit>
 		<mid0>380</mid0>
 		<mid1>382</mid1>
 		<nme>Low Power State</nme>
@@ -273,7 +277,7 @@
 	<Profile sr="prof400" ve="2">
 		<cdate>1778888113962</cdate>
 		<clp>true</clp>
-		<edate>1778744824332</edate>
+		<edate>1779233111922</edate>
 		<flags>8</flags>
 		<id>400</id>
 		<mid0>385</mid0>
@@ -285,7 +289,7 @@
 	<Profile sr="prof401" ve="2">
 		<cdate>1778888113969</cdate>
 		<clp>true</clp>
-		<edate>1777703596979</edate>
+		<edate>1779216815045</edate>
 		<flags>8</flags>
 		<id>401</id>
 		<limit>true</limit>
@@ -300,7 +304,7 @@
 	<Profile sr="prof402" ve="2">
 		<cdate>1778888113973</cdate>
 		<clp>true</clp>
-		<edate>1778959327536</edate>
+		<edate>1779230698428</edate>
 		<flags>8</flags>
 		<id>402</id>
 		<mid0>388</mid0>
@@ -331,7 +335,7 @@
 	<Profile sr="prof404" ve="2">
 		<cdate>1778888113989</cdate>
 		<clp>true</clp>
-		<edate>1778500442979</edate>
+		<edate>1779093848204</edate>
 		<flags>8</flags>
 		<id>404</id>
 		<limit>true</limit>
@@ -341,7 +345,7 @@
 			<fh>-1</fh>
 			<fm>-1</fm>
 			<rep>2</rep>
-			<repval>2</repval>
+			<repval>5</repval>
 			<th>-1</th>
 			<tm>-1</tm>
 		</Time>
@@ -392,7 +396,7 @@
 	<Profile sr="prof406" ve="2">
 		<cdate>1778888113999</cdate>
 		<clp>true</clp>
-		<edate>1778500285486</edate>
+		<edate>1779234127248</edate>
 		<flags>8</flags>
 		<id>406</id>
 		<limit>true</limit>
@@ -555,7 +559,7 @@
 	<Profile sr="prof414" ve="2">
 		<cdate>1778888114007</cdate>
 		<clp>true</clp>
-		<edate>1779042239308</edate>
+		<edate>1779215076779</edate>
 		<flags>8</flags>
 		<id>414</id>
 		<mid0>384</mid0>
@@ -567,26 +571,32 @@
 			<cls2>com.google.android.maps.MapsActivity</cls2>
 			<cls3>com.google.android.apps.chrome.Main</cls3>
 			<cls4>com.waze.FreeMapAppActivity</cls4>
-			<cls5>com.amazon.mShop.home.HomeActivity</cls5>
-			<cls6>org.mozilla.firefox.App</cls6>
-			<cls7>org.fdroid.fdroid.views.main.MainActivity</cls7>
+			<cls5>org.mozilla.firefox.App</cls5>
+			<cls6>org.fdroid.fdroid.views.main.MainActivity</cls6>
+			<cls7>com.amazon.mShop.home.HomeActivity</cls7>
+			<cls8>com.google.nbu.paisa.flutter.gpay.app.LauncherActivity</cls8>
+			<cls9>com.anthropic.claude.mainactivity.MainActivity</cls9>
 			<flags>2</flags>
 			<label0>Play Store</label0>
 			<label1>Chrome</label1>
 			<label2>Maps</label2>
 			<label3>Brave</label3>
 			<label4>Waze</label4>
-			<label5>Amazon</label5>
-			<label6>Firefox</label6>
-			<label7>F-Droid</label7>
+			<label5>Firefox</label5>
+			<label6>F-Droid</label6>
+			<label7>Amazon</label7>
+			<label8>GPay</label8>
+			<label9>Claude</label9>
 			<pkg0>com.android.vending</pkg0>
 			<pkg1>com.android.chrome</pkg1>
 			<pkg2>com.google.android.apps.maps</pkg2>
 			<pkg3>com.brave.browser</pkg3>
 			<pkg4>com.waze</pkg4>
-			<pkg5>in.amazon.mShop.android.shopping</pkg5>
-			<pkg6>org.mozilla.firefox</pkg6>
-			<pkg7>org.fdroid.fdroid</pkg7>
+			<pkg5>org.mozilla.firefox</pkg5>
+			<pkg6>org.fdroid.fdroid</pkg6>
+			<pkg7>in.amazon.mShop.android.shopping</pkg7>
+			<pkg8>com.google.android.apps.nbu.paisa.user</pkg8>
+			<pkg9>com.anthropic.claude</pkg9>
 		</App>
 		<State sr="con1" ve="2">
 			<code>165</code>
@@ -865,10 +875,10 @@ Notes:
 	<Profile sr="prof421" ve="2">
 		<cdate>1778888114024</cdate>
 		<clp>true</clp>
-		<edate>1778961015297</edate>
+		<edate>1779232860645</edate>
 		<flags>8</flags>
 		<id>421</id>
-		<mid0>383</mid0>
+		<mid0>27</mid0>
 		<mid1>374</mid1>
 		<nme>Wan Check Switch</nme>
 		<State sr="con0" ve="2">
@@ -935,7 +945,7 @@ Notes:
 	<Profile sr="prof422" ve="2">
 		<cdate>1778888114024</cdate>
 		<clp>true</clp>
-		<edate>1778925982896</edate>
+		<edate>1779232798131</edate>
 		<flags>8</flags>
 		<id>422</id>
 		<mid0>393</mid0>
@@ -1039,7 +1049,7 @@ Notes:
 	<Profile sr="prof425" ve="2">
 		<cdate>1778888114028</cdate>
 		<clp>true</clp>
-		<edate>1779042225752</edate>
+		<edate>1779217721099</edate>
 		<flags>8</flags>
 		<id>425</id>
 		<mid0>349</mid0>
@@ -1248,7 +1258,7 @@ Notes:
 	<Profile sr="prof432" ve="2">
 		<cdate>1778888114039</cdate>
 		<clp>true</clp>
-		<edate>1779092066518</edate>
+		<edate>1779183854456</edate>
 		<flags>8</flags>
 		<id>432</id>
 		<mid0>361</mid0>
@@ -1401,7 +1411,7 @@ Notes:
 	<Profile sr="prof437" ve="2">
 		<cdate>1778888114044</cdate>
 		<clp>true</clp>
-		<edate>1778648996756</edate>
+		<edate>1779232855580</edate>
 		<flags>8</flags>
 		<id>437</id>
 		<mid0>379</mid0>
@@ -1520,6 +1530,7 @@ Notes:
 	</Profile>
 	<Profile sr="prof440" ve="2">
 		<cdate>1778888114047</cdate>
+		<clp>true</clp>
 		<edate>1778720869239</edate>
 		<flags>8</flags>
 		<id>440</id>
@@ -1550,7 +1561,7 @@ Notes:
 	<Profile sr="prof442" ve="2">
 		<cdate>1778888114048</cdate>
 		<clp>true</clp>
-		<edate>1779042257598</edate>
+		<edate>1779219136072</edate>
 		<flags>8</flags>
 		<id>442</id>
 		<mid0>369</mid0>
@@ -1682,7 +1693,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof450" ve="2">
 		<cdate>1778888113969</cdate>
 		<clp>true</clp>
-		<edate>1778958876174</edate>
+		<edate>1779274029960</edate>
 		<flags>8</flags>
 		<id>450</id>
 		<limit>true</limit>
@@ -1727,8 +1738,8 @@ SmartWakeupActivity</label5>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>405,432,431,438,406,441,425,421,18,440,400,409,434,435,418,422,430,426,419,395,423,396,454,429,427,415,436,412,448,452,424,437,443,403,439,416,410,408,417,407,414,404,450,411,420,401,446,20,399,402,397,433,428,442,398</pids>
-		<tids>390,333,386,379,345,363,347,362,359,320,364,357,332,371,381,370,383,325,453,360,337,348,326,368,447,373,349,385,372,319,355,354,369,327,329,336,358,377,342,389,376,334,365,449,367,351,445,339,356,361,350,24,380,353,375,393,374,391,335,321,387,392,341,323,344,340,384,378,330,394,451,455,338,346,343,388,322,382,331,352,366,328,26</tids>
+		<pids>396,434,405,395,20,398,433,422,442,406,421,417,400,452,428,441,425,419,454,407,431,416,412,427,426,439,410,446,438,403,408,397,18,448,436,424,443,418,435,429,420,430,411,409,414,399,402,415,450,423,432,401,437,440,404</pids>
+		<tids>320,345,323,326,335,338,341,379,357,352,26,447,378,366,393,24,383,342,372,348,394,27,349,358,381,329,385,375,364,330,384,361,368,327,370,354,343,387,340,322,350,391,334,347,362,346,319,380,333,392,376,377,445,451,331,382,360,344,325,332,369,337,374,359,339,353,389,373,455,356,388,321,365,390,449,355,351,371,336,453,386,363,367,328</tids>
 	</Project>
 	<Task sr="task24">
 		<cdate>1779092186071</cdate>
@@ -1772,6 +1783,37 @@ SmartWakeupActivity</label5>
 			<Str sr="arg4" ve="3"/>
 		</Action>
 	</Task>
+	<Task sr="task27">
+		<cdate>1779214976944</cdate>
+		<edate>1779232860645</edate>
+		<id>27</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Wan Check Switch</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
 	<Task sr="task319">
 		<cdate>1759618008133</cdate>
 		<edate>1778944311177</edate>
@@ -1808,7 +1850,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task320">
 		<cdate>1657974116786</cdate>
-		<edate>1778930807842</edate>
+		<edate>1779274105602</edate>
 		<id>320</id>
 		<nme>Toggle Data</nme>
 		<pri>100</pri>
@@ -1856,6 +1898,103 @@ SmartWakeupActivity</label5>
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%qtime</lhs>
+					<op>7</op>
+					<rhs>1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%MDATA</lhs>
+					<op>3</op>
+					<rhs>%prev_data_state</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MDATA</lhs>
+					<op>3</op>
+					<rhs>%prev_data_state</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%prev_data_state</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>126</code>
+			<Str sr="arg0" ve="3">0</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>433</code>
+			<Int sr="arg0" val="2"/>
+			<Bundle sr="arg1">
+				<Vals sr="val"/>
+			</Bundle>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%MDATA</lhs>
+					<op>2</op>
+					<rhs>%prev_data_state</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%prev_data_state</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>Or2</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%PHONE_LOCKED</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%err</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%tasker_setting_app</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
 			<code>559</code>
 			<Str sr="arg0" ve="3">Data left enabled</Str>
 			<Str sr="arg1" ve="3">default:default</Str>
@@ -1865,77 +2004,6 @@ SmartWakeupActivity</label5>
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>35</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%SCREEN</lhs>
-					<op>2</op>
-					<rhs>on</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>220</code>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>107361459</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>Actions To Perform: click(id,c...</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
-					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<parameters>{"_action":"click(id,com.android.settings:id/switch_btn)\n\nback()","_additionalOptions":{"checkMs":"1500","preActionDelay":"1000","separator":",","withCoordinates":false},"_whenToPerformAction":{"notInAutoInput":true,"notInTasker":true},"generatedValues":{}}</parameters>
-					<parameters-type>java.lang.String</parameters-type>
-					<plugininstanceid>17138f62-8868-4043-98d1-a75addcfb919</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autoinput.intent.IntentActionv2</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigActionv2</Str>
-			<Int sr="arg3">
-				<var>30</var>
-			</Int>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>433</code>
-			<Int sr="arg0" val="2"/>
-			<Bundle sr="arg1">
-				<Vals sr="val"/>
-			</Bundle>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%ROOT_STAT</lhs>
-					<op>2</op>
-					<rhs>su</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%SHIZUKU_RUNNING</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>548</code>
@@ -1963,10 +2031,135 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
+		<Action sr="act20" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PHONE_LOCKED</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<bool2>Or2</bool2>
+				<Condition sr="c0" ve="3">
+					<lhs>%PHONE_LOCKED</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%err</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%tasker_setting_app</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">Data left enabled</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>220</code>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>107361459</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Actions To Perform: click(id,c...</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"_action":"click(id,com.android.settings:id/switch_btn)\n\nback()","_additionalOptions":{"checkMs":"1500","preActionDelay":"1000","separator":",","withCoordinates":false},"_whenToPerformAction":{"notInAutoInput":true,"notInTasker":true},"generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>17138f62-8868-4043-98d1-a75addcfb919</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentActionv2</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigActionv2</Str>
+			<Int sr="arg3">
+				<var>30</var>
+			</Int>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>433</code>
+			<Int sr="arg0" val="2"/>
+			<Bundle sr="arg1">
+				<Vals sr="val"/>
+			</Bundle>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>su</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SHIZUKU_RUNNING</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
 		<Action sr="act3" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
+			<Str sr="arg1" ve="3">Toggle Data</Str>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>38</code>
@@ -1982,56 +2175,39 @@ SmartWakeupActivity</label5>
 			</ConditionList>
 		</Action>
 		<Action sr="act6" ve="7">
+			<code>344</code>
+			<se>false</se>
+			<Int sr="arg0" val="8"/>
+			<Str sr="arg1" ve="3">com.joaomgcd.taskersettings</Str>
+			<Str sr="arg2" ve="3">%tasker_setting_app</Str>
+		</Action>
+		<Action sr="act7" ve="7">
 			<code>37</code>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%PHONE_LOCKED</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
+					<lhs>%tasker_setting_app</lhs>
+					<op>12</op>
+					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>559</code>
-			<Str sr="arg0" ve="3">Data left enabled</Str>
-			<Str sr="arg1" ve="3">default:default</Str>
-			<Int sr="arg2" val="3"/>
-			<Int sr="arg3" val="5"/>
-			<Int sr="arg4" val="5"/>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</Action>
 		<Action sr="act8" ve="7">
-			<code>35</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%prev_data_state</Str>
+			<Str sr="arg1" ve="3">%MDATA</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PHONE_LOCKED</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-			</ConditionList>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%PHONE_LOCKED</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%SCREEN</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-			</ConditionList>
+			<code>433</code>
+			<Int sr="arg0" val="2"/>
+			<Bundle sr="arg1">
+				<Vals sr="val"/>
+			</Bundle>
 		</Action>
 	</Task>
 	<Task sr="task321">
@@ -2650,7 +2826,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task330">
 		<cdate>1775737347442</cdate>
-		<edate>1779001767918</edate>
+		<edate>1779269023455</edate>
 		<id>330</id>
 		<nme>Test</nme>
 		<pri>100</pri>
@@ -2684,6 +2860,7 @@ SmartWakeupActivity</label5>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>30</code>
+			<on>false</on>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="5"/>
 			<Int sr="arg2" val="0"/>
@@ -2692,6 +2869,7 @@ SmartWakeupActivity</label5>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>335</code>
+			<on>false</on>
 			<Bundle sr="arg0">
 				<Vals sr="val"/>
 			</Bundle>
@@ -2702,6 +2880,7 @@ SmartWakeupActivity</label5>
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>377</code>
+			<on>false</on>
 			<Bundle sr="arg0">
 				<Vals sr="val"/>
 			</Bundle>
@@ -2716,18 +2895,8 @@ SmartWakeupActivity</label5>
 			<Str sr="arg9" ve="3"/>
 		</Action>
 		<Action sr="act15" ve="7">
-			<code>559</code>
-			<Str sr="arg0" ve="3">Aouh</Str>
-			<Str sr="arg1" ve="3">default:default</Str>
-			<Int sr="arg2" val="3"/>
-			<Int sr="arg3" val="4"/>
-			<Int sr="arg4" val="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</Action>
-		<Action sr="act16" ve="7">
 			<code>460</code>
+			<on>false</on>
 			<Bundle sr="arg0">
 				<Vals sr="val"/>
 			</Bundle>
@@ -2735,9 +2904,109 @@ SmartWakeupActivity</label5>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
+		<Action sr="act16" ve="7">
+			<code>425</code>
+			<on>false</on>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>294</code>
+			<on>false</on>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>433</code>
+			<on>false</on>
+			<Int sr="arg0" val="1"/>
+			<Bundle sr="arg1">
+				<Vals sr="val"/>
+			</Bundle>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>344</code>
+			<on>false</on>
+			<Int sr="arg0" val="10"/>
+			<Str sr="arg1" ve="3">com.joaomgcd.taskersettings</Str>
+			<Str sr="arg2" ve="3">%rest</Str>
+		</Action>
 		<Action sr="act2" ve="7">
 			<code>206</code>
 			<on>false</on>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>294</code>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%qtime</lhs>
+					<op>7</op>
+					<rhs>2</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>35</code>
+			<on>false</on>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%qtime</lhs>
+					<op>7</op>
+					<rhs>2</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%MDATA</lhs>
+					<op>3</op>
+					<rhs>%prev_data_state</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>218</code>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>377</code>
+			<Bundle sr="arg0">
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%BLUE</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>130</code>
+			<label>disable data (if wifi connected)</label>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Toggle Data</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>218</code>
@@ -3109,7 +3378,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task335">
 		<cdate>1759616184933</cdate>
-		<edate>1778724543940</edate>
+		<edate>1779217303789</edate>
 		<id>335</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3836,7 +4105,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task344">
 		<cdate>1774251935207</cdate>
-		<edate>1778500283065</edate>
+		<edate>1779234085931</edate>
 		<id>344</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -3857,7 +4126,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task345">
 		<cdate>1774251967923</cdate>
-		<edate>1778500285486</edate>
+		<edate>1779234127248</edate>
 		<id>345</id>
 		<Action sr="act0" ve="7">
 			<code>175</code>
@@ -4219,7 +4488,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task349">
 		<cdate>1774800744997</cdate>
-		<edate>1778702503666</edate>
+		<edate>1779228217524</edate>
 		<id>349</id>
 		<nme>Net Set</nme>
 		<Action sr="act0" ve="7">
@@ -4584,32 +4853,164 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task357">
 		<cdate>1774281828665</cdate>
-		<edate>1778930749681</edate>
+		<edate>1779273969765</edate>
 		<id>357</id>
 		<nme>Toggle Bluetooth</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>294</code>
-			<Int sr="arg0" val="2"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%SDK</lhs>
-					<op>6</op>
-					<rhs>34</rhs>
-				</Condition>
-			</ConditionList>
+			<code>344</code>
+			<se>false</se>
+			<Int sr="arg0" val="8"/>
+			<Str sr="arg1" ve="3">com.joaomgcd.taskersettings</Str>
+			<Str sr="arg2" ve="3">%tasker_setting_app</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>
+			<coll>false</coll>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or2</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%SDK</lhs>
+					<op>6</op>
+					<rhs>33</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%err</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%tasker_setting_app</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%prev_bt_state</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or2</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%SDK</lhs>
 					<op>7</op>
 					<rhs>33</rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%err</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%tasker_setting_app</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act10" ve="7">
+		<Action sr="act12" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PHONE_LOCKED</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">%BLUE Bluetooth left enabled. Unlock to disable</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PHONE_LOCKED</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%PHONE_LOCKED</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">Bluetooth left enabled. Turn on screen to disable</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>218</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%prev_bt_state</Str>
+			<Str sr="arg1" ve="3">%BLUE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>107361459</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -4636,32 +5037,32 @@ SmartWakeupActivity</label5>
 			</Int>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act21" ve="7">
 			<code>245</code>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act22" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>37</code>
+		<Action sr="act23" ve="7">
+			<code>294</code>
+			<Int sr="arg0" val="2"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%PHONE_LOCKED</lhs>
+					<lhs>%ROOT_STAT</lhs>
 					<op>2</op>
-					<rhs>true</rhs>
+					<rhs>su</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SHIZUKU_RUNNING</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
-			<code>559</code>
-			<Str sr="arg0" ve="3">Bluetooth left enabled. Unlock to disable</Str>
-			<Str sr="arg1" ve="3">default:default</Str>
-			<Int sr="arg2" val="3"/>
-			<Int sr="arg3" val="5"/>
-			<Int sr="arg4" val="5"/>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
+			<code>294</code>
+			<Int sr="arg0" val="2"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>35</code>
@@ -4671,60 +5072,58 @@ SmartWakeupActivity</label5>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%PHONE_LOCKED</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
+					<lhs>%qtime</lhs>
+					<op>7</op>
+					<rhs>1</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%MDATA</lhs>
+					<op>3</op>
+					<rhs>%prev_data_state</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
-			<code>43</code>
+			<code>37</code>
+			<coll>false</coll>
 			<ConditionList sr="if">
-				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%PHONE_LOCKED</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%SCREEN</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
+					<lhs>%prev_bt_state</lhs>
+					<op>3</op>
+					<rhs>%BLUE</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>559</code>
-			<Str sr="arg0" ve="3">Bluetooth left enabled. Turn on screen to disable</Str>
-			<Str sr="arg1" ve="3">default:default</Str>
-			<Int sr="arg2" val="3"/>
-			<Int sr="arg3" val="5"/>
-			<Int sr="arg4" val="5"/>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
+			<code>549</code>
+			<Str sr="arg0" ve="3">%prev_bt_state</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
-			<code>35</code>
-			<Int sr="arg0" val="0"/>
+			<code>126</code>
+			<Str sr="arg0" ve="3">0</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%SCREEN</lhs>
-					<op>2</op>
-					<rhs>on</rhs>
-				</Condition>
-			</ConditionList>
+			<Str sr="arg4" ve="3"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>218</code>
+			<code>294</code>
+			<Int sr="arg0" val="2"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%prev_bt_state</lhs>
+					<op>2</op>
+					<rhs>%BLUE</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task358">
@@ -4797,7 +5196,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task360">
 		<cdate>1759448761509</cdate>
-		<edate>1778702513655</edate>
+		<edate>1779222638054</edate>
 		<id>360</id>
 		<nme>Net Src Switch</nme>
 		<pri>100</pri>
@@ -4886,6 +5285,7 @@ SmartWakeupActivity</label5>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>547</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
@@ -4897,7 +5297,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task361">
 		<cdate>1759618008133</cdate>
-		<edate>1778735954893</edate>
+		<edate>1779183854456</edate>
 		<id>361</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -4926,7 +5326,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task362">
 		<cdate>1737079191529</cdate>
-		<edate>1778960943624</edate>
+		<edate>1779213768480</edate>
 		<id>362</id>
 		<nme>Enable Low Power Mode</nme>
 		<pri>6</pri>
@@ -5867,7 +6267,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task369">
 		<cdate>1759612559032</cdate>
-		<edate>1779002691190</edate>
+		<edate>1779219136072</edate>
 		<id>369</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -6188,7 +6588,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task373">
 		<cdate>1737079191529</cdate>
-		<edate>1778933526275</edate>
+		<edate>1779229549943</edate>
 		<id>373</id>
 		<nme>Disable Low Power Mode</nme>
 		<pri>6</pri>
@@ -6279,12 +6679,22 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task374">
 		<cdate>1778646957644</cdate>
-		<edate>1778961015297</edate>
+		<edate>1779217498058</edate>
 		<id>374</id>
 		<Action sr="act0" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">Wan Check Switch</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task375">
@@ -6455,7 +6865,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task379">
 		<cdate>1759093117144</cdate>
-		<edate>1778702455977</edate>
+		<edate>1779274646786</edate>
 		<id>379</id>
 		<nme>Redundant Net Src Switch</nme>
 		<pri>100</pri>
@@ -6757,6 +7167,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 		<Action sr="act3" ve="7">
 			<code>130</code>
 			<label>enable data when conn not made</label>
+			<se>false</se>
 			<Str sr="arg0" ve="3">Toggle Data</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg10" val="0"/>
@@ -6887,7 +7298,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task381">
 		<cdate>1747516216841</cdate>
-		<edate>1778702457596</edate>
+		<edate>1779093843138</edate>
 		<id>381</id>
 		<nme>Alarmy Call</nme>
 		<pri>6</pri>
@@ -6911,7 +7322,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 		<Action sr="act2" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="3"/>
+			<Int sr="arg1" val="5"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -6962,7 +7373,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task383">
 		<cdate>1759650620765</cdate>
-		<edate>1778960952486</edate>
+		<edate>1779274138483</edate>
 		<id>383</id>
 		<nme>Wan Check Switch</nme>
 		<pri>100</pri>
@@ -7745,7 +8156,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task385">
 		<cdate>1776699133724</cdate>
-		<edate>1778744824332</edate>
+		<edate>1779233111922</edate>
 		<id>385</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -7979,7 +8390,7 @@ fi</Str>
 	</Task>
 	<Task sr="task388">
 		<cdate>1759507551015</cdate>
-		<edate>1778959327536</edate>
+		<edate>1779230698428</edate>
 		<id>388</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -8147,7 +8558,7 @@ fi</Str>
 	</Task>
 	<Task sr="task392">
 		<cdate>1771100693993</cdate>
-		<edate>1778589230068</edate>
+		<edate>1779232783937</edate>
 		<id>392</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -8187,7 +8598,7 @@ fi</Str>
 	</Task>
 	<Task sr="task393">
 		<cdate>1771129901910</cdate>
-		<edate>1778925982896</edate>
+		<edate>1779232798131</edate>
 		<id>393</id>
 		<nme>Ping Test</nme>
 		<pri>100</pri>
@@ -8305,7 +8716,7 @@ fi</Str>
 				<Condition sr="c1" ve="3">
 					<lhs>%min_ping</lhs>
 					<op>6</op>
-					<rhs>30</rhs>
+					<rhs>40</rhs>
 				</Condition>
 				<Condition sr="c2" ve="3">
 					<lhs>%max_ping</lhs>
