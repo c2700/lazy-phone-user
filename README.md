@@ -22,7 +22,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 
 # setup
 #### a. import the automate flows (the `.flo` files from the `Automate flows` directory) into automate & the tasker project `Lazy_User.prj.xml` into Tasker
-#### b. <b>list of profiles to be mutually exclusively enabled to avoid unexpected behaviours or clash in tasks</b>
+#### b. <b>list of profiles to be mutually exclusively enabled/deleted to avoid unexpected behaviours or clash in tasks</b>
 1. `Mobile Data Var Set via Automate` & `Mobile Data Var Set`
 2. `(Un)Set Sim Presence Airplane Mode via Automate` & `(Un)Set Sim Presence Airplane Mode`
 #### c. <b>Tasker Configuration</b>
@@ -33,12 +33,12 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 5. set your games in the `Gaming` profile's app context
 6. set the map apps you use in the `Map Bg Flags (Un)Set` profile's app context
 7. Open up `Toggle Data` task & replace the actions in the Autoinput Action (the configuration argument) at action number 15 with whatever actions you need to perform to get cellular data enabled from the `Mobile Data settings` activity. (the activity, button placement, UI differs from android flavour to flavour)
-8. (optional if this is not needed) remove/disable the `Work Profile Set` profile & if needed/wanted remove the WORK_PROFILE global var from all other actions, conditions & profiles. The action for it is created the way it is for when corporate apps are installed onto a work profile & one needs to show their activity as online at all times or needs to be responsive & needs connectivity at all times as long as there's some source of connectivity & for as long as the work profile's active.
+8. (optional if this is not needed) remove/disable the `Work Profile Set` profile & if needed/wanted remove the WORK_PROFILE global var from all other actions, tasks, conditions & profiles (this is necessary IF the `Work Profile Set` profile's removed). The action for it is created the way it is for when corporate apps are installed onto a work profile & one needs to show their activity as online at all times or needs to be responsive & needs connectivity at all times as long as there's some source of connectivity & for as long as the work profile's active.
 9. `Gaming Clock` & `Regular CPU Usage`. Reconfigure the cpu list with their respective low & high clocks & governors configured. (I have set my `Gaming Clock` task to the highest that was available with all core governors to performance & the `Regular CPU Usage` all to schedutil (those were the only governors available for both my phone's kernels). you're gonna need to delete/add some cpu actions depending on your phone's hardware
 10. `(Un)Set Sim Presence Airplane Mode` or `(Un)Set Sim Presence Airplane Mode via Automate` (profiles to be mutually exclusively enabled). The only difference between the 2 profiles is that the Action in the `intent received` event from both profiles are
     - android's built-in `SIM_STATE_CHANGED` (used by `(Un)Set Sim Presence Airplane Mode`) broadcast is said to be unreliable since android 13 (https://issuetracker.google.com/issues/302614301). I haven't faced that issue on android 13. Only "weird" thing is that I've been seeing that profile being triggered with that broadcast many times even when I haven't ejected/inserted the sim card
     - `SIM_PRESENT` (used by `(Un)Set Sim Presence Airplane Mode via Automate`) is a custom broadcast sent from automate to tasker & the `Tasker - Sim Check.flo` needs to be left running for this profile & it's task to work as expected
-11. `Mobile Data Var Set via Automate` or `Mobile Data Var Set` (to be mutually exclusively enabled)
+11. `Mobile Data Var Set via Automate` or `Mobile Data Var Set` (to be mutually exclusively enabled or deleted by the user)
     - `Mobile Data Var Set` - do a `find setting` (the magnifying glass next to the `Name` field) in the profile's `custom setting` context, toggle cellular data & you got the custom setting name that gets you the cellular data state filled in the Name field
     - `Mobile Data Var Set via Automate` will need the `Tasker - Cellular Data state check.flo` to be left running
 12. (disable/delete if not needed which you would need to do to the `OBD2 (Un)Set` profile as well) set your obd apps as the entry app in `OBD2 Fg Flags (Un)Set` profile & the very same obd apps as auto notification entry in `OBD2 Bg Flags (Un)Set` profile
@@ -47,14 +47,22 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 15. reboot the phone or run the `Check Set Stuff At Boot` TASK to initialize global vars & run the needed automate flo's based on the selected profiles
 16. if you do not want the toasts from the `Ping test` & `WAN check` the actions to disable/delete are the following
      - `Ping Test` Task
-        - action 1
+        - action 3
+        - action 6
+        - action 11
         - action 17
-        - action 21
+        - action 20
+        - action 22
 
      - `WAN Check Switch` Task
         - action 3
         - action 19
+        - action 24
+        - action 28
+        - action 37
         - action 40
+        - action 51
+        - action 59
 
 ## What each Tasker profiles do
 ##### 1. <b>workflow base & entry point. stuff profiles here can be used to initiate/start the workflow & be used as a common entrypoint for implicit intents to trigger the profiles/tasks/actions</b>
@@ -120,7 +128,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Alarmy Call` - to call one at a scheduled time if you forget to (I use this when one asks me to wake them up from a phone call). This profile is toggled by (enabling & disabling the profile & setting the phone number as a global var for the profile to use)  run `Tasker - Alarmy call.flo` from automate to set the number/contact
 * `Gaming` - cpu state toggles when enter/opening games
 * `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane boarding.flo` running when enabling this profile
-* `Toggle Dev Mode Per App` - disable dev mode when entering apps that complain about, enable when exiting with "show touches" & adb enabled
+* `Toggle Dev Mode Per App` - disable dev mode when entering apps that complain about it, enable when exiting with "show touches" & adb enabled
 
 
 ##### 9. <b>not as a automation usage but just for tasker interactivity convenience</b>
