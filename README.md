@@ -120,7 +120,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Alarmy Call` - to call one at a scheduled time if you forget to (I use this when one asks me to wake them up from a phone call). This profile is toggled by (enabling & disabling the profile & setting the phone number as a global var for the profile to use)  run `Tasker - Alarmy call.flo` from automate to set the number/contact
 * `Gaming` - cpu state toggles when enter/opening games
 * `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane boarding.flo` running when enabling this profile
-* `Toggle Dev State Per App` - disable dev mode when entering apps that complain about, enable when exiting with "show touches" & adb enabled
+* `Toggle Dev Mode Per App` - disable dev mode when entering apps that complain about, enable when exiting with "show touches" & adb enabled
 
 
 ##### 9. <b>not as a automation usage but just for tasker interactivity convenience</b>
@@ -209,6 +209,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     ============= Others =============
     Alarmy Call
     Gaming
+    Toggle Dev Mode Per App
     Clipboard Link Sanitizer
     Alarm Vol Auto Set
     Autoread Whatsapp
