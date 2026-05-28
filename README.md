@@ -12,29 +12,31 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
  4. autoinput
  5. auto notification. 
 
-# disclaimers:
+# Disclaimers:
 1. There maybe slight delays in running tasks triggered by the low power mode profiles which send intents to llamalab automate for weaker phones.
 2. if at times actions/tasks don't run, try performing said action/task from the `run an action` option from tasker just to see if the action's being run which if it doesn't, try one few or all of the below
     - reboot
     - disable tasker, reboot & `run an action` as a test which if it does work then enable tasker
 3. if certain profile's actions/tasks aren't triggered, try performing actions/op.s that gets the profile inactive & back active just to get the task/actions re-triggered
-4. There are tasks that are specific to doing one thing which could've been just one action but no thanks to the android drama going on, I've had to set some checks for SDK level < 34, root & or shizuku being there which if the conditions are satisfied would be one action for things that require root/shizuku else it would either be an entire user input simulation through autoinput or no action at all with just a tts/toast msg saying "x is left enabled/disabled" depending on the display's state (lock set/unset)
+4. There are tasks that are specific to doing one thing which could've been just one action but no thanks to the android drama going on, I've had to set some checks for SDK level < 29, root & or shizuku being there which if the conditions are satisfied would be one action for things that require root/shizuku else it would either be an entire user input simulation through autoinput or no action at all with just a tts/toast msg saying "x is left enabled/disabled" depending on the display's state (lock set/unset)
+5. When importing Automate flows, the flow uri's may differ so you will have to change the uri values in the tasker actions that send intents to the respective Automate flows. What tasker `send intent` action sends intents to what flow in automate is mentioned as a label on that tasker action's label param
+6. profiles to be mutually exclusively enabled/deleted when testing or using are to be done so to avoid clashes, confusion in what to use or any other unexpected behaviours.
 
 # setup
 #### a. import the automate flows (the `.flo` files from the `Automate flows` directory) into automate & the tasker project `Lazy_User.prj.xml` into Tasker
-#### b. <b>list of profiles to be mutually exclusively enabled/deleted to avoid unexpected behaviours or clash in tasks</b>
+#### b. <b>list of profiles to be mutually exclusively enabled/deleted</b>
 1. `Mobile Data Var Set via Automate` & `Mobile Data Var Set`
 2. `(Un)Set Sim Presence Airplane Mode via Automate` & `(Un)Set Sim Presence Airplane Mode`
 #### c. <b>Tasker Configuration</b>
 1. Toggle data & bluetooth from tasker's `run an action` option (3 dots on top right location of the main activity -> More -> Run an action) & select the "never ask again button" from the popup you get for TaskerSettings helper app to work without autoninput's "simulation" at work (possibly....didn't work reliably on my non-rooted android, only changed the UI state in the quick settings tile & mobile data settings. no actual system/settings level changes), which if it doesn't, the autoinput simulation will be put to work (on non-root android), else the bluetooth & wifi "toggle" action alone will do the work if root/shizuku is available/running.
-2. set your apps you always need WAN connectivity for when in foreground/opened in the `Fg Net Flags Set` profile's app context (ANY & EVERY app that you deem needing net including maps, games, browsers, ftp clients etc. goes here) & the same is applicable for `Fg Net Flags Set (Optional)` profile except it's for apps that you deem as MAY NEED WAN connectivity which is decided through a prompt
+2. set your apps you always need WAN connectivity for when in foreground/opened in the `Fg Net Flags Set` profile's app context or recreate it (ANY & EVERY app that you deem needing net including maps, games, browsers, ftp clients etc. goes here) & the same is applicable for `Fg Net Flags Set (Optional)` profile except it's for apps that you deem as MAY NEED WAN connectivity which is decided through a prompt
 3. `Fg Net Flags UnSet` - recreate the app context with the invert option selected & set `mobile data settings` app or the `settings` app itself & any other apps you DON'T want this profile's app context to be picked up on while being in that app/activity. Idea is something along the lines of "need wan connectivity for f-droid to download stuff (which is already downloading) & all of a sudden get a call & the call activity takes the foreground over f-droid's activity & you don't want that wan connectivity to be disturbed while the call activity is in the foreground & until the download is complete. I have set only play store & whatsapp on both activities & added some settings activities that the app profile trigger showed in the `Fg Net Flags UnSet` profile to make it more easier to set up
 4. set your apps (for notification) in the `Bg Net (Un)Set` profile's auto notification event...idea is to set WAN connectivity enabled for those apps you would want the network to be left enabled until done, like downloads
 5. set your games in the `Gaming` profile's app context
 6. set the map apps you use in the `Map Bg Flags (Un)Set` profile's app context
 7. Open up `Toggle Data` task & replace the actions in the Autoinput Action (the configuration argument) at action number 15 with whatever actions you need to perform to get cellular data enabled from the `Mobile Data settings` activity. (the activity, button placement, UI differs from android flavour to flavour)
 8. (optional if this is not needed) remove/disable the `Work Profile Set` profile & if needed/wanted remove the WORK_PROFILE global var from all other actions, tasks, conditions & profiles (this is necessary IF the `Work Profile Set` profile's removed). The action for it is created the way it is for when corporate apps are installed onto a work profile & one needs to show their activity as online at all times or needs to be responsive & needs connectivity at all times as long as there's some source of connectivity & for as long as the work profile's active.
-9. `Gaming Clock` & `Regular CPU Usage`. Reconfigure the cpu list with their respective low & high clocks & governors configured. (I have set my `Gaming Clock` task to the highest that was available with all core governors to performance & the `Regular CPU Usage` all to schedutil (those were the only governors available for both my phone's kernels). you're gonna need to delete/add some cpu actions depending on your phone's hardware
+9. `Gaming Clock`, `Regular Cpu Clock` & `Low Clock Cpu`. Reconfigure the cpu list with their respective low & high clocks & governors. (I have set my `Gaming Clock` task to the highest clock that was available with all core governors to performance & the numbers you're seeing are ones on my unrooted phone) & the `Regular CPU Usage` all to schedutil & `Low Clock Cpu` all to powersave & all cores to whatever I could get the lowest number at which is in Khz & something I pulled from my unrooted if you're wondering why that many zeros in the clock numbers (whatever governor values you're seeing are the only governors available for both my phone's kernels). you're gonna need to delete/add some cpu actions & change their params depending on your phone's hardware
 10. `(Un)Set Sim Presence Airplane Mode` or `(Un)Set Sim Presence Airplane Mode via Automate` (profiles to be mutually exclusively enabled). The only difference between the 2 profiles is that the Action in the `intent received` event from both profiles are
     - android's built-in `SIM_STATE_CHANGED` (used by `(Un)Set Sim Presence Airplane Mode`) broadcast is said to be unreliable since android 13 (https://issuetracker.google.com/issues/302614301). I haven't faced that issue on android 13. Only "weird" thing is that I've been seeing that profile being triggered with that broadcast many times even when I haven't ejected/inserted the sim card
     - `SIM_PRESENT` (used by `(Un)Set Sim Presence Airplane Mode via Automate`) is a custom broadcast sent from automate to tasker & the `Tasker - Sim Check.flo` needs to be left running for this profile & it's task to work as expected
@@ -67,7 +69,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 ## What each Tasker profiles do
 ##### 1. <b>workflow base & entry point. stuff profiles here can be used to initiate/start the workflow & be used as a common entrypoint for implicit intents to trigger the profiles/tasks/actions</b>
 * `Check Set Stuff At Boot` - after boot (basically unlock after boot), initializes stuff for the workflow, like setting global vars & enables/disables profiles as needed for the workflow to work right. Also uses the `Tasker - Check Set boot stuff.flo`
-* `Custom Intent Recvr` - a "sinkhole"/"dump" of sorts for implicit intents (I use this to set global var.s & toggle profiles......for now atleast).
+* `Custom Intent Recvr` - a "sinkhole"/"dump"/"intent slot"/"globally open slot for intents" of sorts for implicit intents (I use this to set global var.s & toggle profiles......for now atleast). There's a java code action in there to pull out keys/values from an intent payload that has multiple of it.
 * `Tasker Log Clear` - literally what it says.
 
 ##### 2. <b>global var setter profiles for phone settings</b>
@@ -75,13 +77,13 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Shizuku Var Set` - set Shizuku Var Set stats as global variable (used by profiles/tasks to check if it's running & then perform actions that require root/shizuku)
 * `VPN state` - set vpn stat as global variable. sure I could have used `VPN_CONNECTED` but that var wasn't available until I used the `VPN Connected` context for this profile
 * `Adb Wifi State Var Set` - set Adb Wifi State stats as global variable (used by the net management profiles)
-* `Mobile Data Var Set` - set mobile data stats as global variable(s) whenever data is toggled (used by the net management profiles)
-* `Mobile Data Var Set via Automate` - set mobile data stats as global variable(s). (used by the net management profiles but triggered by intents sent from automate)
 * `Bluetooth Connection Check` - trigger to get connection/disconnection event. wait for 15 seconds before disconnecting. the wait time is to wait for any other connections or for a reconnection
 * `Low Power State` - set global var of low power state.
 * `Phone Unlock State` - set the global var of phone's screen state when phone is unlocked.
 * `Phone Lock State` - set lock state of the phone into relevant global var.s. Evaluated when screen is off.
 * `Work Profile Set` - toggle settings, var.s & values for your work profile
+* `Mobile Data Var Set` - set mobile data stats as global variable(s) whenever data is toggled (used by the net management profiles)
+* `Mobile Data Var Set via Automate` - set mobile data stats as global variable(s). (used by the net management profiles but triggered by intents sent from automate)
 
 ##### 3. <b>profile for airplane mode based on sim presence</b>
 * `(Un)Set Sim Presence Airplane Mode` - toggle airplane mode when sim inserted/ejected. Uses android's `SIM_STATE_CHANGED` broadcast
@@ -100,7 +102,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Redundant Net Src` - when data & wifi are enabled & wifi is connected, disable data. vice versa is also applicable. when no sim, wait for 20 seconds until wifi connection is made else disable wifi
 * `Wan Check Switch` - checks if wan is reachable when connected via enabled/active/connected wan iface, which then waits for `Ping Test` to set `HIGH_PING` global var & based on the var's value shows an input dialog to change the ssid to which if user selects "no" prompts to change to cellular data to which if user selects "no" then leaves the iface as is by stopping the profile assigned task. switch WAN src based on ping numbers
 * `Ping Test` - checks ping timings (5 pkts) in an infinite loop (goto step 1 is applied)
-* `Net Unset` - disable wan connectivity. Active when ALL wan connectivity profiles (`Fg Net Flags Set`, `Fg Net Flags Unset`, `Bg Net (Un)Set`, `VPN state` & `Work Profile Set`) have set their global var.s to that satisfy the conditions to set this profile active to disable all wan connectivity
+* `Net Unset` - disable wan connectivity. Active when ALL wan connectivity profiles (`Fg Net Flags Set`, `Fg Net Flags Unset`, `Bg Net (Un)Set`, `VPN state` & `Work Profile Set`) have set their global var.s to satisfy the conditions to set this profile active to disable all wan connectivity
 
 ##### 5. <b>Map settings</b>
 * `Map Fg Flags (Un)Set` - set global variable(s) to be used to toggle settings for maps in foreground
@@ -165,6 +167,12 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `BG_MAP` (true|false) - same as `FG_MAP` but for background
 * `WAKE_UP_NUM` (phone number) - stores the number of who needs to be called at a scheduled time set from automate's `Alarmy call` flow (mostly for when one is asked to be "woken up" & you're sound asleep)
 * `NET_SRC_TOGGLE_COUNT` - keeps a count of number of times WAN src was toggled which if exceeded (4 times) the workflow will prompt the user for if the toggling needs to continue to which if clicked yes will reset the counter back to 0 else will keep the WAN toggling profiles to inactive until ping state says "stable ping" which also resets the WAN switch counter to 0
+* `TASKER_HELPER_FOR_BT_TOGGLE` - var to check if tasker's bluetooth toggle action works (on non-root devices) wherein the following values will be assigned to it at boot IF the TaskerSettings app is installed. "ui_only", "works", "err". If TaskerSettings app is not installed the var is assigned "not_installed". what each value means
+    - ui_only - just toggles the ui. does not affect the setting
+    - works - says that the helper works as expected  
+    - err - the action errored. you will have to see for yourself what kind of error (for me it was yapping about permissions even though it worked previously...must be another droid update)
+    - not_installed - literally what it says
+* `TASKER_HELPER_FOR_DATA_TOGGLE` - same as `TASKER_HELPER_FOR_BT_TOGGLE` but for data action
 
 ### This is ordering in which I keep the profiles in tasker to make maintainability & sensibility RELATIVELY easier than the mixup order you get when you import the project & unfortunately there's no option to preserve the profile ordering
 
