@@ -70,7 +70,6 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 ##### 1. <b>workflow base & entry point. stuff profiles here can be used to initiate/start the workflow & be used as a common entrypoint for implicit intents to trigger the profiles/tasks/actions</b>
 * `Check Set Stuff At Boot` - after boot (basically unlock after boot), initializes stuff for the workflow, like setting global vars & enables/disables profiles as needed for the workflow to work right. Also uses the `Tasker - Check Set boot stuff.flo`
 * `Custom Intent Recvr` - a "sinkhole"/"dump"/"intent slot"/"globally open slot for intents" of sorts for implicit intents (I use this to set global var.s & toggle profiles......for now atleast). There's a java code action in there to pull out keys/values from an intent payload that has multiple of it.
-* `Tasker Log Clear` - literally what it says.
 
 ##### 2. <b>global var setter profiles for phone settings</b>
 * `wifi var set` - set wifi stats as global variable(s) whenever wifi is toggled (used by the net management profiles)
@@ -123,6 +122,11 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `screen Unlocked No Low Power` - disable all low power settings when unlocked
 * `Charging No Low Power` - when power source is plugged in, disable power save mode
 
+##### 8. <b> Stuff for tasker & wokflow </b>
+* `Tasker Log Clear` - literally what it says.
+* `App Installed` - profile to prompt the user if an installed app is to be set in the app context of the profiles in this project to which if pressed yes, will open tasker. will only be a popup if already in tasker
+* `Disable Profiles` - profile to disable those profiles used for separation & the profiles that require root.
+
 ##### 8. <b>other stuff</b>
 * `Clipboard Link Sanitizer` - literally what it says. for now only "sanitization" it does is on youtube share links in the clipboard which is just taking away the strings matching `?sid.*`
 * `Alarm Vol Auto Set` - set all alarm vol to max when an alarm's about to ring
@@ -134,7 +138,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 
 
 ##### 9. <b>not as a automation usage but just for tasker interactivity convenience</b>
-* `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the task list I had a tough time getting it to move around. now that the AI button's been added which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the list who's toggle will remain obstructed instead of the one's that are of use to the user. (TLDR: just a UI inconvenience mitigator)
+* `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the task list I had a tough time getting it to move around. now that the AI button's been added which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the list who's toggle will remain obstructed instead of the one's that are of use to the user. (TLDR: just a UI inconvenience mitigator). or you could disable the "AI Generation Button Enabled" option by going to the 3 dots on top of the main activity -> UI tab -> "AI Generation Button Enabled".
 * the rest of the profiles (mostly being ones containing `=` & words in it like `Net Mgr`) are just profile separators. when making changes to the entry/exit actions, they shouldn't make any changes to how project's workflow.
 
 ### custom global vars set & used by profiles & tasks from the above group of profiles
@@ -177,8 +181,10 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 ### This is ordering in which I keep the profiles in tasker to make maintainability & sensibility RELATIVELY easier than the mixup order you get when you import the project & unfortunately there's no option to preserve the profile ordering
 
     Check Set Stuff At Boot
+    App Installed
     Custom Intent Recvr
     Tasker Log Clear
+    Disable Profiles
     ======== Global Var Setters ========
     Phone Lock State
     Phone Unlock State

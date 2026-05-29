@@ -54,7 +54,7 @@
 	<Profile sr="prof183" ve="2">
 		<cdate>1779906904366</cdate>
 		<clp>true</clp>
-		<edate>1780003131895</edate>
+		<edate>1780065099032</edate>
 		<flags>8</flags>
 		<id>183</id>
 		<mid0>119</mid0>
@@ -62,9 +62,12 @@
 		<nme>Fg Net Flags Set (Optional)</nme>
 		<App sr="con0" ve="2">
 			<cls0>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls0>
+			<cls1>com.whatsapp.Main</cls1>
 			<flags>2</flags>
 			<label0>YouTube</label0>
+			<label1>WhatsApp</label1>
 			<pkg0>com.google.android.youtube</pkg0>
+			<pkg1>com.whatsapp</pkg1>
 		</App>
 		<State sr="con1" ve="2">
 			<code>165</code>
@@ -86,7 +89,7 @@
 	<Profile sr="prof184" ve="2">
 		<cdate>1779906904373</cdate>
 		<clp>true</clp>
-		<edate>1780003348869</edate>
+		<edate>1780070791328</edate>
 		<flags>8</flags>
 		<id>184</id>
 		<mid0>122</mid0>
@@ -153,7 +156,7 @@
 	<Profile sr="prof185" ve="2">
 		<cdate>1779906904373</cdate>
 		<clp>true</clp>
-		<edate>1780003328090</edate>
+		<edate>1780070748452</edate>
 		<flags>8</flags>
 		<id>185</id>
 		<mid0>123</mid0>
@@ -247,7 +250,7 @@
 	<Profile sr="prof186" ve="2">
 		<cdate>1779906904373</cdate>
 		<clp>true</clp>
-		<edate>1780003073956</edate>
+		<edate>1780063005095</edate>
 		<flags>8</flags>
 		<id>186</id>
 		<mid0>160</mid0>
@@ -259,7 +262,7 @@
 	<Profile sr="prof187" ve="2">
 		<cdate>1779906904373</cdate>
 		<clp>true</clp>
-		<edate>1780003080577</edate>
+		<edate>1780063129313</edate>
 		<flags>8</flags>
 		<id>187</id>
 		<mid0>170</mid0>
@@ -392,7 +395,7 @@
 	<Profile sr="prof199" ve="2">
 		<cdate>1779906904398</cdate>
 		<clp>true</clp>
-		<edate>1780004062845</edate>
+		<edate>1780081744989</edate>
 		<flags>8</flags>
 		<id>199</id>
 		<limit>true</limit>
@@ -600,7 +603,7 @@
 	<Profile sr="prof210" ve="2">
 		<cdate>1779906904407</cdate>
 		<clp>true</clp>
-		<edate>1780003122466</edate>
+		<edate>1780065098423</edate>
 		<flags>8</flags>
 		<id>210</id>
 		<mid0>26</mid0>
@@ -609,6 +612,9 @@
 		<App sr="con0" ve="2">
 			<cls0>com.android.vending.AssetBrowserActivity</cls0>
 			<cls1>com.google.android.apps.chrome.Main</cls1>
+			<cls10>com.dv.get.Main</cls10>
+			<cls11>com.openai.chatgpt.MainActivity</cls11>
+			<cls12>idm.internet.download.manager.MainActivity</cls12>
 			<cls2>com.google.android.maps.MapsActivity</cls2>
 			<cls3>com.google.android.apps.chrome.Main</cls3>
 			<cls4>com.waze.FreeMapAppActivity</cls4>
@@ -620,6 +626,9 @@
 			<flags>2</flags>
 			<label0>Play Store</label0>
 			<label1>Chrome</label1>
+			<label10>ADM</label10>
+			<label11>ChatGPT</label11>
+			<label12>1DM</label12>
 			<label2>Maps</label2>
 			<label3>Brave</label3>
 			<label4>Waze</label4>
@@ -630,6 +639,9 @@
 			<label9>Claude</label9>
 			<pkg0>com.android.vending</pkg0>
 			<pkg1>com.android.chrome</pkg1>
+			<pkg10>com.dv.adm</pkg10>
+			<pkg11>com.openai.chatgpt</pkg11>
+			<pkg12>idm.internet.download.manager</pkg12>
 			<pkg2>com.google.android.apps.maps</pkg2>
 			<pkg3>com.brave.browser</pkg3>
 			<pkg4>com.waze</pkg4>
@@ -805,7 +817,7 @@ Notes:
 	<Profile sr="prof214" ve="2">
 		<cdate>1779906904414</cdate>
 		<clp>true</clp>
-		<edate>1780003357299</edate>
+		<edate>1780068842739</edate>
 		<flags>8</flags>
 		<id>214</id>
 		<mid0>103</mid0>
@@ -1040,7 +1052,7 @@ Notes:
 	<Profile sr="prof219" ve="2">
 		<cdate>1779906904428</cdate>
 		<clp>true</clp>
-		<edate>1780005128350</edate>
+		<edate>1780063211274</edate>
 		<flags>8</flags>
 		<id>219</id>
 		<mid0>151</mid0>
@@ -1330,7 +1342,7 @@ Notes:
 	<Profile sr="prof231" ve="2">
 		<cdate>1779906904440</cdate>
 		<clp>true</clp>
-		<edate>1776695933433</edate>
+		<edate>1780077121183</edate>
 		<flags>8</flags>
 		<id>231</id>
 		<mid0>153</mid0>
@@ -1458,7 +1470,7 @@ Notes:
 	<Profile sr="prof235" ve="2">
 		<cdate>1779906904448</cdate>
 		<clp>true</clp>
-		<edate>1780003299519</edate>
+		<edate>1780065101418</edate>
 		<flags>8</flags>
 		<id>235</id>
 		<mid0>169</mid0>
@@ -1608,7 +1620,7 @@ Notes:
 	<Profile sr="prof240" ve="2">
 		<cdate>1779906904460</cdate>
 		<clp>true</clp>
-		<edate>1780003126642</edate>
+		<edate>1780070761562</edate>
 		<flags>8</flags>
 		<id>240</id>
 		<mid0>159</mid0>
@@ -1711,7 +1723,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof242" ve="2">
 		<cdate>1779906904469</cdate>
 		<clp>true</clp>
-		<edate>1778958733622</edate>
+		<edate>1780081819649</edate>
 		<flags>8</flags>
 		<id>242</id>
 		<limit>true</limit>
@@ -1771,7 +1783,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof246" ve="2">
 		<cdate>1779906904492</cdate>
 		<clp>true</clp>
-		<edate>1778958898953</edate>
+		<edate>1780069076704</edate>
 		<flags>8</flags>
 		<id>246</id>
 		<limit>true</limit>
@@ -1783,11 +1795,65 @@ SmartWakeupActivity</label5>
 			<rad>30.0</rad>
 		</Loc>
 	</Profile>
+	<Profile sr="prof261" ve="2">
+		<cdate>1779906904458</cdate>
+		<clp>true</clp>
+		<edate>1780081876927</edate>
+		<flags>8</flags>
+		<id>261</id>
+		<mid0>263</mid0>
+		<nme>Disable Profiles</nme>
+		<State sr="con0" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<bool2>And2</bool2>
+				<Condition sr="c0" ve="3">
+					<lhs>%PENABLED</lhs>
+					<op>2</op>
+					<rhs>*====*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%PENABLED</lhs>
+					<op>2</op>
+					<rhs>*"Buffer" Profile*</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%PENABLED</lhs>
+					<op>2</op>
+					<rhs>Gaming</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>nosu</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+	</Profile>
+	<Profile sr="prof264" ve="2">
+		<cdate>1780070518596</cdate>
+		<clp>true</clp>
+		<edate>1780084449831</edate>
+		<flags>8</flags>
+		<id>264</id>
+		<mid0>265</mid0>
+		<nme>App Installed</nme>
+		<Event sr="con0" ve="2">
+			<code>599</code>
+			<Str sr="arg0" ve="3">android.intent.action.PACKAGE_ADDED</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">package</Str>
+			<Str sr="arg4" ve="3"/>
+		</Event>
+	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>227,206,236,211,221,242,238,184,215,182,189,234,197,198,190,199,207,212,226,217,196,228,237,195,232,203,219,240,214,204,210,235,187,231,181,243,244,223,239,202,186,233,183,218,220,201,222,209,216,245,241,185,213,224,246,229</pids>
-		<tids>137,169,108,259,133,146,132,163,166,126,251,136,162,142,139,104,89,26,149,129,114,141,248,106,250,95,151,124,127,122,125,37,112,128,96,130,103,27,161,160,115,110,117,147,143,140,165,30,172,171,107,113,123,158,153,168,148,164,156,97,145,119,116,90,170,180,100,121,157,99,138,167,134,111,159,98,120,94,105,150,144,118,101,135,109,102</tids>
+		<pids>220,187,264,202,204,219,215,240,236,203,217,221,245,199,184,214,209,237,235,195,222,233,246,234,206,223,226,201,216,182,181,218,241,243,196,186,212,224,210,261,189,211,190,232,207,185,227,229,198,183,238,231,197,244,213,239,242,228</pids>
+		<tids>153,110,104,138,114,162,169,132,141,151,136,121,95,149,128,127,143,26,146,97,147,165,166,129,250,180,168,171,119,133,265,122,124,125,101,112,156,263,137,107,163,159,259,98,139,115,113,145,106,148,120,248,160,144,251,116,37,170,105,126,130,142,150,99,103,134,108,167,89,135,27,109,102,111,161,100,123,172,158,90,30,117,157,140,94,164,96</tids>
 	</Project>
 	<Task sr="task100">
 		<cdate>1779214976944</cdate>
@@ -1842,7 +1908,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task103">
 		<cdate>1759618008133</cdate>
-		<edate>1780003355984</edate>
+		<edate>1780068842739</edate>
 		<id>103</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -1892,7 +1958,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task104">
 		<cdate>1657974116786</cdate>
-		<edate>1780002686132</edate>
+		<edate>1780063120109</edate>
 		<id>104</id>
 		<nme>Toggle Data</nme>
 		<pri>100</pri>
@@ -2467,7 +2533,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task113">
 		<cdate>1773002626961</cdate>
-		<edate>1780002679508</edate>
+		<edate>1780065680032</edate>
 		<id>113</id>
 		<nme>Gaming Clock</nme>
 		<Action sr="act0" ve="7">
@@ -2498,22 +2564,36 @@ SmartWakeupActivity</label5>
 			<Str sr="arg7" ve="3"/>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="6"/>
+			<Int sr="arg0" val="5"/>
 			<Str sr="arg1" ve="3">performance</Str>
 			<Int sr="arg2" val="825600"/>
 			<Int sr="arg3" val="2419200"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>915</code>
+			<Int sr="arg0" val="6"/>
+			<Str sr="arg1" ve="3">performance</Str>
+			<Int sr="arg2" val="825600"/>
+			<Int sr="arg3" val="2419200"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>915</code>
 			<Int sr="arg0" val="7"/>
 			<Str sr="arg1" ve="3">performance</Str>
 			<Int sr="arg2" val="844800"/>
 			<Int sr="arg3" val="3187200"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">All cores set to max freq &amp; perf gov</Str>
 			<Int sr="arg1" val="0"/>
@@ -2533,51 +2613,62 @@ SmartWakeupActivity</label5>
 			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">No root. Cannot set cpu settings</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act4" ve="7">
-			<code>915</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">performance</Str>
-			<Int sr="arg2" val="1171200"/>
-			<Int sr="arg3" val="1804800"/>
+			<code>38</code>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="1"/>
+			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">performance</Str>
 			<Int sr="arg2" val="1171200"/>
 			<Int sr="arg3" val="1804800"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="2"/>
+			<Int sr="arg0" val="1"/>
 			<Str sr="arg1" ve="3">performance</Str>
 			<Int sr="arg2" val="1171200"/>
 			<Int sr="arg3" val="1804800"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="3"/>
+			<Int sr="arg0" val="2"/>
 			<Str sr="arg1" ve="3">performance</Str>
 			<Int sr="arg2" val="1171200"/>
 			<Int sr="arg3" val="1804800"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="4"/>
+			<Int sr="arg0" val="3"/>
 			<Str sr="arg1" ve="3">performance</Str>
-			<Int sr="arg2" val="825600"/>
-			<Int sr="arg3" val="2419200"/>
+			<Int sr="arg2" val="1171200"/>
+			<Int sr="arg3" val="1804800"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="5"/>
+			<Int sr="arg0" val="4"/>
 			<Str sr="arg1" ve="3">performance</Str>
 			<Int sr="arg2" val="825600"/>
 			<Int sr="arg3" val="2419200"/>
@@ -2585,7 +2676,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task114">
 		<cdate>1773002626961</cdate>
-		<edate>1780004851939</edate>
+		<edate>1780065673332</edate>
 		<id>114</id>
 		<nme>Regular Cpu Clock</nme>
 		<Action sr="act0" ve="7">
@@ -2616,22 +2707,36 @@ SmartWakeupActivity</label5>
 			<Str sr="arg7" ve="3"/>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="6"/>
+			<Int sr="arg0" val="5"/>
 			<Str sr="arg1" ve="3">schedutil</Str>
 			<Int sr="arg2" val="825600"/>
 			<Int sr="arg3" val="1766400"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>915</code>
+			<Int sr="arg0" val="6"/>
+			<Str sr="arg1" ve="3">schedutil</Str>
+			<Int sr="arg2" val="825600"/>
+			<Int sr="arg3" val="1766400"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>915</code>
 			<Int sr="arg0" val="7"/>
 			<Str sr="arg1" ve="3">schedutil</Str>
 			<Int sr="arg2" val="844800"/>
 			<Int sr="arg3" val="844800"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">All cores set to schedutil gov &amp; P cores to min freq</Str>
 			<Int sr="arg1" val="1"/>
@@ -2651,51 +2756,62 @@ SmartWakeupActivity</label5>
 			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">No root. Cannot set cpu settings</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act4" ve="7">
-			<code>915</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">schedutil</Str>
-			<Int sr="arg2" val="1171200"/>
-			<Int sr="arg3" val="1804800"/>
+			<code>38</code>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="1"/>
+			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">schedutil</Str>
 			<Int sr="arg2" val="1171200"/>
 			<Int sr="arg3" val="1804800"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="2"/>
+			<Int sr="arg0" val="1"/>
 			<Str sr="arg1" ve="3">schedutil</Str>
 			<Int sr="arg2" val="1171200"/>
 			<Int sr="arg3" val="1804800"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="3"/>
+			<Int sr="arg0" val="2"/>
 			<Str sr="arg1" ve="3">schedutil</Str>
 			<Int sr="arg2" val="1171200"/>
 			<Int sr="arg3" val="1804800"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="4"/>
+			<Int sr="arg0" val="3"/>
 			<Str sr="arg1" ve="3">schedutil</Str>
-			<Int sr="arg2" val="825600"/>
-			<Int sr="arg3" val="1766400"/>
+			<Int sr="arg2" val="1171200"/>
+			<Int sr="arg3" val="1804800"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="5"/>
+			<Int sr="arg0" val="4"/>
 			<Str sr="arg1" ve="3">schedutil</Str>
 			<Int sr="arg2" val="825600"/>
 			<Int sr="arg3" val="1766400"/>
@@ -2912,294 +3028,6 @@ SmartWakeupActivity</label5>
 		<Action sr="act1" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="1"/>
-		</Action>
-	</Task>
-	<Task sr="task118">
-		<cdate>1775737347442</cdate>
-		<edate>1780005339306</edate>
-		<id>118</id>
-		<nme>Test</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>248</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>220</code>
-			<on>false</on>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>235</code>
-			<on>false</on>
-			<Int sr="arg0" val="1"/>
-			<Str sr="arg1" ve="3">custom(com.android.settings/development/qstile.DevelopmentTiles$SensorsOFF)</Str>
-			<Str sr="arg2" ve="3">:=:=toggle=:=</Str>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>235</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">adb_wifi_enabled</Str>
-			<Str sr="arg2" ve="3">0</Str>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>30</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="5"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>335</code>
-			<on>false</on>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>377</code>
-			<on>false</on>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">%app_uid - %app_name. %BRIGHT</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>460</code>
-			<on>false</on>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>425</code>
-			<on>false</on>
-			<Int sr="arg0" val="1"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>294</code>
-			<on>false</on>
-			<Int sr="arg0" val="1"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>433</code>
-			<on>false</on>
-			<Int sr="arg0" val="1"/>
-			<Bundle sr="arg1">
-				<Vals sr="val"/>
-			</Bundle>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>344</code>
-			<on>false</on>
-			<Int sr="arg0" val="10"/>
-			<Str sr="arg1" ve="3">com.joaomgcd.taskersettings</Str>
-			<Str sr="arg2" ve="3">%rest</Str>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>206</code>
-			<on>false</on>
-		</Action>
-		<Action sr="act20" ve="7">
-			<code>294</code>
-			<Int sr="arg0" val="2"/>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>35</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%qtime</lhs>
-					<op>7</op>
-					<rhs>2</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>35</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%qtime</lhs>
-					<op>7</op>
-					<rhs>2</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%MDATA</lhs>
-					<op>3</op>
-					<rhs>%prev_data_state</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>218</code>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>377</code>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">%BLUE</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>130</code>
-			<label>disable data (if wifi connected)</label>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Toggle Data</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3"/>
-			<Str sr="arg1" ve="3">Intent</Str>
-			<Str sr="arg2" ve="3">getIntent
-{Intent} (String)</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>664</code>
-			<Str sr="arg0" ve="3"/>
-			<Str sr="arg1" ve="3">Intent</Str>
-			<Str sr="arg2" ve="3">getIntent
-{Intent} (String)</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>511</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>218</code>
-			<on>false</on>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>30</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="2"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>365</code>
-			<on>false</on>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-			<Str sr="arg1" ve="3">GetCurrentAppAndActivity()</Str>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>360</code>
-			<on>false</on>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-			<Str sr="arg1" ve="3">%package</Str>
-			<Str sr="arg2" ve="3">%activity</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="30"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Str sr="arg8" ve="3"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%tmp</Str>
-			<Str sr="arg1" ve="3">%PENABLED</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>590</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%tmp</Str>
-			<Str sr="arg1" ve="3">,</Str>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>360</code>
-			<on>false</on>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-			<Str sr="arg1" ve="3">h</Str>
-			<Str sr="arg2" ve="3">%tmp(2:)</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="30"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Str sr="arg8" ve="3"/>
 		</Action>
 	</Task>
 	<Task sr="task119">
@@ -4177,7 +4005,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task136">
 		<cdate>1774794130821</cdate>
-		<edate>1779999958676</edate>
+		<edate>1780066194702</edate>
 		<id>136</id>
 		<nme>Lazy Workflow Initializer</nme>
 		<pri>100</pri>
@@ -4404,29 +4232,6 @@ SmartWakeupActivity</label5>
 			<code>38</code>
 		</Action>
 		<Action sr="act29" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">Gaming</Str>
-			<Int sr="arg1" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ROOT_STAT</lhs>
-					<op>2</op>
-					<rhs>su</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%WIFII</lhs>
-					<op>3</op>
-					<rhs>*CONNECTION*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act30" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Enable Low Power Mode</Str>
 			<Int sr="arg1">
@@ -4449,7 +4254,18 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>3</op>
+					<rhs>*CONNECTION*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -4459,6 +4275,11 @@ SmartWakeupActivity</label5>
 					<rhs>su</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Gaming</Str>
+			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act32" ve="7">
 			<code>559</code>
@@ -5533,7 +5354,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task146">
 		<cdate>1774281828665</cdate>
-		<edate>1779996818070</edate>
+		<edate>1780068604921</edate>
 		<id>146</id>
 		<nme>Toggle Bluetooth</nme>
 		<pri>100</pri>
@@ -5910,7 +5731,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task151">
 		<cdate>1737079191529</cdate>
-		<edate>1780005466452</edate>
+		<edate>1780065742854</edate>
 		<id>151</id>
 		<nme>Enable Low Power Mode</nme>
 		<pri>6</pri>
@@ -5926,7 +5747,7 @@ SmartWakeupActivity</label5>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%FG_MAP</Str>
+			<Str sr="arg0" ve="3">%APP_NET</Str>
 			<Str sr="arg1" ve="3">no</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -5936,7 +5757,7 @@ SmartWakeupActivity</label5>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%BG_MAP</Str>
+			<Str sr="arg0" ve="3">%FG_MAP</Str>
 			<Str sr="arg1" ve="3">no</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -5946,7 +5767,7 @@ SmartWakeupActivity</label5>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%APP_NET</Str>
+			<Str sr="arg0" ve="3">%BG_MAP</Str>
 			<Str sr="arg1" ve="3">no</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -5965,28 +5786,22 @@ SmartWakeupActivity</label5>
 				<bool0>And</bool0>
 				<bool1>And</bool1>
 				<bool2>And</bool2>
-				<bool3>And</bool3>
 				<Condition sr="c0" ve="3">
-					<lhs>%APP_NET</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%BG_NET</lhs>
 					<op>2</op>
 					<rhs>no</rhs>
 				</Condition>
-				<Condition sr="c2" ve="3">
+				<Condition sr="c1" ve="3">
 					<lhs>%WORK_PROFILE</lhs>
 					<op>2</op>
 					<rhs>disabled</rhs>
 				</Condition>
-				<Condition sr="c3" ve="3">
+				<Condition sr="c2" ve="3">
 					<lhs>%TETHER</lhs>
 					<op>3</op>
 					<rhs>usb</rhs>
 				</Condition>
-				<Condition sr="c4" ve="3">
+				<Condition sr="c3" ve="3">
 					<lhs>%VPN_CONN</lhs>
 					<op>2</op>
 					<rhs>no</rhs>
@@ -6025,48 +5840,30 @@ SmartWakeupActivity</label5>
 				<bool1>And</bool1>
 				<bool2>And</bool2>
 				<bool3>And</bool3>
-				<bool4>And</bool4>
-				<bool5>And</bool5>
-				<bool6>And</bool6>
 				<Condition sr="c0" ve="3">
-					<lhs>%APP_NET</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%BG_NET</lhs>
 					<op>2</op>
 					<rhs>no</rhs>
 				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%BG_MAP</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
+				<Condition sr="c1" ve="3">
 					<lhs>%WORK_PROFILE</lhs>
 					<op>2</op>
 					<rhs>disabled</rhs>
 				</Condition>
-				<Condition sr="c4" ve="3">
+				<Condition sr="c2" ve="3">
 					<lhs>%TETHER</lhs>
 					<op>3</op>
 					<rhs>usb</rhs>
 				</Condition>
-				<Condition sr="c5" ve="3">
-					<lhs>%FG_MAP</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-				<Condition sr="c6" ve="3">
+				<Condition sr="c3" ve="3">
 					<lhs>%VPN_CONN</lhs>
 					<op>2</op>
 					<rhs>no</rhs>
 				</Condition>
-				<Condition sr="c7" ve="3">
+				<Condition sr="c4" ve="3">
 					<lhs>%SIMSTATE</lhs>
-					<op>3</op>
-					<rhs>ready</rhs>
+					<op>2</op>
+					<rhs>absent</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -6088,6 +5885,7 @@ SmartWakeupActivity</label5>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>And</bool1>
+				<bool2>And</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%MDATA</lhs>
 					<op>2</op>
@@ -6102,6 +5900,11 @@ SmartWakeupActivity</label5>
 					<lhs>%BG_NET</lhs>
 					<op>2</op>
 					<rhs>no</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%SIMSTATE</lhs>
+					<op>3</op>
+					<rhs>absent</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -6149,19 +5952,7 @@ SmartWakeupActivity</label5>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 			<ConditionList sr="if">
-				<bool0>Or2</bool0>
-				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
-					<lhs>%BG_NET</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%BG_MAP</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
 					<lhs>%tmp_say_str</lhs>
 					<op>12</op>
 					<rhs></rhs>
@@ -6178,19 +5969,7 @@ SmartWakeupActivity</label5>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 			<ConditionList sr="if">
-				<bool0>Or2</bool0>
-				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
-					<lhs>%BG_NET</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%BG_MAP</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
 					<lhs>%tmp_say_str</lhs>
 					<op>13</op>
 					<rhs></rhs>
@@ -6216,27 +5995,6 @@ SmartWakeupActivity</label5>
 			</ConditionList>
 		</Action>
 		<Action sr="act23" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%tmp_say_str</Str>
-			<Str sr="arg1" ve="3">low power on</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>559</code>
-			<Str sr="arg0" ve="3">%tmp_say_str</Str>
-			<Str sr="arg1" ve="3">default:default</Str>
-			<Int sr="arg2" val="3"/>
-			<Int sr="arg3" val="5"/>
-			<Int sr="arg4" val="5"/>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</Action>
-		<Action sr="act25" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Low Clock Cpu</Str>
 			<Int sr="arg1">
@@ -6251,6 +6009,34 @@ SmartWakeupActivity</label5>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tmp_say_str</Str>
+			<Str sr="arg1" ve="3">low power on</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">%tmp_say_str</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tmp_say_str</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>175</code>
@@ -6555,7 +6341,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task160">
 		<cdate>1761968949593</cdate>
-		<edate>1780003073956</edate>
+		<edate>1780063005095</edate>
 		<id>160</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -6736,7 +6522,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task163">
 		<cdate>1737079191529</cdate>
-		<edate>1780005190519</edate>
+		<edate>1780066020828</edate>
 		<id>163</id>
 		<nme>Disable Low Power Mode</nme>
 		<pri>6</pri>
@@ -6761,8 +6547,22 @@ SmartWakeupActivity</label5>
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>808</code>
+			<code>137</code>
 			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%PHONE_LOCKED</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>822</code>
@@ -6819,28 +6619,40 @@ SmartWakeupActivity</label5>
 			<Int sr="arg0" val="1"/>
 		</Action>
 		<Action sr="act8" ve="7">
-			<code>30</code>
+			<code>35</code>
 			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="2"/>
+			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
+				<bool1>Or</bool1>
 				<Condition sr="c0" ve="3">
+					<lhs>%qtime</lhs>
+					<op>7</op>
+					<rhs>2</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
 					<lhs>%SCREEN</lhs>
 					<op>2</op>
 					<rhs>off</rhs>
 				</Condition>
-				<Condition sr="c1" ve="3">
+				<Condition sr="c2" ve="3">
 					<lhs>%PHONE_LOCKED</lhs>
 					<op>2</op>
 					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>808</code>
+			<Int sr="arg0" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -7440,7 +7252,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task170">
 		<cdate>1776695586466</cdate>
-		<edate>1780003079157</edate>
+		<edate>1780063129313</edate>
 		<id>170</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -8875,7 +8687,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task259">
 		<cdate>1773002626961</cdate>
-		<edate>1780004544284</edate>
+		<edate>1780065662174</edate>
 		<id>259</id>
 		<nme>Low Clock Cpu</nme>
 		<Action sr="act0" ve="7">
@@ -8906,22 +8718,36 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg7" ve="3"/>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>915</code>
+			<Int sr="arg0" val="5"/>
+			<Str sr="arg1" ve="3">powersave</Str>
+			<Int sr="arg2" val="650000"/>
+			<Int sr="arg3" val="650000"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>915</code>
 			<Int sr="arg0" val="6"/>
 			<Str sr="arg1" ve="3">powersave</Str>
 			<Int sr="arg2" val="700000"/>
 			<Int sr="arg3" val="700000"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>915</code>
 			<Int sr="arg0" val="7"/>
 			<Str sr="arg1" ve="3">powersave</Str>
 			<Int sr="arg2" val="700000"/>
 			<Int sr="arg3" val="700000"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">All cores set to schedutil gov &amp; P cores to min freq</Str>
 			<Int sr="arg1" val="1"/>
@@ -8941,51 +8767,62 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">No root. Cannot set cpu settings</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act4" ve="7">
-			<code>915</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">powersave</Str>
-			<Int sr="arg2" val="650000"/>
-			<Int sr="arg3" val="650000"/>
+			<code>38</code>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="1"/>
+			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">powersave</Str>
 			<Int sr="arg2" val="650000"/>
 			<Int sr="arg3" val="650000"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="2"/>
+			<Int sr="arg0" val="1"/>
 			<Str sr="arg1" ve="3">powersave</Str>
 			<Int sr="arg2" val="650000"/>
 			<Int sr="arg3" val="650000"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="3"/>
+			<Int sr="arg0" val="2"/>
 			<Str sr="arg1" ve="3">powersave</Str>
 			<Int sr="arg2" val="650000"/>
 			<Int sr="arg3" val="650000"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="4"/>
+			<Int sr="arg0" val="3"/>
 			<Str sr="arg1" ve="3">powersave</Str>
 			<Int sr="arg2" val="650000"/>
 			<Int sr="arg3" val="650000"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>915</code>
-			<Int sr="arg0" val="5"/>
+			<Int sr="arg0" val="4"/>
 			<Str sr="arg1" ve="3">powersave</Str>
 			<Int sr="arg2" val="650000"/>
 			<Int sr="arg3" val="650000"/>
@@ -9044,6 +8881,196 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task263">
+		<cdate>1780069033290</cdate>
+		<edate>1780081876927</edate>
+		<id>263</id>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Gaming</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%PENABLED</lhs>
+					<op>2</op>
+					<rhs>*Gaming*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>nosu</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>39</code>
+			<coll>false</coll>
+			<Str sr="arg0" ve="3">%profile</Str>
+			<Str sr="arg1" ve="3">======== Global Var Setters ======== , ========= Low Power Mgr ========= , ============ Net Mgr =========== , ============ Map Set ============ , =========== Bluetooth Stuff ======== , ============= Others ============= , Bottom "Buffer" Profile. Not To Be Used</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">%profile</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PENABLED</lhs>
+					<op>2</op>
+					<rhs>*%profile*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>40</code>
+		</Action>
+	</Task>
+	<Task sr="task265">
+		<cdate>1780070522117</cdate>
+		<edate>1780084449831</edate>
+		<id>265</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_name</lhs>
+					<op>2</op>
+					<rhs>Tasker</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>377</code>
+			<Bundle sr="arg0">
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg1" ve="3">Lazy workflow info</Str>
+			<Str sr="arg2" ve="3">Set installed app %intent_data in the relevant/needed (net/bluetooth/map) profile's app context of needed</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="30"/>
+			<Int sr="arg7" val="0"/>
+			<Str sr="arg8" ve="3"/>
+			<Str sr="arg9" ve="3"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%err</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%retry_count</lhs>
+					<op>8</op>
+					<rhs>3</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>net.dinglisch.android.taskerm.Tasker</appClass>
+				<appPkg>net.dinglisch.android.taskerm</appPkg>
+				<label>Tasker</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%input</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>390</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg1" ve="3">YesOrNo</Str>
+			<Str sr="arg2" ve="3">App installed</Str>
+			<Str sr="arg3" ve="3">%intent_data</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="30"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>390</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg1" ve="3">YesOrNo</Str>
+			<Str sr="arg2" ve="3">App installed</Str>
+			<Str sr="arg3" ve="3">%intent_data - set app to trigger net/map profiles?</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="30"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%retry_count</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%retry_count</lhs>
+					<op>6</op>
+					<rhs>3</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%err</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>888</code>
+			<Str sr="arg0" ve="3">%retry_count</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3"/>
 		</Action>
 	</Task>
 	<Task sr="task27">
