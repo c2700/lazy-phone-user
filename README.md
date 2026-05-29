@@ -21,6 +21,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 4. There are tasks that are specific to doing one thing which could've been just one action but no thanks to the android drama going on, I've had to set some checks for SDK level < 29, root & or shizuku being there which if the conditions are satisfied would be one action for things that require root/shizuku else it would either be an entire user input simulation through autoinput or no action at all with just a tts/toast msg saying "x is left enabled/disabled" depending on the display's state (lock set/unset)
 5. When importing Automate flows, the flow uri's may differ so you will have to change the uri values in the tasker actions that send intents to the respective Automate flows. What tasker `send intent` action sends intents to what flow in automate is mentioned as a label on that tasker action's label param
 6. profiles to be mutually exclusively enabled/deleted when testing or using are to be done so to avoid clashes, confusion in what to use or any other unexpected behaviours.
+7. You may need to recreate profile contexts in case it still gives you warnings of apps not existing even after unselecting everything.
 
 # setup
 #### a. import the automate flows (the `.flo` files from the `Automate flows` directory) into automate & the tasker project `Lazy_User.prj.xml` into Tasker
