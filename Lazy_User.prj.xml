@@ -2,7 +2,7 @@
 	<Profile sr="prof181" ve="2">
 		<cdate>1779906904365</cdate>
 		<clp>true</clp>
-		<edate>1780003110116</edate>
+		<edate>1780168669502</edate>
 		<flags>8</flags>
 		<id>181</id>
 		<mid0>163</mid0>
@@ -35,7 +35,7 @@
 	<Profile sr="prof182" ve="2">
 		<cdate>1779906904366</cdate>
 		<clp>true</clp>
-		<edate>1780003390994</edate>
+		<edate>1780168917109</edate>
 		<flags>8</flags>
 		<id>182</id>
 		<mid0>98</mid0>
@@ -54,7 +54,7 @@
 	<Profile sr="prof183" ve="2">
 		<cdate>1779906904366</cdate>
 		<clp>true</clp>
-		<edate>1780065099032</edate>
+		<edate>1780168688898</edate>
 		<flags>8</flags>
 		<id>183</id>
 		<mid0>119</mid0>
@@ -89,7 +89,7 @@
 	<Profile sr="prof184" ve="2">
 		<cdate>1779906904373</cdate>
 		<clp>true</clp>
-		<edate>1780070791328</edate>
+		<edate>1780168791390</edate>
 		<flags>8</flags>
 		<id>184</id>
 		<mid0>122</mid0>
@@ -156,7 +156,7 @@
 	<Profile sr="prof185" ve="2">
 		<cdate>1779906904373</cdate>
 		<clp>true</clp>
-		<edate>1780070748452</edate>
+		<edate>1780168769397</edate>
 		<flags>8</flags>
 		<id>185</id>
 		<mid0>123</mid0>
@@ -227,7 +227,7 @@
 		<State sr="con2" ve="2">
 			<code>165</code>
 			<ConditionList sr="if">
-				<bool0>Or</bool0>
+				<bool0>And2</bool0>
 				<bool1>Or</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%PHONE_LOCKED</lhs>
@@ -250,7 +250,7 @@
 	<Profile sr="prof186" ve="2">
 		<cdate>1779906904373</cdate>
 		<clp>true</clp>
-		<edate>1780063005095</edate>
+		<edate>1780168605322</edate>
 		<flags>8</flags>
 		<id>186</id>
 		<mid0>160</mid0>
@@ -316,7 +316,7 @@
 	<Profile sr="prof196" ve="2">
 		<cdate>1779906904388</cdate>
 		<clp>true</clp>
-		<edate>1780003090494</edate>
+		<edate>1780168650863</edate>
 		<flags>8</flags>
 		<id>196</id>
 		<limit>true</limit>
@@ -334,7 +334,7 @@
 	<Profile sr="prof197" ve="2">
 		<cdate>1779906904391</cdate>
 		<clp>true</clp>
-		<edate>1780003383754</edate>
+		<edate>1780168907479</edate>
 		<flags>8</flags>
 		<id>197</id>
 		<limit>true</limit>
@@ -352,7 +352,7 @@
 	<Profile sr="prof198" ve="2">
 		<cdate>1779906904392</cdate>
 		<clp>true</clp>
-		<edate>1780005133754</edate>
+		<edate>1780168664272</edate>
 		<flags>8</flags>
 		<id>198</id>
 		<mid0>112</mid0>
@@ -395,7 +395,7 @@
 	<Profile sr="prof199" ve="2">
 		<cdate>1779906904398</cdate>
 		<clp>true</clp>
-		<edate>1780081744989</edate>
+		<edate>1780168912665</edate>
 		<flags>8</flags>
 		<id>199</id>
 		<limit>true</limit>
@@ -455,7 +455,7 @@
 	<Profile sr="prof201" ve="2">
 		<cdate>1779906904399</cdate>
 		<clp>true</clp>
-		<edate>1780003114169</edate>
+		<edate>1780168672553</edate>
 		<flags>8</flags>
 		<id>201</id>
 		<mid0>163</mid0>
@@ -467,7 +467,7 @@
 	<Profile sr="prof202" ve="2">
 		<cdate>1779906904399</cdate>
 		<clp>true</clp>
-		<edate>1780005155551</edate>
+		<edate>1780168666768</edate>
 		<flags>8</flags>
 		<id>202</id>
 		<mid0>163</mid0>
@@ -494,7 +494,7 @@
 	<Profile sr="prof203" ve="2">
 		<cdate>1779906904399</cdate>
 		<clp>true</clp>
-		<edate>1780003394045</edate>
+		<edate>1780168920082</edate>
 		<flags>8</flags>
 		<id>203</id>
 		<mid0>143</mid0>
@@ -511,7 +511,7 @@
 	<Profile sr="prof204" ve="2">
 		<cdate>1779906904400</cdate>
 		<clp>true</clp>
-		<edate>1780003396165</edate>
+		<edate>1780168922731</edate>
 		<flags>8</flags>
 		<id>204</id>
 		<mid0>157</mid0>
@@ -541,7 +541,7 @@
 	<Profile sr="prof207" ve="2">
 		<cdate>1779906904407</cdate>
 		<clp>true</clp>
-		<edate>1780003259708</edate>
+		<edate>1780168746436</edate>
 		<flags>8</flags>
 		<id>207</id>
 		<mid0>162</mid0>
@@ -558,7 +558,7 @@
 	<Profile sr="prof209" ve="2">
 		<cdate>1779906904407</cdate>
 		<clp>true</clp>
-		<edate>1780003399098</edate>
+		<edate>1780168926794</edate>
 		<flags>8</flags>
 		<id>209</id>
 		<mid0>110</mid0>
@@ -603,7 +603,7 @@
 	<Profile sr="prof210" ve="2">
 		<cdate>1779906904407</cdate>
 		<clp>true</clp>
-		<edate>1780065098423</edate>
+		<edate>1780168679781</edate>
 		<flags>8</flags>
 		<id>210</id>
 		<mid0>26</mid0>
@@ -671,7 +671,7 @@
 	<Profile sr="prof211" ve="2">
 		<cdate>1779906904407</cdate>
 		<clp>true</clp>
-		<edate>1780003247471</edate>
+		<edate>1780168739439</edate>
 		<flags>8</flags>
 		<id>211</id>
 		<mid0>30</mid0>
@@ -762,7 +762,7 @@ Notific...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof212" ve="2">
 		<cdate>1779906904411</cdate>
 		<clp>true</clp>
-		<edate>1780003353765</edate>
+		<edate>1780168872491</edate>
 		<flags>8</flags>
 		<id>212</id>
 		<mid0>251</mid0>
@@ -817,7 +817,7 @@ Notes:
 	<Profile sr="prof214" ve="2">
 		<cdate>1779906904414</cdate>
 		<clp>true</clp>
-		<edate>1780068842739</edate>
+		<edate>1780168876969</edate>
 		<flags>8</flags>
 		<id>214</id>
 		<mid0>103</mid0>
@@ -901,7 +901,7 @@ Notes:
 	<Profile sr="prof215" ve="2">
 		<cdate>1779906904415</cdate>
 		<clp>true</clp>
-		<edate>1780003064719</edate>
+		<edate>1780168590861</edate>
 		<flags>8</flags>
 		<id>215</id>
 		<mid0>94</mid0>
@@ -914,7 +914,7 @@ Notes:
 	<Profile sr="prof216" ve="2">
 		<cdate>1779906904420</cdate>
 		<clp>true</clp>
-		<edate>1780003295544</edate>
+		<edate>1780168757296</edate>
 		<flags>8</flags>
 		<id>216</id>
 		<mid0>166</mid0>
@@ -934,7 +934,7 @@ Notes:
 	<Profile sr="prof217" ve="2">
 		<cdate>1779906904424</cdate>
 		<clp>true</clp>
-		<edate>1780003341930</edate>
+		<edate>1780168783148</edate>
 		<flags>8</flags>
 		<id>217</id>
 		<mid0>100</mid0>
@@ -1004,7 +1004,7 @@ Notes:
 	<Profile sr="prof218" ve="2">
 		<cdate>1779906904427</cdate>
 		<clp>true</clp>
-		<edate>1780003338138</edate>
+		<edate>1780168779654</edate>
 		<flags>8</flags>
 		<id>218</id>
 		<mid0>138</mid0>
@@ -1052,7 +1052,7 @@ Notes:
 	<Profile sr="prof219" ve="2">
 		<cdate>1779906904428</cdate>
 		<clp>true</clp>
-		<edate>1780063211274</edate>
+		<edate>1780168658503</edate>
 		<flags>8</flags>
 		<id>219</id>
 		<mid0>151</mid0>
@@ -1091,7 +1091,7 @@ Notes:
 	<Profile sr="prof220" ve="2">
 		<cdate>1779906904428</cdate>
 		<clp>true</clp>
-		<edate>1780003093680</edate>
+		<edate>1780168654278</edate>
 		<flags>8</flags>
 		<id>220</id>
 		<mid0>116</mid0>
@@ -1108,7 +1108,7 @@ Notes:
 	<Profile sr="prof221" ve="2">
 		<cdate>1779906904432</cdate>
 		<clp>true</clp>
-		<edate>1780003330797</edate>
+		<edate>1780168772225</edate>
 		<flags>8</flags>
 		<id>221</id>
 		<mid0>137</mid0>
@@ -1145,7 +1145,7 @@ Notes:
 	<Profile sr="prof222" ve="2">
 		<cdate>1779906904433</cdate>
 		<clp>true</clp>
-		<edate>1780003361716</edate>
+		<edate>1780168881192</edate>
 		<flags>8</flags>
 		<id>222</id>
 		<mid0>117</mid0>
@@ -1171,7 +1171,7 @@ Notes:
 	<Profile sr="prof223" ve="2">
 		<cdate>1779906904433</cdate>
 		<clp>true</clp>
-		<edate>1780003365883</edate>
+		<edate>1780168886394</edate>
 		<flags>8</flags>
 		<id>223</id>
 		<mid0>126</mid0>
@@ -1187,7 +1187,7 @@ Notes:
 	<Profile sr="prof224" ve="2">
 		<cdate>1779906904433</cdate>
 		<clp>true</clp>
-		<edate>1780003403496</edate>
+		<edate>1780168932648</edate>
 		<flags>8</flags>
 		<id>224</id>
 		<mid0>248</mid0>
@@ -1233,7 +1233,7 @@ Notes:
 	<Profile sr="prof228" ve="2">
 		<cdate>1779906904440</cdate>
 		<clp>true</clp>
-		<edate>1780003369486</edate>
+		<edate>1780168890624</edate>
 		<flags>8</flags>
 		<id>228</id>
 		<mid0>147</mid0>
@@ -1317,7 +1317,7 @@ Notes:
 	<Profile sr="prof229" ve="2">
 		<cdate>1779906904440</cdate>
 		<clp>true</clp>
-		<edate>1780003380172</edate>
+		<edate>1780168900138</edate>
 		<flags>8</flags>
 		<id>229</id>
 		<mid0>150</mid0>
@@ -1356,7 +1356,7 @@ Notes:
 	<Profile sr="prof232" ve="2">
 		<cdate>1779906904447</cdate>
 		<clp>true</clp>
-		<edate>1780003345758</edate>
+		<edate>1780168787570</edate>
 		<flags>8</flags>
 		<id>232</id>
 		<mid0>149</mid0>
@@ -1427,7 +1427,7 @@ Notes:
 	<Profile sr="prof233" ve="2">
 		<cdate>1779906904448</cdate>
 		<clp>true</clp>
-		<edate>1780003086522</edate>
+		<edate>1780168647364</edate>
 		<flags>8</flags>
 		<id>233</id>
 		<mid0>142</mid0>
@@ -1453,7 +1453,7 @@ Notes:
 	<Profile sr="prof234" ve="2">
 		<cdate>1779906904448</cdate>
 		<clp>true</clp>
-		<edate>1780089253486</edate>
+		<edate>1780168594463</edate>
 		<flags>8</flags>
 		<id>234</id>
 		<mid0>250</mid0>
@@ -1470,7 +1470,7 @@ Notes:
 	<Profile sr="prof235" ve="2">
 		<cdate>1779906904448</cdate>
 		<clp>true</clp>
-		<edate>1780065101418</edate>
+		<edate>1780168765343</edate>
 		<flags>8</flags>
 		<id>235</id>
 		<mid0>169</mid0>
@@ -1535,7 +1535,7 @@ Notes:
 	<Profile sr="prof236" ve="2">
 		<cdate>1779906904448</cdate>
 		<clp>true</clp>
-		<edate>1780003371694</edate>
+		<edate>1780168894374</edate>
 		<flags>8</flags>
 		<id>236</id>
 		<mid0>139</mid0>
@@ -1553,7 +1553,7 @@ Notes:
 	<Profile sr="prof237" ve="2">
 		<cdate>1779906904448</cdate>
 		<clp>true</clp>
-		<edate>1780003376629</edate>
+		<edate>1780168903762</edate>
 		<flags>8</flags>
 		<id>237</id>
 		<mid0>140</mid0>
@@ -1590,7 +1590,7 @@ Notes:
 	<Profile sr="prof238" ve="2">
 		<cdate>1779906904458</cdate>
 		<clp>true</clp>
-		<edate>1780003070758</edate>
+		<edate>1780168599798</edate>
 		<flags>8</flags>
 		<id>238</id>
 		<mid0>97</mid0>
@@ -1607,7 +1607,7 @@ Notes:
 	<Profile sr="prof239" ve="2">
 		<cdate>1779906904458</cdate>
 		<clp>true</clp>
-		<edate>1780005202088</edate>
+		<edate>1780168676026</edate>
 		<flags>8</flags>
 		<id>239</id>
 		<mid0>128</mid0>
@@ -1620,7 +1620,7 @@ Notes:
 	<Profile sr="prof240" ve="2">
 		<cdate>1779906904460</cdate>
 		<clp>true</clp>
-		<edate>1780070761562</edate>
+		<edate>1780168683731</edate>
 		<flags>8</flags>
 		<id>240</id>
 		<mid0>159</mid0>
@@ -1798,7 +1798,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof261" ve="2">
 		<cdate>1779906904458</cdate>
 		<clp>true</clp>
-		<edate>1780081876927</edate>
+		<edate>1780168601912</edate>
 		<flags>8</flags>
 		<id>261</id>
 		<mid0>263</mid0>
@@ -1835,7 +1835,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof264" ve="2">
 		<cdate>1780070518596</cdate>
 		<clp>true</clp>
-		<edate>1780093888724</edate>
+		<edate>1780168597770</edate>
 		<flags>8</flags>
 		<id>264</id>
 		<mid0>265</mid0>
@@ -1849,12 +1849,12 @@ SmartWakeupActivity</label5>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>239,182,198,224,213,189,223,211,215,204,184,202,181,221,210,212,187,201,261,199,190,219,229,244,197,209,233,206,216,232,220,245,240,246,203,243,207,238,237,183,242,186,217,195,241,228,231,236,222,214,264,226,185,196,234,235,227,218</pids>
-		<tids>127,119,146,114,251,151,135,111,125,145,163,104,143,149,129,169,138,157,180,161,259,123,113,122,95,137,128,159,150,148,99,132,89,144,96,26,133,158,105,130,27,107,164,121,109,102,108,112,37,265,168,90,167,100,160,94,171,106,97,140,250,103,141,162,248,166,110,165,115,172,30,136,153,117,142,139,98,120,124,134,156,101,147,116,170,263,126</tids>
+		<pids>233,264,242,222,231,199,202,190,189,182,236,207,210,261,218,185,221,246,226,206,212,197,215,232,219,201,184,209,244,187,241,227,204,217,203,237,228,211,235,181,213,186,240,220,214,239,195,234,245,198,229,196,216,243,238,183,224,223</pids>
+		<tids>146,135,104,169,27,132,107,251,168,149,136,133,137,148,119,153,110,265,120,180,114,127,123,156,250,103,129,159,138,259,115,151,162,165,121,113,105,100,163,125,102,160,101,37,95,124,26,99,116,122,139,141,130,128,142,161,30,172,109,263,140,111,248,112,90,157,96,158,170,171,144,166,106,134,164,97,98,117,143,145,94,126,167,147,89,108,150</tids>
 	</Project>
 	<Task sr="task100">
 		<cdate>1779214976944</cdate>
-		<edate>1780003340448</edate>
+		<edate>1780168783148</edate>
 		<id>100</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -1905,7 +1905,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task103">
 		<cdate>1759618008133</cdate>
-		<edate>1780068842739</edate>
+		<edate>1780168875442</edate>
 		<id>103</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -1955,7 +1955,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task104">
 		<cdate>1657974116786</cdate>
-		<edate>1780063120109</edate>
+		<edate>1780168546598</edate>
 		<id>104</id>
 		<nme>Toggle Data</nme>
 		<pri>100</pri>
@@ -2224,7 +2224,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task106">
 		<cdate>1759623613029</cdate>
-		<edate>1780003357299</edate>
+		<edate>1780168876969</edate>
 		<id>106</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -2347,7 +2347,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task110">
 		<cdate>1737034421599</cdate>
-		<edate>1780003399098</edate>
+		<edate>1780168926794</edate>
 		<id>110</id>
 		<nme>Autoread Whatsapp</nme>
 		<pri>6</pri>
@@ -2476,7 +2476,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task112">
 		<cdate>1771948370126</cdate>
-		<edate>1780005133754</edate>
+		<edate>1780168662840</edate>
 		<id>112</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -2530,7 +2530,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task113">
 		<cdate>1773002626961</cdate>
-		<edate>1780065680032</edate>
+		<edate>1780168534057</edate>
 		<id>113</id>
 		<nme>Gaming Clock</nme>
 		<Action sr="act0" ve="7">
@@ -2565,7 +2565,7 @@ SmartWakeupActivity</label5>
 				<Condition sr="c0" ve="3">
 					<lhs>%SCREEN</lhs>
 					<op>2</op>
-					<rhs>off</rhs>
+					<rhs>on</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -2623,7 +2623,7 @@ SmartWakeupActivity</label5>
 				<Condition sr="c0" ve="3">
 					<lhs>%SCREEN</lhs>
 					<op>2</op>
-					<rhs>on</rhs>
+					<rhs>off</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -2673,7 +2673,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task114">
 		<cdate>1773002626961</cdate>
-		<edate>1780065673332</edate>
+		<edate>1780168537338</edate>
 		<id>114</id>
 		<nme>Regular Cpu Clock</nme>
 		<Action sr="act0" ve="7">
@@ -2708,7 +2708,7 @@ SmartWakeupActivity</label5>
 				<Condition sr="c0" ve="3">
 					<lhs>%SCREEN</lhs>
 					<op>2</op>
-					<rhs>off</rhs>
+					<rhs>on</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -2766,7 +2766,7 @@ SmartWakeupActivity</label5>
 				<Condition sr="c0" ve="3">
 					<lhs>%SCREEN</lhs>
 					<op>2</op>
-					<rhs>on</rhs>
+					<rhs>off</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -2826,7 +2826,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task116">
 		<cdate>1773392882216</cdate>
-		<edate>1780003093680</edate>
+		<edate>1780168654278</edate>
 		<id>116</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3016,7 +3016,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task117">
 		<cdate>1759618008133</cdate>
-		<edate>1780003359614</edate>
+		<edate>1780168879573</edate>
 		<id>117</id>
 		<Action sr="act0" ve="7">
 			<code>905</code>
@@ -3029,7 +3029,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task119">
 		<cdate>1759612460120</cdate>
-		<edate>1780003130300</edate>
+		<edate>1780168687529</edate>
 		<id>119</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3208,7 +3208,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task120">
 		<cdate>1775316698194</cdate>
-		<edate>1780003131895</edate>
+		<edate>1780168688898</edate>
 		<id>120</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -3221,7 +3221,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task121">
 		<cdate>1759623613029</cdate>
-		<edate>1780003361716</edate>
+		<edate>1780168881192</edate>
 		<id>121</id>
 		<Action sr="act0" ve="7">
 			<code>905</code>
@@ -3234,7 +3234,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task122">
 		<cdate>1759616184933</cdate>
-		<edate>1780003348869</edate>
+		<edate>1780168791390</edate>
 		<id>122</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3332,7 +3332,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task123">
 		<cdate>1759616184933</cdate>
-		<edate>1780003326176</edate>
+		<edate>1780168769397</edate>
 		<id>123</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3347,7 +3347,7 @@ SmartWakeupActivity</label5>
 				<Condition sr="c0" ve="3">
 					<lhs>%qtime</lhs>
 					<op>7</op>
-					<rhs>5</rhs>
+					<rhs>10</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%PACTIVE</lhs>
@@ -3361,10 +3361,16 @@ SmartWakeupActivity</label5>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%PACTIVE</lhs>
 					<op>2</op>
 					<rhs>*,Net Set,*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%WAN_ACCESSIBLE</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -3415,7 +3421,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task124">
 		<cdate>1774211395155</cdate>
-		<edate>1780003328090</edate>
+		<edate>1780141387138</edate>
 		<id>124</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -3436,7 +3442,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task125">
 		<cdate>1775512432687</cdate>
-		<edate>1780003090494</edate>
+		<edate>1780168650863</edate>
 		<id>125</id>
 		<nme>(Un)Set Sim Presence Airplane Mode</nme>
 		<Action sr="act0" ve="7">
@@ -3715,7 +3721,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task126">
 		<cdate>1774212690470</cdate>
-		<edate>1780003364079</edate>
+		<edate>1780168884736</edate>
 		<id>126</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -3749,7 +3755,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task127">
 		<cdate>1762037634313</cdate>
-		<edate>1780002668867</edate>
+		<edate>1780168525076</edate>
 		<id>127</id>
 		<nme>All Vol Set</nme>
 		<Action sr="act0" ve="7">
@@ -3827,7 +3833,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task128">
 		<cdate>1775404626097</cdate>
-		<edate>1780005202088</edate>
+		<edate>1780168676026</edate>
 		<id>128</id>
 		<Action sr="act0" ve="7">
 			<code>137</code>
@@ -3875,7 +3881,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task129">
 		<cdate>1777615922887</cdate>
-		<edate>1780003104062</edate>
+		<edate>1780168664272</edate>
 		<id>129</id>
 		<Action sr="act0" ve="7">
 			<code>808</code>
@@ -3884,7 +3890,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task130">
 		<cdate>1774212720567</cdate>
-		<edate>1780003365883</edate>
+		<edate>1780168886394</edate>
 		<id>130</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -3918,7 +3924,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task132">
 		<cdate>1774251935207</cdate>
-		<edate>1780004062845</edate>
+		<edate>1780168912665</edate>
 		<id>132</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -3939,7 +3945,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task133">
 		<cdate>1774251967923</cdate>
-		<edate>1780003386390</edate>
+		<edate>1780168910485</edate>
 		<id>133</id>
 		<Action sr="act0" ve="7">
 			<code>175</code>
@@ -4002,7 +4008,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task136">
 		<cdate>1774794130821</cdate>
-		<edate>1780091450123</edate>
+		<edate>1780168510203</edate>
 		<id>136</id>
 		<nme>Lazy Workflow Initializer</nme>
 		<pri>100</pri>
@@ -4102,7 +4108,7 @@ SmartWakeupActivity</label5>
 		</Action>
 		<Action sr="act19" ve="7">
 			<code>123</code>
-			<label>check root at boot</label>
+			<label>check root</label>
 			<Str sr="arg0" ve="3">which su &amp;&gt;/dev/null &amp;&amp; echo "su" || echo "nosu"</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
@@ -4176,7 +4182,7 @@ SmartWakeupActivity</label5>
 			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/26/statements/1</Str>
+			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/54/statements/1</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
@@ -4631,7 +4637,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task137">
 		<cdate>1774800744997</cdate>
-		<edate>1780003330797</edate>
+		<edate>1780168772225</edate>
 		<id>137</id>
 		<nme>Net Set</nme>
 		<Action sr="act0" ve="7">
@@ -4715,7 +4721,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task138">
 		<cdate>1771129901910</cdate>
-		<edate>1780003336412</edate>
+		<edate>1780168777651</edate>
 		<id>138</id>
 		<nme>Ping Test</nme>
 		<pri>100</pri>
@@ -5047,7 +5053,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task139">
 		<cdate>1759618008133</cdate>
-		<edate>1780003371694</edate>
+		<edate>1780168894374</edate>
 		<id>139</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5063,7 +5069,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task140">
 		<cdate>1759623613029</cdate>
-		<edate>1780003376629</edate>
+		<edate>1780168903762</edate>
 		<id>140</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -5157,7 +5163,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task142">
 		<cdate>1759498246654</cdate>
-		<edate>1780003086522</edate>
+		<edate>1780168647364</edate>
 		<id>142</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5250,7 +5256,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task143">
 		<cdate>1737079191529</cdate>
-		<edate>1780091437445</edate>
+		<edate>1780168920082</edate>
 		<id>143</id>
 		<nme>Link Sanitizer</nme>
 		<pri>6</pri>
@@ -5326,7 +5332,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task145">
 		<cdate>1763676627921</cdate>
-		<edate>1779729417041</edate>
+		<edate>1780168519975</edate>
 		<id>145</id>
 		<nme>Unset All Alarms</nme>
 		<pri>100</pri>
@@ -5351,7 +5357,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task146">
 		<cdate>1774281828665</cdate>
-		<edate>1780068604921</edate>
+		<edate>1780168544101</edate>
 		<id>146</id>
 		<nme>Toggle Bluetooth</nme>
 		<pri>100</pri>
@@ -5530,7 +5536,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task147">
 		<cdate>1759618008133</cdate>
-		<edate>1780003368203</edate>
+		<edate>1780168888985</edate>
 		<id>147</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -5564,7 +5570,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task148">
 		<cdate>1759623613029</cdate>
-		<edate>1780003369486</edate>
+		<edate>1780168890624</edate>
 		<id>148</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -5598,7 +5604,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task149">
 		<cdate>1759448761509</cdate>
-		<edate>1780003345758</edate>
+		<edate>1780168787570</edate>
 		<id>149</id>
 		<nme>Net Src Switch</nme>
 		<pri>100</pri>
@@ -5699,7 +5705,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task150">
 		<cdate>1759618008133</cdate>
-		<edate>1780003380172</edate>
+		<edate>1780168900138</edate>
 		<id>150</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -5728,7 +5734,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task151">
 		<cdate>1737079191529</cdate>
-		<edate>1780084920950</edate>
+		<edate>1780169224839</edate>
 		<id>151</id>
 		<nme>Enable Low Power Mode</nme>
 		<pri>6</pri>
@@ -5744,7 +5750,7 @@ SmartWakeupActivity</label5>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%APP_NET</Str>
+			<Str sr="arg0" ve="3">%FG_MAP</Str>
 			<Str sr="arg1" ve="3">no</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -5754,16 +5760,6 @@ SmartWakeupActivity</label5>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%FG_MAP</Str>
-			<Str sr="arg1" ve="3">no</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>547</code>
 			<Str sr="arg0" ve="3">%BG_MAP</Str>
 			<Str sr="arg1" ve="3">no</Str>
 			<Int sr="arg2" val="0"/>
@@ -5772,11 +5768,11 @@ SmartWakeupActivity</label5>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act12" ve="7">
 			<code>357</code>
 			<Str sr="arg0" ve="3">%FG_NET_APP_NAME</Str>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act13" ve="7">
 			<code>425</code>
 			<Int sr="arg0" val="0"/>
 			<ConditionList sr="if">
@@ -5805,7 +5801,7 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act14" ve="7">
 			<code>905</code>
 			<Int sr="arg0" val="0"/>
 			<ConditionList sr="if">
@@ -5822,11 +5818,11 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act15" ve="7">
 			<code>331</code>
 			<Int sr="arg0" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act16" ve="7">
 			<code>333</code>
 			<Int sr="arg0" val="1"/>
 			<Bundle sr="arg1">
@@ -5864,7 +5860,7 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act17" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Toggle Data</Str>
 			<Int sr="arg1">
@@ -5905,7 +5901,7 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act18" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_say_str</Str>
 			<Str sr="arg1" ve="3">Foreground</Str>
@@ -5928,6 +5924,29 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
+		<Action sr="act19" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tmp_say_str</Str>
+			<Str sr="arg1" ve="3">%tmp_say_str, Background</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%tmp_say_str</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%BG_NET</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
 		<Action sr="act2" ve="7">
 			<code>175</code>
 			<Int sr="arg0" val="1"/>
@@ -5942,23 +5961,6 @@ SmartWakeupActivity</label5>
 		<Action sr="act20" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_say_str</Str>
-			<Str sr="arg1" ve="3">%tmp_say_str, Background</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%tmp_say_str</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%tmp_say_str</Str>
 			<Str sr="arg1" ve="3">Background</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -5966,14 +5968,20 @@ SmartWakeupActivity</label5>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%tmp_say_str</lhs>
 					<op>13</op>
 					<rhs></rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%BG_NET</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act21" ve="7">
 			<code>559</code>
 			<Str sr="arg0" ve="3">%tmp_say_str network processes running</Str>
 			<Str sr="arg1" ve="3">default:default</Str>
@@ -5991,7 +5999,7 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act22" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Low Clock Cpu</Str>
 			<Int sr="arg1">
@@ -6007,7 +6015,7 @@ SmartWakeupActivity</label5>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act23" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_say_str</Str>
 			<Str sr="arg1" ve="3">low power on</Str>
@@ -6017,7 +6025,7 @@ SmartWakeupActivity</label5>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act24" ve="7">
 			<code>559</code>
 			<Str sr="arg0" ve="3">%tmp_say_str</Str>
 			<Str sr="arg1" ve="3">default:default</Str>
@@ -6047,11 +6055,6 @@ SmartWakeupActivity</label5>
 			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>318</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -6062,7 +6065,7 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>358</code>
 			<Bundle sr="arg0">
 				<Vals sr="val"/>
@@ -6071,7 +6074,7 @@ SmartWakeupActivity</label5>
 			<Str sr="arg2" ve="3"/>
 			<Int sr="arg3" val="5"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act6" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%BT_CONNECTED</Str>
 			<Str sr="arg1" ve="3">false</Str>
@@ -6088,7 +6091,7 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%BT_CONNECTED</Str>
 			<Str sr="arg1" ve="3">true</Str>
@@ -6105,8 +6108,18 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act8" ve="7">
 			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%APP_NET</Str>
+			<Str sr="arg1" ve="3">no</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task153">
@@ -6141,7 +6154,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task157">
 		<cdate>1770843983360</cdate>
-		<edate>1780003396165</edate>
+		<edate>1780168922731</edate>
 		<id>157</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -6163,7 +6176,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task158">
 		<cdate>1759723867582</cdate>
-		<edate>1780001212666</edate>
+		<edate>1780168739439</edate>
 		<id>158</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -6209,7 +6222,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task159">
 		<cdate>1759612559032</cdate>
-		<edate>1780003126642</edate>
+		<edate>1780168683731</edate>
 		<id>159</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -6338,7 +6351,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task160">
 		<cdate>1761968949593</cdate>
-		<edate>1780063005095</edate>
+		<edate>1780168605322</edate>
 		<id>160</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -6391,7 +6404,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task162">
 		<cdate>1770849271409</cdate>
-		<edate>1780084866425</edate>
+		<edate>1780168746436</edate>
 		<id>162</id>
 		<nme>Hotspot Autoset Network Profiles</nme>
 		<pri>6</pri>
@@ -6519,7 +6532,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task163">
 		<cdate>1737079191529</cdate>
-		<edate>1780084906110</edate>
+		<edate>1780168672552</edate>
 		<id>163</id>
 		<nme>Disable Low Power Mode</nme>
 		<pri>6</pri>
@@ -6543,29 +6556,7 @@ SmartWakeupActivity</label5>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act10" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%SCREEN</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%PHONE_LOCKED</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act2" ve="7">
-			<code>822</code>
-			<Int sr="arg0" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
 			<code>335</code>
 			<Bundle sr="arg0">
 				<Vals sr="val"/>
@@ -6575,7 +6566,7 @@ SmartWakeupActivity</label5>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act3" ve="7">
 			<code>333</code>
 			<Int sr="arg0" val="0"/>
 			<Bundle sr="arg1">
@@ -6589,7 +6580,7 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act4" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_say_str</Str>
 			<Str sr="arg1" ve="3">low power off</Str>
@@ -6599,7 +6590,7 @@ SmartWakeupActivity</label5>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>559</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%tmp_say_str</Str>
@@ -6611,11 +6602,11 @@ SmartWakeupActivity</label5>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act6" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="1"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act7" ve="7">
 			<code>35</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -6642,16 +6633,9 @@ SmartWakeupActivity</label5>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act8" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%SCREEN</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task164">
@@ -6676,35 +6660,24 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task165">
 		<cdate>1770852080495</cdate>
-		<edate>1780001229369</edate>
+		<edate>1780168755615</edate>
 		<id>165</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>39</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%profile_name</Str>
-			<Str sr="arg1" ve="3">Wan Check Switch, Redundant Net Src , Fg Net Set , Fg Net Unset , Bg Net Set , Net Unset</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>40</code>
-			<on>false</on>
-		</Action>
-		<Action sr="act2" ve="7">
 			<code>39</code>
 			<Str sr="arg0" ve="3">%profile_name</Str>
 			<Str sr="arg1" ve="3">Wan Check Switch , Redundant Net Src , Fg Net Flags Set, Fg Net Flags Set (Optional), Fg Net Flags Unset , Bg Net (Un)set</Str>
 			<Int sr="arg2" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act1" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">%profile_name</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act2" ve="7">
 			<code>40</code>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act3" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Enabled network relevant profiles</Str>
 			<Int sr="arg1" val="0"/>
@@ -6726,7 +6699,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task166">
 		<cdate>1770852167723</cdate>
-		<edate>1780003295544</edate>
+		<edate>1780168757296</edate>
 		<id>166</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -6831,7 +6804,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task169">
 		<cdate>1759093117144</cdate>
-		<edate>1780003299519</edate>
+		<edate>1780168765343</edate>
 		<id>169</id>
 		<nme>Redundant Net Src Switch</nme>
 		<pri>100</pri>
@@ -7264,7 +7237,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task171">
 		<cdate>1747516216841</cdate>
-		<edate>1780003383754</edate>
+		<edate>1780168907479</edate>
 		<id>171</id>
 		<nme>Alarmy Call</nme>
 		<pri>6</pri>
@@ -8067,7 +8040,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task248">
 		<cdate>1779915466783</cdate>
-		<edate>1780003403496</edate>
+		<edate>1780168932648</edate>
 		<id>248</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -8215,7 +8188,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task250">
 		<cdate>1779917156944</cdate>
-		<edate>1780091476195</edate>
+		<edate>1780168594463</edate>
 		<id>250</id>
 		<nme>Custom Intent</nme>
 		<pri>6</pri>
@@ -8411,7 +8384,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task251">
 		<cdate>1779918003042</cdate>
-		<edate>1780003352174</edate>
+		<edate>1780168872491</edate>
 		<id>251</id>
 		<nme>Fg Map Actions</nme>
 		<Action sr="act0" ve="7">
@@ -8490,7 +8463,7 @@ SmartWakeupActivity</label5>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>37</code>
-			<label>Google maps</label>
+			<label>Google maps - Select search bar if auto ui query returns an existing one</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%app_name</lhs>
@@ -8566,7 +8539,7 @@ SmartWakeupActivity</label5>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>43</code>
-			<label>waze</label>
+			<label>waze - Select search bar if auto ui query returns an existing one</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%app_name</lhs>
@@ -8684,7 +8657,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task259">
 		<cdate>1773002626961</cdate>
-		<edate>1780088773778</edate>
+		<edate>1780168539276</edate>
 		<id>259</id>
 		<nme>Low Clock Cpu</nme>
 		<Action sr="act0" ve="7">
@@ -8719,7 +8692,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%SCREEN</lhs>
 					<op>2</op>
-					<rhs>off</rhs>
+					<rhs>on</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -8777,7 +8750,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%SCREEN</lhs>
 					<op>2</op>
-					<rhs>on</rhs>
+					<rhs>off</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -8827,7 +8800,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task26">
 		<cdate>1759612460120</cdate>
-		<edate>1780003120732</edate>
+		<edate>1780168678476</edate>
 		<id>26</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -8882,7 +8855,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task263">
 		<cdate>1780069033290</cdate>
-		<edate>1780081876927</edate>
+		<edate>1780168601912</edate>
 		<id>263</id>
 		<Action sr="act0" ve="7">
 			<code>159</code>
@@ -8927,7 +8900,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task265">
 		<cdate>1780070522117</cdate>
-		<edate>1780093610302</edate>
+		<edate>1780168597770</edate>
 		<id>265</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -9133,7 +9106,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task30">
 		<cdate>1759613166125</cdate>
-		<edate>1780003247471</edate>
+		<edate>1780168736307</edate>
 		<id>30</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -9501,7 +9474,7 @@ fi</Str>
 	</Task>
 	<Task sr="task94">
 		<cdate>1775427384957</cdate>
-		<edate>1780003064719</edate>
+		<edate>1780168590861</edate>
 		<id>94</id>
 		<Action sr="act0" ve="7">
 			<code>39</code>
@@ -9552,7 +9525,7 @@ fi</Str>
 	</Task>
 	<Task sr="task95">
 		<cdate>1775316698194</cdate>
-		<edate>1780003122466</edate>
+		<edate>1780168679781</edate>
 		<id>95</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -9565,7 +9538,7 @@ fi</Str>
 	</Task>
 	<Task sr="task96">
 		<cdate>1771100693993</cdate>
-		<edate>1780003338138</edate>
+		<edate>1780168779654</edate>
 		<id>96</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -9605,7 +9578,7 @@ fi</Str>
 	</Task>
 	<Task sr="task97">
 		<cdate>1777178466889</cdate>
-		<edate>1780003070758</edate>
+		<edate>1780168599798</edate>
 		<id>97</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -9631,7 +9604,7 @@ done</Str>
 	</Task>
 	<Task sr="task98">
 		<cdate>1779092186071</cdate>
-		<edate>1780003389854</edate>
+		<edate>1780168915591</edate>
 		<id>98</id>
 		<Action sr="act0" ve="7">
 			<code>235</code>
@@ -9644,7 +9617,7 @@ done</Str>
 	</Task>
 	<Task sr="task99">
 		<cdate>1779092353234</cdate>
-		<edate>1780003390994</edate>
+		<edate>1780168917109</edate>
 		<id>99</id>
 		<Action sr="act0" ve="7">
 			<code>235</code>
