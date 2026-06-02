@@ -22,6 +22,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 5. When importing Automate flows, the flow uri's may differ so you will have to change the uri values in the tasker actions that send intents to the respective Automate flows. What tasker `send intent` action sends intents to what flow in automate is mentioned as a label on that tasker action's label param
 6. profiles to be mutually exclusively enabled/deleted when testing or using are to be done so to avoid clashes, confusion in what to use or any other unexpected behaviours.
 7. You may need to recreate profile contexts in case it still gives you warnings of apps not existing even after unselecting everything.
+8. Profiles that use the app context may not be completely reliable for apps open in floating/small windows..android limitation...logcat entry on didn't work on my non-rooted phone & the WIN var also isn't too reliable...so gotta renter the app or "re-exit" the app that was previously open to get such profiles active
 
 # setup
 #### a. import the automate flows (the `.flo` files from the `Automate flows` directory) into automate & the tasker project `Lazy_User.prj.xml` into Tasker
@@ -103,6 +104,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Wan Check Switch` - checks if wan is reachable when connected via enabled/active/connected wan iface, which then waits for `Ping Test` to set `HIGH_PING` global var & based on the var's value shows an input dialog to change the ssid to which if user selects "no" prompts to change to cellular data to which if user selects "no" then leaves the iface as is by stopping the profile assigned task. switch WAN src based on ping numbers
 * `Ping Test` - checks ping timings (5 pkts) in an infinite loop (goto step 1 is applied)
 * `Net Unset` - disable wan connectivity. Active when ALL wan connectivity profiles (`Fg Net Flags Set`, `Fg Net Flags Unset`, `Bg Net (Un)Set`, `VPN state` & `Work Profile Set`) have set their global var.s to satisfy the conditions to set this profile active to disable all wan connectivity
+* `No Root Screen Off Data Disconnected` - Task that tells the user to disable data every 10 seconds when screen is locked/off & is not in use until data is disabled (active when root is unavailable or shizuku is not running)
 
 ##### 5. <b>Map settings</b>
 * `Map Fg Flags (Un)Set` - set global variable(s) to be used to toggle settings for maps in foreground
@@ -114,6 +116,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `OBD2 Fg Flags (Un)Set` - same purpose as `OBD2 Bg Flags (Un)Set` but for when the apps running in the foreground
 * `Bluetooth Set` - profile to enable bluetooth (dependent on the global var.s set by obd2 & bluetooth check profiles)
 * `Bluetooth Unset` - profile to disable bluetooth (dependent on the global var.s set by obd2 & bluetooth check profiles)
+* `No Root Screen Off BT Disconnected` - same as `No Root Screen Off Data Disconnected` but for bluetooth
 
 ##### 7. <b>low power based on lock & screen state</b>
 * `screen Off Low Power` - set low power mode when screen is off. `Test Display` action to set `PHONE_LOCKED` & `PHONE_LOCK_SET` values & switch bluetooth off if connections are 0
@@ -219,6 +222,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     Wan Check Switch
     Net Src Disconnected Switch
     Net Unset
+    No Root Screen Off Data Disconnected
     ============ Map Set ============
     Map Fg Flags (Un)Set
     Map Bg Flags (Un)Set
@@ -229,6 +233,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     Bluetooth Set
     Bluetooth Connection Check
     Bluetooth Unset
+    No Root Screen Off BT Disconnected
     ============= Others =============
     Alarmy Call
     Gaming
