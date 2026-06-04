@@ -2,7 +2,7 @@
 	<Profile sr="prof182" ve="2">
 		<cdate>1780457116798</cdate>
 		<clp>true</clp>
-		<edate>1780462863214</edate>
+		<edate>1780589402585</edate>
 		<flags>8</flags>
 		<id>182</id>
 		<mid0>116</mid0>
@@ -11,6 +11,8 @@
 			<code>165</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<bool2>And</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%MDATA</lhs>
 					<op>2</op>
@@ -20,6 +22,16 @@
 					<lhs>%PACTIVE</lhs>
 					<op>2</op>
 					<rhs>*Net Unset*</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%TASKER_HELPER_FOR_DATA_TOGGLE</lhs>
+					<op>3</op>
+					<rhs>works</rhs>
 				</Condition>
 			</ConditionList>
 		</State>
@@ -39,39 +51,11 @@
 				</Condition>
 			</ConditionList>
 		</State>
-		<State sr="con2" ve="2">
-			<code>165</code>
-			<ConditionList sr="if">
-				<bool0>And2</bool0>
-				<bool1>Or</bool1>
-				<bool2>And2</bool2>
-				<Condition sr="c0" ve="3">
-					<lhs>%SCREEN</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%PHONE_LOCKED</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%SCREEN</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
-					<lhs>%PHONE_LOCKED</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-			</ConditionList>
-		</State>
 	</Profile>
 	<Profile sr="prof183" ve="2">
 		<cdate>1780457116803</cdate>
 		<clp>true</clp>
-		<edate>1780462960038</edate>
+		<edate>1780589702500</edate>
 		<flags>8</flags>
 		<id>183</id>
 		<limit>true</limit>
@@ -96,38 +80,28 @@
 		<State sr="con1" ve="2">
 			<code>165</code>
 			<ConditionList sr="if">
-				<bool0>And2</bool0>
-				<bool1>Or</bool1>
-				<bool2>And2</bool2>
-				<Condition sr="c0" ve="3">
-					<lhs>%SCREEN</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%PHONE_LOCKED</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%SCREEN</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
-					<lhs>%PHONE_LOCKED</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-			</ConditionList>
-		</State>
-		<State sr="con2" ve="2">
-			<code>165</code>
-			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<bool2>And</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%BLUE</lhs>
 					<op>2</op>
 					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%TASKER_HELPER_FOR_BT_TOGGLE</lhs>
+					<op>3</op>
+					<rhs>works</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%PACTIVE</lhs>
+					<op>2</op>
+					<rhs>*Bluetooth Unset*</rhs>
 				</Condition>
 			</ConditionList>
 		</State>
@@ -187,7 +161,7 @@
 	<Profile sr="prof186" ve="2">
 		<cdate>1780457116803</cdate>
 		<clp>true</clp>
-		<edate>1780531065473</edate>
+		<edate>1780589679709</edate>
 		<flags>8</flags>
 		<id>186</id>
 		<mid0>171</mid0>
@@ -726,7 +700,7 @@
 	<Profile sr="prof212" ve="2">
 		<cdate>1780457116847</cdate>
 		<clp>true</clp>
-		<edate>1780530855861</edate>
+		<edate>1780589679501</edate>
 		<flags>8</flags>
 		<id>212</id>
 		<mid0>117</mid0>
@@ -739,6 +713,7 @@
 			<cls3>com.dv.get.Main</cls3>
 			<cls4>com.google.android.apps.chrome.Main</cls4>
 			<cls5>com.anthropic.claude.mainactivity.MainActivity</cls5>
+			<cls6>com.openai.chatgpt.MainActivity</cls6>
 			<flags>2</flags>
 			<label0>Brave</label0>
 			<label1>Maps</label1>
@@ -746,12 +721,14 @@
 			<label3>ADM</label3>
 			<label4>Chrome</label4>
 			<label5>Claude</label5>
+			<label6>ChatGPT</label6>
 			<pkg0>com.brave.browser</pkg0>
 			<pkg1>com.google.android.apps.maps</pkg1>
 			<pkg2>com.android.vending</pkg2>
 			<pkg3>com.dv.adm</pkg3>
 			<pkg4>com.android.chrome</pkg4>
 			<pkg5>com.anthropic.claude</pkg5>
+			<pkg6>com.openai.chatgpt</pkg6>
 		</App>
 		<State sr="con1" ve="2">
 			<code>165</code>
@@ -1036,7 +1013,7 @@ Notes:
 	<Profile sr="prof219" ve="2">
 		<cdate>1780457116861</cdate>
 		<clp>true</clp>
-		<edate>1780463863253</edate>
+		<edate>1780589521265</edate>
 		<flags>8</flags>
 		<id>219</id>
 		<mid0>153</mid0>
@@ -1106,7 +1083,7 @@ Notes:
 	<Profile sr="prof220" ve="2">
 		<cdate>1780457116862</cdate>
 		<clp>true</clp>
-		<edate>1780463894651</edate>
+		<edate>1780589530322</edate>
 		<flags>8</flags>
 		<id>220</id>
 		<mid0>101</mid0>
@@ -1210,7 +1187,7 @@ Notes:
 	<Profile sr="prof223" ve="2">
 		<cdate>1780457116867</cdate>
 		<clp>true</clp>
-		<edate>1780517164009</edate>
+		<edate>1780540518013</edate>
 		<flags>8</flags>
 		<id>223</id>
 		<mid0>137</mid0>
@@ -1572,7 +1549,7 @@ Notes:
 	<Profile sr="prof237" ve="2">
 		<cdate>1780457116882</cdate>
 		<clp>true</clp>
-		<edate>1780517169346</edate>
+		<edate>1780589681097</edate>
 		<flags>8</flags>
 		<id>237</id>
 		<mid0>136</mid0>
@@ -1655,7 +1632,7 @@ Notes:
 	<Profile sr="prof239" ve="2">
 		<cdate>1780457116883</cdate>
 		<clp>true</clp>
-		<edate>1780462955815</edate>
+		<edate>1780589730037</edate>
 		<flags>8</flags>
 		<id>239</id>
 		<mid0>103</mid0>
@@ -1674,7 +1651,7 @@ Notes:
 	<Profile sr="prof24" ve="2">
 		<cdate>1780518360424</cdate>
 		<clp>true</clp>
-		<edate>1780531593643</edate>
+		<edate>1780589587087</edate>
 		<flags>8</flags>
 		<id>24</id>
 		<mid0>25</mid0>
@@ -1721,7 +1698,7 @@ Notes:
 	<Profile sr="prof242" ve="2">
 		<cdate>1780457116888</cdate>
 		<clp>true</clp>
-		<edate>1780533023821</edate>
+		<edate>1780589679248</edate>
 		<flags>8</flags>
 		<id>242</id>
 		<mid0>124</mid0>
@@ -1830,7 +1807,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof244" ve="2">
 		<cdate>1780457116900</cdate>
 		<clp>true</clp>
-		<edate>1780081819649</edate>
+		<edate>1780589680047</edate>
 		<flags>8</flags>
 		<id>244</id>
 		<limit>true</limit>
@@ -1956,8 +1933,8 @@ SmartWakeupActivity</label5>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>184,221,183,240,245,186,199,231,219,197,210,232,187,195,223,233,198,241,222,224,185,251,218,213,246,235,202,239,182,243,207,234,211,201,220,209,250,217,244,189,208,216,203,196,249,229,227,215,226,204,206,212,242,228,236,214,248,238,237,24,190</pids>
-		<tids>143,128,180,166,136,125,157,94,175,161,145,135,158,167,108,109,173,114,120,163,142,129,96,25,116,97,144,89,138,111,181,154,126,141,132,99,172,174,134,160,179,168,165,178,104,169,105,112,140,115,171,176,153,162,98,159,156,170,117,155,152,95,106,121,137,151,139,90,164,102,101,133,124,119,127,62,150,64,103,177,123,122,146,110,131,100,107,149,148,147,130,113</tids>
+		<pids>244,249,203,213,223,212,220,198,217,24,239,183,228,211,214,236,219,232,204,184,190,218,196,208,207,250,202,224,229,245,206,231,187,227,222,251,233,248,201,216,182,209,226,235,210,189,199,240,243,186,215,242,185,238,237,197,221,195,241,234,246</pids>
+		<tids>169,90,173,108,179,120,114,157,97,119,167,106,166,94,155,112,104,164,132,145,143,175,139,113,171,103,136,181,161,116,133,109,160,174,128,138,146,115,121,154,111,124,163,98,142,130,178,95,158,168,129,123,100,101,122,165,156,127,140,62,99,150,105,64,137,176,131,107,149,96,125,151,102,110,153,172,135,162,25,89,170,141,152,177,117,180,144,159,147,126,134,148</tids>
 	</Project>
 	<Task sr="task100">
 		<cdate>1780070522117</cdate>
@@ -2481,7 +2458,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task103">
 		<cdate>1759623613029</cdate>
-		<edate>1780462955815</edate>
+		<edate>1780589730037</edate>
 		<id>103</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -3597,7 +3574,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task116">
 		<cdate>1779915466783</cdate>
-		<edate>1780462863214</edate>
+		<edate>1780589280937</edate>
 		<id>116</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3673,7 +3650,7 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task117">
 		<cdate>1759612460120</cdate>
-		<edate>1780530855861</edate>
+		<edate>1780574012231</edate>
 		<id>117</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3992,29 +3969,10 @@ SmartWakeupActivity</label5>
 	</Task>
 	<Task sr="task124">
 		<cdate>1759612559032</cdate>
-		<edate>1780533023821</edate>
+		<edate>1780574136323</edate>
 		<id>124</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">unsetting fg net app flags after 10s</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -4035,6 +3993,25 @@ SmartWakeupActivity</label5>
 					<rhs>yes</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">unsetting fg net app flags after 10s</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>35</code>
@@ -4751,7 +4728,7 @@ fi</Str>
 	</Task>
 	<Task sr="task136">
 		<cdate>1759093117144</cdate>
-		<edate>1780517169346</edate>
+		<edate>1780540647139</edate>
 		<id>136</id>
 		<nme>Redundant Net Src Switch</nme>
 		<pri>100</pri>
@@ -6080,7 +6057,7 @@ fi</Str>
 	</Task>
 	<Task sr="task142">
 		<cdate>1779915466783</cdate>
-		<edate>1780462960038</edate>
+		<edate>1780589383978</edate>
 		<id>142</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -6156,7 +6133,7 @@ fi</Str>
 	</Task>
 	<Task sr="task143">
 		<cdate>1780414763292</cdate>
-		<edate>1780462358507</edate>
+		<edate>1780589635531</edate>
 		<id>143</id>
 		<nme>Toggle Profiles</nme>
 		<Action sr="act0" ve="7">
@@ -7711,7 +7688,7 @@ done</Str>
 	</Task>
 	<Task sr="task171">
 		<cdate>1759612460120</cdate>
-		<edate>1780531065473</edate>
+		<edate>1780580321887</edate>
 		<id>171</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -9270,7 +9247,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task25">
 		<cdate>1780518363397</cdate>
-		<edate>1780531593643</edate>
+		<edate>1780589587087</edate>
 		<id>25</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -9316,6 +9293,26 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%app_package - %APP_CTX_INVISIBLE_FG_NET_UNSET_PKG</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task62">
