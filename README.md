@@ -23,6 +23,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 6. profiles to be mutually exclusively enabled/deleted when testing or using are to be done so to avoid clashes, confusion in what to use or any other unexpected behaviours.
 7. You may need to recreate profile contexts in case it still gives you warnings of apps not existing even after unselecting everything.
 8. Profiles that use the app context may not be completely reliable for apps open in floating/small windows..android limitation...logcat entry on didn't work on my non-rooted phone & the WIN var also isn't too reliable...so gotta renter the app or "re-exit" the app that was previously open to get such profiles active
+9. Install & configure a TTS engine LIKE google's `speech recognition & synthesis` if none installed & configured already. test the `say` action if you need any voice. The say actions have the "continue task after error" option enabled so the tasks don't fail due to a voice msg action failure, only disadvantage is that the user would not know if the tasks with the say actions actually ran or rightfully ran. A notification will be posted saying what to do should the `say` action fail.
 
 # setup
 #### a. import the automate flows (the `.flo` files from the `Automate flows` directory) into automate & the tasker project `Lazy_User.prj.xml` into Tasker
@@ -180,6 +181,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `PHONE_LOCKED` (true|false) - toggled when phone is locked/unlocked
 * `FG_MAP` (true|false) - value is toggled when a map app is or is not running in the foreground
 * `BG_MAP` (true|false) - same as `FG_MAP` but for background
+* `TTS_ENGINE_VOICE` (default:default|<user set value>|<cleared>) - run by the `TTS Test` task which if a TTS engine is set/configured will use the `default:default` value in the `Engine:Voice` arg of the `say` action (action 1 in the task). Set your working/preffered TTS value here. The `TTS Test` task is also called by the `Lazy workflow initializer` task which is run at boot.
 * `WAKE_UP_NUM` (phone number) - stores the number of who needs to be called at a scheduled time set from automate's `Alarmy call` flow (mostly for when one is asked to be "woken up" & you're sound asleep)
 * `NET_SRC_TOGGLE_COUNT` - keeps a count of number of times WAN src was toggled which if exceeded (4 times) the workflow will prompt the user for if the toggling needs to continue to which if clicked yes will reset the counter back to 0 else will keep the WAN toggling profiles to inactive until ping state says "stable ping" which also resets the WAN switch counter to 0
 * `TASKER_HELPER_FOR_BT_TOGGLE` - var to check if tasker's bluetooth toggle action works (on non-root devices) wherein the following values will be assigned to it at boot IF the TaskerSettings app is installed. "ui_only", "works", "err". If TaskerSettings app is not installed the var is assigned "not_installed". what each value means
