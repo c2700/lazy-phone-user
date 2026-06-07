@@ -32,9 +32,10 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 2. `(Un)Set Sim Presence Airplane Mode via Automate` & `(Un)Set Sim Presence Airplane Mode`
 3. `Wifi Hotspot State Via Automate Via Automate` & `Wifi Hotspot State`
 #### c. <b>Tasker Configuration</b>
-1. copy `app_ctx_invisible_apps_for_fg_unset_profile.txt` into `/sdcard/Tasker/projects/` or wherever you like but the path where you copy this file must be the set in the `run shells command`'s arg (action 1) of the anonymous task belonging to the `App Context Invisible Fg Apps` profile.
+1. copy `app_ctx_invisible_apps_for_fg_unset_profile.txt` into `/sdcard/Tasker/projects/` or wherever you like but the path where you copy this file must be the set in the `Read File` action's (action 1) `File` arg of the anonymous task belonging to the `App Context Invisible Fg Apps` profile.
 2. Toggle data & bluetooth from tasker's `run an action` option (3 dots on top right location of the main activity -> More -> Run an action) & select the "never ask again button" from the popup you get for TaskerSettings helper app to work without autoninput's "simulation" at work (possibly....didn't work reliably on my non-rooted android, only changed the UI state in the quick settings tile & mobile data settings. no actual system/settings level changes), which if it doesn't, the autoinput simulation will be put to work (on non-root android), else the bluetooth & wifi "toggle" action alone will do the work if root/shizuku is available/running.
-3. set your apps you always need WAN connectivity for when in foreground/opened in the `Fg Net Flags Set` profile's app context or recreate it (ANY & EVERY app that you ABSOLUTELY DEEM needing net including maps, games, browsers, ftp clients etc. all goes here) & the same is applicable for `Fg Net Flags Set (Optional)` profile except it's for apps that you deem as MAY NEED WAN connectivity which is decided through a prompt
+3. set your apps you always need WAN connectivity for when in foreground/opened in the `Fg Net Flags Set` profile's app context or recreate it (ANY & EVERY app that you ABSOLUTELY DEEM needing net including email clients, net scanners, maps, games, browsers, ftp clients etc. all goes here) & the same is applicable for `Fg Net Flags Set (Optional)` profile except it's for apps that you deem as MAY NEED WAN connectivity which is decided through a prompt
+4. set your email client in the `Email Auto Sync (Un)Set` profile's App context (Also needs to be set in the `Fg Net Flags Set` or `Fg Net Flags Set (Optional)` and or in the "Apps" section of autonotification event context of the `Bg Net (Un)Set` profile)
 4. `Fg Net Flags UnSet` - recreate the app context with the invert option selected & set `mobile data settings` app or the `settings` app itself & any other apps you DON'T want this profile's app context to be picked up on while being in that app/activity. Idea is something along the lines of "need wan connectivity for f-droid to download stuff (which is already downloading) & all of a sudden get a call & the call activity takes the foreground over f-droid's activity & you don't want that wan connectivity to be disturbed while the call activity is in the foreground & until the download is complete. I have set only play store & whatsapp on both activities & added some settings activities that the app profile trigger showed in the `Fg Net Flags UnSet` profile to make it more easier to set up
 5. set your apps (for notification) in the `Bg Net (Un)Set` profile's auto notification event...idea is to set WAN connectivity enabled for those apps you would want the network to be left enabled until done, like downloads
 6. set your games in the `Gaming` profile's app context
@@ -141,6 +142,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 
 ##### 9. <b>other stuff</b>
 * `Clipboard Link Sanitizer` - literally what it says. for now only "sanitization" it does is on youtube share links in the clipboard which is just taking away the strings matching `?sid.*`
+* `Email Auto Sync (Un)Set` - sets autosync when email client is in foreground, unsets when not in foreground for more than one minute
 * `Alarm Vol Auto Set` - set all alarm vol to max when an alarm's about to ring
 * `Autoread Whatsapp` - literally what it says (except set your own interval if you need to)
 * `Alarmy Call` - to call one at a scheduled time if you forget to (I use this when one asks me to wake them up from a phone call). This profile is toggled by (enabling & disabling the profile & setting the phone number as a global var for the profile to use)  run `Tasker - Alarmy call.flo` from automate to set the number/contact
@@ -265,6 +267,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     Bluetooth Unset
     No Root Screen Off BT Disconnected
     ============= Others =============
+    Email Auto Sync (Un)Set
     Alarmy Call
     Alarmy Call Disable
     Gaming
