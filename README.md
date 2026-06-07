@@ -7,7 +7,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 
 ### Required apps
  1. Tasker
- 2. [TaskerSettings](https://github.com/joaomgcd/TaskerSettings)
+ 2. [TaskerSettings](https://github.com/joaomgcd/TaskerSettings) (api level check based actions & tasks are created based on what's written in this page)
  3. llamalab automate
  4. autoinput
  5. auto notification. 
