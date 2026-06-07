@@ -30,6 +30,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 #### b. <b>list of profiles to be mutually exclusively enabled/deleted</b>
 1. `Mobile Data Var Set via Automate` & `Mobile Data Var Set`
 2. `(Un)Set Sim Presence Airplane Mode via Automate` & `(Un)Set Sim Presence Airplane Mode`
+3. `Wifi Hotspot State Via Automate Via Automate` & `Wifi Hotspot State`
 #### c. <b>Tasker Configuration</b>
 1. copy `app_ctx_invisible_apps_for_fg_unset_profile.txt` into `/sdcard/Tasker/projects/` or wherever you like but the path where you copy this file must be the set in the `run shells command`'s arg (action 1) of the anonymous task belonging to the `App Context Invisible Fg Apps` profile.
 2. Toggle data & bluetooth from tasker's `run an action` option (3 dots on top right location of the main activity -> More -> Run an action) & select the "never ask again button" from the popup you get for TaskerSettings helper app to work without autoninput's "simulation" at work (possibly....didn't work reliably on my non-rooted android, only changed the UI state in the quick settings tile & mobile data settings. no actual system/settings level changes), which if it doesn't, the autoinput simulation will be put to work (on non-root android), else the bluetooth & wifi "toggle" action alone will do the work if root/shizuku is available/running.
@@ -46,7 +47,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     - `SIM_PRESENT` (used by `(Un)Set Sim Presence Airplane Mode via Automate`) is a custom broadcast sent from automate to tasker & the `Tasker - Sim Check.flo` needs to be left running for this profile & it's task to work as expected
 12. `Mobile Data Var Set via Automate` or `Mobile Data Var Set` (to be mutually exclusively enabled or deleted by the user)
     - `Mobile Data Var Set` - do a `find setting` (the magnifying glass next to the `Name` field) in the profile's `custom setting` context, toggle cellular data & you got the custom setting name that gets you the cellular data state filled in the Name field
-    - `Mobile Data Var Set via Automate` will need the `Tasker - Cellular Data state check.flo` to be left running
+    - `Mobile Data Var Set via Automate` will need the `Cellular Data state` flow beginning from `Tasker - settings & states checks` to be left running
 13. (disable/delete if not needed which you would need to do to the `OBD2 (Un)Set` profile as well) set your obd apps as the entry app in `OBD2 Fg Flags (Un)Set` profile & the very same obd apps as auto notification entry in `OBD2 Bg Flags (Un)Set` profile
 14. At `Ping Test` task you might want to make changes in the numbers at action 14 & 18 (conditional actually) if you think the ping numbers don't apply to your use case
 15. you may need to change the `Data` field in the `Send Intent` action in all tasker tasks which are intended to invoke Automate flows (the flow to be invoked will be indicated in the `send intent` action's label field) to whatever the content has been changed to in the flow's start block. do this IF the "Flow URI" field in the imported automate flow's start block differs from what's there in tasker's `send intent` action's Data field.
@@ -86,11 +87,14 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Phone Lock State` - set lock state of the phone into relevant global var.s. Evaluated when screen is off.
 * `Work Profile Set` - toggle settings, var.s & values for your work profile
 * `Mobile Data Var Set` - set mobile data stats as global variable(s) whenever data is toggled (used by the net management profiles)
-* `Mobile Data Var Set via Automate` - set mobile data stats as global variable(s). (used by the net management profiles but triggered by intents sent from automate)
+* `Mobile Data Var Set via Automate` - set mobile data stats as global variable(s). (used by the net management profiles but triggered by intents sent from automate. Triggering flow beginning `Cellular Data state` in flow `Tasker - Settings & States Checks`)
+* `Wifi Hotspot State` - set wireless hotspot state via `WIFI_AP_STATE_CHANGED` broadcast
+* `Wifi Hotspot State Via Automate` - same `Wifi Hotspot State` but with automate (Triggering flow beginning `Hotspot state` in flow `Tasker - Settings & States Checks`)
+    
 
 ##### 3. <b>profile for airplane mode based on sim presence</b>
 * `(Un)Set Sim Presence Airplane Mode` - toggle airplane mode when sim inserted/ejected. Uses android's `SIM_STATE_CHANGED` broadcast
-* `(Un)Set Sim Presence Airplane Mode via Automate` - toggle airplane mode when sim inserted/ejected. custom broadcast `SIM_PRESENT` is sent by automate. keep `Tasker - Sim Check.flo` running when enabling this.
+* `(Un)Set Sim Presence Airplane Mode via Automate` - toggle airplane mode when sim inserted/ejected. custom broadcast `SIM_PRESENT` is sent by automate by the flow beginning `Sim presence` in flow `Tasker - Settings & States Checks`. The flow must be kept running for this profile to work
 
 ##### 4. <b>WAN iface toggle</b>
 * `Fg Net Flags Set` -  set global variable(s) to enable wan connectivity for net requiring apps running in the foreground <b>(just flag setting for `Net Set` & `Net Unset` profiles)</b>
@@ -140,6 +144,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Alarm Vol Auto Set` - set all alarm vol to max when an alarm's about to ring
 * `Autoread Whatsapp` - literally what it says (except set your own interval if you need to)
 * `Alarmy Call` - to call one at a scheduled time if you forget to (I use this when one asks me to wake them up from a phone call). This profile is toggled by (enabling & disabling the profile & setting the phone number as a global var for the profile to use)  run `Tasker - Alarmy call.flo` from automate to set the number/contact
+* `Alarmy Call Disable` - disables `Alarmy Call` profile (and that the `Alarmy Call` also needing to be enabled is also a cndition) when the incoming caller is the same one set in `WAKE_UP_NUM` by the `Tasker - Alarmy Call.flo` flow causing the task to go inactive, which is why I set the action to disable itself
 * `Gaming` - cpu state toggles when enter/opening games
 * `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane boarding.flo` running when enabling this profile
 * `Toggle Dev Mode Per App` - disable dev mode when entering apps that complain about it, enable when exiting with "show touches" & adb enabled
@@ -156,7 +161,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 4. `BG_MAP`, `FG_MAP` - [Map settings toggling profiles](#map-settings)
 5. `WAKE_UP_NUM` - [other stuff](#other-stuff)
 
-### when each of those global vars (more like flags) & what they mean
+### global vars (more like flags) & what they mean/are meant for...with values that have been used to get the workflow to run
 * `APP_NET` (yes|no) - value is toggled when a wan connection needing app is or is not in the foreground
 * `BG_NET` (yes|no) - same as `APP_NET` but for background config.ed apps
 * `WORK_PROFILE` (enabled|disabled) - set when work profile is toggled
@@ -183,6 +188,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `BG_MAP` (true|false) - same as `FG_MAP` but for background
 * `TTS_ENGINE_VOICE` (default:default|<user set value>|<cleared>) - run by the `TTS Test` task which if a TTS engine is set/configured will use the `default:default` value in the `Engine:Voice` arg of the `say` action (action 1 in the task). Set your working/preffered TTS value here. The `TTS Test` task is also called by the `Lazy workflow initializer` task which is run at boot.
 * `WAKE_UP_NUM` (phone number) - stores the number of who needs to be called at a scheduled time set from automate's `Alarmy call` flow (mostly for when one is asked to be "woken up" & you're sound asleep)
+* `WL_HOTSPOT` (enabled|disabled) - wifi hostspot state 
 * `NET_SRC_TOGGLE_COUNT` - keeps a count of number of times WAN src was toggled which if exceeded (4 times) the workflow will prompt the user for if the toggling needs to continue to which if clicked yes will reset the counter back to 0 else will keep the WAN toggling profiles to inactive until ping state says "stable ping" which also resets the WAN switch counter to 0
 * `TASKER_HELPER_FOR_BT_TOGGLE` - var to check if tasker's bluetooth toggle action works (on non-root devices) wherein the following values will be assigned to it at boot IF the TaskerSettings app is installed. "ui_only", "works", "err". If TaskerSettings app is not installed the var is assigned "not_installed". what each value means
     - ui_only - just toggles the ui. does not affect the setting
@@ -191,7 +197,18 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     - not_installed - literally what it says
 * `TASKER_HELPER_FOR_DATA_TOGGLE` - same as `TASKER_HELPER_FOR_BT_TOGGLE` but for data action
 
-### This is ordering in which I keep the profiles in tasker to make maintainability & sensibility RELATIVELY easier than the mixup order you get when you import the project & unfortunately there's no option to preserve the profile ordering
+### Automate Flows & what they do 
+* `Tasker - Check Set boot stuff.flo` - sets variables, settings, flags & such after boot. Basically an initializer helper of sorts for tasker
+* `Tasker - settings & states checks.flo` - contains 3 flow beginnings
+    - `Cellular Data Stat` - sets the `MDATA` global var to "enabled"|"disabled" when cellular data state has been changed sending a custom broadcast (`net.dinglisch.tasker.CELLULAR_DATA`) to the profile `Mobile Data Var Set via Automate`
+    - `Sim Presence` - sends a custom `android.intent.action.SIM_PRESENT` broadcast to the `(Un)Set Sim Presence Airplane Mode via Automate` profile to set airplane mode based the `%SIM_STATE` var which can't be used in the variable state context in a profile
+    - `Hotspot State` - sets the `WL_HOTSPOT` global var to "enabled"|"disabled" when wifi hotspot has been changed by sending a custom broadcast (`net.dinglisch.tasker.WL_HOTSPOT`) to the `Wifi Hotspot State Via Automate` profile
+* `Tasker - Airplane boarding.flo` - flow to disable all phone settings that need to disabled on a flight
+* `Tasker - Alarmy call.flo` - pick a contact from popup, set a time for the fibre to be paused for, which then sends a broadcast to the `Custom Intent Recvr` profile in tasker enabling `Alarmy Call` &  `Alarmy Call Disable` profiles
+
+
+
+### This is the ordering in which I keep the profiles in tasker to make maintainability & sensibility RELATIVELY easier than the mixup order you get when you import the project & unfortunately there's no option to preserve the profile ordering
 
     Check Set Stuff At Boot
     New App Installed
@@ -202,11 +219,13 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     Phone Lock State
     Phone Unlock State
     Low Power State
-    wifi var set
     Shizuku Var Set
     Adb Wifi State Var Set
     VPN state
     Bluetooth Connection Check
+    wifi var set
+    Wifi Hotspot State Via Automate
+    Wifi Hotspot State
     Work Profile Set
     App Context Invisible Fg Apps
     Mobile Data Var Set
@@ -247,6 +266,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     No Root Screen Off BT Disconnected
     ============= Others =============
     Alarmy Call
+    Alarmy Call Disable
     Gaming
     Toggle Dev Mode Per App
     Clipboard Link Sanitizer
