@@ -2016,8 +2016,8 @@ SmartWakeupActivity</label5>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>189,199,235,234,262,236,221,190,178,233,241,244,242,177,227,222,223,239,228,220,237,175,203,179,187,185,219,182,211,218,202,186,181,212,240,195,238,180,259,217,210,204,196,232,207,229,208,198,174,267,213,197,226,183,206,173,215,249,209,224,216,231,214,184</pids>
-		<tids>272,162,126,94,159,157,60,269,120,89,134,109,148,143,106,62,165,268,139,160,121,90,152,171,158,145,141,115,142,140,132,127,167,155,163,136,129,114,24,97,116,122,245,40,107,147,156,153,98,124,111,95,137,166,149,151,113,144,57,112,125,105,128,154,119,64,261,100,133,117,250,99,138,263,264,248,172,170,131,146,168,161,61,169,251,110,123,55,102,135,101,30,130,108,104,103,150,37,96,25,164,56</tids>
+		<pids>175,206,174,207,177,203,220,199,210,209,241,238,173,232,178,229,244,180,240,222,228,236,267,204,196,249,262,187,217,179,227,213,202,185,186,208,215,197,216,233,234,190,239,242,195,198,189,226,221,211,237,183,219,235,212,184,214,224,223,181,231,218,259,182</pids>
+		<tids>94,112,122,251,109,128,154,60,245,150,55,136,139,272,120,117,30,64,99,129,137,107,141,165,151,111,119,123,140,40,263,103,101,148,24,90,106,62,163,126,169,25,95,145,147,268,144,108,138,155,110,160,159,97,158,134,130,166,164,104,143,89,171,142,124,131,105,116,156,113,152,153,135,146,264,248,100,121,157,98,167,132,114,269,56,161,149,168,57,250,133,96,115,61,172,125,261,170,127,162,102,37</tids>
 	</Project>
 	<Task sr="task100">
 		<cdate>1771100693993</cdate>
@@ -2306,7 +2306,7 @@ done</Str>
 	</Task>
 	<Task sr="task109">
 		<cdate>1657974116786</cdate>
-		<edate>1780854357387</edate>
+		<edate>1780863540267</edate>
 		<id>109</id>
 		<nme>Toggle Data</nme>
 		<pri>100</pri>
@@ -5743,7 +5743,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task145">
 		<cdate>1774794130821</cdate>
-		<edate>1780854133587</edate>
+		<edate>1780864130874</edate>
 		<id>145</id>
 		<nme>Lazy Workflow Initializer</nme>
 		<pri>100</pri>
@@ -6014,7 +6014,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act29" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%ROOT_STAT</lhs>
@@ -6073,18 +6073,26 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg1" ve="3"/>
 		</Action>
 		<Action sr="act34" ve="7">
-			<code>38</code>
+			<code>43</code>
 		</Action>
 		<Action sr="act35" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Gaming</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act37" ve="7">
 			<code>344</code>
 			<se>false</se>
 			<Int sr="arg0" val="8"/>
 			<Str sr="arg1" ve="3">com.joaomgcd.taskersettings</Str>
 			<Str sr="arg2" ve="3">%tasker_setting_app</Str>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act38" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%tasker_setting_app</lhs>
@@ -6093,7 +6101,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act39" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
 			<Str sr="arg1" ve="3">not_installed</Str>
@@ -6103,7 +6111,18 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>3</op>
+					<rhs>*CONNECTION*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
 			<Str sr="arg1" ve="3">err</Str>
@@ -6113,7 +6132,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act41" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
 			<Int sr="arg1">
@@ -6129,26 +6148,26 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%WIFII</lhs>
-					<op>3</op>
-					<rhs>*CONNECTION*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act42" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act43" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act44" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>nosu</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act45" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -6159,7 +6178,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act46" ve="7">
 			<code>433</code>
 			<se>false</se>
 			<Int sr="arg0" val="2"/>
@@ -6167,7 +6186,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Vals sr="val"/>
 			</Bundle>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act47" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -6178,7 +6197,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act48" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
 			<Str sr="arg1" ve="3">err</Str>
@@ -6188,57 +6207,12 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act49" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%errmsg</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act47" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%err</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act48" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act49" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
-			<Str sr="arg1" ve="3">ui_only</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<bool0>And2</bool0>
-				<bool1>Or</bool1>
-				<bool2>And2</bool2>
-				<Condition sr="c0" ve="3">
-					<lhs>%new_state</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%MDATA</lhs>
-					<op>2</op>
-					<rhs>disabled</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%new_state</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
-					<lhs>%MDATA</lhs>
-					<op>2</op>
-					<rhs>enabled</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>547</code>
@@ -6251,6 +6225,51 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act50" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%err</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
+			<Str sr="arg1" ve="3">ui_only</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And2</bool0>
+				<bool1>Or</bool1>
+				<bool2>And2</bool2>
+				<Condition sr="c0" ve="3">
+					<lhs>%new_state</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%MDATA</lhs>
+					<op>2</op>
+					<rhs>disabled</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%new_state</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%MDATA</lhs>
+					<op>2</op>
+					<rhs>enabled</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act53" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
 			<Str sr="arg1" ve="3">works</Str>
@@ -6285,93 +6304,41 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act54" ve="7">
 			<code>433</code>
 			<Int sr="arg0" val="2"/>
 			<Bundle sr="arg1">
 				<Vals sr="val"/>
 			</Bundle>
 		</Action>
-		<Action sr="act52" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act53" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act54" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%tmp_bt_stat</Str>
-			<Str sr="arg1" ve="3">%BLUE</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
 		<Action sr="act55" ve="7">
-			<code>294</code>
-			<se>false</se>
-			<Int sr="arg0" val="2"/>
+			<code>38</code>
 		</Action>
 		<Action sr="act56" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
-			<Str sr="arg1" ve="3">err</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%errmsg</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
+			<code>38</code>
 		</Action>
 		<Action sr="act57" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%errmsg</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
+			<code>38</code>
 		</Action>
 		<Action sr="act58" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
-			<Str sr="arg1" ve="3">ui_only</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
+			<code>37</code>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%tmp_bt_stat</lhs>
-					<op>2</op>
-					<rhs>%BLUE</rhs>
+					<lhs>%SDK</lhs>
+					<op>7</op>
+					<rhs>32</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act59" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
-			<Str sr="arg1" ve="3">works</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
+			<code>37</code>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%tmp_bt_stat</lhs>
-					<op>3</op>
-					<rhs>%BLUE</rhs>
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>nosu</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -6386,14 +6353,96 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act60" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tmp_bt_stat</Str>
+			<Str sr="arg1" ve="3">%BLUE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act61" ve="7">
 			<code>294</code>
 			<se>false</se>
 			<Int sr="arg0" val="2"/>
 		</Action>
-		<Action sr="act61" ve="7">
+		<Action sr="act62" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%errmsg</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act63" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
+			<Str sr="arg1" ve="3">err</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act64" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act65" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
+			<Str sr="arg1" ve="3">ui_only</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tmp_bt_stat</lhs>
+					<op>2</op>
+					<rhs>%BLUE</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act66" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
+			<Str sr="arg1" ve="3">works</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tmp_bt_stat</lhs>
+					<op>3</op>
+					<rhs>%BLUE</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act67" ve="7">
+			<code>294</code>
+			<se>false</se>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act68" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act62" ve="7">
+		<Action sr="act69" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act70" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act71" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
 			<Int sr="arg1">
@@ -6408,9 +6457,6 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>38</code>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>37</code>
@@ -7268,7 +7314,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task155">
 		<cdate>1774281828665</cdate>
-		<edate>1780782449286</edate>
+		<edate>1780864318402</edate>
 		<id>155</id>
 		<nme>Toggle Bluetooth</nme>
 		<pri>100</pri>
@@ -7392,7 +7438,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%SDK</lhs>
 					<op>7</op>
-					<rhs>29</rhs>
+					<rhs>32</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -9713,7 +9759,7 @@ fi</Str>
 	</Task>
 	<Task sr="task56">
 		<cdate>1780344005462</cdate>
-		<edate>1780854187559</edate>
+		<edate>1780863520660</edate>
 		<id>56</id>
 		<nme>Bluetooth Unset</nme>
 		<Action sr="act0" ve="7">
@@ -9809,7 +9855,7 @@ fi</Str>
 	</Task>
 	<Task sr="task60">
 		<cdate>1759093117144</cdate>
-		<edate>1780854268532</edate>
+		<edate>1780863523707</edate>
 		<id>60</id>
 		<nme>Redundant Net Src Switch</nme>
 		<pri>100</pri>
