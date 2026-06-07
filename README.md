@@ -127,9 +127,8 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 
 ##### 7. <b>low power based on lock & screen state</b>
 * `screen Off Low Power` - set low power mode when screen is off. `Test Display` action to set `PHONE_LOCKED` & `PHONE_LOCK_SET` values & switch bluetooth off if connections are 0
-* `screen On No Low Power` - disable all low power settings when screen is on (no lock is set)
 * `screen On Locked` - when phone is locked but screen is up
-* `screen On No Lock No Low Power` - same as `screen On No Low Power` but without lock set
+* `screen On No Lock No Low Power` - disable all low power settings when screen is on & no lock is set
 * `screen Unlocked No Low Power` - disable all low power settings when unlocked
 * `Charging No Low Power` - when power source is plugged in, disable power save mode
 
@@ -237,7 +236,6 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     ========= Low Power Mgr =========
     screen Off Low Power
     screen On Locked
-    screen On No Low Power
     screen On No Lock No Low Power
     screen Unlocked No Low Power
     Charging No Low Power
