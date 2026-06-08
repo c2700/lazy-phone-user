@@ -41,7 +41,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 6. set your games in the `Gaming` profile's app context
 7. set the map apps you use in the `Map Bg Flags (Un)Set` profile's app context
 8. Open up `Toggle Data` task & replace the actions in the Autoinput Action (the configuration argument) at action number 15 with whatever actions you need to perform to get cellular data enabled from the `Mobile Data settings` activity. (the activity, button placement, UI differs from android flavour to flavour)
-9. (optional if this is not needed) remove/disable the `Work Profile Set` profile & if needed/wanted remove the WORK_PROFILE global var from all other actions, tasks, conditions & profiles (this is necessary IF the `Work Profile Set` profile's removed). The action for it is created the way it is for when corporate apps are installed onto a work profile & one needs to show their activity as online at all times or needs to be responsive & needs connectivity at all times as long as there's some source of connectivity & for as long as the work profile's active.
+9. <b>(optional if this is not needed)</b> remove/disable the `Work Profile Set` profile & if needed/wanted remove the WORK_PROFILE global var from all other actions, tasks, conditions & profiles (this is necessary IF the `Work Profile Set` profile's removed). The action for it is created the way it is for when corporate apps are installed onto a work profile & one needs to show their activity as online at all times or needs to be responsive & needs connectivity at all times as long as there's some source of connectivity & for as long as the work profile's active.
 10. `Gaming Clock`, `Regular Cpu Clock` & `Low Clock Cpu`. Reconfigure the cpu list with their respective low & high clocks & governors. (I have set my `Gaming Clock` task to the highest clock that was available with all core governors to performance & the numbers you're seeing are ones on my unrooted phone) & the `Regular CPU Usage` all to schedutil & `Low Clock Cpu` all to powersave & all cores to whatever I could get the lowest number at which is in Khz & something I pulled from my unrooted if you're wondering why that many zeros in the clock numbers (whatever governor values you're seeing are the only governors available for both my phone's kernels). you're gonna need to delete/add some cpu actions & change their params depending on your phone's hardware
 11. `(Un)Set Sim Presence Airplane Mode` or `(Un)Set Sim Presence Airplane Mode via Automate` (profiles to be mutually exclusively enabled). The only difference between the 2 profiles is that the Action in the `intent received` event from both profiles are
     - android's built-in `SIM_STATE_CHANGED` (used by `(Un)Set Sim Presence Airplane Mode`) broadcast is said to be unreliable since android 13 (https://issuetracker.google.com/issues/302614301). I haven't faced that issue on android 13. Only "weird" thing is that I've been seeing that profile being triggered with that broadcast many times even when I haven't ejected/inserted the sim card
@@ -53,7 +53,8 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 14. At `Ping Test` task you might want to make changes in the numbers at action 14 & 18 (conditional actually) if you think the ping numbers don't apply to your use case
 15. you may need to change the `Data` field in the `Send Intent` action in all tasker tasks which are intended to invoke Automate flows (the flow to be invoked will be indicated in the `send intent` action's label field) to whatever the content has been changed to in the flow's start block. do this IF the "Flow URI" field in the imported automate flow's start block differs from what's there in tasker's `send intent` action's Data field.
 16. reboot the phone or run the `Check Set Stuff At Boot` TASK to initialize global vars & run the needed automate flo's based on the selected profiles
-17. if you do not want the toasts from the `Ping test` & `WAN check` the actions to disable/delete are the following
+17. <b>(optional/if needed)</b> Enable the actions in the 2nd task of the `screen Off Low Power` & `screen Unlocked No Low Power` profiles
+18. if you do not want the toasts from the `Ping test` & `WAN check` the actions to disable/delete are the following
      - `Ping Test` Task
         - action 3
         - action 6
@@ -141,6 +142,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 
 ##### 9. <b>other stuff</b>
 * `Clipboard Link Sanitizer` - literally what it says. for now only "sanitization" it does is on youtube share links in the clipboard which is just taking away the strings matching `?sid.*`
+* `Automate Flow Retrigger` - send a START_FLOW intent to automate flows based on enabled profiles that need automate flows to be left running (for cases where automate & or it's flows are killed by the OS)
 * `Email Auto Sync (Un)Set` - sets autosync when email client is in foreground, unsets when not in foreground for more than one minute
 * `Alarm Vol Auto Set` - set all alarm vol to max when an alarm's about to ring
 * `Autoread Whatsapp` - literally what it says (except set your own interval if you need to)
@@ -265,6 +267,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     Bluetooth Unset
     No Root Screen Off BT Disconnected
     ============= Others =============
+    Automate Flow Retrigger
     Email Auto Sync (Un)Set
     Alarmy Call
     Alarmy Call Disable
