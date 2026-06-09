@@ -157,7 +157,7 @@
 	<Profile sr="prof178" ve="2">
 		<cdate>1780620500381</cdate>
 		<clp>true</clp>
-		<edate>1780853373923</edate>
+		<edate>1780985503477</edate>
 		<flags>8</flags>
 		<id>178</id>
 		<limit>true</limit>
@@ -193,7 +193,7 @@
 	<Profile sr="prof179" ve="2">
 		<cdate>1780620500386</cdate>
 		<clp>true</clp>
-		<edate>1780853916751</edate>
+		<edate>1780985586722</edate>
 		<flags>8</flags>
 		<id>179</id>
 		<mid0>128</mid0>
@@ -254,7 +254,7 @@
 	<Profile sr="prof180" ve="2">
 		<cdate>1780620500386</cdate>
 		<clp>true</clp>
-		<edate>1780914512922</edate>
+		<edate>1780985555828</edate>
 		<flags>8</flags>
 		<id>180</id>
 		<mid0>130</mid0>
@@ -446,7 +446,7 @@
 	<Profile sr="prof189" ve="2">
 		<cdate>1780620500425</cdate>
 		<clp>true</clp>
-		<edate>1780882962811</edate>
+		<edate>1780985460817</edate>
 		<flags>8</flags>
 		<id>189</id>
 		<mid0>117</mid0>
@@ -555,7 +555,7 @@
 	<Profile sr="prof195" ve="2">
 		<cdate>1780620500432</cdate>
 		<clp>true</clp>
-		<edate>1780941610909</edate>
+		<edate>1780985473954</edate>
 		<flags>8</flags>
 		<id>195</id>
 		<mid0>24</mid0>
@@ -692,7 +692,7 @@
 	<Profile sr="prof203" ve="2">
 		<cdate>1780620500444</cdate>
 		<clp>true</clp>
-		<edate>1780853422494</edate>
+		<edate>1780985509877</edate>
 		<flags>8</flags>
 		<id>203</id>
 		<mid0>163</mid0>
@@ -739,7 +739,7 @@
 	<Profile sr="prof204" ve="2">
 		<cdate>1780620500455</cdate>
 		<clp>true</clp>
-		<edate>1780853508300</edate>
+		<edate>1780983586493</edate>
 		<flags>8</flags>
 		<id>204</id>
 		<mid0>167</mid0>
@@ -761,7 +761,7 @@
 					<CaseinsensitiveText-type>java.lang.Boolean</CaseinsensitiveText-type>
 					<CaseinsensitiveTitle>true</CaseinsensitiveTitle>
 					<CaseinsensitiveTitle-type>java.lang.Boolean</CaseinsensitiveTitle-type>
-					<CategoryName>.*([Dd]ownloading|[Nn]avigat|[Ww]aze [Ii]s [Rr]unning|([Ll]ook|[Ss]earch|[Uu]pdat|[Ss]ync|[Rr]efresh)ing?).*</CategoryName>
+					<CategoryName>.*(([Dd]own|[Uu]p)loading|[Nn]avigat(e|ion)?|[Ww]aze|[Ii]n [Pp]rogress|([Ll]ook|[Ss]earch|[Uu]pdat|[Ss]ync|[Ff]etch|[Rr]efresh|[Pp](rogress|ost|atch))ing?).*</CategoryName>
 					<CategoryName-type>java.lang.String</CategoryName-type>
 					<ExactApp>false</ExactApp>
 					<ExactApp-type>java.lang.Boolean</ExactApp-type>
@@ -982,7 +982,7 @@ Notes:
 	<Profile sr="prof210" ve="2">
 		<cdate>1780620500477</cdate>
 		<clp>true</clp>
-		<edate>1780853584003</edate>
+		<edate>1780985526155</edate>
 		<flags>8</flags>
 		<id>210</id>
 		<mid0>40</mid0>
@@ -1002,7 +1002,7 @@ Notes:
 	<Profile sr="prof211" ve="2">
 		<cdate>1780620500477</cdate>
 		<clp>true</clp>
-		<edate>1780853861757</edate>
+		<edate>1780985577398</edate>
 		<flags>8</flags>
 		<id>211</id>
 		<mid0>104</mid0>
@@ -1072,7 +1072,7 @@ Notes:
 	<Profile sr="prof212" ve="2">
 		<cdate>1780620500477</cdate>
 		<clp>true</clp>
-		<edate>1780889299504</edate>
+		<edate>1780985573261</edate>
 		<flags>8</flags>
 		<id>212</id>
 		<mid0>147</mid0>
@@ -1120,7 +1120,7 @@ Notes:
 	<Profile sr="prof213" ve="2">
 		<cdate>1780620500485</cdate>
 		<clp>true</clp>
-		<edate>1780949854477</edate>
+		<edate>1780985454664</edate>
 		<flags>8</flags>
 		<id>213</id>
 		<mid0>160</mid0>
@@ -1171,7 +1171,7 @@ Notes:
 	<Profile sr="prof215" ve="2">
 		<cdate>1780620500486</cdate>
 		<clp>true</clp>
-		<edate>1780853850358</edate>
+		<edate>1780985561787</edate>
 		<flags>8</flags>
 		<id>215</id>
 		<mid0>137</mid0>
@@ -1249,8 +1249,7 @@ Notes:
 	</Profile>
 	<Profile sr="prof218" ve="2">
 		<cdate>1780620500486</cdate>
-		<clp>true</clp>
-		<edate>1780800363284</edate>
+		<edate>1780985669576</edate>
 		<flags>8</flags>
 		<id>218</id>
 		<mid0>125</mid0>
@@ -1419,7 +1418,7 @@ Notes:
 	<Profile sr="prof224" ve="2">
 		<cdate>1780620500502</cdate>
 		<clp>true</clp>
-		<edate>1780853866303</edate>
+		<edate>1780985580711</edate>
 		<flags>8</flags>
 		<id>224</id>
 		<mid0>158</mid0>
@@ -1533,7 +1532,7 @@ Notes:
 	<Profile sr="prof228" ve="2">
 		<cdate>1780620500502</cdate>
 		<clp>true</clp>
-		<edate>1780853831972</edate>
+		<edate>1780985538593</edate>
 		<flags>8</flags>
 		<id>228</id>
 		<mid0>60</mid0>
@@ -1665,7 +1664,7 @@ Notes:
 	<Profile sr="prof234" ve="2">
 		<cdate>1780620500511</cdate>
 		<clp>true</clp>
-		<edate>1780853475721</edate>
+		<edate>1780985514208</edate>
 		<flags>8</flags>
 		<id>234</id>
 		<mid0>169</mid0>
@@ -1917,7 +1916,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof249" ve="2">
 		<cdate>1780620500444</cdate>
 		<clp>true</clp>
-		<edate>1780853545927</edate>
+		<edate>1780985520717</edate>
 		<flags>8</flags>
 		<id>249</id>
 		<mid0>251</mid0>
@@ -2025,12 +2024,12 @@ SmartWakeupActivity</label5>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>197,223,179,211,206,228,273,240,221,235,218,229,213,232,244,220,259,242,217,196,178,180,224,236,185,241,222,186,184,173,175,216,219,214,239,226,237,195,204,234,190,215,208,231,227,233,203,182,181,210,262,249,207,198,212,174,199,189,202,267,183,187,238,209,177</pids>
-		<tids>272,94,115,139,141,128,145,61,109,24,90,124,276,158,113,120,136,140,96,119,146,95,152,117,164,106,101,132,112,108,155,172,131,60,160,134,97,250,110,102,57,122,159,103,37,245,157,100,25,127,171,98,147,137,126,165,162,153,107,156,116,123,161,62,263,40,150,130,269,55,125,251,129,64,135,144,151,163,89,143,142,274,170,248,168,138,275,166,121,56,105,167,261,264,30,133,99,149,268,154,111,169,104,114,148</tids>
+		<pids>217,175,183,177,232,228,181,190,211,208,173,231,227,184,229,241,221,209,226,206,273,215,182,179,199,203,189,187,212,262,204,242,185,202,195,213,235,178,224,218,236,207,267,239,197,234,237,186,249,214,238,174,220,216,222,180,210,198,233,244,259,196,240,223,219</pids>
+		<tids>155,138,139,61,94,135,272,134,120,261,119,145,129,60,127,147,163,98,168,170,107,143,112,158,109,153,99,151,269,132,144,157,140,141,167,131,121,124,126,110,95,245,25,103,97,24,164,149,125,114,90,274,102,142,160,96,130,30,104,123,62,154,100,56,162,275,171,37,169,156,128,264,89,122,137,248,172,115,108,165,263,40,117,148,133,166,106,113,276,116,150,146,101,111,159,161,64,152,250,136,57,105,268,251,55</tids>
 	</Project>
 	<Task sr="task100">
 		<cdate>1771100693993</cdate>
-		<edate>1780720131528</edate>
+		<edate>1780985573261</edate>
 		<id>100</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -2138,7 +2137,7 @@ done</Str>
 	</Task>
 	<Task sr="task104">
 		<cdate>1779214976944</cdate>
-		<edate>1780853859884</edate>
+		<edate>1780985575798</edate>
 		<id>104</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -2825,7 +2824,7 @@ done</Str>
 	</Task>
 	<Task sr="task117">
 		<cdate>1771948370126</cdate>
-		<edate>1780851748242</edate>
+		<edate>1780985460817</edate>
 		<id>117</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -2879,7 +2878,7 @@ done</Str>
 	</Task>
 	<Task sr="task119">
 		<cdate>1773002626961</cdate>
-		<edate>1780950833207</edate>
+		<edate>1780985373006</edate>
 		<id>119</id>
 		<nme>Gaming Clock</nme>
 		<pri>100</pri>
@@ -3543,7 +3542,7 @@ done</Str>
 	</Task>
 	<Task sr="task124">
 		<cdate>1759612460120</cdate>
-		<edate>1780853373923</edate>
+		<edate>1780985503477</edate>
 		<id>124</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3803,7 +3802,7 @@ done</Str>
 	</Task>
 	<Task sr="task125">
 		<cdate>1779915466783</cdate>
-		<edate>1780800363284</edate>
+		<edate>1780985669576</edate>
 		<id>125</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3846,6 +3845,14 @@ done</Str>
 			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>441</code>
+			<Int sr="arg0" val="0"/>
+			<Bundle sr="arg1">
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>331</code>
 			<Int sr="arg0" val="0"/>
 			<ConditionList sr="if">
@@ -3856,7 +3863,7 @@ done</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>425</code>
 			<Int sr="arg0" val="0"/>
 			<ConditionList sr="if">
@@ -3867,7 +3874,7 @@ done</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>113</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
@@ -3879,7 +3886,7 @@ done</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>905</code>
 			<Int sr="arg0" val="0"/>
 			<ConditionList sr="if">
@@ -3890,7 +3897,7 @@ done</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Toggle Data</Str>
@@ -3920,7 +3927,7 @@ done</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>333</code>
 			<Int sr="arg0" val="1"/>
 			<Bundle sr="arg1">
@@ -3934,7 +3941,7 @@ done</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>333</code>
 			<Int sr="arg0" val="0"/>
 			<Bundle sr="arg1">
@@ -4082,7 +4089,7 @@ done</Str>
 	</Task>
 	<Task sr="task128">
 		<cdate>1759616184933</cdate>
-		<edate>1780853916751</edate>
+		<edate>1780985584589</edate>
 		<id>128</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -4438,7 +4445,7 @@ done</Str>
 	</Task>
 	<Task sr="task130">
 		<cdate>1759616184933</cdate>
-		<edate>1780853835887</edate>
+		<edate>1780985551633</edate>
 		<id>130</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5261,7 +5268,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task137">
 		<cdate>1774800744997</cdate>
-		<edate>1780872062595</edate>
+		<edate>1780985561787</edate>
 		<id>137</id>
 		<nme>Net Set</nme>
 		<Action sr="act0" ve="7">
@@ -5761,7 +5768,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task145">
 		<cdate>1774794130821</cdate>
-		<edate>1780950741520</edate>
+		<edate>1780985370473</edate>
 		<id>145</id>
 		<nme>Lazy Workflow Initializer</nme>
 		<pri>100</pri>
@@ -6972,7 +6979,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task147">
 		<cdate>1771129901910</cdate>
-		<edate>1780953950027</edate>
+		<edate>1780985571420</edate>
 		<id>147</id>
 		<nme>Ping Test</nme>
 		<pri>100</pri>
@@ -7520,7 +7527,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task152">
 		<cdate>1737079191529</cdate>
-		<edate>1780953958636</edate>
+		<edate>1780985413391</edate>
 		<id>152</id>
 		<nme>Link Sanitizer</nme>
 		<pri>6</pri>
@@ -7875,7 +7882,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task158">
 		<cdate>1759448761509</cdate>
-		<edate>1780953971078</edate>
+		<edate>1780985580711</edate>
 		<id>158</id>
 		<nme>Net Src Switch</nme>
 		<pri>100</pri>
@@ -8012,7 +8019,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task160">
 		<cdate>1737079191529</cdate>
-		<edate>1780954144428</edate>
+		<edate>1780985454664</edate>
 		<id>160</id>
 		<nme>Enable Low Power Mode</nme>
 		<pri>6</pri>
@@ -8067,8 +8074,8 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%WORK_PROFILE</lhs>
-					<op>2</op>
-					<rhs>disabled</rhs>
+					<op>3</op>
+					<rhs>enabled</rhs>
 				</Condition>
 				<Condition sr="c2" ve="3">
 					<lhs>%TETHER</lhs>
@@ -8515,7 +8522,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task163">
 		<cdate>1759612460120</cdate>
-		<edate>1780853420671</edate>
+		<edate>1780985509877</edate>
 		<id>163</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -8868,7 +8875,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task169">
 		<cdate>1759612559032</cdate>
-		<edate>1780853475721</edate>
+		<edate>1780985514208</edate>
 		<id>169</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -9204,7 +9211,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task24">
 		<cdate>1737079191529</cdate>
-		<edate>1780953990502</edate>
+		<edate>1780985473954</edate>
 		<id>24</id>
 		<nme>Disable Low Power Mode</nme>
 		<pri>6</pri>
@@ -9481,7 +9488,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task25">
 		<cdate>1778646957644</cdate>
-		<edate>1780853861757</edate>
+		<edate>1780985577398</edate>
 		<id>25</id>
 		<Action sr="act0" ve="7">
 			<code>137</code>
@@ -9558,7 +9565,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task251">
 		<cdate>1780786059094</cdate>
-		<edate>1780853529909</edate>
+		<edate>1780985520717</edate>
 		<id>251</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -10119,7 +10126,7 @@ fi</Str>
 	</Task>
 	<Task sr="task40">
 		<cdate>1770852167723</cdate>
-		<edate>1780853584003</edate>
+		<edate>1780985526155</edate>
 		<id>40</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -10305,7 +10312,7 @@ fi</Str>
 	</Task>
 	<Task sr="task60">
 		<cdate>1759093117144</cdate>
-		<edate>1780951020125</edate>
+		<edate>1780985538593</edate>
 		<id>60</id>
 		<nme>Redundant Net Src Switch</nme>
 		<pri>100</pri>
@@ -11653,7 +11660,7 @@ fi</Str>
 	</Task>
 	<Task sr="task95">
 		<cdate>1780417489507</cdate>
-		<edate>1780853841939</edate>
+		<edate>1780985555828</edate>
 		<id>95</id>
 		<Action sr="act0" ve="7">
 			<code>130</code>
@@ -11843,7 +11850,7 @@ fi</Str>
 	</Task>
 	<Task sr="task99">
 		<cdate>1775316698194</cdate>
-		<edate>1780853422494</edate>
+		<edate>1780985507125</edate>
 		<id>99</id>
 		<Action sr="act0" ve="7">
 			<code>549</code>
