@@ -157,13 +157,48 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the task list I had a tough time getting it to move around. now that the AI button's been added which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the list who's toggle will remain obstructed instead of the one's that are of use to the user. (TLDR: just a UI inconvenience mitigator). or you could disable the "AI Generation Button Enabled" option by going to the 3 dots on top of the main activity -> UI tab -> "AI Generation Button Enabled".
 * the rest of the profiles (mostly being ones containing `=` & words in it like `Net Mgr`) are just profile separators. when making changes to the entry/exit actions, they shouldn't make any changes to how project's workflow.
 
+### what each Taskert tasks do & what profiles trigger them:
+
+`Autoread Whatsapp` - just clicks that "read all" button. As long as the UI stays the same, this won't break, you're free to delete/disable this profile & it's task, does not depend on anything
+`Gaming Clock` - sets cpu settings to whatever settings the user considers & has set to performance mode
+`Regular Cpu Clock` - sets cpu settings to whatever settings the user considers & has set to balanced mode
+`Low Clock Cpu` - sets cpu settings to whatever settings the user considers & has set to low clock/performance mode
+`Custom Intent` - task to be run by the `Custom Intent` profile which receives a `net.dinglisch.tasker.INTENT_RCVR_FOR_BASE-STUFF` broadcast from other locations & sets global vars & toggles profiles based on the payload. 
+    - payload struct for toggling profile - { "val_type": "profile", "state": [on|off], "profile_name": "<name>" }
+    - payload struct for setting global vars - { <key>: <val> }
+
+`Fg Map Actions` - sets location to high accuracey & auto-brightness when a map app is open
+`(Un)Set Sim Presence Airplane Mode` - toggles airplane mode based on sim presence 
+`All Vol Set` - task to set a certain vol lvl to all audio stream
+`Net Set` - runs the `Redundant Net Src` task, when a singular stable wan connection src is made after which the `WAN check switch` task is run
+`Lazy Workflow Initializer` - sets global var.s, toggles necessarily needed to be toggled profiles
+`Ping Test` - constant ping test only if the `Net Set` profile is active
+`Link Sanitizer` - works with clipboard contents containing links (for now, strips sid from youtube links)
+`Enable Low Power Mode` - sets airplane mode if no sim, or sim cannot be used for any comms, battery to power save, disable, hotspot, auto sync, data, wifi, auto-rotate, bluetooth, runs the `Low Clock Cpu` task & enables the "disable sensor" via shell if root/shizuku is available
+`Disable Low Power Mode` - only disables battery low power mode & sets cpu to `Regular Cpu Clock` 
+`Unset All Alarms` - turns off all alarms
+`Toggle Data` - if no root/running shizuku or if taskersettings don't work, uses autoinput to toggle data, action 13. (user needs to configure the actions to toggle data in the mobile data settings activity)
+`Toggle Bluetooth` - same as `Toggle Data` but for bluetooth
+`Net Src Switch` - if wifi is on disable data & vice versa
+`Hotspot Autoset Network Profiles` - disable any WAN iface switching/toggling/checking profiles when hotspot is active, enable the profiles when hostspot is inactive
+`TTS Test` - task to test if tts works, with a possible fix that will be mentioned in a notification which will be posted if it doens't work
+`Screen State Based Msg` - task to post msg via toast/tts based on screen state (screen on - toast, screen off - tts)
+`Bluetooth Unset` - if no connections within 15 seconds, disable bluetooth (if sdk > 31 AND root/shizuku is not running toggle via autoinput else use action's toggle)
+`Redundant Net Src Switch` - enable data & wifi, if wifi connected disable data, else disable wifi
+`Alarmy Call` - task to call a contact (triggered by `Alarmy Call` profile `Tasker - Alarmy call.flo` automate flow)
+`Wan Check Switch` - when `Redundant Net Src` profile is not active, based on the `HIHG_PING` global var value set by the `Ping Test` profile & task
+`Toggle Profiles` - literally what it says. used in the `Lazy Workflow Initializer` task to xor toggle profiles (Automate depend/independent).
+`Toggle Dev Mode sensors` - toggle "disable sensors" (the dev setting) via `service call sensor_privacy 9 i32 [1|0]`. in a non-privileged shell `TASKER_HELPER_FOR_SENSOR_TOGGLE` global var is checked for the "works" value & THEN runs the cmd in shell to toggle the "disable sensors" option. The check (`Lazy workflow initializer`) is done in an unconventional & hacky way which is the cmd's output's passed to `wc -l` which if 1, it works, else it doesn't since the output I got was a hexdump of dot separated java stack traces complain about argument numbers or types & the shell return var ($?) returned 0 even with the failure & therefore this unconventional hacky way of testing.
+
+
+
 ### custom global vars set & used by profiles & tasks from the above group of profiles
 1. `APP_CTX_INVISIBLE_FG_NET_UNSET_PKG`, `PHONE_LOCK_SET`, `NET_SRC_TOGGLE_COUNT`, `APP_NET`, `BG_NET`, `WORK_PROFILE`, `MDATA`, `ADB_WIFI`, `WIFI_CONNECTED`, `WAN_ACCESSIBLE`, `VPN_CONN`, `FG_NET_APP_OPT`, `FG_NET_APP_NAME`, `ROOT_STAT`, `SHIZUKU_RUNNING`, `HIGH_PING` - [network toggle & check profiles](#global-var-setter-profiles-for-phone-settings), [low power & screen lock profiles](#low-power-based-on-lock-&-screen-state) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
 2. `BG_OBD`,`FG_OBD`,`BT_CONNECTED`,  `ROOT_STAT`, `SHIZUKU_RUNNING` - [bluetooth toggle profiles](#bluetooth-toggle) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
-3. `LOW_POWER_MODE`, `PHONE_LOCKED`, `ROOT_STAT` - [low power & screen lock profiles](#low-power-based-on-lock-&-screen-state) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
+3. `TASKER_HELPER_FOR_SENSOR_TOGGLE`, `LOW_POWER_MODE`, `PHONE_LOCKED`, `ROOT_STAT` - [low power & screen lock profiles](#low-power-based-on-lock-&-screen-state) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
 4. `BG_MAP`, `FG_MAP` - [Map settings toggling profiles](#map-settings)
 5. `WAKE_UP_NUM` - [other stuff](#other-stuff)
-
+6. `TASKER_HELPER_FOR_SENSOR_TOGGLE`, `TASKER_HELPER_FOR_DATA_TOGGLE`, `TASKER_HELPER_FOR_SENSOR_TOGGLE` - [other stuff](#other-stuff), [network toggle & check profiles](#global-var-setter-profiles-for-phone-settings), & [base stuff](#workflow-base-&-entry-point.-stuff-profiles-here-can-be-used-to-initiate/start-the-workflow-&-be-used-as-a-common-entrypoint-for-implicit-intents-to-trigger-the-profiles/tasks/actions)
 ### global vars (more like flags) & what they mean/are meant for...with values that have been used to get the workflow to run
 * `APP_NET` (yes|no) - value is toggled when a wan connection needing app is or is not in the foreground
 * `BG_NET` (yes|no) - same as `APP_NET` but for background config.ed apps
@@ -199,6 +234,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     - err - the action errored. you will have to see for yourself what kind of error (for me it was yapping about permissions even though it worked previously...must be another droid update)
     - not_installed - literally what it says
 * `TASKER_HELPER_FOR_DATA_TOGGLE` - same as `TASKER_HELPER_FOR_BT_TOGGLE` but for data action
+* `TASKER_HELPER_FOR_SENSOR_TOGGLE` - same as `TASKER_HELPER_FOR_BT_TOGGLE` but for toggling sensors using taskersettings via shell `service call sensor_privacy 9 i32 [1|0]`
 
 ### Automate Flows & what they do 
 * `Tasker - Check Set boot stuff.flo` - sets variables, settings, flags & such after boot. Basically an initializer helper of sorts for tasker
