@@ -54,13 +54,12 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 15. you may need to change the `Data` field in the `Send Intent` action in all tasker tasks which are intended to invoke Automate flows (the flow to be invoked will be indicated in the `send intent` action's label field) to whatever the content has been changed to in the flow's start block. do this IF the "Flow URI" field in the imported automate flow's start block differs from what's there in tasker's `send intent` action's Data field.
 16. reboot the phone or run the `Check Set Stuff At Boot` TASK to initialize global vars & run the needed automate flo's based on the selected profiles
 17. <b>(optional/if needed)</b> Enable the actions in the 2nd task of the `screen Off Low Power` & `screen Unlocked No Low Power` profiles
-18. if you do not want the toasts from the `Ping test` & `WAN check` the actions to disable/delete are the following
+18. if you do not want the toast/tts msgs from the `Ping test` & `WAN check` the actions to disable/delete are the following
      - `Ping Test` Task
-        - action 3
-        - action 6
-        - action 11
-        - action 17
-        - action 20
+        - action 5
+        - action 10
+        - action 16
+        - action 19
         - action 22
 
      - `WAN Check Switch` Task
@@ -68,10 +67,9 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
         - action 19
         - action 24
         - action 28
-        - action 37
-        - action 40
-        - action 51
-        - action 59
+        - action 38
+        - action 52
+        - action 60
 
 ## What each Tasker profiles do
 ##### 1. <b>workflow base & entry point. stuff profiles here can be used to initiate/start the workflow & be used as a common entrypoint for implicit intents to trigger the profiles/tasks/actions</b>
