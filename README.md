@@ -54,15 +54,20 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 15. you may need to change the `Data` field in the `Send Intent` action in all tasker tasks which are intended to invoke Automate flows (the flow to be invoked will be indicated in the `send intent` action's label field) to whatever the content has been changed to in the flow's start block. do this IF the "Flow URI" field in the imported automate flow's start block differs from what's there in tasker's `send intent` action's Data field.
 16. reboot the phone or run the `Check Set Stuff At Boot` TASK to initialize global vars & run the needed automate flo's based on the selected profiles
 17. <b>(optional/if needed)</b> Enable the actions in the 2nd task of the `screen Off Low Power` & `screen Unlocked No Low Power` profiles
-18. if you do not want the toast/tts msgs from the `Ping test` & `WAN check` the actions to disable/delete are the following
-     - `Ping Test` Task
+18. `Get Recents` profile - doesn't make too much of a difference if this doesn't work, this is just an additional "timeout" addition for when you go to the recents screen. Try this out without doing anything to it which if it doesn't work then proceed with the setup. To set it up you would need to know the text embeded in your navigation bar's recent's button & the button's element id to be set in the event context & in the tasks's action's if statment, which MAY vary with android flavour but for me this wasn't the case when I tried it on an oem rom & a custom rom with varying android versions (text - Overview, elementid - com.android.systemui:id/recent_apps). if there is a variation or you find that this profile is never getting active try below
+    - disable this profile, open the `Autoinput UI update` event remove the value set in the Element Text field
+    - enable action 2 and or action 3 (either or both works) in the task 
+    - enable the profile then tap the recents button.
+    - disable the (if you're not okay with constant popup annoyance on every tap) profile & then put in the "Text" in the `autoinput UI update` event context's Text field & the elementid in the condition of action 1 from the task
+19. if you do not want the toast/tts msgs from the `Ping test` & `WAN check` the actions to disable/delete are the following
+    - `Ping Test` Task
         - action 5
         - action 10
         - action 16
         - action 19
         - action 22
 
-     - `WAN Check Switch` Task
+    - `WAN Check Switch` Task
         - action 3
         - action 19
         - action 24
@@ -136,6 +141,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 * `New App Installed` - to prompt the user if an installed app is to be set in the app context of the profiles in this project to which if pressed yes, will open tasker. will only be a popup if already in tasker
 * `Disable Profiles` - disable those profiles used for separation & the profiles that require root.
 * `App Context Invisible Fg Apps` - to get app/pkg names that are not listed in tasker's app context & compare the pkg name against pkgs set in `/sdcard/Tasker/projects/app_ctx_invisible_apps_for_fg_unset_profile.txt` (too long a name I know) file which if it's there sets the `APP_CTX_INVISIBLE_FG_NET_UNSET_PKG` global var (yes, it's a mouthful & too wordy...best I could come up with) with that pkg name via grep (done like this "grep <pkg name> | grep -iv '#'"). The global var is then used in the `Fg Net Flags Unset` profile. can be used to set/unset global vars & files besides what's being currently used
+* `Get Recents` - a profile to see if the user's on the "recents" screen just so the fg net app profile's timeout can be paused when in the recents screen
 
 
 ##### 9. <b>other stuff</b>
@@ -228,6 +234,7 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     Wifi Hotspot State Via Automate
     Wifi Hotspot State
     Work Profile Set
+    Get Recents
     App Context Invisible Fg Apps
     Mobile Data Var Set
     Mobile Data Var Set via Automate
