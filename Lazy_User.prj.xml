@@ -141,7 +141,7 @@
 	<Profile sr="prof196" ve="2">
 		<cdate>1781135181651</cdate>
 		<clp>true</clp>
-		<edate>1781638575001</edate>
+		<edate>1781750496048</edate>
 		<flags>8</flags>
 		<id>196</id>
 		<mid0>133</mid0>
@@ -678,7 +678,7 @@
 	<Profile sr="prof217" ve="2">
 		<cdate>1781135181684</cdate>
 		<clp>true</clp>
-		<edate>1781625385369</edate>
+		<edate>1781750041447</edate>
 		<flags>8</flags>
 		<id>217</id>
 		<mid0>173</mid0>
@@ -1619,8 +1619,7 @@ Notes:
 	</Profile>
 	<Profile sr="prof250" ve="2">
 		<cdate>1781135181720</cdate>
-		<clp>true</clp>
-		<edate>1781625389661</edate>
+		<edate>1781750606925</edate>
 		<flags>8</flags>
 		<id>250</id>
 		<mid0>180</mid0>
@@ -2013,7 +2012,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof284" ve="2">
 		<cdate>1778888114011</cdate>
 		<clp>true</clp>
-		<edate>1781615914510</edate>
+		<edate>1781749982050</edate>
 		<flags>8</flags>
 		<id>284</id>
 		<mid0>286</mid0>
@@ -2068,8 +2067,8 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>211,190,212,218,264,266,198,251,270,206,210,268,189,197,248,231,250,232,226,236,261,196,242,238,245,272,229,241,249,239,207,213,221,244,263,269,208,228,224,217,222,199,215,214,204,284,203,267,276,280,233,235,234,240,195,220,262,219,202,271,237,209,227,259,216</pids>
-		<tids>24,143,170,171,106,164,275,122,97,163,139,101,103,55,128,157,167,90,186,129,119,109,25,141,142,169,182,126,302,99,120,98,149,133,108,168,273,96,150,160,105,148,110,286,100,30,179,140,146,102,136,185,295,56,151,154,299,135,161,117,62,296,174,173,147,144,178,138,145,134,137,297,124,183,131,156,281,165,130,41,116,61,277,155,159,113,125,94,127,180,104,107,112,95,181,111,175,37,152,121,184,40,162,177,158,123,166,115,132</tids>
+		<pids>189,206,272,229,195,249,212,270,207,210,226,198,261,196,245,231,190,233,218,215,263,211,269,208,271,222,217,235,250,213,266,236,220,240,224,234,232,204,276,227,242,238,262,268,202,228,264,203,197,259,280,199,241,267,214,239,209,284,221,248,237,251,244,216,219</pids>
+		<tids>101,167,55,138,24,41,129,110,171,149,56,103,295,137,109,97,275,111,157,120,119,156,164,281,166,134,127,169,126,145,99,116,135,40,130,175,148,286,133,100,105,125,152,296,183,159,299,162,144,128,155,108,106,154,170,90,147,94,277,102,173,151,122,37,132,115,158,142,136,98,121,150,184,139,180,124,177,96,61,95,174,62,141,123,302,178,107,131,143,117,297,185,163,104,273,186,25,181,30,160,140,165,179,113,146,161,112,168,182</tids>
 	</Project>
 	<Task sr="task100">
 		<cdate>1776695605148</cdate>
@@ -2088,7 +2087,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task101">
 		<cdate>1759650620765</cdate>
-		<edate>1781722938818</edate>
+		<edate>1781740829974</edate>
 		<id>101</id>
 		<nme>Wan Check Switch</nme>
 		<pri>100</pri>
@@ -3164,7 +3163,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task108">
 		<cdate>1775316698194</cdate>
-		<edate>1781625385369</edate>
+		<edate>1781750041447</edate>
 		<id>108</id>
 		<Action sr="act0" ve="7">
 			<code>549</code>
@@ -5136,11 +5135,67 @@ to call the flow in case it isn't running</label>
 	</Task>
 	<Task sr="task135">
 		<cdate>1775316698194</cdate>
-		<edate>1781638575001</edate>
+		<edate>1781750496048</edate>
 		<id>135</id>
 		<Action sr="act0" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%RECENTS_SCREEN</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%RECENTS_SCREEN</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%pause_time</Str>
+			<Int sr="arg1">
+				<var>%qtime</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pause_time</Str>
+			<Str sr="arg1" ve="3">15</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
 			<code>548</code>
-			<Str sr="arg0" ve="3">15s to go back to that app or until WAN connection before being prompted</Str>
+			<Str sr="arg0" ve="3">pause_time%null()s to go back to that app or until WAN connection before being prompted</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg10" ve="3"/>
 			<Int sr="arg11" val="0"/>
@@ -5157,14 +5212,26 @@ to call the flow in case it isn't running</label>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>Or2</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%FG_NET_APP_OPT</lhs>
 					<op>2</op>
 					<rhs>nonet</rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%PACTIVE</lhs>
+					<op>3</op>
+					<rhs>*Fg Net Flags Set (Optional)*</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%FG_NET_APP_NAME</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act5" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%FG_NET_APP_NAME</Str>
 			<Int sr="arg1" val="0"/>
@@ -5178,7 +5245,7 @@ to call the flow in case it isn't running</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act6" ve="7">
 			<code>35</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -5191,7 +5258,7 @@ to call the flow in case it isn't running</label>
 				<Condition sr="c0" ve="3">
 					<lhs>%qtime</lhs>
 					<op>7</op>
-					<rhs>15</rhs>
+					<rhs>%pause_time</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%PACTIVE</lhs>
@@ -5199,13 +5266,13 @@ to call the flow in case it isn't running</label>
 					<rhs>.*(Fg Net Flags|Net) Set.*</rhs>
 				</Condition>
 				<Condition sr="c2" ve="3">
-					<lhs>%FG_NET_APP_NAME</lhs>
-					<op>12</op>
-					<rhs></rhs>
+					<lhs>%RECENTS_SCREEN</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act7" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%FG_NET_APP_OPT</Str>
 			<Int sr="arg1" val="0"/>
@@ -5221,7 +5288,38 @@ to call the flow in case it isn't running</label>
 				<Condition sr="c1" ve="3">
 					<lhs>%qtime</lhs>
 					<op>7</op>
-					<rhs>15</rhs>
+					<rhs>%pause_time</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%qtime</lhs>
+					<op>6</op>
+					<rhs>%pause_time</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%RECENTS_SCREEN</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%RECENTS_SCREEN</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -6791,7 +6889,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task152">
 		<cdate>1737079191529</cdate>
-		<edate>1781666285291</edate>
+		<edate>1781741951046</edate>
 		<id>152</id>
 		<nme>Sanitized URL Share</nme>
 		<pri>6</pri>
@@ -8123,13 +8221,13 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task156">
 		<cdate>1780070522117</cdate>
-		<edate>1781666854765</edate>
+		<edate>1781741279005</edate>
 		<id>156</id>
 		<nme>New App Installed</nme>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%app_name</Str>
+			<Str sr="arg0" ve="3">%installed_app_name</Str>
 			<Str sr="arg1" ve="3">%evtprm1</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -8139,7 +8237,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%pkg_name</Str>
+			<Str sr="arg0" ve="3">%installed_pkg_name</Str>
 			<Str sr="arg1" ve="3">%evtprm2</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -8155,7 +8253,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			</Bundle>
 			<Str sr="arg1" ve="3">YesOrNo</Str>
 			<Str sr="arg2" ve="3">New App installed</Str>
-			<Str sr="arg3" ve="3">%app_name - %pkg_name. consists of %str permission requests</Str>
+			<Str sr="arg3" ve="3">%installed_app_name - %installed_pkg_name. consists of %str permission requests</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="30"/>
 		</Action>
@@ -8191,6 +8289,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>37</code>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>Or2</bool1>
@@ -8232,7 +8331,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 				<Vals sr="val"/>
 			</Bundle>
 			<Str sr="arg1" ve="3">Lazy workflow info</Str>
-			<Str sr="arg2" ve="3">Set installed app %app_name in the relevant/needed (net/bluetooth/map) profile's app context of needed (pkg - %pkg_name)</Str>
+			<Str sr="arg2" ve="3">Set installed app %installed_app_name in the relevant/needed (net/bluetooth/map) profile's app context of needed (pkg - %installed_pkg_name)</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
@@ -8308,6 +8407,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>37</code>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%SCREEN</lhs>
@@ -8319,7 +8419,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 		<Action sr="act5" ve="7">
 			<code>559</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">%app_name installed, consists of requests for %str. set app in tasker lazy workflow project if needed</Str>
+			<Str sr="arg0" ve="3">%installed_app_name installed, consists of requests for %str. set app in tasker lazy workflow project if needed</Str>
 			<Str sr="arg1" ve="3">%SAY_TTS_ENGINE_VOICE</Str>
 			<Int sr="arg2" val="3"/>
 			<Int sr="arg3" val="5"/>
@@ -8364,6 +8464,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>37</code>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%app_name</lhs>
@@ -8375,7 +8476,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task157">
 		<cdate>1771129901910</cdate>
-		<edate>1781724717502</edate>
+		<edate>1781740119570</edate>
 		<id>157</id>
 		<nme>Ping Test</nme>
 		<pri>100</pri>
@@ -10250,10 +10351,108 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task180">
 		<cdate>1759612559032</cdate>
-		<edate>1781703416709</edate>
+		<edate>1781750606925</edate>
 		<id>180</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%pause_time</Str>
+			<Str sr="arg1" ve="3">10</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%RECENTS_SCREEN</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1">
+				<var>7</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PACTIVE</lhs>
+					<op>2</op>
+					<rhs>*Fg Net Flags Set*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Unset fg net app flags</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%APP_NET</Str>
+			<Str sr="arg1" ve="3">no</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Net Unset</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%RECENTS_SCREEN</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -10275,14 +10474,14 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
 			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">unsetting fg net app flags after 10s</Str>
+			<Str sr="arg2" ve="3">unsetting fg net app flags after %pause_time%null()s</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -10291,7 +10490,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act6" ve="7">
 			<code>35</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -10302,10 +10501,11 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 				<bool0>Or</bool0>
 				<bool1>Or</bool1>
 				<bool2>Or</bool2>
+				<bool3>Or</bool3>
 				<Condition sr="c0" ve="3">
 					<lhs>%qtime</lhs>
 					<op>7</op>
-					<rhs>10</rhs>
+					<rhs>%pause_time</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%PACTIVE</lhs>
@@ -10322,56 +10522,51 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 					<op>2</op>
 					<rhs>true</rhs>
 				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PACTIVE</lhs>
+				<Condition sr="c4" ve="3">
+					<lhs>%RECENTS_SCREEN</lhs>
 					<op>2</op>
-					<rhs>*Fg Net Flags Set*</rhs>
+					<rhs>yes</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Unset fg net app flags</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%qtime</lhs>
+					<op>6</op>
+					<rhs>%pause_time</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%RECENTS_SCREEN</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%APP_NET</Str>
-			<Str sr="arg1" ve="3">no</Str>
+		<Action sr="act8" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%RECENTS_SCREEN</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">Net Unset</Str>
-			<Int sr="arg1" val="1"/>
+		<Action sr="act9" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%pause_time</Str>
+			<Int sr="arg1">
+				<var>%qtime</var>
+			</Int>
+			<Int sr="arg2" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task181">
@@ -11062,7 +11257,7 @@ shell output - %output</Str>
 	</Task>
 	<Task sr="task286">
 		<cdate>1781377101778</cdate>
-		<edate>1781481899578</edate>
+		<edate>1781749976309</edate>
 		<id>286</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -11083,20 +11278,32 @@ shell output - %output</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>377</code>
+			<code>548</code>
 			<on>false</on>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-			<Str sr="arg1" ve="3">%aielementid</Str>
-			<Str sr="arg2" ve="3"/>
+			<Str sr="arg0" ve="3">%aielementtext - %aielementid</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="30"/>
-			<Int sr="arg7" val="0"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
 			<Str sr="arg8" ve="3"/>
-			<Str sr="arg9" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>410</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Tasker/projects/recents_btn_info.txt</Str>
+			<Str sr="arg1" ve="3">%aielementtext - %aielementid</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task295">
@@ -11263,7 +11470,7 @@ shell output - %output</Str>
 	</Task>
 	<Task sr="task299">
 		<cdate>1781446000975</cdate>
-		<edate>1781469008663</edate>
+		<edate>1781741523440</edate>
 		<id>299</id>
 		<nme>Permission Check</nme>
 		<pri>100</pri>
@@ -11313,7 +11520,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%perms</lhs>
@@ -11376,7 +11583,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%perms</lhs>
@@ -11415,7 +11622,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%perms</lhs>
