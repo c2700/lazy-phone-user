@@ -141,7 +141,7 @@
 	<Profile sr="prof196" ve="2">
 		<cdate>1781135181651</cdate>
 		<clp>true</clp>
-		<edate>1781750496048</edate>
+		<edate>1781750866994</edate>
 		<flags>8</flags>
 		<id>196</id>
 		<mid0>133</mid0>
@@ -243,7 +243,7 @@
 	<Profile sr="prof198" ve="2">
 		<cdate>1781135181651</cdate>
 		<clp>true</clp>
-		<edate>1781726606930</edate>
+		<edate>1781750845137</edate>
 		<flags>8</flags>
 		<id>198</id>
 		<mid0>140</mid0>
@@ -387,7 +387,7 @@
 	<Profile sr="prof206" ve="2">
 		<cdate>1781135181662</cdate>
 		<clp>true</clp>
-		<edate>1781481895877</edate>
+		<edate>1781807917105</edate>
 		<flags>8</flags>
 		<id>206</id>
 		<mid0>105</mid0>
@@ -400,7 +400,7 @@
 	<Profile sr="prof207" ve="2">
 		<cdate>1781135181667</cdate>
 		<clp>true</clp>
-		<edate>1781737116356</edate>
+		<edate>1781834242994</edate>
 		<flags>8</flags>
 		<id>207</id>
 		<limit>true</limit>
@@ -586,18 +586,17 @@
 	<Profile sr="prof213" ve="2">
 		<cdate>1781135181679</cdate>
 		<clp>true</clp>
-		<edate>1781665446389</edate>
+		<edate>1781770807514</edate>
 		<flags>8</flags>
 		<id>213</id>
 		<mid0>152</mid0>
 		<nme>Sanitized URL share</nme>
 		<Event sr="con0" ve="2">
-			<code>2097</code>
+			<code>3050</code>
 			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
+			<Str sr="arg0" ve="3">%CLIP</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
 		</Event>
 	</Profile>
 	<Profile sr="prof214" ve="2">
@@ -678,7 +677,7 @@
 	<Profile sr="prof217" ve="2">
 		<cdate>1781135181684</cdate>
 		<clp>true</clp>
-		<edate>1781750041447</edate>
+		<edate>1781750813955</edate>
 		<flags>8</flags>
 		<id>217</id>
 		<mid0>173</mid0>
@@ -822,7 +821,7 @@ Notific...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof219" ve="2">
 		<cdate>1781135181688</cdate>
 		<clp>true</clp>
-		<edate>1781013835994</edate>
+		<edate>1781750753237</edate>
 		<flags>8</flags>
 		<id>219</id>
 		<mid0>141</mid0>
@@ -851,7 +850,7 @@ Notific...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof220" ve="2">
 		<cdate>1781135181692</cdate>
 		<clp>true</clp>
-		<edate>1781738351232</edate>
+		<edate>1781834242628</edate>
 		<flags>8</flags>
 		<id>220</id>
 		<limit>true</limit>
@@ -975,9 +974,10 @@ Notes:
 	<Profile sr="prof224" ve="2">
 		<cdate>1781135181699</cdate>
 		<clp>true</clp>
-		<edate>1781733706369</edate>
+		<edate>1781830299716</edate>
 		<flags>8</flags>
 		<id>224</id>
+		<limit>true</limit>
 		<mid0>113</mid0>
 		<mid1>61</mid1>
 		<nme>Wan Check Switch</nme>
@@ -1045,9 +1045,10 @@ Notes:
 	<Profile sr="prof226" ve="2">
 		<cdate>1781135181699</cdate>
 		<clp>true</clp>
-		<edate>1781726235871</edate>
+		<edate>1781796370713</edate>
 		<flags>8</flags>
 		<id>226</id>
+		<limit>true</limit>
 		<mid0>157</mid0>
 		<mid1>109</mid1>
 		<nme>Ping Test</nme>
@@ -1127,7 +1128,7 @@ Notes:
 	<Profile sr="prof228" ve="2">
 		<cdate>1781135181703</cdate>
 		<clp>true</clp>
-		<edate>1781724165899</edate>
+		<edate>1781835598420</edate>
 		<flags>8</flags>
 		<id>228</id>
 		<mid0>131</mid0>
@@ -1144,7 +1145,7 @@ Notes:
 	<Profile sr="prof229" ve="2">
 		<cdate>1781135181704</cdate>
 		<clp>true</clp>
-		<edate>1781625475918</edate>
+		<edate>1781830408365</edate>
 		<flags>8</flags>
 		<id>229</id>
 		<mid0>137</mid0>
@@ -1392,9 +1393,10 @@ Notes:
 	<Profile sr="prof239" ve="2">
 		<cdate>1781135181715</cdate>
 		<clp>true</clp>
-		<edate>1781625499121</edate>
+		<edate>1781830400301</edate>
 		<flags>8</flags>
 		<id>239</id>
+		<limit>true</limit>
 		<mid0>273</mid0>
 		<nme>Net Src Disconnected Switch</nme>
 		<State sr="con0" ve="2">
@@ -1463,7 +1465,7 @@ Notes:
 	<Profile sr="prof240" ve="2">
 		<cdate>1781135181715</cdate>
 		<clp>true</clp>
-		<edate>1781738171927</edate>
+		<edate>1781835601271</edate>
 		<flags>8</flags>
 		<id>240</id>
 		<mid0>161</mid0>
@@ -1619,7 +1621,8 @@ Notes:
 	</Profile>
 	<Profile sr="prof250" ve="2">
 		<cdate>1781135181720</cdate>
-		<edate>1781750606925</edate>
+		<clp>true</clp>
+		<edate>1781750838829</edate>
 		<flags>8</flags>
 		<id>250</id>
 		<mid0>180</mid0>
@@ -1817,7 +1820,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof267" ve="2">
 		<cdate>1781135181756</cdate>
 		<clp>true</clp>
-		<edate>1781724186674</edate>
+		<edate>1781835604087</edate>
 		<flags>8</flags>
 		<id>267</id>
 		<mid0>184</mid0>
@@ -1860,12 +1863,12 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof269" ve="2">
 		<cdate>1781135181761</cdate>
 		<clp>true</clp>
-		<edate>1781023560023</edate>
+		<edate>1781834242105</edate>
 		<flags>8</flags>
 		<id>269</id>
 		<limit>true</limit>
 		<mid0>25</mid0>
-		<nme>Wifi Hotspot State Via Automate</nme>
+		<nme>Wifi Hotspot State via Automate</nme>
 		<Event sr="con0" ve="2">
 			<code>599</code>
 			<Str sr="arg0" ve="3">net.dinglisch.tasker.WL_HOTSPOT</Str>
@@ -1979,7 +1982,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof280" ve="2">
 		<cdate>1781135181635</cdate>
 		<clp>true</clp>
-		<edate>1781615928522</edate>
+		<edate>1781750888965</edate>
 		<flags>8</flags>
 		<id>280</id>
 		<mid0>281</mid0>
@@ -2067,8 +2070,8 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>189,206,272,229,195,249,212,270,207,210,226,198,261,196,245,231,190,233,218,215,263,211,269,208,271,222,217,235,250,213,266,236,220,240,224,234,232,204,276,227,242,238,262,268,202,228,264,203,197,259,280,199,241,267,214,239,209,284,221,248,237,251,244,216,219</pids>
-		<tids>101,167,55,138,24,41,129,110,171,149,56,103,295,137,109,97,275,111,157,120,119,156,164,281,166,134,127,169,126,145,99,116,135,40,130,175,148,286,133,100,105,125,152,296,183,159,299,162,144,128,155,108,106,154,170,90,147,94,277,102,173,151,122,37,132,115,158,142,136,98,121,150,184,139,180,124,177,96,61,95,174,62,141,123,302,178,107,131,143,117,297,185,163,104,273,186,25,181,30,160,140,165,179,113,146,161,112,168,182</tids>
+		<pids>228,189,264,233,229,250,197,267,269,272,202,207,249,262,210,266,206,234,224,248,263,213,198,199,208,227,241,212,204,217,190,244,222,239,237,203,211,214,219,226,245,235,218,280,195,236,215,232,196,270,259,242,261,221,209,268,216,251,220,231,271,284,240,238,276</pids>
+		<tids>141,174,90,166,275,130,95,171,295,170,138,299,177,125,119,169,99,107,164,102,149,55,56,129,96,181,157,98,128,136,155,135,162,105,148,104,286,144,296,97,133,139,124,167,180,25,106,103,302,116,182,109,40,297,160,178,150,94,110,137,143,175,183,61,158,112,161,142,179,37,156,154,101,186,131,41,126,24,173,145,151,273,127,123,168,146,113,185,163,147,111,117,115,159,100,62,120,165,281,121,108,132,184,122,152,277,134,140,30</tids>
 	</Project>
 	<Task sr="task100">
 		<cdate>1776695605148</cdate>
@@ -2087,7 +2090,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task101">
 		<cdate>1759650620765</cdate>
-		<edate>1781740829974</edate>
+		<edate>1781807880028</edate>
 		<id>101</id>
 		<nme>Wan Check Switch</nme>
 		<pri>100</pri>
@@ -2126,8 +2129,10 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>35</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
+			<Int sr="arg0">
+				<var>50</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -2404,6 +2409,13 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%HIGH_PING</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act31" ve="7">
 			<code>547</code>
@@ -2448,7 +2460,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act35" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">Redundant Net Src Switch</Str>
+			<Str sr="arg0" ve="3">Net Src Switch</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
@@ -2463,12 +2475,29 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act36" ve="7">
+			<code>130</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Redundant Net Src Switch</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act37" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Switch count - %NET_SRC_TOGGLE_COUNT</Str>
 			<Int sr="arg1" val="0"/>
@@ -2487,10 +2516,22 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<label>when settings stat says wan is unreachable</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ni_active_capabilities(#?validated)</lhs>
+					<op>6</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">%tmp_str, low ping</Str>
@@ -2507,22 +2548,10 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<label>when settings stat says wan is unreachable</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ni_active_capabilities(#?validated)</lhs>
-					<op>6</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act41" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">wan iface switch count limit reached</Str>
@@ -2545,7 +2574,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">wan iface switch count limit reached</Str>
@@ -2562,7 +2591,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">wan iface switch count limit reached</Str>
@@ -2591,7 +2620,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<label>prompt to ask to stop WAN checker if switch count is more than 4 &amp; wan is stable</label>
@@ -2615,7 +2644,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>390</code>
 			<Bundle sr="arg0">
 				<Vals sr="val"/>
@@ -2626,7 +2655,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="30"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -2637,25 +2666,20 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act49" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">Net Src Switch</Str>
-		</Action>
-		<Action sr="act48" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-		</Action>
-		<Action sr="act49" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%input</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>547</code>
@@ -2668,6 +2692,21 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act50" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%input</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act52" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -2677,7 +2716,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act53" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">WAN switch toggle count reset to 0</Str>
 			<Int sr="arg1" val="0"/>
@@ -2696,7 +2735,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act54" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1">
@@ -2704,13 +2743,13 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			</Int>
 			<Str sr="arg2" ve="3"/>
 		</Action>
-		<Action sr="act53" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act54" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act55" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act56" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act57" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -2727,7 +2766,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act58" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="2"/>
@@ -2735,7 +2774,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act59" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1">
@@ -2743,7 +2782,19 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			</Int>
 			<Str sr="arg2" ve="3"/>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act6" ve="7">
+			<code>390</code>
+			<Bundle sr="arg0">
+				<pref>ssid_choice</pref>
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg1" ve="3">YesOrNo</Str>
+			<Str sr="arg2" ve="3">switch ssid</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="30"/>
+		</Action>
+		<Action sr="act60" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -2753,7 +2804,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act59" ve="7">
+		<Action sr="act61" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">WAN src disabled: stopping wan checker</Str>
 			<Int sr="arg1" val="0"/>
@@ -2772,24 +2823,12 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>390</code>
-			<Bundle sr="arg0">
-				<pref>ssid_choice</pref>
-				<Vals sr="val"/>
-			</Bundle>
-			<Str sr="arg1" ve="3">YesOrNo</Str>
-			<Str sr="arg2" ve="3">switch ssid</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="30"/>
-		</Action>
-		<Action sr="act60" ve="7">
+		<Action sr="act62" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act61" ve="7">
+		<Action sr="act63" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act7" ve="7">
@@ -2809,7 +2848,9 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>35</code>
-			<Int sr="arg0" val="1"/>
+			<Int sr="arg0">
+				<var>50</var>
+			</Int>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -2994,7 +3035,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task105">
 		<cdate>1759507551015</cdate>
-		<edate>1781481895877</edate>
+		<edate>1781807917105</edate>
 		<id>105</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -3163,7 +3204,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task108">
 		<cdate>1775316698194</cdate>
-		<edate>1781750041447</edate>
+		<edate>1781750813955</edate>
 		<id>108</id>
 		<Action sr="act0" ve="7">
 			<code>549</code>
@@ -3175,7 +3216,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task109">
 		<cdate>1771100693993</cdate>
-		<edate>1781726107088</edate>
+		<edate>1781796369091</edate>
 		<id>109</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -3283,7 +3324,7 @@ done</Str>
 	</Task>
 	<Task sr="task113">
 		<cdate>1779214976944</cdate>
-		<edate>1781733706369</edate>
+		<edate>1781830299716</edate>
 		<id>113</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -3317,29 +3358,6 @@ done</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>877</code>
-			<label>(Automate flo) "Tasker - settings &amp; states checks": "Wi-Fi state"
-
-to call the flow in case it isn't running</label>
-			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/58/statements/34</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3">com.llamalab.automate</Str>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PENABLED</lhs>
-					<op>3</op>
-					<rhs>*Ping Test*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<label>toggle for when the profile's active but the task isn't running (yes it's happened a couple of times)</label>
@@ -3357,7 +3375,7 @@ to call the flow in case it isn't running</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act3" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Ping Test</Str>
 			<Int sr="arg1" val="0"/>
@@ -3369,15 +3387,15 @@ to call the flow in case it isn't running</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act4" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Ping Test</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Wan Check Switch</Str>
 			<Int sr="arg1">
@@ -4703,7 +4721,7 @@ to call the flow in case it isn't running</label>
 	</Task>
 	<Task sr="task133">
 		<cdate>1759612460120</cdate>
-		<edate>1781621812751</edate>
+		<edate>1781750859732</edate>
 		<id>133</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5135,7 +5153,7 @@ to call the flow in case it isn't running</label>
 	</Task>
 	<Task sr="task135">
 		<cdate>1775316698194</cdate>
-		<edate>1781750496048</edate>
+		<edate>1781750866994</edate>
 		<id>135</id>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -5803,7 +5821,7 @@ to call the flow in case it isn't running</label>
 	</Task>
 	<Task sr="task140">
 		<cdate>1759616184933</cdate>
-		<edate>1781726606930</edate>
+		<edate>1781750845137</edate>
 		<id>140</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5871,7 +5889,7 @@ to call the flow in case it isn't running</label>
 	</Task>
 	<Task sr="task141">
 		<cdate>1779918003042</cdate>
-		<edate>1781013834121</edate>
+		<edate>1781750753237</edate>
 		<id>141</id>
 		<nme>Fg Map Actions</nme>
 		<Action sr="act0" ve="7">
@@ -6144,7 +6162,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task142">
 		<cdate>1775512432687</cdate>
-		<edate>1781737116356</edate>
+		<edate>1781807881777</edate>
 		<id>142</id>
 		<nme>(Un)Set Sim Presence Airplane Mode</nme>
 		<pri>6</pri>
@@ -6889,7 +6907,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task152">
 		<cdate>1737079191529</cdate>
-		<edate>1781741951046</edate>
+		<edate>1781771009388</edate>
 		<id>152</id>
 		<nme>Sanitized URL Share</nme>
 		<pri>6</pri>
@@ -6904,17 +6922,26 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%google_ref_url_search_regex_0</Str>
-			<Str sr="arg1" ve="3">^https:\/\/www.google.com\/url\?sa=i\&amp;source=web\&amp;rct=j\&amp;url=</Str>
+			<code>598</code>
+			<Str sr="arg0" ve="3">%cl_text</Str>
+			<Str sr="arg1" ve="3">(\?|&amp;)si\=.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
+			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%cl_text</lhs>
+					<op>4</op>
+					<rhs>.*youtube\.com.*\&amp;si=.*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>877</code>
+			<se>false</se>
 			<Str sr="arg0" ve="3">android.intent.action.SEND</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">text/plain</Str>
@@ -6937,19 +6964,9 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%youtube_url_regex</Str>
-			<Str sr="arg1" ve="3">.*youtube\.com.*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%cl_text</Str>
-			<Str sr="arg1" ve="3">(\?|&amp;)si\=.*</Str>
+			<Str sr="arg1" ve="3">\/\?igsh\=.*</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -6960,9 +6977,19 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				<Condition sr="c0" ve="3">
 					<lhs>%cl_text</lhs>
 					<op>4</op>
-					<rhs>%youtube_url_regex</rhs>
+					<rhs>.*instagram.com\/reel\/.*\?igsh=.*</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%google_ref_url_search_regex_0</Str>
+			<Str sr="arg1" ve="3">^https:\/\/www.google.com\/url\?sa=i\&amp;source=web\&amp;rct=j\&amp;url=</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>37</code>
@@ -7011,6 +7038,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>105</code>
+			<se>false</se>
 			<Str sr="arg0" ve="3">%cl_text</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3"/>
@@ -7035,7 +7063,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task155">
 		<cdate>1774794130821</cdate>
-		<edate>1781737345278</edate>
+		<edate>1781807896249</edate>
 		<id>155</id>
 		<nme>Lazy Workflow Initializer</nme>
 		<pri>100</pri>
@@ -7542,7 +7570,7 @@ return new String [] {"false", ""};</Str>
 				<Condition sr="c0" ve="3">
 					<lhs>%PENABLED</lhs>
 					<op>2</op>
-					<rhs>*Wifi Hotspot State Via Automate*</rhs>
+					<rhs>*Wifi Hotspot State via Automate*</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
 					<lhs>%PENABLED</lhs>
@@ -8221,7 +8249,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task156">
 		<cdate>1780070522117</cdate>
-		<edate>1781741279005</edate>
+		<edate>1781788208753</edate>
 		<id>156</id>
 		<nme>New App Installed</nme>
 		<pri>6</pri>
@@ -8940,7 +8968,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task161">
 		<cdate>1759498246654</cdate>
-		<edate>1781724177378</edate>
+		<edate>1781795795293</edate>
 		<id>161</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -9335,7 +9363,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task167">
 		<cdate>1759448761509</cdate>
-		<edate>1781724686312</edate>
+		<edate>1781798832774</edate>
 		<id>167</id>
 		<nme>Net Src Switch</nme>
 		<pri>100</pri>
@@ -9999,7 +10027,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task173">
 		<cdate>1759612460120</cdate>
-		<edate>1781625383355</edate>
+		<edate>1781750812251</edate>
 		<id>173</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -10351,7 +10379,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task180">
 		<cdate>1759612559032</cdate>
-		<edate>1781750606925</edate>
+		<edate>1781750838829</edate>
 		<id>180</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -10710,7 +10738,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task184">
 		<cdate>1780785781722</cdate>
-		<edate>1781724186674</edate>
+		<edate>1781807910379</edate>
 		<id>184</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -11009,7 +11037,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task25">
 		<cdate>1780785781722</cdate>
-		<edate>1781023560023</edate>
+		<edate>1781807913020</edate>
 		<id>25</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -11032,9 +11060,19 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task273">
 		<cdate>1781179768057</cdate>
-		<edate>1781625499121</edate>
+		<edate>1781830400301</edate>
 		<id>273</id>
 		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Wan Check Switch</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Ping Test</Str>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>35</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -11055,7 +11093,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act3" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Net Src Switch</Str>
 			<Int sr="arg1">
@@ -11172,7 +11210,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task281">
 		<cdate>1780518363397</cdate>
-		<edate>1781570369036</edate>
+		<edate>1781750888965</edate>
 		<id>281</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -11891,8 +11929,9 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 	</Task>
 	<Task sr="task61">
 		<cdate>1778646957644</cdate>
-		<edate>1781641272513</edate>
+		<edate>1781796347433</edate>
 		<id>61</id>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
