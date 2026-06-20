@@ -24,13 +24,13 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 7. You may need to recreate profile contexts in case it still gives you warnings of apps not existing even after unselecting everything.
 8. Profiles that use the app context may not be completely reliable for apps open in floating/small windows..android limitation...logcat entry on didn't work on my non-rooted phone & the WIN var also isn't too reliable...so gotta renter the app or "re-exit" the app that was previously open to get such profiles active
 9. Install & configure a TTS engine LIKE google's `speech recognition & synthesis` if none installed & configured already. test the `say` action if you need any voice. The say actions have the "continue task after error" option enabled so the tasks don't fail due to a voice msg action failure, only disadvantage is that the user would not know if the tasks with the say actions actually ran or rightfully ran. A notification will be posted saying what to do should the `say` action fail.
+10. In the `Lazy Workflow Initializer`
 
 # setup
 #### a. import the automate flows (the `.flo` files from the `Automate flows` directory) into automate & the tasker project `Lazy_User.prj.xml` into Tasker
 #### b. <b>list of profiles to be mutually exclusively enabled/deleted</b>
 1. `Mobile Data Var Set via Automate` & `Mobile Data Var Set`
 2. `(Un)Set Sim Presence Airplane Mode via Automate` & `(Un)Set Sim Presence Airplane Mode`
-3. `Wifi Hotspot State Via Automate Via Automate` & `Wifi Hotspot State`
 #### c. <b>Tasker Configuration</b>
 1. copy `app_ctx_invisible_apps_for_fg_unset_profile.txt` into `/sdcard/Tasker/projects/` or wherever you like but the path where you copy this file must be the set in the `Read File` action's (action 1) `File` arg of the anonymous task belonging to the `App Context Invisible Fg Apps` profile.
 2. Toggle data & bluetooth from tasker's `run an action` option (3 dots on top right location of the main activity -> More -> Run an action) & select the "never ask again button" from the popup you get for TaskerSettings helper app to work without autoninput's "simulation" at work (possibly....didn't work reliably on my non-rooted android, only changed the UI state in the quick settings tile & mobile data settings. no actual system/settings level changes), which if it doesn't, the autoinput simulation will be put to work (on non-root android), else the bluetooth & wifi "toggle" action alone will do the work if root/shizuku is available/running.
@@ -52,14 +52,18 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
 13. (disable/delete if not needed which you would need to do to the `OBD2 (Un)Set` profile as well) set your obd apps as the entry app in `OBD2 Fg Flags (Un)Set` profile & the very same obd apps as auto notification entry in `OBD2 Bg Flags (Un)Set` profile
 14. At `Ping Test` task you might want to make changes in the numbers at action 14 & 18 (conditional actually) if you think the ping numbers don't apply to your use case
 15. you may need to change the `Data` field in the `Send Intent` action in all tasker tasks which are intended to invoke Automate flows (the flow to be invoked will be indicated in the `send intent` action's label field) to whatever the content has been changed to in the flow's start block. do this IF the "Flow URI" field in the imported automate flow's start block differs from what's there in tasker's `send intent` action's Data field.
-16. reboot the phone or run the `Check Set Stuff At Boot` TASK to initialize global vars & run the needed automate flo's based on the selected profiles
-17. <b>(optional/if needed)</b> Enable the actions in the 2nd task of the `screen Off Low Power` & `screen Unlocked No Low Power` profiles
-18. `Get Recents` profile - doesn't make too much of a difference if this doesn't work, this is just an additional "timeout" addition for when you go to the recents screen. Try this out without doing anything to it which if it doesn't work then proceed with the setup. To set it up you would need to know the text embeded in your navigation bar's recent's button & the button's element id to be set in the event context & in the tasks's action's if statment, which MAY vary with android flavour but for me this wasn't the case when I tried it on an oem rom & a custom rom with varying android versions (text - Overview, elementid - com.android.systemui:id/recent_apps). if there is a variation or you find that this profile is never getting active try below
+16. w.r.t Disclaimer 5, following actions id's from following tasks/profiles may need the value replacement in the data field (the flows names that the intents are being sent to is set in the action's label)
+    - Lazy workflow initializer: 32
+    - Profile to Flow Runner: 2, 7, 12, 20
+    - Default Xor Profile: 1, 6
+17. reboot the phone or run the `Lazy workflow initializer` TASK (after disabling actions 10 & 22 or chaning the condition in action 10. revert your changes after the initialization's done) to initialize global vars & run the needed automate flo's based on the selected profiles
+18. <b>(optional/if needed)</b> Enable the actions in the 2nd task of the `screen Off Low Power` & `screen Unlocked No Low Power` profiles
+19. `Get Recents` profile - doesn't make too much of a difference if this doesn't work, this is just an additional "timeout" addition for when you go to the recents screen. Try this out without doing anything to it which if it doesn't work then proceed with the setup. To set it up you would need to know the text embeded in your navigation bar's recent's button & the button's element id to be set in the event context & in the tasks's action's if statment, which MAY vary with android flavour but for me this wasn't the case when I tried it on an oem rom & a custom rom with varying android versions (text - Overview, elementid - com.android.systemui:id/recent_apps). if there is a variation or you find that this profile is never getting active try below
     - disable this profile, open the `Autoinput UI update` event remove the value set in the Element Text field
     - enable action 2 and or action 3 (either or both works) in the task 
     - enable the profile then tap the recents button.
     - disable the (if you're not okay with constant popup annoyance on every tap) profile & then put in the "Text" in the `autoinput UI update` event context's Text field & the elementid in the condition of action 1 from the task
-19. if you do not want the toast/tts msgs from the `Ping test` & `WAN check` the actions to disable/delete are the following
+20. if you do not want the toast/tts msgs from the `Ping test` & `WAN check` the actions to disable/delete are the following
     - `Ping Test` Task
         - action 5
         - action 10
@@ -204,12 +208,32 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     - not_installed - literally what it says
 * `TASKER_HELPER_FOR_DATA_TOGGLE` - same as `TASKER_HELPER_FOR_BT_TOGGLE` but for data action
 
+## What each Tasker profiles do
+#### Tasks who's Description's given in the profile section with the same name as the task
+`Wan Check Switch`, `Ping Test`, `Net Set`, `Custom Intent`, `Autoread Whatsapp`, `(Un)Set Sim Presence Airplane Mode`, `Sanitized URL Share`, `Bluetooth Unset`, `Redundant Net Src Switch`, `Alarmy Call`
+* Toggle Profiles, Toggle Data, Toggle Bluetooth, Unset All Alarms - literally what their task names say
+* Gaming Clock,Regular Cpu Clock,Low Clock Cpu - sets the clocks to whatever the user counts as regular clock, low clock or performance clock (for gaming or anyother heavy workload demanding work) 
+* Fg Map Actions - actions to perform on map apps
+* All Vol Set - task to set a vol lvl to all audio streams
+* Lazy Workflow Initializer - Action 33 is just what I think would work best, action 34 is left as disabled in case the user wants to have their desired profiles enabled & automate flows left running. Rest of the description is at the `Check Set Stuff At Boot` profile
+* New App Installed - to prompt the user if the installed app has to be added to the work IF the app requests for permissions checked by the `Permission Check` task
+* Net Src Switch - just switches between data & wifi
+* Enable Low Power Mode - disables dev sensors (run by `Toggle Dev Mode sensors` task), bluetooth, wifi, data, location & autosync where possible, enables low power mode & airplane mode if no sim
+* Disable Low Power Mode - enables dev sensors (run by `Toggle Dev Mode sensors` task), disables low power mode & airplane mode if sim is present
+* TTS Test - to test if a tts can be used (the say action)
+* Permission Check - checks if a requested app is asking for wan, location & or bluetooth connectivity (called by `New App Installed`)
+*-Default Xor Profiles - runs the `Sim Presence` & `Cellular Data Stat` flow beginnings from `Tasker - settings & states checks.flo` flow, enables 
+* Profile to Flow Runner - enable profiles & run automate tasks that those enabled profiles depend on 
+* Screen State Based Msg - msg is posted via tts or a toast depending screen or tts state
+* Toggle Dev Mode sensors - task for toggleing the `disable sensors` dev options qs toggle (won't run without root/shizuku/adb or if tasker helper stat ). the number 9 in the shell actions 3, 6, 7, 11, 14, 15 differs between android versions. [stackexchange reference](#https://android.stackexchange.com/questions/246299/can-sensors-off-developer-options-be-controlled-via-adb)
+
 ### Automate Flows & what they do 
 * `Tasker - Check Set boot stuff.flo` - sets variables, settings, flags & such after boot. Basically an initializer helper of sorts for tasker
-* `Tasker - settings & states checks.flo` - contains 3 flow beginnings
-    - `Cellular Data Stat` - sets the `MDATA` global var to "enabled"|"disabled" when cellular data state has been changed sending a custom broadcast (`net.dinglisch.tasker.CELLULAR_DATA`) to the profile `Mobile Data Var Set via Automate`
-    - `Sim Presence` - sends a custom `android.intent.action.SIM_PRESENT` broadcast to the `(Un)Set Sim Presence Airplane Mode via Automate` profile to set airplane mode based the `%SIM_STATE` var which can't be used in the variable state context in a profile
-    - `Hotspot State` - sets the `WL_HOTSPOT` global var to "enabled"|"disabled" when wifi hotspot has been changed by sending a custom broadcast (`net.dinglisch.tasker.WL_HOTSPOT`) to the `Wifi Hotspot State Via Automate` profile
+* `Tasker - settings & states checks.flo` - contains 4 flow beginnings & also sends a broadcast to the `Custom Intent Recvr` profile to disable respective profiles
+    - `Cellular Data Stat` - sets the `MDATA` global var to "enabled"|"disabled" on cellular data state change sending a custom broadcast (`net.dinglisch.tasker.CELLULAR_DATA`) to the profile `Mobile Data Var Set via Automate`. Disables  `Mobile Data Var Set` on 1st run
+    - `Sim Presence` - sends a custom `android.intent.action.SIM_PRESENT` broadcast to the `(Un)Set Sim Presence Airplane Mode via Automate` profile to set airplane mode based the `%SIM_STATE` var which can't be used in the variable state context in a profile. Disables `(Un)Set Sim Presence Airplane Mode` profile on 1st run
+    - `Hotspot State` - sets the `WL_HOTSPOT` global var to "enabled"|"disabled". Disables `Wifi Hotspot State` profile on 1st run
+    - `Wifi State` - sets `WIFI_CONNECTED` on wifi connection state. Disables `wifi var set` profile on 1st run
 * `Tasker - Airplane boarding.flo` - flow to disable all phone settings that need to disabled on a flight
 * `Tasker - Alarmy call.flo` - pick a contact from popup, set a time for the fibre to be paused for, which then sends a broadcast to the `Custom Intent Recvr` profile in tasker enabling `Alarmy Call` &  `Alarmy Call Disable` profiles
 
@@ -231,7 +255,6 @@ toggle/auto-set wan connectivity/maps relevant settings/low power & airplane mod
     VPN state
     Bluetooth Connection Check
     wifi var set
-    Wifi Hotspot State Via Automate
     Wifi Hotspot State
     Work Profile Set
     Get Recents
