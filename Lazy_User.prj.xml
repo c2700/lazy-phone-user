@@ -141,7 +141,7 @@
 	<Profile sr="prof196" ve="2">
 		<cdate>1781135181651</cdate>
 		<clp>true</clp>
-		<edate>1781750866994</edate>
+		<edate>1781929530211</edate>
 		<flags>8</flags>
 		<id>196</id>
 		<mid0>133</mid0>
@@ -243,7 +243,7 @@
 	<Profile sr="prof198" ve="2">
 		<cdate>1781135181651</cdate>
 		<clp>true</clp>
-		<edate>1781750845137</edate>
+		<edate>1781929568353</edate>
 		<flags>8</flags>
 		<id>198</id>
 		<mid0>140</mid0>
@@ -545,7 +545,7 @@
 	<Profile sr="prof211" ve="2">
 		<cdate>1781135181679</cdate>
 		<clp>true</clp>
-		<edate>1781558684758</edate>
+		<edate>1781952806496</edate>
 		<flags>8</flags>
 		<id>211</id>
 		<mid0>24</mid0>
@@ -558,11 +558,11 @@
 	<Profile sr="prof212" ve="2">
 		<cdate>1781135181679</cdate>
 		<clp>true</clp>
-		<edate>1781862386377</edate>
+		<edate>1781952624448</edate>
 		<flags>8</flags>
 		<id>212</id>
 		<mid0>24</mid0>
-		<mid1>295</mid1>
+		<mid1>296</mid1>
 		<nme>screen On No Lock No Low Power</nme>
 		<State sr="con0" ve="2">
 			<code>10</code>
@@ -677,7 +677,7 @@
 	<Profile sr="prof217" ve="2">
 		<cdate>1781135181684</cdate>
 		<clp>true</clp>
-		<edate>1781750813955</edate>
+		<edate>1781929592720</edate>
 		<flags>8</flags>
 		<id>217</id>
 		<mid0>173</mid0>
@@ -730,7 +730,7 @@
 	<Profile sr="prof218" ve="2">
 		<cdate>1781135181685</cdate>
 		<clp>true</clp>
-		<edate>1781625413341</edate>
+		<edate>1781929598717</edate>
 		<flags>8</flags>
 		<id>218</id>
 		<mid0>178</mid0>
@@ -977,6 +977,7 @@ Notes:
 		<edate>1781830299716</edate>
 		<flags>8</flags>
 		<id>224</id>
+		<limit>true</limit>
 		<mid0>113</mid0>
 		<mid1>61</mid1>
 		<nme>Wan Check Switch</nme>
@@ -1047,6 +1048,7 @@ Notes:
 		<edate>1781796370713</edate>
 		<flags>8</flags>
 		<id>226</id>
+		<limit>true</limit>
 		<mid0>157</mid0>
 		<mid1>109</mid1>
 		<nme>Ping Test</nme>
@@ -1143,7 +1145,7 @@ Notes:
 	<Profile sr="prof229" ve="2">
 		<cdate>1781135181704</cdate>
 		<clp>true</clp>
-		<edate>1781830408365</edate>
+		<edate>1781929604752</edate>
 		<flags>8</flags>
 		<id>229</id>
 		<mid0>137</mid0>
@@ -1394,6 +1396,7 @@ Notes:
 		<edate>1781830400301</edate>
 		<flags>8</flags>
 		<id>239</id>
+		<limit>true</limit>
 		<mid0>273</mid0>
 		<nme>Net Src Disconnected Switch</nme>
 		<State sr="con0" ve="2">
@@ -1619,7 +1622,7 @@ Notes:
 	<Profile sr="prof250" ve="2">
 		<cdate>1781135181720</cdate>
 		<clp>true</clp>
-		<edate>1781750838829</edate>
+		<edate>1781929574436</edate>
 		<flags>8</flags>
 		<id>250</id>
 		<mid0>180</mid0>
@@ -1912,7 +1915,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof272" ve="2">
 		<cdate>1781135181776</cdate>
 		<clp>true</clp>
-		<edate>1781013891168</edate>
+		<edate>1781951418658</edate>
 		<flags>8</flags>
 		<id>272</id>
 		<limit>true</limit>
@@ -1930,7 +1933,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof276" ve="2">
 		<cdate>1781135181752</cdate>
 		<clp>true</clp>
-		<edate>1781922209512</edate>
+		<edate>1781951944317</edate>
 		<flags>8</flags>
 		<id>276</id>
 		<mid0>277</mid0>
@@ -2049,8 +2052,8 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>217,240,216,189,238,226,207,198,272,241,190,250,262,196,212,268,231,210,224,208,249,197,206,211,220,284,229,251,214,236,227,239,221,234,233,228,209,270,235,222,276,271,263,213,195,264,266,237,219,267,218,199,242,202,248,232,261,245,204,244,215,280,259,203</pids>
-		<tids>275,55,166,173,126,109,106,150,90,164,129,156,168,180,119,122,138,157,104,296,141,139,61,144,40,102,169,145,171,103,299,121,142,151,98,155,182,56,97,136,148,317,101,125,30,128,297,183,152,132,96,137,24,158,133,175,162,147,110,116,178,174,286,160,181,99,161,295,120,94,170,95,124,177,112,123,273,159,167,140,186,315,179,281,127,117,108,146,107,135,277,143,149,130,154,100,115,165,37,62,184,185,302,105,111,41,134,131,113,163</tids>
+		<pids>215,272,189,196,211,226,212,229,228,222,237,190,198,264,213,259,218,241,199,268,262,233,208,232,235,244,197,280,206,210,221,236,276,284,219,250,267,234,240,217,214,249,270,224,231,238,242,245,271,266,248,207,204,203,263,216,195,239,220,202,227,209,251,261</pids>
+		<tids>144,275,107,129,138,130,134,61,302,131,141,119,120,166,175,55,171,164,128,137,296,186,161,133,97,152,98,105,124,56,169,127,125,90,116,24,100,148,113,315,297,317,106,99,174,145,109,103,150,157,163,185,110,167,139,147,135,158,154,156,122,140,142,149,151,41,159,155,102,101,160,182,170,180,126,108,183,299,123,178,117,179,286,281,96,37,277,162,111,181,273,173,146,184,40,30,168,94,104,165,177,143,62,112,121,136,132,115,95</tids>
 	</Project>
 	<Task sr="task100">
 		<cdate>1776695605148</cdate>
@@ -4636,7 +4639,7 @@ done</Str>
 	</Task>
 	<Task sr="task133">
 		<cdate>1759612460120</cdate>
-		<edate>1781750859732</edate>
+		<edate>1781929425694</edate>
 		<id>133</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5068,7 +5071,7 @@ done</Str>
 	</Task>
 	<Task sr="task135">
 		<cdate>1775316698194</cdate>
-		<edate>1781750866994</edate>
+		<edate>1781929530211</edate>
 		<id>135</id>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -5125,10 +5128,17 @@ done</Str>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%FG_NET_APP_OPT</lhs>
+					<op>2</op>
+					<rhs>nonet</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>548</code>
-			<Str sr="arg0" ve="3">pause_time%null()s to go back to that app or until WAN connection before being prompted</Str>
+			<Str sr="arg0" ve="3">%pause_time%null()s to go back to that app or until WAN connection before being prompted</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg10" ve="3"/>
 			<Int sr="arg11" val="0"/>
@@ -5272,7 +5282,7 @@ done</Str>
 	</Task>
 	<Task sr="task137">
 		<cdate>1774800744997</cdate>
-		<edate>1781625475918</edate>
+		<edate>1781929604752</edate>
 		<id>137</id>
 		<nme>Net Set</nme>
 		<Action sr="act0" ve="7">
@@ -5726,7 +5736,7 @@ done</Str>
 	</Task>
 	<Task sr="task140">
 		<cdate>1759616184933</cdate>
-		<edate>1781750845137</edate>
+		<edate>1781929568353</edate>
 		<id>140</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -9665,7 +9675,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task173">
 		<cdate>1759612460120</cdate>
-		<edate>1781750812251</edate>
+		<edate>1781929592720</edate>
 		<id>173</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -9797,7 +9807,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task178">
 		<cdate>1759613166125</cdate>
-		<edate>1781625409914</edate>
+		<edate>1781929598717</edate>
 		<id>178</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -10017,7 +10027,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task180">
 		<cdate>1759612559032</cdate>
-		<edate>1781750838829</edate>
+		<edate>1781929574436</edate>
 		<id>180</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -10507,7 +10517,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task24">
 		<cdate>1737079191529</cdate>
-		<edate>1781558673952</edate>
+		<edate>1781952675864</edate>
 		<id>24</id>
 		<nme>Disable Low Power Mode</nme>
 		<pri>6</pri>
@@ -10744,7 +10754,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task277">
 		<cdate>1780069033290</cdate>
-		<edate>1781922209512</edate>
+		<edate>1781951944317</edate>
 		<id>277</id>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -10959,55 +10969,11 @@ shell output - %output</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task295">
-		<cdate>1781439328685</cdate>
-		<edate>1781558670413</edate>
-		<id>295</id>
-		<Action sr="act0" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">screen Unlocked No Low Power</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">screen On No Lock No Low Power</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>159</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">Automate Flow Retrigger</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">disabled Automate Flow Retrigger</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%tmp_say_str</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-	</Task>
 	<Task sr="task296">
 		<cdate>1781439351752</cdate>
-		<edate>1781558684758</edate>
+		<edate>1781952806496</edate>
 		<id>296</id>
+		<nme>Screen &amp; Lock State Low Power Profile Toggle</nme>
 		<Action sr="act0" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">screen Unlocked No Low Power</Str>
@@ -11400,7 +11366,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 	</Task>
 	<Task sr="task317">
 		<cdate>1781921778296</cdate>
-		<edate>1781922480827</edate>
+		<edate>1781953559943</edate>
 		<id>317</id>
 		<nme>Profile to Flow Runner</nme>
 		<Action sr="act0" ve="7">
@@ -11437,7 +11403,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<label>toggle between automate (in)dependent profiles (for wifi hotspot state)</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -11494,12 +11460,54 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act15" ve="7">
-			<code>43</code>
+			<code>38</code>
 		</Action>
 		<Action sr="act16" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<label>toggle to use automate or let the profile handle the wifi connection state (for wifi connection state)</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PENABLED</lhs>
+					<op>3</op>
+					<rhs>*,wifi var set,*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>877</code>
+			<label>(Automate flo) "Tasker - settings &amp; states checks": "Wifi state"</label>
+			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/58/statements/34</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.llamalab.automate</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%PENABLED</lhs>
+					<op>2</op>
+					<rhs>*,wifi var set,*</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%WIFI_CONNECTED</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
 			<code>523</code>
 			<Str sr="arg0" ve="3">State Var Unset During Initialization</Str>
-			<Str sr="arg1" ve="3">Enable/Disable one of "Wifi Hotspot State Via Automate" or "Wifi Hotspot State" profiles or set the variable value as "enabled/disabled" in the vars section of the project (WL_HOTSPOT)</Str>
+			<Str sr="arg1" ve="3">Re-enable "wifi var set" profile or disable it &amp; run "Wi-Fi state" flow beginning from the "Tasker - settings &amp; states checks" flow or set the variable "%WIFI_CONNECTED" to the appropriate value (yes/no)</Str>
 			<Str sr="arg10" ve="3"/>
 			<Str sr="arg11" ve="3"/>
 			<Str sr="arg12" ve="3"/>
@@ -11514,35 +11522,6 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<label>toggle to use automate or let the profile handle the wifi connection state (for wifi connection state)</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%PENABLED</lhs>
-					<op>3</op>
-					<rhs>*,wifi var set,*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>877</code>
-			<label>(Automate flo) "Tasker - settings &amp; states checks": "Wifi state"</label>
-			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/58/statements/34</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3">com.llamalab.automate</Str>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>43</code>
@@ -11562,41 +11541,6 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act20" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%PENABLED</lhs>
-					<op>2</op>
-					<rhs>*,wifi var set,*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%WIFI_CONNECTED</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>523</code>
-			<Str sr="arg0" ve="3">State Var Unset During Initialization</Str>
-			<Str sr="arg1" ve="3">Re-enable "wifi var set" profile or disable it &amp; run "Wi-Fi state" flow beginning from the "Tasker - settings &amp; states checks" flow or set the variable "%WIFI_CONNECTED" to the appropriate value (yes/no)</Str>
-			<Str sr="arg10" ve="3"/>
-			<Str sr="arg11" ve="3"/>
-			<Str sr="arg12" ve="3"/>
-			<Int sr="arg13" val="0"/>
-			<Str sr="arg14" ve="3"/>
-			<Str sr="arg15" ve="3"/>
-			<Img sr="arg2" ve="2"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act22" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
@@ -11843,7 +11787,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task56">
 		<cdate>1780889361032</cdate>
-		<edate>1781013891168</edate>
+		<edate>1781951418658</edate>
 		<id>56</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -11908,13 +11852,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 			<ConditionList sr="if">
-				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
-					<lhs>%PENABLED</lhs>
-					<op>2</op>
-					<rhs>*Wifi Hotspot State Via Automate*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
 					<lhs>%PENABLED</lhs>
 					<op>3</op>
 					<rhs>*,Wifi Hotspot State,*</rhs>
