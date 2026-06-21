@@ -677,7 +677,7 @@
 	<Profile sr="prof217" ve="2">
 		<cdate>1781135181684</cdate>
 		<clp>true</clp>
-		<edate>1781929592720</edate>
+		<edate>1781973676757</edate>
 		<flags>8</flags>
 		<id>217</id>
 		<mid0>173</mid0>
@@ -974,10 +974,9 @@ Notes:
 	<Profile sr="prof224" ve="2">
 		<cdate>1781135181699</cdate>
 		<clp>true</clp>
-		<edate>1781830299716</edate>
+		<edate>1781973841606</edate>
 		<flags>8</flags>
 		<id>224</id>
-		<limit>true</limit>
 		<mid0>113</mid0>
 		<mid1>61</mid1>
 		<nme>Wan Check Switch</nme>
@@ -1048,7 +1047,6 @@ Notes:
 		<edate>1781796370713</edate>
 		<flags>8</flags>
 		<id>226</id>
-		<limit>true</limit>
 		<mid0>157</mid0>
 		<mid1>109</mid1>
 		<nme>Ping Test</nme>
@@ -1145,7 +1143,7 @@ Notes:
 	<Profile sr="prof229" ve="2">
 		<cdate>1781135181704</cdate>
 		<clp>true</clp>
-		<edate>1781929604752</edate>
+		<edate>1781973931841</edate>
 		<flags>8</flags>
 		<id>229</id>
 		<mid0>137</mid0>
@@ -1396,7 +1394,6 @@ Notes:
 		<edate>1781830400301</edate>
 		<flags>8</flags>
 		<id>239</id>
-		<limit>true</limit>
 		<mid0>273</mid0>
 		<nme>Net Src Disconnected Switch</nme>
 		<State sr="con0" ve="2">
@@ -1622,7 +1619,7 @@ Notes:
 	<Profile sr="prof250" ve="2">
 		<cdate>1781135181720</cdate>
 		<clp>true</clp>
-		<edate>1781929574436</edate>
+		<edate>1781961066157</edate>
 		<flags>8</flags>
 		<id>250</id>
 		<mid0>180</mid0>
@@ -1708,7 +1705,7 @@ SmartWakeupActivity</label5>
 				<Condition sr="c2" ve="3">
 					<lhs>%SCREEN</lhs>
 					<op>2</op>
-					<rhs>no</rhs>
+					<rhs>off</rhs>
 				</Condition>
 			</ConditionList>
 		</State>
@@ -1964,7 +1961,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof280" ve="2">
 		<cdate>1781135181635</cdate>
 		<clp>true</clp>
-		<edate>1781922257578</edate>
+		<edate>1781973765850</edate>
 		<flags>8</flags>
 		<id>280</id>
 		<mid0>281</mid0>
@@ -2052,8 +2049,8 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>215,272,189,196,211,226,212,229,228,222,237,190,198,264,213,259,218,241,199,268,262,233,208,232,235,244,197,280,206,210,221,236,276,284,219,250,267,234,240,217,214,249,270,224,231,238,242,245,271,266,248,207,204,203,263,216,195,239,220,202,227,209,251,261</pids>
-		<tids>144,275,107,129,138,130,134,61,302,131,141,119,120,166,175,55,171,164,128,137,296,186,161,133,97,152,98,105,124,56,169,127,125,90,116,24,100,148,113,315,297,317,106,99,174,145,109,103,150,157,163,185,110,167,139,147,135,158,154,156,122,140,142,149,151,41,159,155,102,101,160,182,170,180,126,108,183,299,123,178,117,179,286,281,96,37,277,162,111,181,273,173,146,184,40,30,168,94,104,165,177,143,62,112,121,136,132,115,95</tids>
+		<pids>189,240,196,226,204,211,242,212,195,272,202,221,271,262,259,206,210,234,216,209,238,229,231,270,244,214,217,197,245,213,199,239,232,203,233,266,250,248,220,251,190,208,268,249,198,228,263,280,219,218,261,222,224,267,227,276,236,235,215,207,284,264,241,237</pids>
+		<tids>102,40,186,24,275,277,299,296,55,113,128,116,169,97,109,164,96,156,104,30,110,129,122,150,147,183,167,119,171,120,139,165,145,144,184,146,173,106,105,103,175,90,112,181,126,125,152,157,123,56,132,159,317,131,170,174,98,94,138,41,133,155,161,315,178,154,95,141,143,149,177,115,148,130,37,135,101,180,108,302,151,61,107,273,162,281,127,137,286,117,121,185,160,158,297,62,179,99,142,182,124,111,134,140,136,100,166,163,168</tids>
 	</Project>
 	<Task sr="task100">
 		<cdate>1776695605148</cdate>
@@ -5282,7 +5279,7 @@ done</Str>
 	</Task>
 	<Task sr="task137">
 		<cdate>1774800744997</cdate>
-		<edate>1781929604752</edate>
+		<edate>1781973931841</edate>
 		<id>137</id>
 		<nme>Net Set</nme>
 		<Action sr="act0" ve="7">
@@ -9675,7 +9672,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task173">
 		<cdate>1759612460120</cdate>
-		<edate>1781929592720</edate>
+		<edate>1781973676757</edate>
 		<id>173</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -10027,7 +10024,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task180">
 		<cdate>1759612559032</cdate>
-		<edate>1781929574436</edate>
+		<edate>1781961066157</edate>
 		<id>180</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -10039,6 +10036,19 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%PHONE_LOCKED</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>37</code>
@@ -10165,6 +10175,13 @@ return new String [] {"false", ""};</Str>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%pause_time</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>35</code>
@@ -10835,7 +10852,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task281">
 		<cdate>1780518363397</cdate>
-		<edate>1781922257578</edate>
+		<edate>1781973765850</edate>
 		<id>281</id>
 		<pri>6</pri>
 		<rty>1</rty>
