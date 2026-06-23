@@ -4,6 +4,11 @@ Tasker project with llamalab automate flows for the average lazy phone user who 
 ### TLDR of what this workflow does:
 toggle/auto-set wan connectivity/maps relevant settings/low power & airplane modes/cpu settings/bluetooth/volumes/tethering settings/obd2 based on set apps/notifications/global vars.s/conditions/settings. or better way to put it is that all those settings toggled and or actions performed by the user before performing the needed actions/tasks on an app the workflow does it for you
 
+### TBD:
+[] local db that stores wifi, cell tower & gps info to check if one is at a familiar/saved location (all for checking if network interface toggling is to/can be done)
+[] on ending a navigation (maps), perform checks on the same db (all for checking if network interface toggling is to/can be done)
+[] prompt the user if the current location has to be added to the db
+[] optionally & possibly use wigle (minimal usage) where necessary (example: when the phone either can't pick up the full tower id or shows that's an incompletely id'ed physical cell id)
 
 ### Required apps
  1. Tasker
