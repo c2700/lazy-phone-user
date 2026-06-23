@@ -2,7 +2,7 @@
 	<Profile sr="prof189" ve="2">
 		<cdate>1781135181635</cdate>
 		<clp>true</clp>
-		<edate>1781625555654</edate>
+		<edate>1782120527003</edate>
 		<flags>8</flags>
 		<id>189</id>
 		<limit>true</limit>
@@ -141,7 +141,7 @@
 	<Profile sr="prof196" ve="2">
 		<cdate>1781135181651</cdate>
 		<clp>true</clp>
-		<edate>1781929530211</edate>
+		<edate>1782165627202</edate>
 		<flags>8</flags>
 		<id>196</id>
 		<mid0>133</mid0>
@@ -182,7 +182,7 @@
 	<Profile sr="prof197" ve="2">
 		<cdate>1781135181651</cdate>
 		<clp>true</clp>
-		<edate>1781733517138</edate>
+		<edate>1782120518650</edate>
 		<flags>8</flags>
 		<id>197</id>
 		<mid0>138</mid0>
@@ -218,13 +218,13 @@
 				</Condition>
 				<Condition sr="c4" ve="3">
 					<lhs>%VPN_CONN</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
+					<op>3</op>
+					<rhs>yes</rhs>
 				</Condition>
 				<Condition sr="c5" ve="3">
 					<lhs>%ADB_WIFI</lhs>
-					<op>2</op>
-					<rhs>disabled</rhs>
+					<op>3</op>
+					<rhs>enabled</rhs>
 				</Condition>
 				<Condition sr="c6" ve="3">
 					<lhs>%PACTIVE</lhs>
@@ -243,7 +243,7 @@
 	<Profile sr="prof198" ve="2">
 		<cdate>1781135181651</cdate>
 		<clp>true</clp>
-		<edate>1781929568353</edate>
+		<edate>1782120463310</edate>
 		<flags>8</flags>
 		<id>198</id>
 		<mid0>140</mid0>
@@ -276,7 +276,7 @@
 				<Condition sr="c3" ve="3">
 					<lhs>%PACTIVE</lhs>
 					<op>3</op>
-					<rhs>*,Net Set,*</rhs>
+					<rhs>*Net Set*</rhs>
 				</Condition>
 				<Condition sr="c4" ve="3">
 					<lhs>%PHONE_LOCKED</lhs>
@@ -333,7 +333,7 @@
 	<Profile sr="prof199" ve="2">
 		<cdate>1781135181652</cdate>
 		<clp>true</clp>
-		<edate>1781922211947</edate>
+		<edate>1782114988284</edate>
 		<flags>8</flags>
 		<id>199</id>
 		<mid0>181</mid0>
@@ -387,7 +387,7 @@
 	<Profile sr="prof206" ve="2">
 		<cdate>1781135181662</cdate>
 		<clp>true</clp>
-		<edate>1781922243239</edate>
+		<edate>1782115436233</edate>
 		<flags>8</flags>
 		<id>206</id>
 		<mid0>105</mid0>
@@ -400,7 +400,7 @@
 	<Profile sr="prof207" ve="2">
 		<cdate>1781135181667</cdate>
 		<clp>true</clp>
-		<edate>1781922278632</edate>
+		<edate>1782115045773</edate>
 		<flags>8</flags>
 		<id>207</id>
 		<limit>true</limit>
@@ -418,7 +418,7 @@
 	<Profile sr="prof208" ve="2">
 		<cdate>1781135181674</cdate>
 		<clp>true</clp>
-		<edate>1781570651816</edate>
+		<edate>1782115275689</edate>
 		<flags>8</flags>
 		<id>208</id>
 		<limit>true</limit>
@@ -436,7 +436,7 @@
 	<Profile sr="prof209" ve="2">
 		<cdate>1781135181675</cdate>
 		<clp>true</clp>
-		<edate>1781862381687</edate>
+		<edate>1782115134913</edate>
 		<flags>8</flags>
 		<id>209</id>
 		<mid0>127</mid0>
@@ -545,7 +545,7 @@
 	<Profile sr="prof211" ve="2">
 		<cdate>1781135181679</cdate>
 		<clp>true</clp>
-		<edate>1781952806496</edate>
+		<edate>1782115160563</edate>
 		<flags>8</flags>
 		<id>211</id>
 		<mid0>24</mid0>
@@ -558,7 +558,7 @@
 	<Profile sr="prof212" ve="2">
 		<cdate>1781135181679</cdate>
 		<clp>true</clp>
-		<edate>1781952624448</edate>
+		<edate>1782115140442</edate>
 		<flags>8</flags>
 		<id>212</id>
 		<mid0>24</mid0>
@@ -615,7 +615,7 @@
 	<Profile sr="prof215" ve="2">
 		<cdate>1781135181684</cdate>
 		<clp>true</clp>
-		<edate>1781922229644</edate>
+		<edate>1782166812731</edate>
 		<flags>8</flags>
 		<id>215</id>
 		<mid0>94</mid0>
@@ -632,7 +632,7 @@
 	<Profile sr="prof216" ve="2">
 		<cdate>1781135181684</cdate>
 		<clp>true</clp>
-		<edate>1781013944997</edate>
+		<edate>1782089818110</edate>
 		<flags>8</flags>
 		<id>216</id>
 		<mid0>125</mid0>
@@ -677,7 +677,7 @@
 	<Profile sr="prof217" ve="2">
 		<cdate>1781135181684</cdate>
 		<clp>true</clp>
-		<edate>1781973676757</edate>
+		<edate>1782120438140</edate>
 		<flags>8</flags>
 		<id>217</id>
 		<mid0>173</mid0>
@@ -730,7 +730,7 @@
 	<Profile sr="prof218" ve="2">
 		<cdate>1781135181685</cdate>
 		<clp>true</clp>
-		<edate>1781929598717</edate>
+		<edate>1782115176665</edate>
 		<flags>8</flags>
 		<id>218</id>
 		<mid0>178</mid0>
@@ -850,7 +850,7 @@ Notific...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof220" ve="2">
 		<cdate>1781135181692</cdate>
 		<clp>true</clp>
-		<edate>1781922264957</edate>
+		<edate>1782115033598</edate>
 		<flags>8</flags>
 		<id>220</id>
 		<limit>true</limit>
@@ -876,7 +876,7 @@ Notes:
 	<Profile sr="prof221" ve="2">
 		<cdate>1781135181693</cdate>
 		<clp>true</clp>
-		<edate>1781013840023</edate>
+		<edate>1782115507631</edate>
 		<flags>8</flags>
 		<id>221</id>
 		<mid0>117</mid0>
@@ -960,7 +960,7 @@ Notes:
 	<Profile sr="prof222" ve="2">
 		<cdate>1781135181693</cdate>
 		<clp>true</clp>
-		<edate>1781922186372</edate>
+		<edate>1782119282131</edate>
 		<flags>8</flags>
 		<id>222</id>
 		<mid0>107</mid0>
@@ -974,7 +974,7 @@ Notes:
 	<Profile sr="prof224" ve="2">
 		<cdate>1781135181699</cdate>
 		<clp>true</clp>
-		<edate>1781973841606</edate>
+		<edate>1782120504811</edate>
 		<flags>8</flags>
 		<id>224</id>
 		<mid0>113</mid0>
@@ -999,9 +999,11 @@ Notes:
 		<State sr="con1" ve="2">
 			<code>165</code>
 			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<bool1>Or</bool1>
-				<bool2>Or</bool2>
+				<bool0>Or2</bool0>
+				<bool1>Or2</bool1>
+				<bool2>Or2</bool2>
+				<bool3>And</bool3>
+				<bool4>Or2</bool4>
 				<Condition sr="c0" ve="3">
 					<lhs>%APP_NET</lhs>
 					<op>2</op>
@@ -1022,18 +1024,12 @@ Notes:
 					<op>2</op>
 					<rhs>yes</rhs>
 				</Condition>
-			</ConditionList>
-		</State>
-		<State sr="con2" ve="2">
-			<code>165</code>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%NET_SRC_TOGGLE_COUNT</lhs>
+				<Condition sr="c4" ve="3">
+					<lhs>%%NET_SRC_TOGGLE_COUNT</lhs>
 					<op>6</op>
 					<rhs>5</rhs>
 				</Condition>
-				<Condition sr="c1" ve="3">
+				<Condition sr="c5" ve="3">
 					<lhs>%HIGH_PING</lhs>
 					<op>2</op>
 					<rhs>yes</rhs>
@@ -1044,7 +1040,7 @@ Notes:
 	<Profile sr="prof226" ve="2">
 		<cdate>1781135181699</cdate>
 		<clp>true</clp>
-		<edate>1781796370713</edate>
+		<edate>1782120477471</edate>
 		<flags>8</flags>
 		<id>226</id>
 		<mid0>157</mid0>
@@ -1092,7 +1088,7 @@ Notes:
 	<Profile sr="prof227" ve="2">
 		<cdate>1781135181700</cdate>
 		<clp>true</clp>
-		<edate>1781862376239</edate>
+		<edate>1782115119432</edate>
 		<flags>8</flags>
 		<id>227</id>
 		<mid0>169</mid0>
@@ -1126,7 +1122,7 @@ Notes:
 	<Profile sr="prof228" ve="2">
 		<cdate>1781135181703</cdate>
 		<clp>true</clp>
-		<edate>1781922270632</edate>
+		<edate>1782118830934</edate>
 		<flags>8</flags>
 		<id>228</id>
 		<mid0>131</mid0>
@@ -1143,7 +1139,7 @@ Notes:
 	<Profile sr="prof229" ve="2">
 		<cdate>1781135181704</cdate>
 		<clp>true</clp>
-		<edate>1781973931841</edate>
+		<edate>1782120469009</edate>
 		<flags>8</flags>
 		<id>229</id>
 		<mid0>137</mid0>
@@ -1180,7 +1176,7 @@ Notes:
 	<Profile sr="prof231" ve="2">
 		<cdate>1781135181704</cdate>
 		<clp>true</clp>
-		<edate>1781638589488</edate>
+		<edate>1782120560574</edate>
 		<flags>8</flags>
 		<id>231</id>
 		<mid0>132</mid0>
@@ -1202,6 +1198,10 @@ Notes:
 				</Condition>
 			</ConditionList>
 		</State>
+		<State sr="con1" ve="2">
+			<code>100</code>
+			<pin>true</pin>
+		</State>
 	</Profile>
 	<Profile sr="prof232" ve="2">
 		<cdate>1781135181704</cdate>
@@ -1222,7 +1222,7 @@ Notes:
 	<Profile sr="prof233" ve="2">
 		<cdate>1781135181704</cdate>
 		<clp>true</clp>
-		<edate>1781015062558</edate>
+		<edate>1782117507970</edate>
 		<flags>8</flags>
 		<id>233</id>
 		<mid0>134</mid0>
@@ -1391,7 +1391,7 @@ Notes:
 	<Profile sr="prof239" ve="2">
 		<cdate>1781135181715</cdate>
 		<clp>true</clp>
-		<edate>1781830400301</edate>
+		<edate>1782120495438</edate>
 		<flags>8</flags>
 		<id>239</id>
 		<mid0>273</mid0>
@@ -1403,6 +1403,7 @@ Notes:
 				<bool1>And</bool1>
 				<bool2>And</bool2>
 				<bool3>And</bool3>
+				<bool4>And</bool4>
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFI_CONNECTED</lhs>
 					<op>2</op>
@@ -1427,6 +1428,11 @@ Notes:
 					<lhs>%TRUN</lhs>
 					<op>3</op>
 					<rhs>*Redundant Net Src Switch*</rhs>
+				</Condition>
+				<Condition sr="c5" ve="3">
+					<lhs>%AIR</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
 				</Condition>
 			</ConditionList>
 		</State>
@@ -1462,7 +1468,7 @@ Notes:
 	<Profile sr="prof240" ve="2">
 		<cdate>1781135181715</cdate>
 		<clp>true</clp>
-		<edate>1781922262110</edate>
+		<edate>1782117348163</edate>
 		<flags>8</flags>
 		<id>240</id>
 		<mid0>161</mid0>
@@ -1488,7 +1494,7 @@ Notes:
 	<Profile sr="prof241" ve="2">
 		<cdate>1781135181715</cdate>
 		<clp>true</clp>
-		<edate>1781922199436</edate>
+		<edate>1782166654247</edate>
 		<flags>8</flags>
 		<id>241</id>
 		<mid0>139</mid0>
@@ -1505,7 +1511,7 @@ Notes:
 	<Profile sr="prof242" ve="2">
 		<cdate>1781135181716</cdate>
 		<clp>true</clp>
-		<edate>1781625451072</edate>
+		<edate>1782120453494</edate>
 		<flags>8</flags>
 		<id>242</id>
 		<mid0>97</mid0>
@@ -1552,7 +1558,7 @@ Notes:
 	<Profile sr="prof244" ve="2">
 		<cdate>1781135181716</cdate>
 		<clp>true</clp>
-		<edate>1781922227635</edate>
+		<edate>1782166828007</edate>
 		<flags>8</flags>
 		<id>244</id>
 		<mid0>158</mid0>
@@ -1589,7 +1595,7 @@ Notes:
 	<Profile sr="prof248" ve="2">
 		<cdate>1781135181719</cdate>
 		<clp>true</clp>
-		<edate>1781922203553</edate>
+		<edate>1782114983014</edate>
 		<flags>8</flags>
 		<id>248</id>
 		<mid0>110</mid0>
@@ -1619,7 +1625,7 @@ Notes:
 	<Profile sr="prof250" ve="2">
 		<cdate>1781135181720</cdate>
 		<clp>true</clp>
-		<edate>1781961066157</edate>
+		<edate>1782120442243</edate>
 		<flags>8</flags>
 		<id>250</id>
 		<mid0>180</mid0>
@@ -1803,7 +1809,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof266" ve="2">
 		<cdate>1781135181752</cdate>
 		<clp>true</clp>
-		<edate>1781482271870</edate>
+		<edate>1782114972121</edate>
 		<flags>8</flags>
 		<id>266</id>
 		<mid0>156</mid0>
@@ -1817,7 +1823,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof267" ve="2">
 		<cdate>1781135181756</cdate>
 		<clp>true</clp>
-		<edate>1781922232504</edate>
+		<edate>1782122427806</edate>
 		<flags>8</flags>
 		<id>267</id>
 		<mid0>184</mid0>
@@ -1834,7 +1840,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof268" ve="2">
 		<cdate>1781135181756</cdate>
 		<clp>true</clp>
-		<edate>1781733576795</edate>
+		<edate>1782120447335</edate>
 		<flags>8</flags>
 		<id>268</id>
 		<mid0>186</mid0>
@@ -1860,7 +1866,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof270" ve="2">
 		<cdate>1781135181765</cdate>
 		<clp>true</clp>
-		<edate>1781617760144</edate>
+		<edate>1782115280604</edate>
 		<flags>8</flags>
 		<id>270</id>
 		<limit>true</limit>
@@ -1912,7 +1918,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof272" ve="2">
 		<cdate>1781135181776</cdate>
 		<clp>true</clp>
-		<edate>1781951418658</edate>
+		<edate>1782115262171</edate>
 		<flags>8</flags>
 		<id>272</id>
 		<limit>true</limit>
@@ -1930,7 +1936,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof276" ve="2">
 		<cdate>1781135181752</cdate>
 		<clp>true</clp>
-		<edate>1781951944317</edate>
+		<edate>1782116530069</edate>
 		<flags>8</flags>
 		<id>276</id>
 		<mid0>277</mid0>
@@ -1961,7 +1967,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof280" ve="2">
 		<cdate>1781135181635</cdate>
 		<clp>true</clp>
-		<edate>1781973765850</edate>
+		<edate>1782115023761</edate>
 		<flags>8</flags>
 		<id>280</id>
 		<mid0>281</mid0>
@@ -1994,7 +2000,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof284" ve="2">
 		<cdate>1778888114011</cdate>
 		<clp>true</clp>
-		<edate>1781922248704</edate>
+		<edate>1782115020925</edate>
 		<flags>8</flags>
 		<id>284</id>
 		<mid0>286</mid0>
@@ -2049,8 +2055,8 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>189,240,196,226,204,211,242,212,195,272,202,221,271,262,259,206,210,234,216,209,238,229,231,270,244,214,217,197,245,213,199,239,232,203,233,266,250,248,220,251,190,208,268,249,198,228,263,280,219,218,261,222,224,267,227,276,236,235,215,207,284,264,241,237</pids>
-		<tids>102,40,186,24,275,277,299,296,55,113,128,116,169,97,109,164,96,156,104,30,110,129,122,150,147,183,167,119,171,120,139,165,145,144,184,146,173,106,105,103,175,90,112,181,126,125,152,157,123,56,132,159,317,131,170,174,98,94,138,41,133,155,161,315,178,154,95,141,143,149,177,115,148,130,37,135,101,180,108,302,151,61,107,273,162,281,127,137,286,117,121,185,160,158,297,62,179,99,142,182,124,111,134,140,136,100,166,163,168</tids>
+		<pids>218,267,189,215,270,280,272,242,229,276,197,224,249,227,209,208,263,261,210,199,196,239,238,222,221,190,195,226,233,237,245,211,202,219,264,284,232,250,236,217,220,206,266,235,271,248,228,244,231,214,259,203,204,212,216,234,268,241,198,262,251,240,213,207</pids>
+		<tids>90,136,163,275,113,171,129,103,56,156,297,133,24,55,148,144,149,111,119,124,126,157,152,184,62,302,134,112,161,125,142,164,150,102,101,140,182,315,299,110,138,128,135,186,166,106,155,167,180,97,296,104,141,169,177,183,317,137,185,96,131,132,109,143,158,170,286,115,127,117,94,122,145,99,174,160,159,108,98,139,181,281,173,120,30,165,61,162,100,105,37,95,179,123,40,107,146,175,273,41,147,168,130,277,121,178,154,116,151</tids>
 	</Project>
 	<Task sr="task100">
 		<cdate>1776695605148</cdate>
@@ -2069,7 +2075,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task101">
 		<cdate>1759650620765</cdate>
-		<edate>1781903699996</edate>
+		<edate>1782120616773</edate>
 		<id>101</id>
 		<nme>Wan Check Switch</nme>
 		<pri>100</pri>
@@ -2144,10 +2150,22 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="30"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%ssid_choice_input</lhs>
 					<op>2</op>
 					<rhs>no</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AIR</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%SIMSTATE</lhs>
+					<op>2</op>
+					<rhs>ready</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -2157,10 +2175,22 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%net_iface_change_input</lhs>
 					<op>2</op>
 					<rhs>no</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%AIR</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%SIMSTATE</lhs>
+					<op>3</op>
+					<rhs>ready</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -2997,7 +3027,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task105">
 		<cdate>1759507551015</cdate>
-		<edate>1781922243239</edate>
+		<edate>1782115436233</edate>
 		<id>105</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -3102,7 +3132,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task107">
 		<cdate>1775427384957</cdate>
-		<edate>1781922186372</edate>
+		<edate>1782119282131</edate>
 		<id>107</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -3218,7 +3248,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task110">
 		<cdate>1777178466889</cdate>
-		<edate>1781922203553</edate>
+		<edate>1782114983014</edate>
 		<id>110</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3286,7 +3316,7 @@ done</Str>
 	</Task>
 	<Task sr="task113">
 		<cdate>1779214976944</cdate>
-		<edate>1781830299716</edate>
+		<edate>1782117973030</edate>
 		<id>113</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -3396,7 +3426,7 @@ done</Str>
 	</Task>
 	<Task sr="task117">
 		<cdate>1759618008133</cdate>
-		<edate>1781013838586</edate>
+		<edate>1782115507631</edate>
 		<id>117</id>
 		<Action sr="act0" ve="7">
 			<code>548</code>
@@ -3446,7 +3476,7 @@ done</Str>
 	</Task>
 	<Task sr="task119">
 		<cdate>1657974116786</cdate>
-		<edate>1781543704455</edate>
+		<edate>1782116381592</edate>
 		<id>119</id>
 		<nme>Toggle Data</nme>
 		<pri>100</pri>
@@ -3743,7 +3773,7 @@ done</Str>
 	</Task>
 	<Task sr="task122">
 		<cdate>1759498246654</cdate>
-		<edate>1781922264957</edate>
+		<edate>1782115031666</edate>
 		<id>122</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3783,7 +3813,7 @@ done</Str>
 	</Task>
 	<Task sr="task123">
 		<cdate>1759498284403</cdate>
-		<edate>1781317669110</edate>
+		<edate>1782115033598</edate>
 		<id>123</id>
 		<Action sr="act0" ve="7">
 			<code>547</code>
@@ -3832,7 +3862,7 @@ done</Str>
 	</Task>
 	<Task sr="task125">
 		<cdate>1737034421599</cdate>
-		<edate>1781013991751</edate>
+		<edate>1782089818110</edate>
 		<id>125</id>
 		<nme>Autoread Whatsapp</nme>
 		<pri>6</pri>
@@ -3961,7 +3991,7 @@ done</Str>
 	</Task>
 	<Task sr="task127">
 		<cdate>1771948370126</cdate>
-		<edate>1781558788783</edate>
+		<edate>1782115134913</edate>
 		<id>127</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -4228,7 +4258,7 @@ done</Str>
 	</Task>
 	<Task sr="task129">
 		<cdate>1773002626961</cdate>
-		<edate>1781920481598</edate>
+		<edate>1782114573306</edate>
 		<id>129</id>
 		<nme>Regular Cpu Clock</nme>
 		<Action sr="act0" ve="7">
@@ -4429,7 +4459,7 @@ done</Str>
 	</Task>
 	<Task sr="task131">
 		<cdate>1773392882216</cdate>
-		<edate>1781922270632</edate>
+		<edate>1782118830934</edate>
 		<id>131</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -4636,7 +4666,7 @@ done</Str>
 	</Task>
 	<Task sr="task133">
 		<cdate>1759612460120</cdate>
-		<edate>1781929425694</edate>
+		<edate>1782115167961</edate>
 		<id>133</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -4912,7 +4942,7 @@ done</Str>
 	</Task>
 	<Task sr="task134">
 		<cdate>1779915466783</cdate>
-		<edate>1781013938211</edate>
+		<edate>1782117496802</edate>
 		<id>134</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -4953,6 +4983,32 @@ done</Str>
 			<Str sr="arg7" ve="3"/>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>333</code>
+			<Int sr="arg0" val="0"/>
+			<Bundle sr="arg1">
+				<Vals sr="val"/>
+			</Bundle>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Default Xor Profiles</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>441</code>
@@ -5052,11 +5108,8 @@ done</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>333</code>
-			<Int sr="arg0" val="0"/>
-			<Bundle sr="arg1">
-				<Vals sr="val"/>
-			</Bundle>
+			<code>37</code>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%airplane_mode</lhs>
@@ -5068,7 +5121,7 @@ done</Str>
 	</Task>
 	<Task sr="task135">
 		<cdate>1775316698194</cdate>
-		<edate>1781929530211</edate>
+		<edate>1782165521505</edate>
 		<id>135</id>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -5154,6 +5207,7 @@ done</Str>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<bool1>Or2</bool1>
+				<bool2>And</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%FG_NET_APP_OPT</lhs>
 					<op>2</op>
@@ -5168,6 +5222,11 @@ done</Str>
 					<lhs>%FG_NET_APP_NAME</lhs>
 					<op>13</op>
 					<rhs></rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%RECENTS_SCREEN</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -5266,7 +5325,7 @@ done</Str>
 	</Task>
 	<Task sr="task136">
 		<cdate>1759623613029</cdate>
-		<edate>1781534006937</edate>
+		<edate>1782120532864</edate>
 		<id>136</id>
 		<Action sr="act0" ve="7">
 			<code>905</code>
@@ -5279,7 +5338,7 @@ done</Str>
 	</Task>
 	<Task sr="task137">
 		<cdate>1774800744997</cdate>
-		<edate>1781973931841</edate>
+		<edate>1782117904590</edate>
 		<id>137</id>
 		<nme>Net Set</nme>
 		<Action sr="act0" ve="7">
@@ -5512,7 +5571,7 @@ done</Str>
 	</Task>
 	<Task sr="task139">
 		<cdate>1779917156944</cdate>
-		<edate>1781922345670</edate>
+		<edate>1782166654247</edate>
 		<id>139</id>
 		<nme>Custom Intent</nme>
 		<pri>6</pri>
@@ -5571,7 +5630,7 @@ done</Str>
 			<Int sr="arg6" val="1"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%wl_hotspot</lhs>
+					<lhs>%wifi_connected</lhs>
 					<op>12</op>
 					<rhs></rhs>
 				</Condition>
@@ -5801,7 +5860,7 @@ done</Str>
 	</Task>
 	<Task sr="task141">
 		<cdate>1779918003042</cdate>
-		<edate>1781750753237</edate>
+		<edate>1782114389084</edate>
 		<id>141</id>
 		<nme>Fg Map Actions</nme>
 		<Action sr="act0" ve="7">
@@ -6074,7 +6133,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task142">
 		<cdate>1775512432687</cdate>
-		<edate>1781922278632</edate>
+		<edate>1782119101671</edate>
 		<id>142</id>
 		<nme>(Un)Set Sim Presence Airplane Mode</nme>
 		<pri>6</pri>
@@ -6126,6 +6185,13 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>39</code>
+			<coll>false</coll>
+			<Str sr="arg0" ve="3">%stat</Str>
+			<Str sr="arg1" ve="3">%output()</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%sim_present</Str>
 			<Str sr="arg1" ve="3">true</Str>
@@ -6137,15 +6203,15 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%stat</lhs>
-					<op>2</op>
-					<rhs>LOADED</rhs>
+					<op>3</op>
+					<rhs>ABSENT</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>40</code>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>333</code>
 			<Int sr="arg0" val="0"/>
 			<Bundle sr="arg1">
@@ -6159,7 +6225,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -6169,14 +6235,14 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>333</code>
 			<Int sr="arg0" val="1"/>
 			<Bundle sr="arg1">
 				<Vals sr="val"/>
 			</Bundle>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%MDATA</Str>
 			<Str sr="arg1" ve="3">disabled</Str>
@@ -6186,10 +6252,10 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -6199,7 +6265,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>425</code>
 			<Int sr="arg0" val="1"/>
 			<ConditionList sr="if">
@@ -6234,7 +6300,20 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act2" ve="7">
+			<code>123</code>
+			<label>get sim presence via shell</label>
+			<Str sr="arg0" ve="3">getprop gsm.sim.state</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%output</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Toggle Bluetooth</Str>
 			<Int sr="arg1">
@@ -6263,20 +6342,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>123</code>
-			<label>get sim presence via shell</label>
-			<Str sr="arg0" ve="3">getprop gsm.sim.state</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">%output</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act21" ve="7">
 			<code>905</code>
 			<Int sr="arg0" val="3"/>
 			<ConditionList sr="if">
@@ -6293,10 +6359,29 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%output</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -6306,7 +6391,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>377</code>
 			<Bundle sr="arg0">
 				<Vals sr="val"/>
@@ -6321,22 +6406,22 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg8" ve="3"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%output</Str>
 			<Str sr="arg1" ve="3">,</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%sim_present</Str>
 			<Str sr="arg1" ve="3">false</Str>
@@ -6345,13 +6430,6 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>39</code>
-			<coll>false</coll>
-			<Str sr="arg0" ve="3">%stat</Str>
-			<Str sr="arg1" ve="3">%output()</Str>
-			<Int sr="arg2" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task143">
@@ -6390,7 +6468,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task144">
 		<cdate>1762037634313</cdate>
-		<edate>1780953916886</edate>
+		<edate>1782114561950</edate>
 		<id>144</id>
 		<nme>All Vol Set</nme>
 		<Action sr="act0" ve="7">
@@ -6517,7 +6595,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task146">
 		<cdate>1777615922887</cdate>
-		<edate>1781007294069</edate>
+		<edate>1782115058632</edate>
 		<id>146</id>
 		<Action sr="act0" ve="7">
 			<code>808</code>
@@ -6819,7 +6897,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task152">
 		<cdate>1737079191529</cdate>
-		<edate>1781921802412</edate>
+		<edate>1782114685852</edate>
 		<id>152</id>
 		<nme>Sanitized URL Share</nme>
 		<pri>6</pri>
@@ -6975,7 +7053,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task155">
 		<cdate>1774794130821</cdate>
-		<edate>1781926266557</edate>
+		<edate>1782165884410</edate>
 		<id>155</id>
 		<nme>Lazy Workflow Initializer</nme>
 		<pri>100</pri>
@@ -7080,6 +7158,40 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>547</code>
+			<Str sr="arg0" ve="3">%WIFI_CONNECTED</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PACTIVE</lhs>
+					<op>2</op>
+					<rhs>*wifi var set*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%WIFI_CONNECTED</Str>
+			<Str sr="arg1" ve="3">no</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PACTIVE</lhs>
+					<op>3</op>
+					<rhs>*wifi var set*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>547</code>
 			<Str sr="arg0" ve="3">%RECENTS_SCREEN</Str>
 			<Str sr="arg1" ve="3">no</Str>
 			<Int sr="arg2" val="0"/>
@@ -7088,7 +7200,13 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act2" ve="7">
+			<code>348</code>
+			<Int sr="arg0" val="6"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%PHONE_LOCK_SET</Str>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -7098,20 +7216,14 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act21" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%FG_NET_APP_NAME</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>348</code>
-			<Int sr="arg0" val="6"/>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">%PHONE_LOCK_SET</Str>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act22" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%WAKE_UP_NUM</Str>
 			<Int sr="arg1" val="0"/>
@@ -7125,10 +7237,108 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act23" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act24" ve="7">
+			<code>547</code>
+			<label>globals for automate flow id's</label>
+			<Str sr="arg0" ve="3">%AUTOMATE_CONTENT_BASE_URI</Str>
+			<Str sr="arg1" ve="3">content://com.llamalab.automate.provider/flows</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUTOMATE_SETTINGS_CHECK_FLOW</Str>
+			<Str sr="arg1" ve="3">%AUTOMATE_CONTENT_BASE_URI/58</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUTOMATE_CELLULAR_DATA_CHECK</Str>
+			<Str sr="arg1" ve="3">%AUTOMATE_SETTINGS_CHECK_FLOW/statements/1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUTOMATE_SIM_CHECK</Str>
+			<Str sr="arg1" ve="3">%AUTOMATE_SETTINGS_CHECK_FLOW/statements/10</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUTOMATE_WIFI_CHECK</Str>
+			<Str sr="arg1" ve="3">%AUTOMATE_SETTINGS_CHECK_FLOW/statements/34</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUTOMATE_HOTSPOT_CHECK</Str>
+			<Str sr="arg1" ve="3">%AUTOMATE_SETTINGS_CHECK_FLOW/statements/25</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>348</code>
+			<Int sr="arg0" val="5"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%PHONE_LOCKED</Str>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUTOMATE_VARS_SET_AT_BOOT</Str>
+			<Str sr="arg1" ve="3">%AUTOMATE_CONTENT_BASE_URI/63/statements/1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%AUTOMATE_ALARMY_CALL</Str>
+			<Str sr="arg1" ve="3">%AUTOMATE_CONTENT_BASE_URI/33/statements/1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>547</code>
+			<label>end of globals for automate flow id's</label>
+			<Str sr="arg0" ve="3">%AUTOMATE_ALARMY_CALL</Str>
+			<Str sr="arg1" ve="3">%AUTOMATE_CONTENT_BASE_URI/31/statements/1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act33" ve="7">
 			<code>123</code>
 			<label>check root</label>
 			<Str sr="arg0" ve="3">which su &amp;&gt;/dev/null &amp;&amp; echo "su" || echo "nosu"</Str>
@@ -7141,7 +7351,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act34" ve="7">
 			<code>474</code>
 			<Str sr="arg0" ve="3">import android.os.UserManager;
 import android.content.Context;
@@ -7152,7 +7362,7 @@ UserManager um = (UserManager) context.getSystemService(Context.USER_SERVICE);
 
 for (UserHandle profile : um.getUserProfiles()) {
     if(um.isManagedProfile(profile.getIdentifier())) {
-        String wp_state = um.isQuietModeEnabled(profile) == true ? "enabled" : "disabled";
+        String wp_state = um.isQuietModeEnabled(profile) == true ? "disabled" : "enabled";
         return new String[] {"true", wp_state};
     }
 }
@@ -7161,9 +7371,9 @@ return new String [] {"false", ""};</Str>
 			<Str sr="arg1" ve="3">%work_profile_stat</Str>
 			<Int sr="arg2" val="1"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act35" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<label>check if work profile exists &amp; set it's state as flags</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -7173,7 +7383,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act36" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%WORK_PROFILE</Str>
 			<Str sr="arg1" ve="3">%work_profile_stat2</Str>
@@ -7183,7 +7393,7 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act37" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Work Profile Set</Str>
 			<Int sr="arg1" val="1"/>
@@ -7195,10 +7405,10 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act38" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act39" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Work Profile Set</Str>
 			<Int sr="arg1" val="0"/>
@@ -7210,16 +7420,22 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<label>set wan flags to negative if no wifi connection</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>3</op>
+					<rhs>*CONNECTION*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>348</code>
-			<Int sr="arg0" val="5"/>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">%PHONE_LOCKED</Str>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act41" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -7229,13 +7445,13 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act42" ve="7">
 			<code>877</code>
 			<label>Tasker - Check Set boot stuff (Automate flo)</label>
 			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/63/statements/1</Str>
+			<Str sr="arg3" ve="3">%AUTOMATE_VARS_SET_AT_BOOT</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
@@ -7243,7 +7459,7 @@ return new String [] {"false", ""};</Str>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act43" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Default Xor Profiles</Str>
 			<Int sr="arg1">
@@ -7259,7 +7475,7 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act44" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">Profile to Flow Runner</Str>
@@ -7276,7 +7492,7 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act45" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<label>disable gaming profile &amp; try the disable sensors toggle (if no root)</label>
@@ -7288,12 +7504,12 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act46" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Gaming</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act47" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">No root bin found. Disabled profiles needing root</Str>
 			<Int sr="arg1" val="0"/>
@@ -7312,7 +7528,7 @@ return new String [] {"false", ""};</Str>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act48" ve="7">
 			<code>123</code>
 			<label>disable sensors (test)</label>
 			<Str sr="arg0" ve="3">service call sensor_privacy 9 i32 0 | wc -l</Str>
@@ -7332,7 +7548,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act49" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<label>disable gaming profile &amp; try the disable sensors toggle (if no root)</label>
@@ -7344,7 +7560,17 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%WAN_ACCESSIBLE</Str>
+			<Str sr="arg1" ve="3">NULL</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_SENSOR_TOGGLE</Str>
 			<Str sr="arg1" ve="3">privilege_only</Str>
@@ -7354,19 +7580,7 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<label>set wan flags to negative if no wifi connection</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%WIFII</lhs>
-					<op>3</op>
-					<rhs>*CONNECTION*</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act51" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
 			<Int sr="arg1">
@@ -7382,10 +7596,10 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act52" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act53" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_SENSOR_TOGGLE</Str>
 			<Str sr="arg1" ve="3">works</Str>
@@ -7402,10 +7616,10 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act54" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act55" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Enable Low Power Mode</Str>
 			<Int sr="arg1">
@@ -7428,7 +7642,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act56" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<label>enable gaming profile if root</label>
@@ -7440,12 +7654,12 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act57" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Gaming</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act58" ve="7">
 			<code>130</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Regular Cpu Clock</Str>
@@ -7462,111 +7676,21 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act48" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">Tasker - lazy workflow at boot initialized</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act49" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%WAN_ACCESSIBLE</Str>
-			<Str sr="arg1" ve="3">NULL</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act50" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act51" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">Gaming</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act52" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act53" ve="7">
-			<code>344</code>
-			<label>check if tasker settings is installed</label>
-			<se>false</se>
-			<Int sr="arg0" val="8"/>
-			<Str sr="arg1" ve="3">com.joaomgcd.taskersettings</Str>
-			<Str sr="arg2" ve="3">%tasker_setting_app</Str>
-		</Action>
-		<Action sr="act54" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<label>set flag values for tasker settings app to "not_installed". so tasker settings way is not used</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%tasker_setting_app</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act55" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
-			<Str sr="arg1" ve="3">not_installed</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act56" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
-			<Str sr="arg1" ve="3">err</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act57" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">Tasker - lazy workflow at boot initialized</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act58" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-		</Action>
 		<Action sr="act59" ve="7">
-			<code>38</code>
+			<code>130</code>
+			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Tasker - lazy workflow at boot initialized</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>547</code>
@@ -7579,8 +7703,91 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act60" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act61" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act62" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Gaming</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act63" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act64" ve="7">
+			<code>344</code>
+			<label>check if tasker settings is installed</label>
+			<se>false</se>
+			<Int sr="arg0" val="8"/>
+			<Str sr="arg1" ve="3">com.joaomgcd.taskersettings</Str>
+			<Str sr="arg2" ve="3">%tasker_setting_app</Str>
+		</Action>
+		<Action sr="act65" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
+			<label>set flag values for tasker settings app to "not_installed". so tasker settings way is not used</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tasker_setting_app</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act66" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
+			<Str sr="arg1" ve="3">not_installed</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act67" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
+			<Str sr="arg1" ve="3">err</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act68" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Tasker - lazy workflow at boot initialized</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act69" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act70" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act71" ve="7">
+			<code>37</code>
+			<coll>true</coll>
 			<label>set flag values for tasker settings app to tell the workflow if tasker settings way can/is to be used when no root for cellular data</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -7590,7 +7797,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act61" ve="7">
+		<Action sr="act72" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -7601,7 +7808,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act62" ve="7">
+		<Action sr="act73" ve="7">
 			<code>433</code>
 			<se>false</se>
 			<Int sr="arg0" val="2"/>
@@ -7609,7 +7816,7 @@ return new String [] {"false", ""};</Str>
 				<Vals sr="val"/>
 			</Bundle>
 		</Action>
-		<Action sr="act63" ve="7">
+		<Action sr="act74" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -7620,7 +7827,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act64" ve="7">
+		<Action sr="act75" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
 			<Str sr="arg1" ve="3">err</Str>
@@ -7630,24 +7837,24 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act65" ve="7">
+		<Action sr="act76" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%errmsg</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act66" ve="7">
+		<Action sr="act77" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%err</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act67" ve="7">
+		<Action sr="act78" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act68" ve="7">
+		<Action sr="act79" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
 			<Str sr="arg1" ve="3">ui_only</Str>
@@ -7681,119 +7888,6 @@ return new String [] {"false", ""};</Str>
 					<rhs>enabled</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act69" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
-			<Str sr="arg1" ve="3">works</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<bool0>And2</bool0>
-				<bool1>Or</bool1>
-				<bool2>And2</bool2>
-				<Condition sr="c0" ve="3">
-					<lhs>%new_state</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%MDATA</lhs>
-					<op>2</op>
-					<rhs>enabled</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%new_state</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
-					<lhs>%MDATA</lhs>
-					<op>2</op>
-					<rhs>disabled</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act70" ve="7">
-			<code>433</code>
-			<Int sr="arg0" val="2"/>
-			<Bundle sr="arg1">
-				<Vals sr="val"/>
-			</Bundle>
-		</Action>
-		<Action sr="act71" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act72" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act73" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act74" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<label>same as action 69 but for bluetooth</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%SDK</lhs>
-					<op>7</op>
-					<rhs>32</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act75" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ROOT_STAT</lhs>
-					<op>2</op>
-					<rhs>nosu</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act76" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%tmp_bt_stat</Str>
-			<Str sr="arg1" ve="3">%BLUE</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act77" ve="7">
-			<code>294</code>
-			<se>false</se>
-			<Int sr="arg0" val="2"/>
-		</Action>
-		<Action sr="act78" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%errmsg</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act79" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
-			<Str sr="arg1" ve="3">err</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>547</code>
@@ -7813,9 +7907,131 @@ return new String [] {"false", ""};</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act80" ve="7">
-			<code>43</code>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
+			<Str sr="arg1" ve="3">works</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And2</bool0>
+				<bool1>Or</bool1>
+				<bool2>And2</bool2>
+				<Condition sr="c0" ve="3">
+					<lhs>%new_state</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%MDATA</lhs>
+					<op>2</op>
+					<rhs>enabled</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%new_state</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
+					<lhs>%MDATA</lhs>
+					<op>2</op>
+					<rhs>disabled</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act81" ve="7">
+			<code>433</code>
+			<Int sr="arg0" val="2"/>
+			<Bundle sr="arg1">
+				<Vals sr="val"/>
+			</Bundle>
+		</Action>
+		<Action sr="act82" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act83" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act84" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act85" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<label>same as action 69 but for bluetooth</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SDK</lhs>
+					<op>7</op>
+					<rhs>32</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act86" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>nosu</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act87" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tmp_bt_stat</Str>
+			<Str sr="arg1" ve="3">%BLUE</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act88" ve="7">
+			<code>294</code>
+			<se>false</se>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act89" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%errmsg</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<label>flag values set at boot or at import</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%device_booted</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act90" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
+			<Str sr="arg1" ve="3">err</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act91" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act92" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
 			<Str sr="arg1" ve="3">ui_only</Str>
@@ -7832,7 +8048,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act82" ve="7">
+		<Action sr="act93" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
 			<Str sr="arg1" ve="3">works</Str>
@@ -7849,21 +8065,21 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act83" ve="7">
+		<Action sr="act94" ve="7">
 			<code>294</code>
 			<se>false</se>
 			<Int sr="arg0" val="2"/>
 		</Action>
-		<Action sr="act84" ve="7">
+		<Action sr="act95" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act85" ve="7">
+		<Action sr="act96" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act86" ve="7">
+		<Action sr="act97" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act87" ve="7">
+		<Action sr="act98" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
 			<Int sr="arg1">
@@ -7879,22 +8095,10 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act9" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<label>flag values set at boot or at import</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%device_booted</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 	</Task>
 	<Task sr="task156">
 		<cdate>1780070522117</cdate>
-		<edate>1781921649763</edate>
+		<edate>1782114972121</edate>
 		<id>156</id>
 		<nme>New App Installed</nme>
 		<pri>6</pri>
@@ -8149,7 +8353,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task157">
 		<cdate>1771129901910</cdate>
-		<edate>1781740119570</edate>
+		<edate>1782114645689</edate>
 		<id>157</id>
 		<nme>Ping Test</nme>
 		<pri>100</pri>
@@ -8613,7 +8817,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task161">
 		<cdate>1759498246654</cdate>
-		<edate>1781922262110</edate>
+		<edate>1782117348163</edate>
 		<id>161</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -8721,7 +8925,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task163">
 		<cdate>1763676627921</cdate>
-		<edate>1780953957062</edate>
+		<edate>1782114563860</edate>
 		<id>163</id>
 		<nme>Unset All Alarms</nme>
 		<pri>100</pri>
@@ -8746,7 +8950,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task164">
 		<cdate>1774281828665</cdate>
-		<edate>1781060768801</edate>
+		<edate>1782114672512</edate>
 		<id>164</id>
 		<nme>Toggle Bluetooth</nme>
 		<pri>100</pri>
@@ -9008,7 +9212,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task167">
 		<cdate>1759448761509</cdate>
-		<edate>1781798832774</edate>
+		<edate>1782116400806</edate>
 		<id>167</id>
 		<nme>Net Src Switch</nme>
 		<pri>100</pri>
@@ -9163,7 +9367,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task169">
 		<cdate>1737079191529</cdate>
-		<edate>1781922357543</edate>
+		<edate>1782115074147</edate>
 		<id>169</id>
 		<nme>Enable Low Power Mode</nme>
 		<pri>6</pri>
@@ -9804,7 +10008,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task178">
 		<cdate>1759613166125</cdate>
-		<edate>1781929598717</edate>
+		<edate>1782115176665</edate>
 		<id>178</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -10264,7 +10468,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task181">
 		<cdate>1761968949593</cdate>
-		<edate>1781922211947</edate>
+		<edate>1782114988283</edate>
 		<id>181</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -10311,7 +10515,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task183">
 		<cdate>1780705476936</cdate>
-		<edate>1780953973389</edate>
+		<edate>1782114565561</edate>
 		<id>183</id>
 		<nme>TTS Test</nme>
 		<Action sr="act0" ve="7">
@@ -10403,7 +10607,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task184">
 		<cdate>1780785781722</cdate>
-		<edate>1781922232504</edate>
+		<edate>1782122427806</edate>
 		<id>184</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -10443,7 +10647,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task185">
 		<cdate>1780786035699</cdate>
-		<edate>1781733571905</edate>
+		<edate>1782115198530</edate>
 		<id>185</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -10481,7 +10685,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task186">
 		<cdate>1780786059094</cdate>
-		<edate>1781733576795</edate>
+		<edate>1782115195429</edate>
 		<id>186</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -10534,7 +10738,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task24">
 		<cdate>1737079191529</cdate>
-		<edate>1781952675864</edate>
+		<edate>1782115160563</edate>
 		<id>24</id>
 		<nme>Disable Low Power Mode</nme>
 		<pri>6</pri>
@@ -10771,7 +10975,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task277">
 		<cdate>1780069033290</cdate>
-		<edate>1781951944317</edate>
+		<edate>1782116530069</edate>
 		<id>277</id>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -10852,7 +11056,7 @@ return new String [] {"false", ""};</Str>
 	</Task>
 	<Task sr="task281">
 		<cdate>1780518363397</cdate>
-		<edate>1781973765850</edate>
+		<edate>1782115023761</edate>
 		<id>281</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -10937,7 +11141,7 @@ shell output - %output</Str>
 	</Task>
 	<Task sr="task286">
 		<cdate>1781377101778</cdate>
-		<edate>1781922248704</edate>
+		<edate>1782115020925</edate>
 		<id>286</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -10988,7 +11192,7 @@ shell output - %output</Str>
 	</Task>
 	<Task sr="task296">
 		<cdate>1781439351752</cdate>
-		<edate>1781952806496</edate>
+		<edate>1782117367298</edate>
 		<id>296</id>
 		<nme>Screen &amp; Lock State Low Power Profile Toggle</nme>
 		<Action sr="act0" ve="7">
@@ -11034,7 +11238,7 @@ shell output - %output</Str>
 	</Task>
 	<Task sr="task297">
 		<cdate>1781439471125</cdate>
-		<edate>1781558645905</edate>
+		<edate>1782115119432</edate>
 		<id>297</id>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -11106,7 +11310,7 @@ shell output - %output</Str>
 	</Task>
 	<Task sr="task299">
 		<cdate>1781446000975</cdate>
-		<edate>1781741523440</edate>
+		<edate>1782114677882</edate>
 		<id>299</id>
 		<nme>Permission Check</nme>
 		<pri>100</pri>
@@ -11276,7 +11480,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 	</Task>
 	<Task sr="task30">
 		<cdate>1780800474613</cdate>
-		<edate>1781576708640</edate>
+		<edate>1782115278871</edate>
 		<id>30</id>
 		<Action sr="act0" ve="7">
 			<code>159</code>
@@ -11297,7 +11501,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 	</Task>
 	<Task sr="task315">
 		<cdate>1781915340131</cdate>
-		<edate>1781922564831</edate>
+		<edate>1782118740110</edate>
 		<id>315</id>
 		<nme>Default Xor Profiles</nme>
 		<pri>100</pri>
@@ -11307,7 +11511,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.STOP_FLOW</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/58</Str>
+			<Str sr="arg3" ve="3">%AUTOMATE_SETTINGS_CHECK_FLOW</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
@@ -11318,7 +11522,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 		<Action sr="act1" ve="7">
 			<code>354</code>
 			<Str sr="arg0" ve="3">%xor_profile_ls</Str>
-			<Str sr="arg1" ve="3">Mobile Data Var Set,Wifi Hotspot State,(Un)Set Sim Presence Airplane Mode</Str>
+			<Str sr="arg1" ve="3">Mobile Data Var Set,(Un)Set Sim Presence Airplane Mode</Str>
 			<Str sr="arg2" ve="3">,</Str>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -11330,7 +11534,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 				<var>%priority</var>
 			</Int>
 			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">wifi var set,%xor_profile_ls(+,),%xor_profile_ls(+ via Automate,) via Automate</Str>
+			<Str sr="arg2" ve="3">wifi var set,Wifi Hotspot State,%xor_profile_ls(+,),%xor_profile_ls(+ via Automate,) via Automate</Str>
 			<Str sr="arg3" ve="3">off</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -11358,18 +11562,12 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>39</code>
-			<label>(Automate flo) "Tasker - settings &amp; states checks": ["Sim Presence", "Cellular Data state"]</label>
-			<Str sr="arg0" ve="3">%var_setter_flow_beginning_id</Str>
-			<Str sr="arg1" ve="3">1,10</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act5" ve="7">
 			<code>877</code>
+			<label>(Automate flo) "Tasker - settings &amp; states checks": "Sim Presence"</label>
 			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/58/statements/%var_setter_flow_beginning_id</Str>
+			<Str sr="arg3" ve="3">%AUTOMATE_SIM_CHECK</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
@@ -11377,18 +11575,43 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>40</code>
+		<Action sr="act5" ve="7">
+			<code>877</code>
+			<label>(Automate flo) "Tasker - settings &amp; states checks": "Cellular Data state"</label>
+			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">%AUTOMATE_CELLULAR_DATA_CHECK</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.llamalab.automate</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%AIR</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%PACTIVE</lhs>
+					<op>3</op>
+					<rhs>*Airplane Boarding*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task317">
 		<cdate>1781921778296</cdate>
-		<edate>1781953559943</edate>
+		<edate>1782117505827</edate>
 		<id>317</id>
 		<nme>Profile to Flow Runner</nme>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<label>toggle between automate (in)dependent profiles (for cellular data state)</label>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -11410,7 +11633,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/58/statements/1</Str>
+			<Str sr="arg3" ve="3">%AUTOMATE_CELLULAR_DATA_CHECK</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
@@ -11436,7 +11659,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/58/statements/25</Str>
+			<Str sr="arg3" ve="3">%AUTOMATE_HOTSPOT_CHECK</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
@@ -11497,7 +11720,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/58/statements/34</Str>
+			<Str sr="arg3" ve="3">%AUTOMATE_WIFI_CHECK</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
@@ -11584,7 +11807,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<label>toggle between automate (in)dependent profiles (for sim based airplane mode)</label>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -11606,7 +11829,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/58/statements/10</Str>
+			<Str sr="arg3" ve="3">%AUTOMATE_SIM_CHECK</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
@@ -11655,7 +11878,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task37">
 		<cdate>1780800944669</cdate>
-		<edate>1781616122044</edate>
+		<edate>1782115280604</edate>
 		<id>37</id>
 		<Action sr="act0" ve="7">
 			<code>549</code>
@@ -11746,7 +11969,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task55">
 		<cdate>1780852022642</cdate>
-		<edate>1781287996608</edate>
+		<edate>1782114569038</edate>
 		<id>55</id>
 		<nme>Screen State Based Msg</nme>
 		<pc>use say or flash based on screen &amp; or lock state to post msgs</pc>
@@ -11804,7 +12027,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task56">
 		<cdate>1780889361032</cdate>
-		<edate>1781951418658</edate>
+		<edate>1782115262171</edate>
 		<id>56</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -11813,7 +12036,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/58/statements/1</Str>
+			<Str sr="arg3" ve="3">%AUTOMATE_CELLULAR_DATA_CHECK</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
@@ -11834,7 +12057,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/58/statements/10</Str>
+			<Str sr="arg3" ve="3">%AUTOMATE_SIM_CHECK</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
@@ -11861,7 +12084,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3">content://com.llamalab.automate.provider/flows/58/statements/25</Str>
+			<Str sr="arg3" ve="3">%AUTOMATE_HOTSPOT_CHECK</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
@@ -12006,7 +12229,7 @@ fi</Str>
 	</Task>
 	<Task sr="task90">
 		<cdate>1781050444998</cdate>
-		<edate>1781926042629</edate>
+		<edate>1782114610481</edate>
 		<id>90</id>
 		<nme>Toggle Dev Mode sensors</nme>
 		<Action sr="act0" ve="7">
@@ -12285,7 +12508,7 @@ fi</Str>
 	</Task>
 	<Task sr="task94">
 		<cdate>1761968839860</cdate>
-		<edate>1781922229644</edate>
+		<edate>1782166812731</edate>
 		<id>94</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -12301,7 +12524,7 @@ fi</Str>
 	</Task>
 	<Task sr="task95">
 		<cdate>1780344005462</cdate>
-		<edate>1781922362263</edate>
+		<edate>1782114655714</edate>
 		<id>95</id>
 		<nme>Bluetooth Unset</nme>
 		<Action sr="act0" ve="7">
@@ -12398,7 +12621,7 @@ fi</Str>
 	</Task>
 	<Task sr="task97">
 		<cdate>1759093117144</cdate>
-		<edate>1781625451072</edate>
+		<edate>1782114959676</edate>
 		<id>97</id>
 		<nme>Redundant Net Src Switch</nme>
 		<pri>100</pri>
@@ -12821,7 +13044,7 @@ fi</Str>
 	</Task>
 	<Task sr="task99">
 		<cdate>1747516216841</cdate>
-		<edate>1781569964668</edate>
+		<edate>1782115275689</edate>
 		<id>99</id>
 		<nme>Alarmy Call</nme>
 		<pri>6</pri>
@@ -12853,7 +13076,7 @@ fi</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>107361459</code>
-			<label>ivr input</label>
+			<label>call cut</label>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<EnableDisableAccessibilityService>2</EnableDisableAccessibilityService>
@@ -12878,6 +13101,38 @@ fi</Str>
 			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigActionv2</Str>
 			<Int sr="arg3" val="15"/>
 			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>nosu</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SHIZUKU_RUNNING</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>733</code>
+			<Bundle sr="arg0">
+				<Vals sr="val"/>
+			</Bundle>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>su</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SHIZUKU_RUNNING</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 </TaskerData>
