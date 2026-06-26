@@ -1,5 +1,5 @@
 # lazy-phone-user
-Tasker project with llamalab automate flows for the average lazy phone user who wants their phone self-handled or self-managed. works on rooted & non-rooted phones (which works via UI simulation or via working/reliable helper apps or shizuku to do things that require higher privileges to do with one action block). Configure once & forget until maybe few more apps to be plugged in to relevant profiles
+phone Automation workflow to make phone self-handled or self-managed. works on rooted & non-rooted phones (which works via UI simulation or via working/reliable helper apps or shizuku to do things that require higher privileges to do with one action block). Configure once & forget until maybe few more apps to be plugged in to relevant profiles
 
 # TLDR of what this workflow does:
 auto-toggle settings/automate user actions based on set apps/notifications/conditions/global var.s/settings which are normally done by the user 
