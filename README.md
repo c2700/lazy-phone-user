@@ -8,7 +8,7 @@ auto-toggle settings/automate user actions based on set apps/notifications/condi
 [] local db that stores wifi, cell tower & gps info to check if one is at a familiar/saved location (all for checking if network interface toggling is to/can be done)
 [] on ending a navigation (maps), perform checks on the same db (all for checking if network interface toggling is to/can be done)
 [] prompt the user if the current location has to be added to the db
-[] optionally & possibly use wigle (minimal usage) where necessary (example: when the phone either can't pick up the full tower id or shows that's an incompletely id'ed physical cell id)
+[] optionally & possibly use wigle (minimal usage) where necessary (example: when the phone either can't pick up the full tower id or shows an incompletely id'ed physical cell id)
 
 ### Required apps
  1. Tasker
