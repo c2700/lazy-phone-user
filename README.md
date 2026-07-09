@@ -2,7 +2,8 @@
 phone Automation workflow to make phone self-handled or self-managed. works on rooted & non-rooted phones (which works via UI simulation or via working/reliable helper apps or shizuku to do things that require higher privileges to do with one action block). Configure once & forget until maybe few more apps to be plugged in to relevant profiles
 
 # TLDR of what this workflow does:
-auto-toggle settings/automate user actions based on set apps/notifications/conditions/global var.s/settings which are normally done by the user.
+auto-toggle settings/automate user actions based on set apps/notifications/conditions/global var.s/settings which are normally done by the user. [working parts](#working.md)<br>
+
 
 ### TBD:
 - [ ] local db that stores wifi, cell tower & gps info to check if one is at a familiar/saved location (all for checking if network interface toggling is to/can be done)
@@ -18,9 +19,6 @@ auto-toggle settings/automate user actions based on set apps/notifications/condi
  5. auto notification. 
  6. [TaskerSettings](https://github.com/joaomgcd/TaskerSettings) (api level check based actions & tasks are created based on what's written in this page)
 
-[optional things to setup](#optional.md)<br>
-[working parts](#working.md)
-
 # Disclaimers:
 1. There maybe slight delays on weaker phones in running tasks triggered by the low power mode profiles which send intents to automate flows.
 2. if at times actions/tasks don't run, try performing said action/task from the `run an action` option from tasker just to see if the action's being run which if it doesn't, try one few or all of the below
@@ -33,9 +31,10 @@ auto-toggle settings/automate user actions based on set apps/notifications/condi
 7. You may need to recreate profile contexts in case it still gives you warnings of apps not existing even after unselecting everything.
 8. Profiles that use the app context may not be completely reliable for apps open in floating/small windows..android limitation...logcat entry didn't work on my non-rooted phone & the WIN var also isn't too reliable...so gotta renter the app or "re-exit" the app that was previously open to get such profiles active
 9. Install & configure a TTS engine LIKE google's `speech recognition & synthesis` if none installed & configured already. test the `say` action if you need any voice. The say actions have the "continue task after error" option enabled so the tasks don't fail due to a voice msg action failure, only disadvantage is that the user would not know if the tasks with the say actions actually ran or rightfully ran. A notification will be posted saying what to do should the `say` action fail.
-10. <b>you will see inconsistent namings (I couln't come up with anything better than what you see) & tasks & profile names being the same are also intended just so I could make out the difference in certain tasks & profiles...atleast during the time I was building this</b>
+10. <b>you will see inconsistent namings (I coulnd't come up with anything better than what you see) & tasks & profile names being the same are also intended just so I could make out the difference in certain tasks & profiles...atleast during the time I was building this</b>
 
 # setup
+<br>[optional things to setup](#optional.md)<br>
 #### a. import the automate flows (the `.flo` files from the `Automate flows` directory) into automate, the tasker project `Lazy_User.prj.xml` into Tasker & the easer zip into easer
 #### b. <b>list of profiles to be mutually exclusively enabled/deleted</b>
 1. `Mobile Data Var Set via Automate` & `Mobile Data Var Set`
