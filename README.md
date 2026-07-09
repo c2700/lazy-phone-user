@@ -5,10 +5,10 @@ phone Automation workflow to make phone self-handled or self-managed. works on r
 auto-toggle settings/automate user actions based on set apps/notifications/conditions/global var.s/settings which are normally done by the user. [working](working.md)
 
 ### TBD:
-- [] local db that stores wifi, cell tower & gps info to check if one is at a familiar/saved location (all for checking if network interface toggling is to/can be done)
-- [] on ending a navigation (maps), perform checks on the same db (all for checking if network interface toggling is to/can be done)
-- [] prompt the user if the current location has to be added to the db
-- [] optionally & possibly use wigle (minimal usage) where necessary (example: when the phone either can't pick up the full tower id or shows thats an incompletely id'ed physical cell id)
+- [ ] local db that stores wifi, cell tower & gps info to check if one is at a familiar/saved location (all for checking if network interface toggling is to/can be done)
+- [ ] on ending a navigation (maps), perform checks on the same db (all for checking if network interface toggling is to/can be done)
+- [ ] prompt the user if the current location has to be added to the db
+- [ ] optionally & possibly use wigle (minimal usage) where necessary (example: when the phone either can't pick up the full tower id or shows thats an incompletely id'ed physical cell id)
 
 ### Required apps
  1. llamalab automate
