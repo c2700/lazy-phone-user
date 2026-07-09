@@ -2,7 +2,7 @@
 phone Automation workflow to make phone self-handled or self-managed. works on rooted & non-rooted phones (which works via UI simulation or via working/reliable helper apps or shizuku to do things that require higher privileges to do with one action block). Configure once & forget until maybe few more apps to be plugged in to relevant profiles
 
 # TLDR of what this workflow does:
-auto-toggle settings/automate user actions based on set apps/notifications/conditions/global var.s/settings which are normally done by the user. [working](working.md)
+auto-toggle settings/automate user actions based on set apps/notifications/conditions/global var.s/settings which are normally done by the user.
 
 ### TBD:
 - [ ] local db that stores wifi, cell tower & gps info to check if one is at a familiar/saved location (all for checking if network interface toggling is to/can be done)
@@ -18,6 +18,8 @@ auto-toggle settings/automate user actions based on set apps/notifications/condi
  5. auto notification. 
  6. [TaskerSettings](https://github.com/joaomgcd/TaskerSettings) (api level check based actions & tasks are created based on what's written in this page)
 
+[optional things to setup](#optional.md)<br>
+[working parts](#working.md)
 
 # Disclaimers:
 1. There maybe slight delays on weaker phones in running tasks triggered by the low power mode profiles which send intents to automate flows.
@@ -66,6 +68,4 @@ auto-toggle settings/automate user actions based on set apps/notifications/condi
     - enable the profile then tap the recents button.
     - disable the (if you're not okay with constant popup annoyance on every tap) profile & then put in the "Text" in the `autoinput UI update` event context's Text field & the elementid in the condition of action 1 from the task
 
-[optional things to setup](#optional.md)
-[working](#working.md)
 
