@@ -17,11 +17,12 @@
 * `Mobile Data Var Set via Automate` - set mobile data stats as global variable(s). (used by the net management profiles but triggered by intents sent from automate. Triggering flow beginning `Cellular Data state` in flow `Tasker - Settings & States Checks`)
 * `Wifi Hotspot State` - set wireless hotspot state via `WIFI_AP_STATE_CHANGED` broadcast
 * `Wifi Hotspot State Via Automate` - same `Wifi Hotspot State` but with automate (Triggering flow beginning `Hotspot state` in flow `Tasker - Settings & States Checks`)
-    
+
 
 ##### 3. <b>profile for airplane mode based on sim presence</b>
 * `(Un)Set Sim Presence Airplane Mode` - toggle airplane mode when sim inserted/ejected. Uses android's `SIM_STATE_CHANGED` broadcast
 * `(Un)Set Sim Presence Airplane Mode via Automate` - toggle airplane mode when sim inserted/ejected. custom broadcast `SIM_PRESENT` is sent by automate by the flow beginning `Sim presence` in flow `Tasker - Settings & States Checks`. The flow must be kept running for this profile to work
+
 
 ##### 4. <b>WAN iface toggle</b>
 * `Fg Net Flags Set` -  set global variable(s) to enable wan connectivity for net requiring apps running in the foreground <b>(just flag setting for `Net Set` & `Net Unset` profiles)</b>
@@ -36,7 +37,7 @@
 * `Wan Check Switch` - checks if wan is reachable when connected via enabled/active/connected wan iface, which then waits for `Ping Test` to set `HIGH_PING` global var & based on the var's value shows an input dialog to change the ssid to which if user selects "no" prompts to change to cellular data to which if user selects "no" then leaves the iface as is by stopping the profile assigned task. switch WAN src based on ping numbers
 * `Ping Test` - checks ping timings (5 pkts) in an infinite loop (goto step 1 is applied)
 * `Net Unset` - disable wan connectivity. Active when ALL wan connectivity profiles (`Fg Net Flags Set`, `Fg Net Flags Unset`, `Bg Net (Un)Set`, `VPN state` & `Work Profile Set`) have set their global var.s to satisfy the conditions to set this profile active to disable all wan connectivity
-* `No Root Screen Off Data Disconnected` - Task that tells the user to disable data every 10 seconds when screen is locked/off & is not in use until data is disabled (active when root is unavailable or shizuku is not running)
+* `No Root Screen Off Data Enabled` - Task that tells the user to disable data every 10 seconds when screen is locked/off & is not in use until data is disabled (active when root is unavailable or shizuku is not running)
 
 ##### 5. <b>Map settings</b>
 * `Map Fg Flags (Un)Set` - set global variable(s) to be used to toggle settings for maps in foreground <b>(just flag setting for `Map (Un)Set` profile)</b>
@@ -48,7 +49,7 @@
 * `OBD2 Fg Flags (Un)Set` - same purpose as `OBD2 Bg Flags (Un)Set` but for when the apps running in the foreground <b>(just flag setting for `Bluetooth Set` profile)</b>
 * `Bluetooth Set` - to enable bluetooth (dependent on the global var.s set by obd2 & bluetooth check profiles)
 * `Bluetooth Unset` - to disable bluetooth (dependent on the global var.s set by obd2 & bluetooth check profiles)
-* `No Root Screen Off BT Disconnected` - same as `No Root Screen Off Data Disconnected` but for bluetooth
+* `No Root Screen Off BT Disconnected` - same as `No Root Screen Off Data Enabled` but for bluetooth
 
 ##### 7. <b>low power based on lock & screen state</b>
 * `screen Off Low Power` - set low power mode when screen is off. `Test Display` action to set `PHONE_LOCKED` & `PHONE_LOCK_SET` values & switch bluetooth off if connections are 0
@@ -66,7 +67,10 @@
 
 
 ##### 9. <b>other stuff</b>
-* `Clipboard Link Sanitizer` - literally what it says. for now only "sanitization" it does is on youtube share links in the clipboard which is just taking away the strings matching `?sid.*`
+* `Sanitized URL share` - literally what it says. for now only following links are "sanitization" 
+    - youtube share links matching `?sid.*`
+    - links with google references 
+    - instagram links matching `\/\?igsh=.*`
 * `Automate Flow Retrigger` - send a START_FLOW intent to automate flows based on enabled profiles that need automate flows to be left running (for cases where automate & or it's flows are killed by the OS)
 * `Email Auto Sync (Un)Set` - sets autosync when email client is in foreground, unsets when not in foreground for more than one minute
 * `Alarm Vol Auto Set` - set all alarm vol to max when an alarm's about to ring
@@ -79,9 +83,22 @@
 * `Flashlight State Based Autobrightness` - toggle Flashlight & autobrightness will be toggled for 2 seconds
 
 
-##### 10. <b>not as a automation usage but just for tasker interactivity convenience</b>
+##### 10. <b>not as a automation usage but something cosmetic. Play audios based on battery levels & power source plug events</b>
+* <b>Automate flow beginnings from the below profiles will be run from the `Tasker - Battery noise` flow (which is `(Template) Tasker - Battery noise.flo` in the repo) </b>
+* `Shutdown Audio` - play audios at randomly selected from a list of audio files set by the user at shutdown event
+* `Unplugged 1 Pcent Battery` - play audio at loop when at 1 percent battery
+* `Unplugged 2 Pcent Battery` - same as `Unplugged 1 Pcent Battery` but at 2 percent battery
+* `Battery Audios` - run the `Battery State` flow beginning when battery's between 3% & 99%. different audios at different battery levels when charger's plugged, pulled, charging & discharging (entry & exit at a battery range)
+* `Battery Full Audio Event` - runs a one time set audio set by the user in the profile's `Music Play` & run the `Plugged in Battery full`
+* `Power Connected` - at less than 3 percent battery, on plugging power source run a one time audio set by the user. if at 100% battery run the `Plugged in battery full` from flows
+* `Power Disconnected` - at less than 3 percent battery, on removing power source rus an audio set by the user in an infinite loop until power plugged in or when greater than 3%. if at 100% battery run the `Plugged in battery full` flow
+* `Battery Audio Toggle` - any vol/audio stream set to 0 the, the aforementioned battery audio profiles will be disabled & flows will be stopped. exit task enables the profiles which in turns runs the relevant flows
+
+
+##### 11. <b>not as a automation usage but just for tasker interactivity convenience</b>
 * `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the task list I had a tough time getting it to move around. now that the AI button's been added which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the list who's toggle will remain obstructed instead of the one's that are of use to the user. (TLDR: just a UI inconvenience mitigator). or you could disable the "AI Generation Button Enabled" option by going to the 3 dots on top of the main activity -> UI tab -> "AI Generation Button Enabled".
 * the rest of the profiles (mostly being ones containing `=` & words in it like `Net Mgr`) are just profile separators. when making changes to the entry/exit actions, they shouldn't make any changes to how project's workflow.
+
 
 ### custom global vars set & used by profiles & tasks from the above group of profiles
 1. `APP_CTX_INVISIBLE_FG_NET_UNSET_PKG`, `PHONE_LOCK_SET`, `NET_SRC_TOGGLE_COUNT`, `APP_NET`, `BG_NET`, `WORK_PROFILE`, `MDATA`, `ADB_WIFI`, `WIFI_CONNECTED`, `WAN_ACCESSIBLE`, `VPN_CONN`, `FG_NET_APP_OPT`, `FG_NET_APP_NAME`, `ROOT_STAT`, `SHIZUKU_RUNNING`, `HIGH_PING` - [network toggle & check profiles](#global-var-setter-profiles-for-phone-settings), [low power & screen lock profiles](#low-power-based-on-lock-&-screen-state) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
@@ -125,13 +142,14 @@
     - err - the action errored. you will have to see for yourself what kind of error (for me it was yapping about permissions even though it worked previously...must be another droid update)
     - not_installed - literally what it says
 * `TASKER_HELPER_FOR_DATA_TOGGLE` - same as `TASKER_HELPER_FOR_BT_TOGGLE` but for data action
-* Any global var name starting with `AUTOMATE_` are used as content uri's pointing to automate flows (for now atleast)
+* `AUTOMATE_CONTENT_BASE_URI` (content://com.llabalab.automate.provider/flows) - stores only the content provider authority which is used across all other `AUTOMATE_` global var.s which are used as content uri's pointing to automate flows.
 
 ## What each Tasker profiles do
 #### Tasks who's Description's given in the profile section with the same name as the task
 `Wan Check Switch`, `Ping Test`, `Net Set`, `Custom Intent`, `Autoread Whatsapp`, `(Un)Set Sim Presence Airplane Mode`, `Sanitized URL Share`, `Bluetooth Unset`, `Redundant Net Src Switch`, `Alarmy Call`
 * Toggle Profiles, Toggle Data, Toggle Bluetooth, Unset All Alarms - literally what their task names say
 * Gaming Clock,Regular Cpu Clock,Low Clock Cpu - sets the clocks to whatever the user counts/sets as regular, low or performance clocks 
+* Restart Flow - stop a flow, then start from a flow beginning (no way to stop a flow beginning)
 * Fg Map Actions - actions to perform on map apps
 * All Vol Set - task to set a vol lvl to all audio streams
 * Lazy Workflow Initializer - Action 33 is just what I think would work best, action 34 is left as disabled in case the user wants to have their desired profiles enabled & automate flows left running. Rest of the description is at the `Check Set Stuff At Boot` profile
@@ -146,19 +164,33 @@
 * Screen State Based Msg - msg is posted via tts or a toast depending screen or tts state
 * Screen & Lock State Low Power Profile Toggle - toggles the low power profiles based on the phone screen lock being set 
 * Delayed Autobrightness Toggle - description in `Flashlight State Based Autobrightness` profile
+* Random Audio Play - Task to randomly play from a list of audio files fed to it as parmeter
 * Toggle Dev Mode sensors - task for toggleing the `disable sensors` dev options qs toggle (won't run without root/shizuku/adb or if tasker helper stat ). the number 9 in the shell actions 3, 6, 7, 11, 14, 15 differs between android versions. [stackexchange reference](#https://android.stackexchange.com/questions/246299/can-sensors-off-developer-options-be-controlled-via-adb)
 
 ### Automate Flows & what they do 
 * `Tasker - Check Set boot stuff.flo` - sets variables, settings, flags & such after boot. Basically an initializer helper of sorts for tasker
+* `Tasker - Airplane boarding.flo` - flow to disable all phone settings that need to disabled on a flight
+* `Tasker - Alarmy call.flo` - pick a contact from popup, set a time for the fibre to be paused for, which then sends a broadcast to the `Custom Intent Recvr` profile in tasker enabling `Alarmy Call` &  `Alarmy Call Disable` profiles
+* `(Template) Tasker - Battery noise.flo` - plays audio files set by the user at set battery levels. Also invoked by tasker profiles.
 * `Tasker - settings & states checks.flo` - contains 4 flow beginnings & also sends a broadcast to the `Custom Intent Recvr` profile to disable respective profiles
     - `Cellular Data Stat` - sets the `MDATA` global var to "enabled"|"disabled" on cellular data state change sending a custom broadcast (`net.dinglisch.tasker.CELLULAR_DATA`) to the profile `Mobile Data Var Set via Automate`. Disables  `Mobile Data Var Set` on 1st run
     - `Sim Presence` - sends a custom `android.intent.action.SIM_PRESENT` broadcast to the `(Un)Set Sim Presence Airplane Mode via Automate` profile to set airplane mode based the `%SIM_STATE` var which can't be used in the variable state context in a profile. Disables `(Un)Set Sim Presence Airplane Mode` profile on 1st run
     - `Hotspot State` - sets the `WL_HOTSPOT` global var to "enabled"|"disabled". Disables `Wifi Hotspot State` profile on 1st run
     - `Wifi State` - sets `WIFI_CONNECTED` on wifi connection state. Disables `wifi var set` profile on 1st run
-* `Tasker - Airplane boarding.flo` - flow to disable all phone settings that need to disabled on a flight
-* `Tasker - Alarmy call.flo` - pick a contact from popup, set a time for the fibre to be paused for, which then sends a broadcast to the `Custom Intent Recvr` profile in tasker enabling `Alarmy Call` &  `Alarmy Call Disable` profiles
 
+### Easer Setup:
+<b>(event & profile names literally do what the names imply)</b>
+- Script tab
+    - bluetooth disable: connect `bluetooth disable broadcast recv` event with `bluetooth disable` profile
+    - bluetooth enable: connect `bluetooth enable broadcast recv` event with `bluetooth enable` profile
 
+- Event tab: 
+    - bluetooth disable broadcast recv - recieve BT_DISABLE action to trigger profile
+    - bluetooth enable broadcast recv - recieve BT_ENABLE action to trigger profile 
+
+- Profile:
+    - bluetooth disable: task to disable bluetoot
+    - bluetooth enable: task to enable bluetooth
 
 ### This is the ordering in which I keep the profiles in tasker to make maintainability & sensibility RELATIVELY easier than the mixup order you get when you import the project & unfortunately there's no option to preserve the profile ordering
 
@@ -203,7 +235,7 @@
     Wan Check Switch
     Net Src Disconnected Switch
     Net Unset
-    No Root Screen Off Data Disconnected
+    No Root Screen Off Data Enabled
     ============ Map Set ============
     Map Fg Flags (Un)Set
     Map Bg Flags (Un)Set
@@ -214,6 +246,15 @@
     Bluetooth Set
     Bluetooth Unset
     No Root Screen Off BT Disconnected
+    ========= Battery Audios ==========
+    Shutdown Audio
+    Unplugged 1 Pcent Battery
+    Unplugged 2 Pcent Battery
+    Battery Audios
+    Battery Full Audio
+    Battery Audio Toggle
+    Power Connected
+    Power Disconnected
     ============= Others =============
     Automate Flow Retrigger
     Email Auto Sync (Un)Set
@@ -221,10 +262,11 @@
     Alarmy Call Disable
     Gaming
     Toggle Dev Mode Per App
-    Clipboard Link Sanitizer
+    Sanitized URL share
     Alarm Vol Auto Set
     Autoread Whatsapp
     Airplane Boarding
     Flashlight State Based Autobrightness
     Bottom "Buffer" Profile. Not To Be Used
+
 
