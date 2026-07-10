@@ -593,7 +593,7 @@
 	</Profile>
 	<Profile sr="prof130" ve="2">
 		<cdate>1782440284087</cdate>
-		<edate>1783703263981</edate>
+		<edate>1783705575052</edate>
 		<flags>8</flags>
 		<id>130</id>
 		<mid0>102</mid0>
@@ -2280,8 +2280,8 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>122,112,124,211,137,166,263,175,153,127,128,125,113,216,129,229,120,141,133,159,126,172,170,140,155,116,157,114,260,138,154,162,158,212,139,136,143,134,167,161,130,156,131,231,118,234,164,115,176,150,203,146,142,144,121,149,135,163,218,169,151,152,123,117,148,132,171,168,119,145,147,165,160,174</pids>
-		<tids>17,30,78,111,98,80,97,77,18,31,20,37,91,3,84,55,52,47,23,53,28,39,66,35,213,54,108,82,32,75,81,2,95,94,103,34,49,96,33,89,70,87,88,76,57,56,41,13,15,110,50,69,99,109,63,71,16,206,22,36,51,62,27,64,255,65,72,230,256,43,40,90,11,29,92,73,264,61,74,19,12,262,46,14,48,25,26,86,38,104,68,239,102,21,67,8,106,83,101,242,100,60,241,58,59,45,4,205,24,9,261,105,7,42,44,235,107,85,93,79,10</tids>
+		<pids>263,122,112,212,116,231,133,119,127,218,164,161,140,216,171,170,128,113,135,150,134,155,115,139,234,154,149,211,138,141,117,153,176,130,132,118,136,159,121,147,131,174,162,145,151,126,142,148,129,137,143,165,144,203,157,260,160,169,156,125,172,163,114,166,120,175,229,146,124,158,152,167,168,123</pids>
+		<tids>32,84,39,96,83,91,31,57,66,47,11,89,23,98,77,99,108,48,2,17,94,56,61,16,37,74,60,73,18,102,69,67,35,33,3,75,105,78,43,64,82,107,76,97,19,92,106,52,9,101,30,71,54,95,12,15,239,264,29,63,34,86,255,111,65,235,28,38,27,213,50,26,42,14,80,36,103,44,206,55,205,242,8,256,10,110,81,70,72,100,20,59,7,13,53,90,46,41,87,21,45,241,51,68,24,40,261,49,262,62,93,104,58,79,4,109,22,230,25,88,85</tids>
 	</Project>
 	<Task sr="task10">
 		<cdate>1780800944669</cdate>
@@ -2334,7 +2334,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task102">
 		<cdate>1770843983360</cdate>
-		<edate>1783703263981</edate>
+		<edate>1783705575052</edate>
 		<id>102</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -2352,6 +2352,60 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>410</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Alarm_test.txt</Str>
+			<Str sr="arg1" ve="3">yes - %TIMES</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%PHONE_LOCKED</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Alarm works</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SCREEN</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%PHONE_LOCKED</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task103">
