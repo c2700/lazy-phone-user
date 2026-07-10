@@ -5,8 +5,9 @@
 4. if you plan to use the profiles under the `Battery Audios` separator profile you would need your custom audio files as well. else delete/disable those profiles
 5. (disable/delete if not needed which you would need to do to the `OBD2 (Un)Set` profile as well) set your obd apps as the entry app in `OBD2 Fg Flags (Un)Set` profile & the very same obd apps as auto notification entry in `OBD2 Bg Flags (Un)Set` profile
 6. set an audio file in the `Music Play` action in `Unplugged 1 Pcent Batter`, `Unplugged 2 Pcent Battery`, `Battery Ful Audio Event`, `Power Connected` entry tasks & a list of audio of files (can be one file too since this is just selecting random files from said list) in to %par1 field of the `perform task` action that perform's `Random Audio Play` task in entry task of profiles `Phone Shutdown Audio`& Exit task of `Battery Audio Toggle` profiles
-7. To be done in `Tasker - Batter Noises` flow (which is `(Template) Tasker - Battery noise.flo` in this repo) - set your preferred audio file paths in all the arrays across all the flow beginnings (even add more to the arrays if wanted/needed) & set your audio files as values into the array (battery_range) belonging to the `Battery State` flow beginning
-8. if you do not want the toast/tts msgs from the `Ping test` & `WAN check` the actions to disable/delete are the following
+7. To be done in `Tasker - Battery Noises` flow (which is `(Template) Tasker - Battery noise.flo` in this repo) - set your preferred audio file paths in all the arrays across all the flow beginnings (even add more to the arrays if wanted/needed) & set your audio files as values into the array (battery_range) belonging to the `Battery State` flow beginning
+8. Enable `Battery Audio Toggle` if Battery Audio tasks/profiles are to be used
+9. if you do not want the toast/tts msgs from the `Ping test` & `WAN check` the actions to disable/delete are the following
     - `Ping Test` Task
         - action 5
         - action 10

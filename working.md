@@ -61,7 +61,7 @@
 ##### 8. <b> Stuff for tasker & workflow </b>
 * `Tasker Log Clear` - literally what it says.
 * `New App Installed` - to prompt the user if an installed app is to be set in the app context of the profiles in this project to which if pressed yes, will open tasker. will only be a popup if already in tasker
-* `Disable Profiles` - disable those profiles used for separation & the profiles that require root.
+* `Toggle Profiles` - disable those profiles used for separation, profiles that require root & mass toggels Battery Audio related profiles based on the state of `Battery Audio Toggle` profile.
 * `App Context Invisible Fg Apps` - to get app/pkg names that are not listed in tasker's app context & compare the pkg name against pkgs set in `/sdcard/Tasker/projects/app_ctx_invisible_apps_for_fg_unset_profile.txt` (too long a name I know) file which if it's there sets the `APP_CTX_INVISIBLE_FG_NET_UNSET_PKG` global var (yes, it's a mouthful & too wordy...best I could come up with) with that pkg name via grep (done like this "grep <pkg name> | grep -iv '#'"). The global var is then used in the `Fg Net Flags Unset` profile. can be used to set/unset global vars & files besides what's being currently used
 * `Get Recents` - a profile to see if the user's on the "recents" screen just so the fg net app profile's timeout can be paused when in the recents screen
 
@@ -71,7 +71,6 @@
     - youtube share links matching `?sid.*`
     - links with google references 
     - instagram links matching `\/\?igsh=.*`
-* `Automate Flow Retrigger` - send a START_FLOW intent to automate flows based on enabled profiles that need automate flows to be left running (for cases where automate & or it's flows are killed by the OS)
 * `Email Auto Sync (Un)Set` - sets autosync when email client is in foreground, unsets when not in foreground for more than one minute
 * `Alarm Vol Auto Set` - set all alarm vol to max when an alarm's about to ring
 * `Autoread Whatsapp` - literally what it says (except set your own interval if you need to)
@@ -198,7 +197,7 @@
     New App Installed
     Custom Intent Recvr
     Tasker Log Clear
-    Disable Profiles
+    Toggle Profiles
     ======== Global Var Setters ========
     Phone Lock State
     Phone Unlock State
@@ -256,7 +255,6 @@
     Power Connected
     Power Disconnected
     ============= Others =============
-    Automate Flow Retrigger
     Email Auto Sync (Un)Set
     Alarmy Call
     Alarmy Call Disable
