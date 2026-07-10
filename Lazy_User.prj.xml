@@ -379,7 +379,7 @@
 	<Profile sr="prof122" ve="2">
 		<cdate>1782440284060</cdate>
 		<clp>true</clp>
-		<edate>1783505891055</edate>
+		<edate>1783696688784</edate>
 		<flags>8</flags>
 		<id>122</id>
 		<mid0>34</mid0>
@@ -1460,7 +1460,7 @@ Notes:
 	<Profile sr="prof153" ve="2">
 		<cdate>1782440284179</cdate>
 		<clp>true</clp>
-		<edate>1783681925357</edate>
+		<edate>1783692828549</edate>
 		<flags>8</flags>
 		<id>153</id>
 		<mid0>88</mid0>
@@ -2289,7 +2289,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof263" ve="2">
 		<cdate>1782440284251</cdate>
 		<clp>true</clp>
-		<edate>1783690480496</edate>
+		<edate>1783696816660</edate>
 		<flags>8</flags>
 		<id>263</id>
 		<mid0>264</mid0>
@@ -2305,8 +2305,8 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>173,229,127,115,160,124,151,141,148,140,159,174,113,133,156,143,126,212,142,119,112,234,120,144,128,146,263,132,125,123,147,164,260,150,155,122,175,170,117,116,121,152,171,203,231,130,176,118,169,131,157,165,139,168,161,172,134,163,129,166,137,167,158,153,136,211,138,216,154,135,114,162,145,149,218</pids>
-		<tids>256,91,78,31,20,44,84,15,92,56,74,53,95,17,69,94,235,61,11,81,8,47,32,13,2,262,264,76,79,75,23,19,37,57,39,6,213,98,54,65,50,4,99,45,241,3,55,48,87,108,103,34,28,77,104,24,96,66,42,35,63,109,93,101,239,100,80,46,62,33,49,12,30,107,206,82,89,71,105,16,27,86,68,230,22,59,25,43,97,70,102,14,106,255,67,261,64,40,51,73,111,10,58,29,26,41,21,242,7,110,83,88,36,18,85,9,52,205,60,38,72,90</tids>
+		<pids>116,141,143,121,152,112,231,134,166,164,126,170,165,161,125,136,133,128,123,162,119,117,122,113,118,218,147,260,153,172,163,156,145,174,142,146,140,124,115,120,139,135,160,171,150,137,175,157,127,138,158,169,168,155,159,148,216,263,234,149,173,176,229,167,154,114,131,212,130,203,144,129,151,132,211</pids>
+		<tids>20,63,91,264,47,3,84,11,105,23,54,17,22,28,55,74,56,53,77,98,83,2,10,18,32,65,24,71,37,64,52,12,100,255,78,68,93,73,31,6,87,60,94,61,75,51,256,45,57,205,7,95,30,76,213,26,33,239,82,42,108,80,41,90,39,102,48,235,4,13,106,35,85,110,261,96,242,206,59,38,29,109,50,79,104,46,111,69,34,66,62,230,92,89,81,8,15,72,14,101,9,36,103,70,97,27,43,262,16,99,21,49,88,67,107,241,19,40,86,44,25,58</tids>
 	</Project>
 	<Task sr="task10">
 		<cdate>1780800944669</cdate>
@@ -4465,7 +4465,7 @@ fi</Str>
 	</Task>
 	<Task sr="task23">
 		<cdate>1781050444998</cdate>
-		<edate>1782114610481</edate>
+		<edate>1783697125993</edate>
 		<id>23</id>
 		<nme>Toggle Dev Mode sensors</nme>
 		<Action sr="act0" ve="7">
@@ -5189,11 +5189,13 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task264">
 		<cdate>1780069033290</cdate>
-		<edate>1783690480496</edate>
+		<edate>1783696816660</edate>
 		<id>264</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
+			<coll>true</coll>
+			<label>Disable Gaming if no root</label>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -5277,36 +5279,31 @@ Percentage representing the measured battery state of health (remaining estimate
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>39</code>
-			<coll>false</coll>
+			<coll>true</coll>
+			<label>Disable Section separators</label>
 			<Str sr="arg0" ve="3">%profile</Str>
 			<Str sr="arg1" ve="3">======== Global Var Setters ========,========= Low Power Mgr =========,============ Net Mgr ===========,============ Map Set ============,=========== Bluetooth Stuff ========,============= Others =============,Bottom "Buffer" Profile. Not To Be Used</Str>
 			<Int sr="arg2" val="1"/>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>548</code>
+			<code>159</code>
 			<Str sr="arg0" ve="3">%profile</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PENABLED</lhs>
+					<op>2</op>
+					<rhs>*%profile*</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>40</code>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
+			<label>Toggle Battery Audio profiles</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%PENABLED</lhs>
@@ -7455,7 +7452,7 @@ done</Str>
 	</Task>
 	<Task sr="task47">
 		<cdate>1657974116786</cdate>
-		<edate>1783677180794</edate>
+		<edate>1783697769955</edate>
 		<id>47</id>
 		<nme>Toggle Data</nme>
 		<pri>100</pri>
@@ -7558,12 +7555,34 @@ done</Str>
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>107361459</code>
+			<on>false</on>
 			<Bundle sr="arg0">
 				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>Actions To Perform: click(id,c...</com.twofortyfouram.locale.intent.extra.BLURB>
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
+					<Password>&lt;null&gt;</Password>
+					<Password-type>java.lang.String</Password-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Actions To Perform: click(id,com.android.settings:id/switch_btn)
+
+back()
+Not In AutoInput: true
+Not In Tasker: true
+Separator: ,
+Pre-Action Delay: 1000
+Check Millis: 1500</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
 					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ailastbounds
+Last Bounds
+Bounds (left,top,right,bottom) of the item that the action last interacted with&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ailastcoordinates
+Last Coordinates
+Center coordinates (x,y) of the item that the action last interacted with&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
@@ -7584,34 +7603,73 @@ done</Str>
 			<Int sr="arg4" val="1"/>
 		</Action>
 		<Action sr="act16" ve="7">
-			<code>38</code>
+			<code>107361459</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
+					<Password>&lt;null&gt;</Password>
+					<Password-type>java.lang.String</Password-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Actions To Perform: click(id,com.android.settings:id/switch_btn)
+Not In AutoInput: true
+Not In Tasker: true
+Separator: ,
+Pre-Action Delay: 1000
+Check Millis: 1500</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ailastbounds
+Last Bounds
+Bounds (left,top,right,bottom) of the item that the action last interacted with&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ailastcoordinates
+Last Coordinates
+Center coordinates (x,y) of the item that the action last interacted with&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"_action":"click(id,com.android.settings:id/switch_btn)","_additionalOptions":{"checkMs":"1500","preActionDelay":"1000","separator":",","withCoordinates":false},"_whenToPerformAction":{"notInAutoInput":true,"notInTasker":true},"generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>17138f62-8868-4043-98d1-a75addcfb919</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentActionv2</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigActionv2</Str>
+			<Int sr="arg3">
+				<var>20</var>
+			</Int>
+			<Int sr="arg4" val="1"/>
 		</Action>
 		<Action sr="act17" ve="7">
-			<code>433</code>
-			<label>toggle data from tasker's action if root, shizuku or tasker settings work</label>
-			<Int sr="arg0" val="2"/>
-			<Bundle sr="arg1">
-				<Vals sr="val"/>
-			</Bundle>
+			<code>245</code>
 			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<bool1>Or</bool1>
 				<Condition sr="c0" ve="3">
-					<lhs>%ROOT_STAT</lhs>
+					<lhs>%APP_NET</lhs>
 					<op>2</op>
-					<rhs>su</rhs>
+					<rhs>no</rhs>
 				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%SHIZUKU_RUNNING</lhs>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>22</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%APP_NET</lhs>
 					<op>2</op>
 					<rhs>yes</rhs>
 				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%TASKER_HELPER_FOR_DATA_TOGGLE</lhs>
-					<op>2</op>
-					<rhs>works</rhs>
-				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>548</code>
@@ -7636,6 +7694,33 @@ done</Str>
 					<lhs>%SIMSTATE</lhs>
 					<op>3</op>
 					<rhs>ready</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>433</code>
+			<label>toggle data from tasker's action if root, shizuku or tasker settings work</label>
+			<Int sr="arg0" val="2"/>
+			<Bundle sr="arg1">
+				<Vals sr="val"/>
+			</Bundle>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>su</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SHIZUKU_RUNNING</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%TASKER_HELPER_FOR_DATA_TOGGLE</lhs>
+					<op>2</op>
+					<rhs>works</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -13545,7 +13630,7 @@ true if it after the action the setting is enabled, false if not&lt;/_array_net.
 	</Task>
 	<Task sr="task91">
 		<cdate>1774281828665</cdate>
-		<edate>1783615539922</edate>
+		<edate>1783697735165</edate>
 		<id>91</id>
 		<nme>Toggle Bluetooth</nme>
 		<pri>100</pri>
@@ -13649,10 +13734,29 @@ true if it after the action the setting is enabled, false if not&lt;/_array_net.
 			<code>107361459</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
-					<com.twofortyfouram.locale.intent.extra.BLURB>Actions To Perform: click(text...</com.twofortyfouram.locale.intent.extra.BLURB>
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
+					<Password>&lt;null&gt;</Password>
+					<Password-type>java.lang.String</Password-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Actions To Perform: click(text,Bluetooth)
+Not In AutoInput: true
+Not In Tasker: true
+Separator: ,
+Pre-Action Delay: 1000
+Check Millis: 1500</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
 					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ailastbounds
+Last Bounds
+Bounds (left,top,right,bottom) of the item that the action last interacted with&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ailastcoordinates
+Last Coordinates
+Center coordinates (x,y) of the item that the action last interacted with&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
@@ -13674,9 +13778,23 @@ true if it after the action the setting is enabled, false if not&lt;/_array_net.
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>245</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%APP_NET</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act19" ve="7">
-			<code>38</code>
+			<code>22</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%APP_NET</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>37</code>
@@ -13696,6 +13814,9 @@ true if it after the action the setting is enabled, false if not&lt;/_array_net.
 			<code>38</code>
 		</Action>
 		<Action sr="act22" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act23" ve="7">
 			<code>294</code>
 			<label>tasker toggle if shizuku/root available, taskersettings work or sdk lvl &lt; 32</label>
 			<Int sr="arg0" val="2"/>
