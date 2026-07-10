@@ -96,7 +96,7 @@
 
 ##### 11. <b>not as a automation usage but just for tasker interactivity convenience</b>
 * `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the task list I had a tough time getting it to move around. now that the AI button's been added which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the list who's toggle will remain obstructed instead of the one's that are of use to the user. (TLDR: just a UI inconvenience mitigator). or you could disable the "AI Generation Button Enabled" option by going to the 3 dots on top of the main activity -> UI tab -> "AI Generation Button Enabled".
-* the rest of the profiles (mostly being ones containing `=` & words in it like `Net Mgr`) are just profile separators. when making changes to the entry/exit actions, they shouldn't make any changes to how project's workflow.
+* the rest of the profiles (mostly being ones containing `=` & words in it like `Net Mgr`) are just profile separators. If enabled `Toggle Profiles` is set to disable them, including the `Bottom "Buffer" Profile. Not To Be Used` profile
 
 
 ### custom global vars set & used by profiles & tasks from the above group of profiles
