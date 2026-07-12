@@ -137,6 +137,7 @@
 * `WL_HOTSPOT` (enabled|disabled) - wifi hostspot state 
 * `NET_SRC_TOGGLE_COUNT` - keeps a count of number of times WAN src was toggled which if exceeded (4 times) the workflow will prompt the user for if the toggling needs to continue to which if clicked yes will reset the counter back to 0 else will keep the WAN toggling profiles to inactive until ping state says "stable ping" which also resets the WAN switch counter to 0
 * `PROFILE TOGGLE` (running|inactive) - something like a guard of sorts to prevent `Profile Toggle Mgr` profile from being triggered everytime a profile's being toggled by this profile's task
+* `CLIPBOARD_SHARE` (inactive|running) - a guard of sorts to prevent the clipboard profiles from being triggered when the `Sanitized URL Share` task is setting the sanitized/stripped string to the clipboard
 * `TASKER_HELPER_FOR_BT_TOGGLE` - var to check if tasker's bluetooth toggle action works (on non-root devices) wherein the following values will be assigned to it at boot IF the TaskerSettings app is installed. "ui_only", "works", "err". If TaskerSettings app is not installed the var is assigned "not_installed". what each value means
     - ui_only - just toggles the ui. does not affect the setting
     - works - says that the helper works as expected  
@@ -168,7 +169,7 @@
 * `Delayed Autobrightness Toggle` - description in `Flashlight State Based Autobrightness` profile
 * `Random Audio Play` - Task to randomly play from a list of audio files fed to it as parmeter
 * `Toggle Dev Mode sensors` - task for toggleing the `disable sensors` dev options qs toggle (won't run without root/shizuku/adb or if tasker helper stat ). the number 9 in the shell actions 3, 6, 7, 11, 14, 15 differs between android versions. [stackexchange reference](#https://android.stackexchange.com/questions/246299/can-sensors-off-developer-options-be-controlled-via-adb)
-* `Sanitized URL Share` - literally what it says with a prompt asking if it's to be shared. only the below 3 string strippings are done
+* `Sanitized URL Share` - literally what it says with a prompt asking if it's to be shared to which if selected yes the intent sharing that info will invok the app picker. only the below 3 string strippings are done
     - youtube share links matching `?sid.*`
     - links with google references (copied from google search results)
     - instagram links matching `\/\?igsh=.*`

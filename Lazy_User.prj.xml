@@ -176,7 +176,7 @@
 	<Profile sr="prof115" ve="2">
 		<cdate>1782440284033</cdate>
 		<clp>true</clp>
-		<edate>1783711348457</edate>
+		<edate>1783892292666</edate>
 		<flags>8</flags>
 		<id>115</id>
 		<mid0>61</mid0>
@@ -278,7 +278,7 @@
 	<Profile sr="prof117" ve="2">
 		<cdate>1782440284042</cdate>
 		<clp>true</clp>
-		<edate>1782354037048</edate>
+		<edate>1783888249193</edate>
 		<flags>8</flags>
 		<id>117</id>
 		<mid0>67</mid0>
@@ -615,7 +615,7 @@
 	<Profile sr="prof129" ve="2">
 		<cdate>1782440284083</cdate>
 		<clp>true</clp>
-		<edate>1783884731638</edate>
+		<edate>1783894973742</edate>
 		<flags>8</flags>
 		<id>129</id>
 		<limit>true</limit>
@@ -644,6 +644,16 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			</Bundle>
 			<Int sr="arg1" val="0"/>
 		</Event>
+		<State sr="con1" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CLIPBOARD_SHARE</lhs>
+					<op>2</op>
+					<rhs>inactive</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
 	</Profile>
 	<Profile sr="prof130" ve="2">
 		<cdate>1782440284087</cdate>
@@ -735,7 +745,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	<Profile sr="prof133" ve="2">
 		<cdate>1782440284097</cdate>
 		<clp>true</clp>
-		<edate>1783455528725</edate>
+		<edate>1783892208570</edate>
 		<flags>8</flags>
 		<id>133</id>
 		<mid0>99</mid0>
@@ -1712,7 +1722,7 @@ Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.t
 	<Profile sr="prof160" ve="2">
 		<cdate>1782440284205</cdate>
 		<clp>true</clp>
-		<edate>1783069798473</edate>
+		<edate>1783892326251</edate>
 		<flags>8</flags>
 		<id>160</id>
 		<mid0>105</mid0>
@@ -2140,7 +2150,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof211" ve="2">
 		<cdate>1782440284200</cdate>
 		<clp>true</clp>
-		<edate>1783874333117</edate>
+		<edate>1783897219458</edate>
 		<flags>8</flags>
 		<id>211</id>
 		<mid0>205</mid0>
@@ -2223,7 +2233,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof229" ve="2">
 		<cdate>1782764717505</cdate>
 		<clp>true</clp>
-		<edate>1783877268756</edate>
+		<edate>1783895931168</edate>
 		<flags>8</flags>
 		<id>229</id>
 		<mid0>230</mid0>
@@ -2245,7 +2255,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof231" ve="2">
 		<cdate>1782764717505</cdate>
 		<clp>true</clp>
-		<edate>1783874329955</edate>
+		<edate>1783897208580</edate>
 		<flags>8</flags>
 		<id>231</id>
 		<mid0>239</mid0>
@@ -2354,7 +2364,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof271" ve="2">
 		<cdate>1783880368870</cdate>
 		<clp>true</clp>
-		<edate>1783884732086</edate>
+		<edate>1783895006559</edate>
 		<flags>8</flags>
 		<id>271</id>
 		<mid0>275</mid0>
@@ -2424,12 +2434,22 @@ Text
 			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigInterceptToastEvent</Str>
 			<Int sr="arg3" val="1"/>
 		</Event>
+		<State sr="con1" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%CLIPBOARD_SHARE</lhs>
+					<op>2</op>
+					<rhs>inactive</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>113,130,146,115,171,260,126,112,154,162,128,137,168,119,151,156,122,158,172,141,140,133,139,134,161,155,271,123,159,165,218,149,234,170,132,127,167,175,117,176,163,138,164,145,212,116,125,203,231,129,157,124,136,263,211,143,153,131,118,152,147,135,229,169,114,148,120,142,166,121,150,174,160,144,216</pids>
-		<tids>31,24,91,65,84,64,90,32,17,45,57,47,4,51,262,96,98,83,78,108,37,241,213,100,103,82,256,16,270,93,274,72,54,2,86,23,20,13,206,19,75,56,11,61,94,230,239,55,255,66,29,105,35,92,79,30,60,99,74,25,63,15,242,44,26,275,111,39,80,205,62,95,28,269,3,71,22,10,33,52,38,235,69,73,53,27,102,67,101,18,43,76,21,7,104,9,34,107,40,49,106,12,41,48,261,36,42,110,14,77,8,109,87,50,68,58,70,88,97,85,81,89,46,59</tids>
+		<pids>127,143,113,169,176,175,128,133,170,121,123,112,142,120,156,141,203,165,211,212,138,164,263,116,119,129,171,172,229,157,124,260,144,160,125,148,152,140,136,231,150,137,117,126,115,167,174,135,153,114,134,168,122,130,145,131,271,158,163,149,218,151,147,159,132,234,166,146,162,216,155,154,161,118,139</pids>
+		<tids>84,270,67,35,83,26,14,51,17,37,2,91,242,81,80,98,78,15,23,3,31,42,57,65,96,58,21,49,88,275,103,20,13,235,32,255,48,47,40,241,28,52,274,269,256,108,34,213,22,230,101,71,94,24,56,206,76,74,61,11,77,8,16,12,30,261,53,36,41,39,95,105,55,70,66,68,92,19,44,100,43,59,87,99,73,9,72,18,79,46,69,111,82,63,4,109,90,262,106,89,38,60,7,75,25,239,33,62,107,97,110,27,29,205,104,85,50,64,10,102,45,54,86,93</tids>
 	</Project>
 	<Task sr="task10">
 		<cdate>1780800944669</cdate>
@@ -2778,7 +2798,7 @@ Text
 	</Task>
 	<Task sr="task105">
 		<cdate>1759612559032</cdate>
-		<edate>1782339827492</edate>
+		<edate>1783892326251</edate>
 		<id>105</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3065,7 +3085,7 @@ Text
 	</Task>
 	<Task sr="task108">
 		<cdate>1780705476936</cdate>
-		<edate>1783883163223</edate>
+		<edate>1783893663064</edate>
 		<id>108</id>
 		<nme>TTS Test</nme>
 		<Action sr="act0" ve="7">
@@ -4336,7 +4356,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task205">
 		<cdate>1783313155403</cdate>
-		<edate>1783874333117</edate>
+		<edate>1783897219458</edate>
 		<id>205</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -4367,7 +4387,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			</Int>
 			<Int sr="arg10" val="1"/>
 			<Str sr="arg2" ve="3">%AUTOMATE_VARS_BATTERY_AUDIO/1</Str>
-			<Str sr="arg3" ve="3">battery_event: full</Str>
+			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
@@ -5062,7 +5082,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task239">
 		<cdate>1782764756998</cdate>
-		<edate>1783874329955</edate>
+		<edate>1783897208580</edate>
 		<id>239</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5661,7 +5681,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task275">
 		<cdate>1783882727815</cdate>
-		<edate>1783884645834</edate>
+		<edate>1783894993985</edate>
 		<id>275</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5895,7 +5915,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task30">
 		<cdate>1759650620765</cdate>
-		<edate>1783717526229</edate>
+		<edate>1783889469190</edate>
 		<id>30</id>
 		<nme>Wan Check Switch</nme>
 		<pri>100</pri>
@@ -5933,9 +5953,21 @@ Percentage representing the measured battery state of health (remaining estimate
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>206</code>
+			<code>37</code>
+			<coll>true</coll>
+			<label>switch ssid if selected "yes" from above prompt &amp; then check the wan system stat again (the goto action at action 12)</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ssid_choice_input</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act11" ve="7">
+			<code>206</code>
+		</Action>
+		<Action sr="act12" ve="7">
 			<code>35</code>
 			<Int sr="arg0">
 				<var>50</var>
@@ -5952,7 +5984,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>35</code>
 			<Int sr="arg0">
 				<var>50</var>
@@ -5969,20 +6001,28 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act17" ve="7">
 			<code>390</code>
 			<Bundle sr="arg0">
 				<pref>net_iface_change</pref>
-				<Vals sr="val"/>
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%input
+Input
+The text that was retrieved from the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">YesOrNo</Str>
 			<Str sr="arg2" ve="3">switch net iface src?</Str>
@@ -6009,7 +6049,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act18" ve="7">
 			<code>137</code>
 			<label>stop if change to ssid &amp; iface is rejected</label>
 			<Int sr="arg0" val="0"/>
@@ -6034,7 +6074,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act19" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -6042,28 +6082,6 @@ Percentage representing the measured battery state of health (remaining estimate
 					<lhs>%NET_SRC</lhs>
 					<op>2</op>
 					<rhs>mdata</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>390</code>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-			<Str sr="arg1" ve="3">YesOrNo</Str>
-			<Str sr="arg2" ve="3">switch</Str>
-			<Str sr="arg3" ve="3">near a wifi src?</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="10"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%input</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -6087,6 +6105,33 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act20" ve="7">
+			<code>390</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%input
+Input
+The text that was retrieved from the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">YesOrNo</Str>
+			<Str sr="arg2" ve="3">switch</Str>
+			<Str sr="arg3" ve="3">near a wifi src?</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%input</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act22" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Switching net src</Str>
 			<Int sr="arg1" val="0"/>
@@ -6105,7 +6150,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act23" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Net Src Switch</Str>
 			<Int sr="arg1">
@@ -6121,10 +6166,10 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act24" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act25" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
@@ -6136,10 +6181,10 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act26" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act27" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Switching net src</Str>
 			<Int sr="arg1" val="0"/>
@@ -6158,7 +6203,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act28" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Net Src Switch</Str>
 			<Int sr="arg1">
@@ -6174,7 +6219,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act29" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -6197,13 +6242,18 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act3" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Ping Test</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act31" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Switch count - %NET_SRC_TOGGLE_COUNT</Str>
 			<Int sr="arg1" val="0"/>
@@ -6222,12 +6272,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">Ping Test</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act32" ve="7">
 			<code>43</code>
 			<label>when settings stat says wan is reachable</label>
 			<ConditionList sr="if">
@@ -6238,7 +6283,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%WAN_ACCESSIBLE</Str>
 			<Str sr="arg1" ve="3">yes</Str>
@@ -6248,7 +6293,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act34" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -6265,7 +6310,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act35" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">WAN Reachable</Str>
@@ -6275,12 +6320,12 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act36" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Ping Test</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act37" ve="7">
 			<code>35</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -6295,7 +6340,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act38" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -6306,8 +6351,30 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act39" ve="7">
 			<code>130</code>
+			<Str sr="arg0" ve="3">Net Src Switch</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Ping Test</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>130</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">Redundant Net Src Switch</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
@@ -6322,13 +6389,13 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act41" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act42" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Switch count - %NET_SRC_TOGGLE_COUNT</Str>
 			<Int sr="arg1" val="0"/>
@@ -6347,15 +6414,10 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">Ping Test</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act43" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act44" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">%tmp_str, low ping</Str>
@@ -6372,10 +6434,10 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act45" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act46" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">wan iface switch count limit reached</Str>
@@ -6398,7 +6460,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act47" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">wan iface switch count limit reached</Str>
@@ -6415,7 +6477,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act48" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">wan iface switch count limit reached</Str>
@@ -6444,7 +6506,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act49" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<label>prompt to ask to stop WAN checker if switch count is more than 4 &amp; wan is stable</label>
@@ -6468,7 +6530,38 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act5" ve="7">
+			<code>432</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ni_active_capabilities()
+Active Network Capabilities
+Capabilities of the network. One or more of mms, supl, dun, fota, ims, cbs, wifi_p2p, ia, rcs, xcap, eims, not_metered, internet, not_restricted, trusted, not_vpn, validated, captive_portal, not_roaming, foreground, not_congested, not_suspended, oem_paid, mcx, partial_connectivity&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ni_active_dhcp_gateway_v4
+Active Network DHCP Gateway (Router) IP Address v4
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%ni_active_full_info_json
+Active Network Full Info JSON
+A JSON structure with every available info about the active network. All fields here are subject to change with each Android version.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%ni_active_ip_v4
+Active Network IP Address v4
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%ni_active_ips_v6()
+Active Network IP Addresses v6
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%ni_active_types()
+Active Network Types
+Type of network. One or more of cellular, wifi, bluetooth, ethernet, vpn, wifi_aware, lowpan, usb&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%ni_active_wifi_link_speed
+Active Wifi Link Speed
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%ni_active_wifi_mac
+Active Wifi MAC Address
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%ni_active_wifi_ssid
+Active Wifi SSID
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%ni_active_wifi_signal_strength
+Active Wifi Signal Strength
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%ni_other_full_info_json
+Other Networks Full Info JSON
+A JSON structure with every available info about the networks that are not active. All fields here are subject to change with each Android version.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>390</code>
 			<Bundle sr="arg0">
 				<Vals sr="val"/>
@@ -6479,7 +6572,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="30"/>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act51" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -6490,7 +6583,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act52" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -6500,23 +6593,17 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>432</code>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act53" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">Net Src Switch</Str>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act54" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act55" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -6526,7 +6613,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act56" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -6536,7 +6623,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act57" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">WAN switch toggle count reset to 0</Str>
 			<Int sr="arg1" val="0"/>
@@ -6555,7 +6642,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act58" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1">
@@ -6563,13 +6650,25 @@ Percentage representing the measured battery state of health (remaining estimate
 			</Int>
 			<Str sr="arg2" ve="3"/>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act59" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<label>when settings stat says wan is unreachable</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ni_active_capabilities(#?validated)</lhs>
+					<op>6</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act60" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act61" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -6586,7 +6685,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act59" ve="7">
+		<Action sr="act62" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="2"/>
@@ -6594,19 +6693,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<label>when settings stat says wan is unreachable</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ni_active_capabilities(#?validated)</lhs>
-					<op>6</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act60" ve="7">
+		<Action sr="act63" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1">
@@ -6614,7 +6701,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			</Int>
 			<Str sr="arg2" ve="3"/>
 		</Action>
-		<Action sr="act61" ve="7">
+		<Action sr="act64" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -6624,7 +6711,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act62" ve="7">
+		<Action sr="act65" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">WAN src disabled: stopping wan checker</Str>
 			<Int sr="arg1" val="0"/>
@@ -6643,12 +6730,12 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act63" ve="7">
+		<Action sr="act66" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act64" ve="7">
+		<Action sr="act67" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act7" ve="7">
@@ -6662,6 +6749,17 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act8" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ni_active_types1</lhs>
+					<op>2</op>
+					<rhs>wifi</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
 			<code>390</code>
 			<Bundle sr="arg0">
 				<pref>ssid_choice</pref>
@@ -6672,18 +6770,6 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="30"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<label>switch ssid if selected "yes" from above prompt &amp; then check the wan system stat again (the goto action at action 12)</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ssid_choice_input</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task31">
@@ -6748,7 +6834,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task32">
 		<cdate>1780414763292</cdate>
-		<edate>1783879312624</edate>
+		<edate>1783895169460</edate>
 		<id>32</id>
 		<nme>Toggle Profiles</nme>
 		<Action sr="act0" ve="7">
@@ -7014,7 +7100,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task37">
 		<cdate>1759093117144</cdate>
-		<edate>1783859658066</edate>
+		<edate>1783887389315</edate>
 		<id>37</id>
 		<nme>Redundant Net Src Switch</nme>
 		<pri>100</pri>
@@ -7032,7 +7118,7 @@ Percentage representing the measured battery state of health (remaining estimate
 		<Action sr="act1" ve="7">
 			<code>37</code>
 			<coll>false</coll>
-			<label>use only WiFi if no sim</label>
+			<label>do the redundant net switching when sim is available</label>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
@@ -7197,7 +7283,7 @@ Percentage representing the measured battery state of health (remaining estimate
 		</Action>
 		<Action sr="act21" ve="7">
 			<code>43</code>
-			<label>do the redundant net switching when sim is available</label>
+			<label>use only WiFi if no sim</label>
 		</Action>
 		<Action sr="act22" ve="7">
 			<code>130</code>
@@ -7268,7 +7354,7 @@ Percentage representing the measured battery state of health (remaining estimate
 		</Action>
 		<Action sr="act25" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%WIFII</lhs>
@@ -7334,7 +7420,7 @@ Percentage representing the measured battery state of health (remaining estimate
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%HIGH_PING</lhs>
@@ -7761,7 +7847,7 @@ done</Str>
 	</Task>
 	<Task sr="task47">
 		<cdate>1657974116786</cdate>
-		<edate>1783697769955</edate>
+		<edate>1783895199696</edate>
 		<id>47</id>
 		<nme>Toggle Data</nme>
 		<pri>100</pri>
@@ -7810,11 +7896,37 @@ done</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%APP_NET</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">No Root Screen Off Data Enabled</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<label>if bluetooth ui mode is running, wait for it to finish</label>
@@ -7839,7 +7951,7 @@ done</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>35</code>
 			<on>false</on>
 			<Int sr="arg0" val="0"/>
@@ -7855,14 +7967,14 @@ done</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>38</code>
 			<on>false</on>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>220</code>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>107361459</code>
 			<on>false</on>
 			<Bundle sr="arg0">
@@ -7911,7 +8023,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			</Int>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>107361459</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -7957,18 +8069,10 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			</Int>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act17" ve="7">
-			<code>245</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%APP_NET</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act18" ve="7">
-			<code>22</code>
+			<code>37</code>
+			<coll>true</coll>
+			<label>back to last app (kind of a workaround for apps go PiP/small window mode)</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%APP_NET</lhs>
@@ -7978,7 +8082,22 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			</ConditionList>
 		</Action>
 		<Action sr="act19" ve="7">
-			<code>38</code>
+			<code>20</code>
+			<App sr="arg0">
+				<appClass></appClass>
+				<appPkg>%app_package</appPkg>
+				<label>%app_package</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_name</lhs>
+					<op>3</op>
+					<rhs>%LAPP</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>548</code>
@@ -8007,6 +8126,32 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			</ConditionList>
 		</Action>
 		<Action sr="act20" ve="7">
+			<code>22</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_name</lhs>
+					<op>2</op>
+					<rhs>%LAPP</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>245</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%APP_NET</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act24" ve="7">
 			<code>433</code>
 			<label>toggle data from tasker's action if root, shizuku or tasker settings work</label>
 			<Int sr="arg0" val="2"/>
@@ -9045,7 +9190,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task61">
 		<cdate>1759612460120</cdate>
-		<edate>1782353945565</edate>
+		<edate>1783892288964</edate>
 		<id>61</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -9500,7 +9645,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task63">
 		<cdate>1775316698194</cdate>
-		<edate>1782474689437</edate>
+		<edate>1783892292666</edate>
 		<id>63</id>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -10068,7 +10213,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task67">
 		<cdate>1759616184933</cdate>
-		<edate>1783880338439</edate>
+		<edate>1783888242590</edate>
 		<id>67</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -11448,11 +11593,21 @@ Selected Index
 	</Task>
 	<Task sr="task80">
 		<cdate>1737079191529</cdate>
-		<edate>1783884591494</edate>
+		<edate>1783895156315</edate>
 		<id>80</id>
 		<nme>Sanitized URL Share</nme>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CLIPBOARD_SHARE</Str>
+			<Str sr="arg1" ve="3">running</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>402</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -11473,17 +11628,104 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 				</Vals>
 			</Bundle>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%tmp_clip</Str>
-			<Str sr="arg1" ve="3">%cl_text</Str>
+		<Action sr="act10" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>390</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%input
+Input
+The text that was retrieved from the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">YesOrNo</Str>
+			<Str sr="arg2" ve="3">Share Copied Sanitized Content?</Str>
+			<Str sr="arg3" ve="3">%cl_text </Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="30"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%tmp_clip</lhs>
+					<op>3</op>
+					<rhs>%cl_text</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass></appClass>
+				<appPkg>%app_package</appPkg>
+				<label>%app_package</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_name</lhs>
+					<op>3</op>
+					<rhs>%LAPP</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>22</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_name</lhs>
+					<op>2</op>
+					<rhs>%LAPP</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act10" ve="7">
+		<Action sr="act15" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%input</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%cl_text</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
 			<code>877</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">android.intent.action.SEND</Str>
@@ -11496,21 +11738,11 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Str sr="arg7" ve="3"/>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%tmp_clip</lhs>
-					<op>3</op>
-					<rhs>%cl_text</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%input</lhs>
-					<op>2</op>
-					<rhs>yes</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act18" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act19" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%tmp_clip</Str>
 			<Int sr="arg1" val="0"/>
@@ -11518,6 +11750,26 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%tmp_clip</Str>
+			<Str sr="arg1" ve="3">%cl_text</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%CLIPBOARD_SHARE</Str>
+			<Str sr="arg1" ve="3">inactive</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%cl_text</Str>
 			<Str sr="arg1" ve="3">(\?|&amp;)si\=.*</Str>
@@ -11535,7 +11787,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%cl_text</Str>
 			<Str sr="arg1" ve="3">\/\?igsh\=.*</Str>
@@ -11553,7 +11805,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%google_ref_url_search_regex_0</Str>
 			<Str sr="arg1" ve="3">^https:\/\/www.google.com\/url\?sa=i\&amp;source=web\&amp;rct=j\&amp;url=</Str>
@@ -11563,9 +11815,9 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%cl_text</lhs>
@@ -11574,7 +11826,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%cl_text</Str>
 			<Str sr="arg1" ve="3">%google_ref_url_search_regex_0</Str>
@@ -11585,7 +11837,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%cl_text</Str>
 			<Str sr="arg1" ve="3">\&amp;ved=.*</Str>
@@ -11596,24 +11848,8 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act8" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act9" ve="7">
-			<code>390</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%input
-Input
-The text that was retrieved from the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">YesOrNo</Str>
-			<Str sr="arg2" ve="3">Share Copied Content?</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="30"/>
+			<code>38</code>
 		</Action>
 	</Task>
 	<Task sr="task81">
@@ -11634,7 +11870,7 @@ The text that was retrieved from the dialog&lt;/_array_net.dinglisch.android.tas
 	</Task>
 	<Task sr="task82">
 		<cdate>1774794130821</cdate>
-		<edate>1783881413857</edate>
+		<edate>1783894014231</edate>
 		<id>82</id>
 		<nme>Lazy Workflow Initializer</nme>
 		<pri>100</pri>
@@ -13860,13 +14096,13 @@ true if it after the action the setting is enabled, false if not&lt;/_array_net.
 	</Task>
 	<Task sr="task91">
 		<cdate>1774281828665</cdate>
-		<edate>1783697735165</edate>
+		<edate>1783895359566</edate>
 		<id>91</id>
 		<nme>Toggle Bluetooth</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%SDK</lhs>
@@ -13958,9 +14194,35 @@ true if it after the action the setting is enabled, false if not&lt;/_array_net.
 			<code>38</code>
 		</Action>
 		<Action sr="act16" ve="7">
-			<code>218</code>
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%APP_NET</lhs>
+					<op>2</op>
+					<rhs>yes</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act17" ve="7">
+			<code>218</code>
+		</Action>
+		<Action sr="act18" ve="7">
 			<code>107361459</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -14006,18 +14268,10 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			</Int>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act18" ve="7">
-			<code>245</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%APP_NET</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act19" ve="7">
-			<code>22</code>
+			<code>37</code>
+			<coll>true</coll>
+			<label>back to last app (kind of a workaround for apps go PiP/small window mode)</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%APP_NET</lhs>
@@ -14038,15 +14292,56 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			</ConditionList>
 		</Action>
 		<Action sr="act20" ve="7">
-			<code>38</code>
+			<code>20</code>
+			<App sr="arg0">
+				<appClass></appClass>
+				<appPkg>%app_package</appPkg>
+				<label>%app_package</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_name</lhs>
+					<op>3</op>
+					<rhs>%LAPP</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act21" ve="7">
-			<code>38</code>
+			<code>22</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_name</lhs>
+					<op>2</op>
+					<rhs>%LAPP</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act22" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act23" ve="7">
+			<code>245</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%APP_NET</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act27" ve="7">
 			<code>294</code>
 			<label>tasker toggle if shizuku/root available, taskersettings work or sdk lvl &lt; 32</label>
 			<Int sr="arg0" val="2"/>
@@ -14242,11 +14537,27 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task94">
 		<cdate>1759448761509</cdate>
-		<edate>1783615508748</edate>
+		<edate>1783894382961</edate>
 		<id>94</id>
 		<nme>Net Src Switch</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Switching net src</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>Or2</bool0>
@@ -14268,11 +14579,11 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act2" ve="7">
 			<code>425</code>
 			<Int sr="arg0" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act3" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Toggle Data</Str>
 			<Int sr="arg1">
@@ -14295,7 +14606,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<bool0>Or2</bool0>
@@ -14317,7 +14628,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Toggle Data</Str>
 			<Int sr="arg1">
@@ -14340,11 +14651,11 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>425</code>
 			<Int sr="arg0" val="1"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>38</code>
 		</Action>
 	</Task>
@@ -14886,7 +15197,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task99">
 		<cdate>1759612460120</cdate>
-		<edate>1783455528725</edate>
+		<edate>1783892208570</edate>
 		<id>99</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
