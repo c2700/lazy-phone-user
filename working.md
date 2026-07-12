@@ -61,7 +61,7 @@
 ##### 8. <b> Stuff for tasker & workflow </b>
 * `Tasker Log Clear` - literally what it says.
 * `New App Installed` - to prompt the user if an installed app is to be set in the app context of the profiles in this project to which if pressed yes, will open tasker. will only be a popup if already in tasker
-* `Toggle Profiles` - disable those profiles used for separation, profiles that require root & mass toggels Battery Audio related profiles based on the state of `Battery Audio Toggle` profile.
+* `Profile Toggle Mgr` - disable those profiles used for separation, that require root & mass toggels Battery Audio related profiles based on the state of `Battery Audio Toggle` profile.
 * `App Context Invisible Fg Apps` - to get app/pkg names that are not listed in tasker's app context & compare the pkg name against pkgs set in `/sdcard/Tasker/projects/app_ctx_invisible_apps_for_fg_unset_profile.txt` (too long a name I know) file which if it's there sets the `APP_CTX_INVISIBLE_FG_NET_UNSET_PKG` global var (yes, it's a mouthful & too wordy...best I could come up with) with that pkg name via grep (done like this "grep <pkg name> | grep -iv '#'"). The global var is then used in the `Fg Net Flags Unset` profile. can be used to set/unset global vars & files besides what's being currently used
 * `Get Recents` - a profile to see if the user's on the "recents" screen just so the fg net app profile's timeout can be paused when in the recents screen
 
@@ -135,6 +135,7 @@
 * `WAKE_UP_NUM` (phone number) - stores the number of who needs to be called at a scheduled time set from automate's `Alarmy call` flow (mostly for when one is asked to be "woken up" & you're sound asleep)
 * `WL_HOTSPOT` (enabled|disabled) - wifi hostspot state 
 * `NET_SRC_TOGGLE_COUNT` - keeps a count of number of times WAN src was toggled which if exceeded (4 times) the workflow will prompt the user for if the toggling needs to continue to which if clicked yes will reset the counter back to 0 else will keep the WAN toggling profiles to inactive until ping state says "stable ping" which also resets the WAN switch counter to 0
+* `PROFILE TOGGLE` (running|inactive) - something like a guard of sorts to prevent `Profile Toggle Mgr` profile from being triggered everytime a profile's being toggled by this profile's task
 * `TASKER_HELPER_FOR_BT_TOGGLE` - var to check if tasker's bluetooth toggle action works (on non-root devices) wherein the following values will be assigned to it at boot IF the TaskerSettings app is installed. "ui_only", "works", "err". If TaskerSettings app is not installed the var is assigned "not_installed". what each value means
     - ui_only - just toggles the ui. does not affect the setting
     - works - says that the helper works as expected  
@@ -146,7 +147,7 @@
 ## What each Tasker profiles do
 #### Tasks who's Description's given in the profile section with the same name as the task
 `Wan Check Switch`, `Ping Test`, `Net Set`, `Custom Intent`, `Autoread Whatsapp`, `(Un)Set Sim Presence Airplane Mode`, `Sanitized URL Share`, `Bluetooth Unset`, `Redundant Net Src Switch`, `Alarmy Call`
-* Toggle Profiles, Toggle Data, Toggle Bluetooth, Unset All Alarms - literally what their task names say
+* Toggle Profiles (this one disables the `Profile Toggle Mgr` profile when running, enables when done), Toggle Data, Toggle Bluetooth, Unset All Alarms - literally what their task names say
 * Gaming Clock,Regular Cpu Clock,Low Clock Cpu - sets the clocks to whatever the user counts/sets as regular, low or performance clocks 
 * Restart Flow - stop a flow, then start from a flow beginning (no way to stop a flow beginning)
 * Fg Map Actions - actions to perform on map apps
@@ -197,6 +198,7 @@
     New App Installed
     Custom Intent Recvr
     Tasker Log Clear
+    Profile Toggle Mgr
     Toggle Profiles
     ======== Global Var Setters ========
     Phone Lock State
