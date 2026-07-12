@@ -2,7 +2,7 @@
 phone Automation workflow to make phone self-handled or self-managed. works on rooted & non-rooted phones (which works via UI simulation or via working/reliable helper apps or shizuku to do things that require higher privileges to do with one action block). Configure once & forget until maybe few more apps to be plugged in to relevant profiles
 
 # TLDR of what this workflow does:
-auto-toggle settings/automate user actions based on set apps/notifications/conditions/global var.s/settings which are normally done by the user. [working parts](#working.md)<br>
+auto-toggle settings/automate user actions based on set apps/notifications/conditions/global var.s/settings which are normally done by the user. [working parts](working.md)<br>
 
 
 ### TBD:
@@ -35,7 +35,7 @@ auto-toggle settings/automate user actions based on set apps/notifications/condi
 10. <b>you will see inconsistent namings (I coulnd't come up with anything better than what you see) & tasks & profile names being the same are also intended just so I could make out the difference in certain tasks & profiles...atleast during the time I was building this</b>
 
 # setup
-[optional to setup after the below REQUIRED setup is done](#optional.md)<br>
+[optional to setup after the below REQUIRED setup is done](optional.md)<br>
 #### a. import the automate flows (the `.flo` files from the `Automate flows` directory) into automate, the tasker project `Lazy_User.prj.xml` into Tasker & the easer zip into easer
 #### b. <b>list of profiles to be mutually exclusively enabled/deleted</b>
 1. `Mobile Data Var Set via Automate` & `Mobile Data Var Set`
