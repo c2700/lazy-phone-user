@@ -2,7 +2,7 @@
 	<Profile sr="prof112" ve="2">
 		<cdate>1782440284018</cdate>
 		<clp>true</clp>
-		<edate>1783615434227</edate>
+		<edate>1783785692166</edate>
 		<flags>8</flags>
 		<id>112</id>
 		<limit>true</limit>
@@ -35,11 +35,49 @@
 				</Condition>
 			</ConditionList>
 		</State>
+		<State sr="con2" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<bool1>And</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%TASKER_HELPER_FOR_DATA_TOGGLE</lhs>
+					<op>3</op>
+					<rhs>works</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SAY_TTS_ENGINE_VOICE</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%MDATA</lhs>
+					<op>2</op>
+					<rhs>enabled</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+		<State sr="con3" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>nosu</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SHIZUKU_RUNNING</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</State>
 	</Profile>
 	<Profile sr="prof113" ve="2">
 		<cdate>1782440284022</cdate>
 		<clp>true</clp>
-		<edate>1783613307916</edate>
+		<edate>1783785680581</edate>
 		<flags>8</flags>
 		<id>113</id>
 		<mid0>31</mid0>
@@ -66,8 +104,6 @@
 				<bool0>And</bool0>
 				<bool1>And</bool1>
 				<bool2>And</bool2>
-				<bool3>And</bool3>
-				<bool4>Or2</bool4>
 				<Condition sr="c0" ve="3">
 					<lhs>%BLUE</lhs>
 					<op>2</op>
@@ -79,31 +115,32 @@
 					<rhs>works</rhs>
 				</Condition>
 				<Condition sr="c2" ve="3">
-					<lhs>%SAY_TTS_ENGINE_VOICE</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c3" ve="3">
 					<lhs>%EASER_FOR_BT</lhs>
 					<op>3</op>
 					<rhs>working</rhs>
 				</Condition>
-				<Condition sr="c4" ve="3">
+				<Condition sr="c3" ve="3">
+					<lhs>%SAY_TTS_ENGINE_VOICE</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</State>
+		<State sr="con2" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
 					<lhs>%SCREEN</lhs>
 					<op>2</op>
 					<rhs>off</rhs>
 				</Condition>
-				<Condition sr="c5" ve="3">
+				<Condition sr="c1" ve="3">
 					<lhs>%PHONE_LOCKED</lhs>
 					<op>2</op>
 					<rhs>true</rhs>
 				</Condition>
 			</ConditionList>
-		</State>
-		<State sr="con2" ve="2">
-			<code>143</code>
-			<pin>true</pin>
-			<Str sr="arg0" ve="3">Toggle Data</Str>
 		</State>
 		<Event sr="con3" ve="2">
 			<code>2095</code>
@@ -139,7 +176,7 @@
 	<Profile sr="prof115" ve="2">
 		<cdate>1782440284033</cdate>
 		<clp>true</clp>
-		<edate>1782474689437</edate>
+		<edate>1783711348457</edate>
 		<flags>8</flags>
 		<id>115</id>
 		<mid0>61</mid0>
@@ -392,7 +429,7 @@
 	<Profile sr="prof123" ve="2">
 		<cdate>1782440284063</cdate>
 		<clp>true</clp>
-		<edate>1783681821884</edate>
+		<edate>1783813803388</edate>
 		<flags>8</flags>
 		<id>123</id>
 		<limit>true</limit>
@@ -593,7 +630,8 @@
 	</Profile>
 	<Profile sr="prof130" ve="2">
 		<cdate>1782440284087</cdate>
-		<edate>1783705575052</edate>
+		<clp>true</clp>
+		<edate>1783705810337</edate>
 		<flags>8</flags>
 		<id>130</id>
 		<mid0>102</mid0>
@@ -963,7 +1001,7 @@ Notes:
 	<Profile sr="prof138" ve="2">
 		<cdate>1782440284121</cdate>
 		<clp>true</clp>
-		<edate>1783680610699</edate>
+		<edate>1783766442875</edate>
 		<flags>8</flags>
 		<id>138</id>
 		<mid0>36</mid0>
@@ -980,7 +1018,6 @@ Notes:
 		<edate>1783513662687</edate>
 		<flags>8</flags>
 		<id>139</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<mid1>21</mid1>
 		<nme>Wan Check Switch</nme>
@@ -1047,7 +1084,6 @@ Notes:
 		<edate>1783513630700</edate>
 		<flags>8</flags>
 		<id>140</id>
-		<limit>true</limit>
 		<mid0>84</mid0>
 		<mid1>39</mid1>
 		<nme>Ping Test</nme>
@@ -1399,7 +1435,6 @@ Notes:
 		<edate>1782120495438</edate>
 		<flags>8</flags>
 		<id>152</id>
-		<limit>true</limit>
 		<mid0>4</mid0>
 		<nme>Net Src Disconnected Switch</nme>
 		<State sr="con0" ve="2">
@@ -2088,7 +2123,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof211" ve="2">
 		<cdate>1782440284200</cdate>
 		<clp>true</clp>
-		<edate>1783681982145</edate>
+		<edate>1783862436591</edate>
 		<flags>8</flags>
 		<id>211</id>
 		<mid0>205</mid0>
@@ -2101,11 +2136,17 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 		</Event>
+		<State sr="con1" ve="2">
+			<code>140</code>
+			<pin>true</pin>
+			<Int sr="arg0" val="3"/>
+			<Int sr="arg1" val="99"/>
+		</State>
 	</Profile>
 	<Profile sr="prof212" ve="2">
 		<cdate>1782755502490</cdate>
 		<clp>true</clp>
-		<edate>1783445188453</edate>
+		<edate>1783862488741</edate>
 		<flags>8</flags>
 		<id>212</id>
 		<mid0>242</mid0>
@@ -2124,7 +2165,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof216" ve="2">
 		<cdate>1782755502490</cdate>
 		<clp>true</clp>
-		<edate>1783445185955</edate>
+		<edate>1783862486242</edate>
 		<flags>8</flags>
 		<id>216</id>
 		<mid0>241</mid0>
@@ -2142,12 +2183,11 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Profile>
 	<Profile sr="prof218" ve="2">
 		<cdate>1782440284200</cdate>
-		<clp>true</clp>
-		<edate>1783495464857</edate>
+		<edate>1783864572807</edate>
 		<flags>8</flags>
 		<id>218</id>
 		<mid0>256</mid0>
-		<nme>Power Disconnected</nme>
+		<nme>Low Power Disconnected</nme>
 		<Event sr="con0" ve="2">
 			<code>599</code>
 			<Str sr="arg0" ve="3">android.intent.action.ACTION_POWER_DISCONNECTED</Str>
@@ -2156,14 +2196,20 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 		</Event>
+		<State sr="con1" ve="2">
+			<code>140</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+		</State>
 	</Profile>
 	<Profile sr="prof229" ve="2">
 		<cdate>1782764717505</cdate>
 		<clp>true</clp>
-		<edate>1783702414283</edate>
+		<edate>1783864517939</edate>
 		<flags>8</flags>
 		<id>229</id>
 		<mid0>230</mid0>
+		<mid1>269</mid1>
 		<nme>Battery Audios</nme>
 		<State sr="con0" ve="2">
 			<code>140</code>
@@ -2181,7 +2227,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof231" ve="2">
 		<cdate>1782764717505</cdate>
 		<clp>true</clp>
-		<edate>1783595283427</edate>
+		<edate>1783864525707</edate>
 		<flags>8</flags>
 		<id>231</id>
 		<mid0>239</mid0>
@@ -2208,7 +2254,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof260" ve="2">
 		<cdate>1783452639123</cdate>
 		<clp>true</clp>
-		<edate>1783702510780</edate>
+		<edate>1783793571502</edate>
 		<flags>8</flags>
 		<id>260</id>
 		<mid0>261</mid0>
@@ -2264,7 +2310,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof263" ve="2">
 		<cdate>1782440284251</cdate>
 		<clp>true</clp>
-		<edate>1783701693479</edate>
+		<edate>1783813926442</edate>
 		<flags>8</flags>
 		<id>263</id>
 		<mid0>264</mid0>
@@ -2280,8 +2326,8 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>263,122,112,212,116,231,133,119,127,218,164,161,140,216,171,170,128,113,135,150,134,155,115,139,234,154,149,211,138,141,117,153,176,130,132,118,136,159,121,147,131,174,162,145,151,126,142,148,129,137,143,165,144,203,157,260,160,169,156,125,172,163,114,166,120,175,229,146,124,158,152,167,168,123</pids>
-		<tids>32,84,39,96,83,91,31,57,66,47,11,89,23,98,77,99,108,48,2,17,94,56,61,16,37,74,60,73,18,102,69,67,35,33,3,75,105,78,43,64,82,107,76,97,19,92,106,52,9,101,30,71,54,95,12,15,239,264,29,63,34,86,255,111,65,235,28,38,27,213,50,26,42,14,80,36,103,44,206,55,205,242,8,256,10,110,81,70,72,100,20,59,7,13,53,90,46,41,87,21,45,241,51,68,24,40,261,49,262,62,93,104,58,79,4,109,22,230,25,88,85</tids>
+		<pids>167,140,127,112,263,113,122,126,124,229,134,115,135,138,123,116,165,211,132,170,260,155,212,152,175,130,120,117,154,148,121,163,139,142,146,119,158,234,114,131,143,176,159,218,166,164,128,174,141,136,160,162,137,145,203,216,157,133,172,129,231,118,149,144,147,150,161,169,171,156,151,125,168,153</pids>
+		<tids>48,76,264,31,269,32,39,83,65,15,2,38,108,37,3,90,91,23,72,28,24,53,78,56,95,57,17,40,213,43,94,255,107,29,47,98,101,55,79,230,261,11,84,102,44,80,75,96,88,21,105,67,103,35,109,52,86,7,19,34,30,20,42,262,41,49,87,77,111,81,51,104,8,61,50,66,45,205,16,36,69,62,58,68,25,4,33,100,12,46,206,242,110,59,27,106,54,73,14,93,26,18,89,70,10,241,256,60,71,99,74,92,63,13,22,235,82,85,239,97,9,64</tids>
 	</Project>
 	<Task sr="task10">
 		<cdate>1780800944669</cdate>
@@ -2334,7 +2380,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task102">
 		<cdate>1770843983360</cdate>
-		<edate>1783705575052</edate>
+		<edate>1783705810337</edate>
 		<id>102</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3745,7 +3791,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 	</Task>
 	<Task sr="task2">
 		<cdate>1737079191529</cdate>
-		<edate>1783612288691</edate>
+		<edate>1783786841301</edate>
 		<id>2</id>
 		<nme>Disable Low Power Mode</nme>
 		<pri>6</pri>
@@ -3770,26 +3816,10 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">%tmp_say_str</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="1"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act11" ve="7">
 			<code>35</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -3816,7 +3846,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act12" ve="7">
 			<code>808</code>
 			<Int sr="arg0" val="0"/>
 		</Action>
@@ -3897,7 +3927,12 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 			<code>333</code>
 			<Int sr="arg0" val="0"/>
 			<Bundle sr="arg1">
-				<Vals sr="val"/>
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%new_state
+New State
+true if it after the action the setting is enabled, false if not&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
 			</Bundle>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -3908,14 +3943,20 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 			</ConditionList>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%tmp_say_str</Str>
-			<Str sr="arg1" ve="3">low power off</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">low power off</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task20">
@@ -4193,12 +4234,20 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task205">
 		<cdate>1783313155403</cdate>
-		<edate>1783595220085</edate>
+		<edate>1783862436591</edate>
 		<id>205</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
-			<code>37</code>
-			<coll>false</coll>
+			<code>449</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Ringtones/Halo ce shield recharge.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%BATT</lhs>
@@ -4207,22 +4256,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>449</code>
-			<Int sr="arg0" val="0"/>
-		</Action>
 		<Action sr="act2" ve="7">
-			<code>445</code>
-			<Str sr="arg0" ve="3">Ringtones/Halo ce shield recharge.mp3</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="3"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act4" ve="7">
 			<code>130</code>
 			<label>Automate - Battery noise: Plugged in battery full</label>
 			<Str sr="arg0" ve="3">Restart Flow</Str>
@@ -4249,7 +4283,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task206">
 		<cdate>1782635705328</cdate>
-		<edate>1783689721509</edate>
+		<edate>1783861396143</edate>
 		<id>206</id>
 		<nme>Restart Flow</nme>
 		<Action sr="act0" ve="7">
@@ -4345,7 +4379,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task213">
 		<cdate>1783313232469</cdate>
-		<edate>1783615447033</edate>
+		<edate>1783793735256</edate>
 		<id>213</id>
 		<nme>Random Audio Play</nme>
 		<pri>100</pri>
@@ -4382,7 +4416,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			<Str sr="arg0" ve="3">%audio_file</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="3"/>
+			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
 	</Task>
@@ -4773,7 +4807,7 @@ fi</Str>
 	</Task>
 	<Task sr="task230">
 		<cdate>1782764756998</cdate>
-		<edate>1783702400329</edate>
+		<edate>1783862495508</edate>
 		<id>230</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -4842,7 +4876,7 @@ Percentage representing the measured battery state of health (remaining estimate
 		<Action sr="act2" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%payload</Str>
-			<Str sr="arg1" ve="3">battery_state: discharging</Str>
+			<Str sr="arg1" ve="3">battery_state: charging</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4859,7 +4893,7 @@ Percentage representing the measured battery state of health (remaining estimate
 		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%payload</Str>
-			<Str sr="arg1" ve="3">battery_state: charging</Str>
+			<Str sr="arg1" ve="3">battery_state: discharging</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -4926,7 +4960,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task239">
 		<cdate>1782764756998</cdate>
-		<edate>1783595283427</edate>
+		<edate>1783864525707</edate>
 		<id>239</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -4938,7 +4972,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg0" ve="3">Ringtones/perfection-halo.mp3</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="5"/>
+			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -4977,7 +5011,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task241">
 		<cdate>1783257041467</cdate>
-		<edate>1783445185955</edate>
+		<edate>1783862486242</edate>
 		<id>241</id>
 		<Action sr="act0" ve="7">
 			<code>449</code>
@@ -4988,13 +5022,13 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg0" ve="3">Ringtones/halo low shield stitched.aac</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="3"/>
+			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task242">
 		<cdate>1783257057264</cdate>
-		<edate>1783445188453</edate>
+		<edate>1783862488741</edate>
 		<id>242</id>
 		<Action sr="act0" ve="7">
 			<code>449</code>
@@ -5005,7 +5039,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg0" ve="3">Ringtones/halo no shield stiched.aac</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="3"/>
+			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
 	</Task>
@@ -5114,10 +5148,14 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task256">
 		<cdate>1783439646877</cdate>
-		<edate>1783495464857</edate>
+		<edate>1783862432850</edate>
 		<id>256</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
+			<code>449</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Random Audio Play</Str>
 			<Int sr="arg1">
@@ -5132,13 +5170,6 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%BATT</lhs>
-					<op>6</op>
-					<rhs>3</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 	</Task>
 	<Task sr="task26">
@@ -5159,7 +5190,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task261">
 		<cdate>1783452642099</cdate>
-		<edate>1783690308311</edate>
+		<edate>1783793571502</edate>
 		<id>261</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -5218,7 +5249,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task264">
 		<cdate>1780069033290</cdate>
-		<edate>1783701693479</edate>
+		<edate>1783813926442</edate>
 		<id>264</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5309,6 +5340,63 @@ Percentage representing the measured battery state of health (remaining estimate
 		<Action sr="act14" ve="7">
 			<code>38</code>
 		</Action>
+		<Action sr="act15" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<label>Toggle Battery Audio profiles</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PENABLED</lhs>
+					<op>2</op>
+					<rhs>*,(Un)Set Sim Presence Airplane Mode,*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggle Profiles</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Power Connected,Power Disconnected,Phone Shutdown Audio,Unplugged 1 Pcent Battery,Unplugged 2 Pcent Battery,Battery Audios,Battery Full Audio Event</Str>
+			<Str sr="arg3" ve="3">on</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%PENABLED</lhs>
+					<op>3</op>
+					<rhs>*Battery Audio Toggle*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggle Profiles</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Power Connected,Power Disconnected,Phone Shutdown Audio,Unplugged 1 Pcent Battery,Unplugged 2 Pcent Battery,Battery Audios,Battery Full Audio Event</Str>
+			<Str sr="arg3" ve="3">off</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act2" ve="7">
 			<code>30</code>
 			<Int sr="arg0">
@@ -5376,6 +5464,46 @@ Percentage representing the measured battery state of health (remaining estimate
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task269">
+		<cdate>1783861644378</cdate>
+		<edate>1783864517939</edate>
+		<id>269</id>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%flow_uri</Str>
+			<Str sr="arg1" ve="3">%AUTOMATE_VARS_BATTERY_AUDIO</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%flow_uri</Str>
+			<Str sr="arg1" ve="3">/statements.*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>877</code>
+			<label>stop automate flow</label>
+			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.STOP_FLOW</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">%flow_uri</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.llamalab.automate</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task27">
@@ -5607,7 +5735,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task30">
 		<cdate>1759650620765</cdate>
-		<edate>1783688976386</edate>
+		<edate>1783717526229</edate>
 		<id>30</id>
 		<nme>Wan Check Switch</nme>
 		<pri>100</pri>
@@ -5645,6 +5773,26 @@ Percentage representing the measured battery state of health (remaining estimate
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>206</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>35</code>
+			<Int sr="arg0">
+				<var>50</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIFII</lhs>
+					<op>3</op>
+					<rhs>*CONNECTION*</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
 			<code>35</code>
 			<Int sr="arg0">
 				<var>50</var>
@@ -5661,16 +5809,16 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act13" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act14" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act15" ve="7">
 			<code>390</code>
 			<Bundle sr="arg0">
 				<pref>net_iface_change</pref>
@@ -5701,7 +5849,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act16" ve="7">
 			<code>137</code>
 			<label>stop if change to ssid &amp; iface is rejected</label>
 			<Int sr="arg0" val="0"/>
@@ -5726,7 +5874,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act17" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -5737,7 +5885,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act18" ve="7">
 			<code>390</code>
 			<Bundle sr="arg0">
 				<Vals sr="val"/>
@@ -5748,7 +5896,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="10"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act19" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -5758,41 +5906,6 @@ Percentage representing the measured battery state of health (remaining estimate
 					<rhs>yes</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Switching net src</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Net Src Switch</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>548</code>
@@ -5814,24 +5927,6 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act20" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%input</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act23" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Switching net src</Str>
 			<Int sr="arg1" val="0"/>
@@ -5850,7 +5945,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act21" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Net Src Switch</Str>
 			<Int sr="arg1">
@@ -5866,7 +5961,60 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
+		<Action sr="act22" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%input</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
 		<Action sr="act25" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Switching net src</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Net Src Switch</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act27" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -5889,13 +6037,13 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act28" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act29" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Switch count - %NET_SRC_TOGGLE_COUNT</Str>
 			<Int sr="arg1" val="0"/>
@@ -5914,7 +6062,12 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act3" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Ping Test</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>43</code>
 			<label>when settings stat says wan is reachable</label>
 			<ConditionList sr="if">
@@ -5925,7 +6078,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act31" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%WAN_ACCESSIBLE</Str>
 			<Str sr="arg1" ve="3">yes</Str>
@@ -5935,13 +6088,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>432</code>
-			<Bundle sr="arg0">
-				<Vals sr="val"/>
-			</Bundle>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act32" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -5958,7 +6105,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">WAN Reachable</Str>
@@ -5968,12 +6115,12 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act34" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Ping Test</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act35" ve="7">
 			<code>35</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="1"/>
@@ -5988,7 +6135,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act36" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -5999,7 +6146,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act37" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Redundant Net Src Switch</Str>
 			<Int sr="arg1">
@@ -6015,13 +6162,13 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act38" ve="7">
 			<code>888</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act39" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Switch count - %NET_SRC_TOGGLE_COUNT</Str>
 			<Int sr="arg1" val="0"/>
@@ -6040,10 +6187,15 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act4" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Ping Test</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act41" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">%tmp_str, low ping</Str>
@@ -6060,22 +6212,10 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<label>when settings stat says wan is unreachable</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ni_active_capabilities(#?validated)</lhs>
-					<op>6</op>
-					<rhs>1</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act42" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act43" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">wan iface switch count limit reached</Str>
@@ -6098,7 +6238,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act44" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">wan iface switch count limit reached</Str>
@@ -6115,7 +6255,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act45" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_str</Str>
 			<Str sr="arg1" ve="3">wan iface switch count limit reached</Str>
@@ -6144,7 +6284,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act46" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<label>prompt to ask to stop WAN checker if switch count is more than 4 &amp; wan is stable</label>
@@ -6168,7 +6308,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act47" ve="7">
 			<code>390</code>
 			<Bundle sr="arg0">
 				<Vals sr="val"/>
@@ -6179,7 +6319,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="30"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act48" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -6190,7 +6330,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act49" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -6200,27 +6340,23 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act5" ve="7">
+			<code>432</code>
+			<Bundle sr="arg0">
+				<Vals sr="val"/>
+			</Bundle>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3">Net Src Switch</Str>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act51" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%WAN_ACCESSIBLE</Str>
-			<Str sr="arg1" ve="3">no</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act52" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -6230,7 +6366,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act53" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -6240,7 +6376,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act54" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">WAN switch toggle count reset to 0</Str>
 			<Int sr="arg1" val="0"/>
@@ -6259,7 +6395,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act55" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1">
@@ -6267,13 +6403,13 @@ Percentage representing the measured battery state of health (remaining estimate
 			</Int>
 			<Str sr="arg2" ve="3"/>
 		</Action>
-		<Action sr="act54" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act55" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act56" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act57" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act58" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -6290,7 +6426,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act59" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="2"/>
@@ -6298,7 +6434,19 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act6" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<label>when settings stat says wan is unreachable</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ni_active_capabilities(#?validated)</lhs>
+					<op>6</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act60" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1">
@@ -6306,7 +6454,7 @@ Percentage representing the measured battery state of health (remaining estimate
 			</Int>
 			<Str sr="arg2" ve="3"/>
 		</Action>
-		<Action sr="act59" ve="7">
+		<Action sr="act61" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -6316,19 +6464,7 @@ Percentage representing the measured battery state of health (remaining estimate
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>390</code>
-			<Bundle sr="arg0">
-				<pref>ssid_choice</pref>
-				<Vals sr="val"/>
-			</Bundle>
-			<Str sr="arg1" ve="3">YesOrNo</Str>
-			<Str sr="arg2" ve="3">switch ssid</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="30"/>
-		</Action>
-		<Action sr="act60" ve="7">
+		<Action sr="act62" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">WAN src disabled: stopping wan checker</Str>
 			<Int sr="arg1" val="0"/>
@@ -6347,15 +6483,37 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act61" ve="7">
+		<Action sr="act63" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act62" ve="7">
+		<Action sr="act64" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%WAN_ACCESSIBLE</Str>
+			<Str sr="arg1" ve="3">no</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>390</code>
+			<Bundle sr="arg0">
+				<pref>ssid_choice</pref>
+				<Vals sr="val"/>
+			</Bundle>
+			<Str sr="arg1" ve="3">YesOrNo</Str>
+			<Str sr="arg2" ve="3">switch ssid</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="30"/>
+		</Action>
+		<Action sr="act9" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<label>switch ssid if selected "yes" from above prompt &amp; then check the wan system stat again (the goto action at action 12)</label>
@@ -6364,26 +6522,6 @@ Percentage representing the measured battery state of health (remaining estimate
 					<lhs>%ssid_choice_input</lhs>
 					<op>2</op>
 					<rhs>yes</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>206</code>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>35</code>
-			<Int sr="arg0">
-				<var>50</var>
-			</Int>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%WIFII</lhs>
-					<op>3</op>
-					<rhs>*CONNECTION*</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -6648,7 +6786,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task36">
 		<cdate>1775427384957</cdate>
-		<edate>1783680610698</edate>
+		<edate>1783766442875</edate>
 		<id>36</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -6713,48 +6851,10 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<label>disable battery audio profiles</label>
-			<on>false</on>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Toggle Profiles</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">Power Connected,Power Disconnected,Phone Shutdown Audio,Unplugged 1 Pcent Battery,Unplugged 2 Pcent Battery,Battery Audios,Battery Full Audio Event</Str>
-			<Str sr="arg3" ve="3">off</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>130</code>
-			<label>enable battery audio profiles</label>
-			<on>false</on>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Toggle Profiles</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">Power Connected,Power Disconnected,Phone Shutdown Audio,Unplugged 1 Pcent Battery,Unplugged 2 Pcent Battery,Battery Audios,Battery Full Audio Event</Str>
-			<Str sr="arg3" ve="3">on</Str>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
 	</Task>
 	<Task sr="task37">
 		<cdate>1759093117144</cdate>
-		<edate>1783458589632</edate>
+		<edate>1783859658066</edate>
 		<id>37</id>
 		<nme>Redundant Net Src Switch</nme>
 		<pri>100</pri>
@@ -11344,34 +11444,23 @@ Selected Index
 	</Task>
 	<Task sr="task82">
 		<cdate>1774794130821</cdate>
-		<edate>1783701741728</edate>
+		<edate>1783862682322</edate>
 		<id>82</id>
 		<nme>Lazy Workflow Initializer</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>159</code>
+			<Str sr="arg0" ve="3">Battery Audio Toggle</Str>
+			<Int sr="arg1" val="2"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>159</code>
 			<Str sr="arg0" ve="3">Toggle Profiles</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">Tasker initializing lazy workflow at boot</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
 		<Action sr="act10" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%FG_MAP</Str>
+			<Str sr="arg0" ve="3">%BG_NET</Str>
 			<Str sr="arg1" ve="3">no</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -11380,6 +11469,17 @@ Selected Index
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act100" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>nosu</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act101" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%tmp_bt_stat</Str>
 			<Str sr="arg1" ve="3">%BLUE</Str>
@@ -11389,7 +11489,7 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act101" ve="7">
+		<Action sr="act102" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<label>bluetooth toggle test via easer</label>
@@ -11401,7 +11501,7 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act102" ve="7">
+		<Action sr="act103" ve="7">
 			<code>877</code>
 			<Str sr="arg0" ve="3">BT_DISABLE</Str>
 			<Int sr="arg1" val="0"/>
@@ -11421,7 +11521,7 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act103" ve="7">
+		<Action sr="act104" ve="7">
 			<code>877</code>
 			<Str sr="arg0" ve="3">BT_ENABLE</Str>
 			<Int sr="arg1" val="0"/>
@@ -11441,7 +11541,7 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act104" ve="7">
+		<Action sr="act105" ve="7">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="5"/>
@@ -11449,7 +11549,7 @@ Selected Index
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act105" ve="7">
+		<Action sr="act106" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%EASER_FOR_BT</Str>
 			<Str sr="arg1" ve="3">working</Str>
@@ -11466,7 +11566,7 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act106" ve="7">
+		<Action sr="act107" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%EASER_FOR_BT</Str>
 			<Int sr="arg1" val="0"/>
@@ -11480,7 +11580,7 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act107" ve="7">
+		<Action sr="act108" ve="7">
 			<code>877</code>
 			<Str sr="arg0" ve="3">BT_DISABLE</Str>
 			<Int sr="arg1" val="0"/>
@@ -11500,19 +11600,13 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act108" ve="7">
+		<Action sr="act109" ve="7">
 			<code>38</code>
 			<label>end of bluetooth toggle test via easer</label>
 		</Action>
-		<Action sr="act109" ve="7">
-			<code>294</code>
-			<label>tasker settings bluetooth toggle test</label>
-			<se>false</se>
-			<Int sr="arg0" val="2"/>
-		</Action>
 		<Action sr="act11" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%BG_MAP</Str>
+			<Str sr="arg0" ve="3">%FG_MAP</Str>
 			<Str sr="arg1" ve="3">no</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -11521,6 +11615,12 @@ Selected Index
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act110" ve="7">
+			<code>294</code>
+			<label>tasker settings bluetooth toggle test</label>
+			<se>false</se>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act111" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -11531,7 +11631,7 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act111" ve="7">
+		<Action sr="act112" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
 			<Str sr="arg1" ve="3">err</Str>
@@ -11541,10 +11641,10 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act112" ve="7">
+		<Action sr="act113" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act113" ve="7">
+		<Action sr="act114" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
 			<Str sr="arg1" ve="3">ui_only</Str>
@@ -11561,7 +11661,7 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act114" ve="7">
+		<Action sr="act115" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
 			<Str sr="arg1" ve="3">works</Str>
@@ -11578,29 +11678,24 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act115" ve="7">
+		<Action sr="act116" ve="7">
 			<code>294</code>
 			<se>false</se>
 			<Int sr="arg0" val="2"/>
 		</Action>
-		<Action sr="act116" ve="7">
-			<code>38</code>
-			<label>end of tasker settings bluetooth toggle test</label>
-		</Action>
 		<Action sr="act117" ve="7">
 			<code>38</code>
+			<label>end of tasker settings bluetooth toggle test</label>
 		</Action>
 		<Action sr="act118" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act119" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">Toggle Profiles</Str>
-			<Int sr="arg1" val="1"/>
+			<code>38</code>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%FG_OBD</Str>
+			<Str sr="arg0" ve="3">%BG_MAP</Str>
 			<Str sr="arg1" ve="3">no</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -11609,6 +11704,16 @@ Selected Index
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act120" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Toggle Profiles</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act121" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Battery Audio Toggle</Str>
+			<Int sr="arg1" val="2"/>
+		</Action>
+		<Action sr="act122" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<label>Toggle Battery Audio profiles</label>
@@ -11620,14 +11725,30 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act121" ve="7">
+		<Action sr="act123" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Toggle Profiles</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
 			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">Power Connected,Power Disconnected,Phone Shutdown Audio,Unplugged 1 Pcent Battery,Unplugged 2 Pcent Battery,Battery Audios,Battery Full Audio Event</Str>
+			<Str sr="arg2" ve="3">Unplugged 1 Pcent Battery,Unplugged 2 Pcent Battery,Battery Audios</Str>
+			<Str sr="arg3" ve="3">off</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act124" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggle Profiles</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Unplugged 1 Pcent Battery,Unplugged 2 Pcent Battery,Battery Audios</Str>
 			<Str sr="arg3" ve="3">on</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
@@ -11636,7 +11757,7 @@ Selected Index
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act122" ve="7">
+		<Action sr="act125" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -11646,7 +11767,7 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act123" ve="7">
+		<Action sr="act126" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Toggle Profiles</Str>
 			<Int sr="arg1">
@@ -11654,7 +11775,7 @@ Selected Index
 			</Int>
 			<Int sr="arg10" val="1"/>
 			<Str sr="arg2" ve="3">Power Connected,Power Disconnected,Phone Shutdown Audio,Unplugged 1 Pcent Battery,Unplugged 2 Pcent Battery,Battery Audios,Battery Full Audio Event</Str>
-			<Str sr="arg3" ve="3">on</Str>
+			<Str sr="arg3" ve="3">off</Str>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
@@ -11662,10 +11783,10 @@ Selected Index
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act124" ve="7">
+		<Action sr="act127" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act125" ve="7">
+		<Action sr="act128" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
 			<Int sr="arg1">
@@ -11683,7 +11804,7 @@ Selected Index
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%BG_OBD</Str>
+			<Str sr="arg0" ve="3">%FG_OBD</Str>
 			<Str sr="arg1" ve="3">no</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -11693,7 +11814,7 @@ Selected Index
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%RECENTS_SCREEN</Str>
+			<Str sr="arg0" ve="3">%BG_OBD</Str>
 			<Str sr="arg1" ve="3">no</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -11703,6 +11824,16 @@ Selected Index
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>547</code>
+			<Str sr="arg0" ve="3">%RECENTS_SCREEN</Str>
+			<Str sr="arg1" ve="3">no</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
 			<Int sr="arg2" val="0"/>
@@ -11711,14 +11842,14 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%FG_NET_APP_NAME</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%WAKE_UP_NUM</Str>
 			<Int sr="arg1" val="0"/>
@@ -11732,10 +11863,26 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">Tasker initializing lazy workflow at boot</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<label>set wan flags to negative if no wifi connection</label>
@@ -11747,23 +11894,7 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">TTS Test</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act21" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%WAN_ACCESSIBLE</Str>
 			<Str sr="arg1" ve="3">NULL</Str>
@@ -11773,7 +11904,7 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%WIFI_CONNECTED</Str>
 			<Str sr="arg1" ve="3">no</Str>
@@ -11783,16 +11914,16 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>432</code>
 			<Bundle sr="arg0">
 				<Vals sr="val"/>
 			</Bundle>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%WIFI_CONNECTED</Str>
 			<Str sr="arg1" ve="3">yes</Str>
@@ -11802,7 +11933,7 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%WAN_ACCESSIBLE</Str>
 			<Str sr="arg1" ve="3">yes</Str>
@@ -11819,10 +11950,10 @@ Selected Index
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>547</code>
 			<label>globals for automate flow id's</label>
 			<Str sr="arg0" ve="3">%AUTOMATE_CONTENT_BASE_URI</Str>
@@ -11833,7 +11964,7 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AUTOMATE_SETTINGS_CHECK_FLOW</Str>
 			<Str sr="arg1" ve="3">%AUTOMATE_CONTENT_BASE_URI/58</Str>
@@ -11843,7 +11974,23 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">TTS Test</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AUTOMATE_CELLULAR_DATA_CHECK</Str>
 			<Str sr="arg1" ve="3">%AUTOMATE_SETTINGS_CHECK_FLOW/statements/1</Str>
@@ -11853,13 +12000,7 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>348</code>
-			<Int sr="arg0" val="6"/>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">%PHONE_LOCK_SET</Str>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act31" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AUTOMATE_SIM_CHECK</Str>
 			<Str sr="arg1" ve="3">%AUTOMATE_SETTINGS_CHECK_FLOW/statements/10</Str>
@@ -11869,7 +12010,7 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AUTOMATE_WIFI_CHECK</Str>
 			<Str sr="arg1" ve="3">%AUTOMATE_SETTINGS_CHECK_FLOW/statements/34</Str>
@@ -11879,7 +12020,7 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AUTOMATE_HOTSPOT_CHECK</Str>
 			<Str sr="arg1" ve="3">%AUTOMATE_SETTINGS_CHECK_FLOW/statements/25</Str>
@@ -11889,7 +12030,7 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AUTOMATE_VARS_SET_AT_BOOT</Str>
 			<Str sr="arg1" ve="3">%AUTOMATE_CONTENT_BASE_URI/63/statements/1</Str>
@@ -11899,7 +12040,7 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%AUTOMATE_ALARMY_CALL</Str>
 			<Str sr="arg1" ve="3">%AUTOMATE_CONTENT_BASE_URI/31/statements/1</Str>
@@ -11909,7 +12050,7 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>547</code>
 			<label>end of globals for automate flow id's</label>
 			<Str sr="arg0" ve="3">%AUTOMATE_VARS_BATTERY_AUDIO</Str>
@@ -11920,7 +12061,7 @@ Selected Index
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>123</code>
 			<label>check root</label>
 			<Str sr="arg0" ve="3">which su &amp;&gt;/dev/null &amp;&amp; echo "su" || echo "nosu"</Str>
@@ -11933,7 +12074,7 @@ Selected Index
 			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>474</code>
 			<label>check existence of work profile &amp; what it's state is</label>
 			<Str sr="arg0" ve="3">import android.os.UserManager;
@@ -11954,7 +12095,7 @@ return new String [] {"false", ""};</Str>
 			<Str sr="arg1" ve="3">%work_profile_stat</Str>
 			<Int sr="arg2" val="1"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<label>check if work profile exists &amp; set it's state as flags</label>
@@ -11966,7 +12107,13 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>348</code>
+			<Int sr="arg0" val="6"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%PHONE_LOCK_SET</Str>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%WORK_PROFILE</Str>
 			<Str sr="arg1" ve="3">%work_profile_stat2</Str>
@@ -11976,13 +12123,7 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>348</code>
-			<Int sr="arg0" val="5"/>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3">%PHONE_LOCKED</Str>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act41" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Work Profile Set</Str>
 			<Int sr="arg1" val="1"/>
@@ -11994,10 +12135,10 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Work Profile Set</Str>
 			<Int sr="arg1" val="0"/>
@@ -12009,10 +12150,10 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%NET_SRC_TOGGLE_COUNT</Str>
 			<Str sr="arg1" ve="3">0</Str>
@@ -12022,7 +12163,7 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>877</code>
 			<label>Tasker - Check Set boot stuff (Automate flo)</label>
 			<Str sr="arg0" ve="3">com.llamalab.automate.intent.action.START_FLOW</Str>
@@ -12036,7 +12177,7 @@ return new String [] {"false", ""};</Str>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Default Xor Profiles</Str>
 			<Int sr="arg1">
@@ -12052,7 +12193,7 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
 			<code>130</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">Profile to Flow Runner</Str>
@@ -12069,9 +12210,9 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act49" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<label>disable gaming profile &amp; try the disable sensors toggle (if no root)</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -12081,29 +12222,18 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act5" ve="7">
+			<code>348</code>
+			<Int sr="arg0" val="5"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%PHONE_LOCKED</Str>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Gaming</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%device_booted</Str>
-			<Str sr="arg1" ve="3">%par1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>12</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act51" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">No root bin found. Disabled profiles needing root</Str>
 			<Int sr="arg1" val="0"/>
@@ -12122,7 +12252,7 @@ return new String [] {"false", ""};</Str>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act52" ve="7">
 			<code>123</code>
 			<label>disable sensors (test)</label>
 			<Str sr="arg0" ve="3">service call sensor_privacy 9 i32 0 | wc -l</Str>
@@ -12142,7 +12272,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<label>disable gaming profile &amp; try the disable sensors toggle (if no root)</label>
@@ -12154,7 +12284,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act54" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_SENSOR_TOGGLE</Str>
 			<Str sr="arg1" ve="3">privilege_only</Str>
@@ -12164,7 +12294,7 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act55" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
 			<Int sr="arg1">
@@ -12180,10 +12310,10 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act55" ve="7">
+		<Action sr="act56" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act56" ve="7">
+		<Action sr="act57" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_SENSOR_TOGGLE</Str>
 			<Str sr="arg1" ve="3">works</Str>
@@ -12200,10 +12330,10 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act57" ve="7">
+		<Action sr="act58" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act58" ve="7">
+		<Action sr="act59" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Enable Low Power Mode</Str>
 			<Int sr="arg1">
@@ -12226,9 +12356,26 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act59" ve="7">
+		<Action sr="act6" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%device_booted</Str>
+			<Str sr="arg1" ve="3">%par1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act60" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<label>enable gaming profile if root</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -12238,24 +12385,12 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<label>flag values set at boot or at import</label>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%device_booted</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act60" ve="7">
+		<Action sr="act61" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Gaming</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act61" ve="7">
+		<Action sr="act62" ve="7">
 			<code>130</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Regular Cpu Clock</Str>
@@ -12272,7 +12407,7 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act62" ve="7">
+		<Action sr="act63" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
 			<Int sr="arg1">
@@ -12288,23 +12423,23 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act63" ve="7">
+		<Action sr="act64" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act64" ve="7">
+		<Action sr="act65" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act65" ve="7">
+		<Action sr="act66" ve="7">
 			<code>159</code>
 			<Str sr="arg0" ve="3">Gaming</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act66" ve="7">
+		<Action sr="act67" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act67" ve="7">
+		<Action sr="act68" ve="7">
 			<code>344</code>
 			<label>check if tasker settings is installed</label>
 			<se>false</se>
@@ -12312,9 +12447,9 @@ return new String [] {"false", ""};</Str>
 			<Str sr="arg1" ve="3">com.joaomgcd.taskersettings</Str>
 			<Str sr="arg2" ve="3">%tasker_setting_app</Str>
 		</Action>
-		<Action sr="act68" ve="7">
+		<Action sr="act69" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<label>set flag values for tasker settings app to "not_installed". so tasker settings way is not used</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -12324,7 +12459,19 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act69" ve="7">
+		<Action sr="act7" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<label>flag values set at boot or at import</label>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%device_booted</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act70" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
 			<Str sr="arg1" ve="3">not_installed</Str>
@@ -12334,14 +12481,7 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act7" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%device_booted</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act70" ve="7">
+		<Action sr="act71" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_BT_TOGGLE</Str>
 			<Str sr="arg1" ve="3">err</Str>
@@ -12351,7 +12491,7 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act71" ve="7">
+		<Action sr="act72" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
 			<Int sr="arg1">
@@ -12367,15 +12507,15 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act72" ve="7">
+		<Action sr="act73" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 		</Action>
-		<Action sr="act73" ve="7">
+		<Action sr="act74" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act74" ve="7">
+		<Action sr="act75" ve="7">
 			<code>547</code>
 			<label>start of ease install check</label>
 			<Str sr="arg0" ve="3">%EASER_INSTALLED</Str>
@@ -12386,7 +12526,7 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act75" ve="7">
+		<Action sr="act76" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%EASER_PKG</Str>
 			<Str sr="arg1" ve="3">ryey.easer</Str>
@@ -12396,16 +12536,16 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act76" ve="7">
+		<Action sr="act77" ve="7">
 			<code>344</code>
 			<se>false</se>
 			<Int sr="arg0" val="8"/>
 			<Str sr="arg1" ve="3">%EASER_PKG</Str>
 			<Str sr="arg2" ve="3">%easer</Str>
 		</Action>
-		<Action sr="act77" ve="7">
+		<Action sr="act78" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<label>when easer beta app check fails</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -12415,7 +12555,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act78" ve="7">
+		<Action sr="act79" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%EASER_PKG</Str>
 			<Str sr="arg1" ve="3">ryey.easer.beta</Str>
@@ -12425,7 +12565,14 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act79" ve="7">
+		<Action sr="act8" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%device_booted</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act80" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1">
@@ -12440,24 +12587,14 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act8" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%APP_NET</Str>
-			<Str sr="arg1" ve="3">no</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act80" ve="7">
+		<Action sr="act81" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%EASER_PKG</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act81" ve="7">
+		<Action sr="act82" ve="7">
 			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -12467,7 +12604,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act82" ve="7">
+		<Action sr="act83" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%EASER_INSTALLED</Str>
 			<Str sr="arg1" ve="3">yes</Str>
@@ -12477,13 +12614,13 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act83" ve="7">
+		<Action sr="act84" ve="7">
 			<code>38</code>
 			<label>end of easer install check</label>
 		</Action>
-		<Action sr="act84" ve="7">
+		<Action sr="act85" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<label>set flag values for tasker settings app to tell the workflow if tasker settings way can/is to be used when no root for cellular data</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -12493,7 +12630,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act85" ve="7">
+		<Action sr="act86" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -12504,7 +12641,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act86" ve="7">
+		<Action sr="act87" ve="7">
 			<code>433</code>
 			<se>false</se>
 			<Int sr="arg0" val="2"/>
@@ -12512,7 +12649,7 @@ return new String [] {"false", ""};</Str>
 				<Vals sr="val"/>
 			</Bundle>
 		</Action>
-		<Action sr="act87" ve="7">
+		<Action sr="act88" ve="7">
 			<code>37</code>
 			<coll>false</coll>
 			<ConditionList sr="if">
@@ -12523,7 +12660,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act88" ve="7">
+		<Action sr="act89" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
 			<Str sr="arg1" ve="3">err</Str>
@@ -12533,16 +12670,9 @@ return new String [] {"false", ""};</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act89" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%errmsg</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
 		<Action sr="act9" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%BG_NET</Str>
+			<Str sr="arg0" ve="3">%APP_NET</Str>
 			<Str sr="arg1" ve="3">no</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
@@ -12552,15 +12682,22 @@ return new String [] {"false", ""};</Str>
 		</Action>
 		<Action sr="act90" ve="7">
 			<code>549</code>
-			<Str sr="arg0" ve="3">%err</Str>
+			<Str sr="arg0" ve="3">%errmsg</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act91" ve="7">
-			<code>43</code>
+			<code>549</code>
+			<Str sr="arg0" ve="3">%err</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act92" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act93" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
 			<Str sr="arg1" ve="3">ui_only</Str>
@@ -12595,7 +12732,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act93" ve="7">
+		<Action sr="act94" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%TASKER_HELPER_FOR_DATA_TOGGLE</Str>
 			<Str sr="arg1" ve="3">works</Str>
@@ -12630,7 +12767,7 @@ return new String [] {"false", ""};</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act94" ve="7">
+		<Action sr="act95" ve="7">
 			<code>433</code>
 			<Int sr="arg0" val="2"/>
 			<Bundle sr="arg1">
@@ -12642,9 +12779,6 @@ true if it after the action the setting is enabled, false if not&lt;/_array_net.
 				</Vals>
 			</Bundle>
 		</Action>
-		<Action sr="act95" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act96" ve="7">
 			<code>38</code>
 		</Action>
@@ -12652,8 +12786,11 @@ true if it after the action the setting is enabled, false if not&lt;/_array_net.
 			<code>38</code>
 		</Action>
 		<Action sr="act98" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act99" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<label>same as action 69 but for bluetooth</label>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -12663,21 +12800,10 @@ true if it after the action the setting is enabled, false if not&lt;/_array_net.
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act99" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%ROOT_STAT</lhs>
-					<op>2</op>
-					<rhs>nosu</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 	</Task>
 	<Task sr="task83">
 		<cdate>1780070522117</cdate>
-		<edate>1783701698856</edate>
+		<edate>1783862644175</edate>
 		<id>83</id>
 		<nme>New App Installed</nme>
 		<pri>6</pri>
@@ -12932,7 +13058,7 @@ true if it after the action the setting is enabled, false if not&lt;/_array_net.
 	</Task>
 	<Task sr="task84">
 		<cdate>1771129901910</cdate>
-		<edate>1783615511069</edate>
+		<edate>1783862641295</edate>
 		<id>84</id>
 		<nme>Ping Test</nme>
 		<pri>100</pri>
@@ -14136,7 +14262,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task96">
 		<cdate>1737079191529</cdate>
-		<edate>1783615545962</edate>
+		<edate>1783786834565</edate>
 		<id>96</id>
 		<nme>Enable Low Power Mode</nme>
 		<pri>6</pri>
@@ -14458,13 +14584,6 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%LOW_POWER_MODE</lhs>
-					<op>2</op>
-					<rhs>disabled</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>175</code>
