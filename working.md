@@ -71,10 +71,7 @@
 
 
 ##### 9. <b>other stuff</b>
-* `Sanitized URL share` - literally what it says. for now only following links are "sanitization" 
-    - youtube share links matching `?sid.*`
-    - links with google references 
-    - instagram links matching `\/\?igsh=.*`
+* `Sanitized URL share - Clipboard` & `Sanitized URL share - Autonotification` - calls `Sanitized URL share` task. Clipboard change wasn't picked up by the clipboard change event & the variable change event with %CLIP as it's arg. on my oem rom so went ahead & created an autonotification variant
 * `Email Auto Sync (Un)Set` - sets autosync when email client is in foreground, unsets when not in foreground for more than one minute
 * `Alarm Vol Auto Set` - set all alarm vol to max when an alarm's about to ring
 * `Autoread Whatsapp` - literally what it says (except set your own interval if you need to)
@@ -148,29 +145,33 @@
 * `TASKER_HELPER_FOR_DATA_TOGGLE` - same as `TASKER_HELPER_FOR_BT_TOGGLE` but for data action
 * `AUTOMATE_CONTENT_BASE_URI` (content://com.llabalab.automate.provider/flows) - stores only the content provider authority which is used across all other `AUTOMATE_` global var.s which are used as content uri's pointing to automate flows.
 
-## What each Tasker profiles do
+## What each Tasker tasks do
 #### Tasks who's Description's given in the profile section with the same name as the task
-`Wan Check Switch`, `Ping Test`, `Net Set`, `Custom Intent`, `Autoread Whatsapp`, `(Un)Set Sim Presence Airplane Mode`, `Sanitized URL Share`, `Bluetooth Unset`, `Redundant Net Src Switch`, `Alarmy Call`
-* Toggle Profiles (this one disables the `Profile Toggle Mgr` profile when running, enables when done), Toggle Data, Toggle Bluetooth, Unset All Alarms - literally what their task names say
-* Gaming Clock,Regular Cpu Clock,Low Clock Cpu - sets the clocks to whatever the user counts/sets as regular, low or performance clocks 
-* Restart Flow - stop a flow, then start from a flow beginning (no way to stop a flow beginning)
-* Fg Map Actions - actions to perform on map apps
-* All Vol Set - task to set a vol lvl to all audio streams
-* Lazy Workflow Initializer - Action 33 is just what I think would work best, action 34 is left as disabled in case the user wants to have their desired profiles enabled & automate flows left running. Rest of the description is at the `Check Set Stuff At Boot` profile
-* New App Installed - to prompt the user if the installed app has to be added to the work IF the app requests for permissions checked by the `Permission Check` task
-* Net Src Switch - just switches between data & wifi
-* Enable Low Power Mode - disables dev sensors (run by `Toggle Dev Mode sensors` task), bluetooth, wifi, data, location & autosync where possible, enables low power mode & airplane mode if no sim
-* Disable Low Power Mode - enables dev sensors (run by `Toggle Dev Mode sensors` task), disables low power mode & airplane mode if sim is present
-* TTS Test - to test if a tts can be used (the say action)
-* Permission Check - checks if a requested app is asking for wan, location & or bluetooth connectivity (called by `New App Installed`)
-* Default Xor Profiles - runs the `Sim Presence` & `Cellular Data Stat` flow beginnings from `Tasker - settings & states checks.flo` flow, enables 
-* Profile to Flow Runner - enable profiles & run automate tasks that those enabled profiles depend on 
-* Screen State Based Msg - msg is posted via tts or a toast depending screen or tts state
-* Screen & Lock State Low Power Profile Toggle - toggles the low power profiles based on the phone screen lock being set 
-* Delayed Autobrightness Toggle - description in `Flashlight State Based Autobrightness` profile
-* Random Audio Play - Task to randomly play from a list of audio files fed to it as parmeter
-* Toggle Dev Mode sensors - task for toggleing the `disable sensors` dev options qs toggle (won't run without root/shizuku/adb or if tasker helper stat ). the number 9 in the shell actions 3, 6, 7, 11, 14, 15 differs between android versions. [stackexchange reference](#https://android.stackexchange.com/questions/246299/can-sensors-off-developer-options-be-controlled-via-adb)
-
+`Wan Check Switch`, `Ping Test`, `Net Set`, `Custom Intent`, `Autoread Whatsapp`, `(Un)Set Sim Presence Airplane Mode`, `Bluetooth Unset`, `Redundant Net Src Switch`, `Alarmy Call`
+#### Rest of the task description
+* `Toggle Profiles` - (this one disables the `Profile Toggle Mgr` profile when running, enables when done), Toggle Data, Toggle Bluetooth, Unset All Alarms - literally what their task names say
+* `Gaming Clock`, `Regular Cpu Clock`, `Low Clock Cpu` - sets the clocks to whatever the user counts/sets as regular, low or performance clocks 
+* `Restart Flow` - stop a flow, then start from a flow beginning (no way to stop a flow beginning)
+* `Fg Map Actions` - actions to perform on map apps
+* `All Vol Set` - task to set a vol lvl to all audio streams
+* `Lazy Workflow Initializer` - Action 33 is just what I think would work best, action 34 is left as disabled in case the user wants to have their desired profiles enabled & automate flows left running. Rest of the description is at the `Check Set Stuff At Boot` profile
+* `New App Installed` - to prompt the user if the installed app has to be added to the work IF the app requests for permissions checked by the `Permission Check` task
+* `Net Src Switch` - just switches between data & wifi
+* `Enable Low Power Mode` - disables dev sensors (run by `Toggle Dev Mode sensors` task), bluetooth, wifi, data, location & autosync where possible, enables low power mode & airplane mode if no sim
+* `Disable Low Power Mode` - enables dev sensors (run by `Toggle Dev Mode sensors` task), disables low power mode & airplane mode if sim is present
+* `TTS Test` - to test if a tts can be used (the say action)
+* `Permission Check` - checks if a requested app is asking for wan, location & or bluetooth connectivity (called by `New App Installed`)
+* `Default Xor Profiles` - runs the `Sim Presence` & `Cellular Data Stat` flow beginnings from `Tasker - settings & states checks.flo` flow, enables 
+* `Profile to Flow Runner` - enable profiles & run automate tasks that those enabled profiles depend on 
+* `Screen State Based Msg` - msg is posted via tts or a toast depending screen or tts state
+* `Screen & Lock State Low Power Profile Toggle` - toggles the low power profiles based on the phone screen lock being set 
+* `Delayed Autobrightness Toggle` - description in `Flashlight State Based Autobrightness` profile
+* `Random Audio Play` - Task to randomly play from a list of audio files fed to it as parmeter
+* `Toggle Dev Mode sensors` - task for toggleing the `disable sensors` dev options qs toggle (won't run without root/shizuku/adb or if tasker helper stat ). the number 9 in the shell actions 3, 6, 7, 11, 14, 15 differs between android versions. [stackexchange reference](#https://android.stackexchange.com/questions/246299/can-sensors-off-developer-options-be-controlled-via-adb)
+* `Sanitized URL Share` - literally what it says with a prompt asking if it's to be shared. only the below 3 string strippings are done
+    - youtube share links matching `?sid.*`
+    - links with google references (copied from google search results)
+    - instagram links matching `\/\?igsh=.*`
 ### Automate Flows & what they do 
 * `Tasker - Check Set boot stuff.flo` - sets variables, settings, flags & such after boot. Basically an initializer helper of sorts for tasker
 * `Tasker - Airplane boarding.flo` - flow to disable all phone settings that need to disabled on a flight
@@ -266,7 +267,8 @@
     Alarmy Call Disable
     Gaming
     Toggle Dev Mode Per App
-    Sanitized URL share
+    Sanitized URL share - Clipboard
+    Sanitized URL share - Autonotification
     Alarm Vol Auto Set
     Autoread Whatsapp
     Airplane Boarding
