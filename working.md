@@ -178,6 +178,9 @@
 * `Tasker - Airplane boarding.flo` - flow to disable all phone settings that need to disabled on a flight
 * `Tasker - Alarmy call.flo` - pick a contact from popup, set a time for the fibre to be paused for, which then sends a broadcast to the `Custom Intent Recvr` profile in tasker enabling `Alarmy Call` &  `Alarmy Call Disable` profiles
 * `(Template) Tasker - Battery noise.flo` - plays audio files set by the user at set battery levels. Also invoked by tasker profiles.
+    - `Zero Battery` - no battery checks, just, just called by the `Phone Shutdown Audio` profile which just plays set audio files at random
+    - `Plugged in battery full` - if phone is connected & is ONLY taking power, then set audio files will play at random, else (adb, midi, usb-tether etc) just wait until disconnected from usb. Called by `Battery Full Audio Event` when reached full & `Power Connected` profile when not in 3-99 battery level range
+    - `Battery State` - plays set audios at set battery levels (when plugging in, removing, entering & exiting battery level when charing & dischrging). called by `Battery Audios` profile
 * `Tasker - settings & states checks.flo` - contains 4 flow beginnings & also sends a broadcast to the `Custom Intent Recvr` profile to disable respective profiles
     - `Cellular Data Stat` - sets the `MDATA` global var to "enabled"|"disabled" on cellular data state change sending a custom broadcast (`net.dinglisch.tasker.CELLULAR_DATA`) to the profile `Mobile Data Var Set via Automate`. Disables  `Mobile Data Var Set` on 1st run
     - `Sim Presence` - sends a custom `android.intent.action.SIM_PRESENT` broadcast to the `(Un)Set Sim Presence Airplane Mode via Automate` profile to set airplane mode based the `%SIM_STATE` var which can't be used in the variable state context in a profile. Disables `(Un)Set Sim Presence Airplane Mode` profile on 1st run
