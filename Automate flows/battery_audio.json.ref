@@ -1,0 +1,32 @@
+{
+	"full_battery": [
+	 "/sdcard/",
+	 "/sdcard/"
+	],
+	
+	"battery_down": [
+	 "/sdcard/",
+	 "/sdcard/"
+	],
+
+	"non_terminal_lvls":[
+		{
+			"min": 3,
+			"max": 5,
+			"charging_audio": "/sdcard/",
+			"discharging_audio": "/sdcard/",
+			"power_in_event_audio": "/sdcard/",
+			"power_removed_event_audio": "/sdcard/"
+		},
+		{
+			"min": 6,
+			"max": 10,
+			"charging_audio": "/sdcard/",
+			"discharging_audio": "/sdcard/",
+			"power_in_event_audio": "/sdcard/",
+			"power_removed_event_audio": "/sdcard/"
+		}
+	]
+}
+
+

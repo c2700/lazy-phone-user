@@ -176,7 +176,7 @@
 	<Profile sr="prof115" ve="2">
 		<cdate>1782440284033</cdate>
 		<clp>true</clp>
-		<edate>1783892292666</edate>
+		<edate>1784734867632</edate>
 		<flags>8</flags>
 		<id>115</id>
 		<mid0>61</mid0>
@@ -401,7 +401,7 @@
 	<Profile sr="prof121" ve="2">
 		<cdate>1782440284058</cdate>
 		<clp>true</clp>
-		<edate>1781288967311</edate>
+		<edate>1785718279562</edate>
 		<flags>8</flags>
 		<id>121</id>
 		<limit>true</limit>
@@ -700,7 +700,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	<Profile sr="prof132" ve="2">
 		<cdate>1782440284094</cdate>
 		<clp>true</clp>
-		<edate>1783903970194</edate>
+		<edate>1786099759137</edate>
 		<flags>8</flags>
 		<id>132</id>
 		<mid0>53</mid0>
@@ -798,7 +798,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	<Profile sr="prof134" ve="2">
 		<cdate>1782440284101</cdate>
 		<clp>true</clp>
-		<edate>1782115176665</edate>
+		<edate>1784944144926</edate>
 		<flags>8</flags>
 		<id>134</id>
 		<mid0>103</mid0>
@@ -810,6 +810,12 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 				<Vals sr="val">
 					<AllFields>true</AllFields>
 					<AllFields-type>java.lang.Boolean</AllFields-type>
+					<App>&lt;null&gt;</App>
+					<App-type>java.lang.String</App-type>
+					<BigImageNames>&lt;null&gt;</BigImageNames>
+					<BigImageNames-type>java.lang.String</BigImageNames-type>
+					<BigTextNames>&lt;null&gt;</BigTextNames>
+					<BigTextNames-type>java.lang.String</BigTextNames-type>
 					<CaseinsensitiveApp>false</CaseinsensitiveApp>
 					<CaseinsensitiveApp-type>java.lang.Boolean</CaseinsensitiveApp-type>
 					<CaseinsensitiveCategoryName>true</CaseinsensitiveCategoryName>
@@ -836,7 +842,11 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<HasMediaSession-type>java.lang.Boolean</HasMediaSession-type>
 					<HasReplyAction>false</HasReplyAction>
 					<HasReplyAction-type>java.lang.Boolean</HasReplyAction-type>
-					<InterceptApps>&lt;StringArray sr=""&gt;&lt;_array_InterceptApps10&gt;org.mozilla.firefox&lt;/_array_InterceptApps10&gt;&lt;_array_InterceptApps11&gt;com.lonelycatgames.Xplore&lt;/_array_InterceptApps11&gt;&lt;_array_InterceptApps12&gt;org.fdroid.fdroid&lt;/_array_InterceptApps12&gt;&lt;_array_InterceptApps13&gt;com.google.android.gm&lt;/_array_InterceptApps13&gt;&lt;_array_InterceptApps14&gt;org.torproject.torbrowser&lt;/_array_InterceptApps14&gt;&lt;_array_InterceptApps15&gt;idm.internet.download.manager&lt;/_array_InterceptApps15&gt;&lt;_array_InterceptApps16&gt;com.overlook.android.fing&lt;/_array_InterceptApps16&gt;&lt;_array_InterceptApps17&gt;com.google.android.youtube&lt;/_array_InterceptApps17&gt;&lt;_array_InterceptApps18&gt;com.brave.browser&lt;/_array_InterceptApps18&gt;&lt;_array_InterceptApps0&gt;com.whatsapp&lt;/_array_InterceptApps0&gt;&lt;_array_InterceptApps1&gt;com.google.android.apps.maps&lt;/_array_InterceptApps1&gt;&lt;_array_InterceptApps2&gt;moe.shizuku.privileged.api&lt;/_array_InterceptApps2&gt;&lt;_array_InterceptApps3&gt;com.educba.www&lt;/_array_InterceptApps3&gt;&lt;_array_InterceptApps4&gt;com.udemy.android&lt;/_array_InterceptApps4&gt;&lt;_array_InterceptApps5&gt;com.ubercab&lt;/_array_InterceptApps5&gt;&lt;_array_InterceptApps6&gt;in.swiggy.android&lt;/_array_InterceptApps6&gt;&lt;_array_InterceptApps7&gt;com.waze&lt;/_array_InterceptApps7&gt;&lt;_array_InterceptApps8&gt;com.dv.adm&lt;/_array_InterceptApps8&gt;&lt;_array_InterceptApps9&gt;com.fooview.android.fooview.fvfile&lt;/_array_InterceptApps9&gt;&lt;/StringArray&gt;</InterceptApps>
+					<Id>&lt;null&gt;</Id>
+					<Id-type>java.lang.String</Id-type>
+					<ImageNames>&lt;null&gt;</ImageNames>
+					<ImageNames-type>java.lang.String</ImageNames-type>
+					<InterceptApps>&lt;StringArray sr=""&gt;&lt;_array_InterceptApps10&gt;com.fooview.android.fooview.fvfile&lt;/_array_InterceptApps10&gt;&lt;_array_InterceptApps11&gt;org.mozilla.firefox&lt;/_array_InterceptApps11&gt;&lt;_array_InterceptApps12&gt;com.lonelycatgames.Xplore&lt;/_array_InterceptApps12&gt;&lt;_array_InterceptApps13&gt;org.fdroid.fdroid&lt;/_array_InterceptApps13&gt;&lt;_array_InterceptApps14&gt;com.google.android.gm&lt;/_array_InterceptApps14&gt;&lt;_array_InterceptApps15&gt;org.torproject.torbrowser&lt;/_array_InterceptApps15&gt;&lt;_array_InterceptApps16&gt;com.android.systemui&lt;/_array_InterceptApps16&gt;&lt;_array_InterceptApps17&gt;idm.internet.download.manager&lt;/_array_InterceptApps17&gt;&lt;_array_InterceptApps18&gt;com.overlook.android.fing&lt;/_array_InterceptApps18&gt;&lt;_array_InterceptApps19&gt;com.google.android.youtube&lt;/_array_InterceptApps19&gt;&lt;_array_InterceptApps20&gt;com.android.settings&lt;/_array_InterceptApps20&gt;&lt;_array_InterceptApps21&gt;com.vivo.systemuiplugin&lt;/_array_InterceptApps21&gt;&lt;_array_InterceptApps22&gt;com.brave.browser&lt;/_array_InterceptApps22&gt;&lt;_array_InterceptApps0&gt;com.whatsapp&lt;/_array_InterceptApps0&gt;&lt;_array_InterceptApps1&gt;com.google.android.apps.maps&lt;/_array_InterceptApps1&gt;&lt;_array_InterceptApps2&gt;moe.shizuku.privileged.api&lt;/_array_InterceptApps2&gt;&lt;_array_InterceptApps3&gt;com.educba.www&lt;/_array_InterceptApps3&gt;&lt;_array_InterceptApps4&gt;com.bbk.updater&lt;/_array_InterceptApps4&gt;&lt;_array_InterceptApps5&gt;com.udemy.android&lt;/_array_InterceptApps5&gt;&lt;_array_InterceptApps6&gt;com.ubercab&lt;/_array_InterceptApps6&gt;&lt;_array_InterceptApps7&gt;in.swiggy.android&lt;/_array_InterceptApps7&gt;&lt;_array_InterceptApps8&gt;com.waze&lt;/_array_InterceptApps8&gt;&lt;_array_InterceptApps9&gt;com.dv.adm&lt;/_array_InterceptApps9&gt;&lt;/StringArray&gt;</InterceptApps>
 					<InterceptApps-type>[Ljava.lang.String;</InterceptApps-type>
 					<InterceptEventBehaviour>false</InterceptEventBehaviour>
 					<InterceptEventBehaviour-type>java.lang.Boolean</InterceptEventBehaviour-type>
@@ -852,6 +862,8 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<InvertText-type>java.lang.Boolean</InvertText-type>
 					<InvertTitle>true</InvertTitle>
 					<InvertTitle-type>java.lang.Boolean</InvertTitle-type>
+					<PackageName>&lt;null&gt;</PackageName>
+					<PackageName-type>java.lang.String</PackageName-type>
 					<RegexApp>false</RegexApp>
 					<RegexApp-type>java.lang.Boolean</RegexApp-type>
 					<RegexCategoryName>true</RegexCategoryName>
@@ -864,11 +876,163 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<RegexTitle-type>java.lang.Boolean</RegexTitle-type>
 					<Text>.*([Ff]inish|[Cc]omplete|[Dd]one).*</Text>
 					<Text-type>java.lang.String</Text-type>
+					<TextNames>&lt;null&gt;</TextNames>
+					<TextNames-type>java.lang.String</TextNames-type>
 					<Title>.*([Ff]inish|[Cc]omplete|[Dd]one).*</Title>
 					<Title-type>java.lang.String</Title-type>
+					<Type>&lt;null&gt;</Type>
+					<Type-type>java.lang.String</Type-type>
 					<com.twofortyfouram.locale.intent.extra.BLURB>Persistency Type: Both
-Notific...</com.twofortyfouram.locale.intent.extra.BLURB>
+Notification Apps: WhatsApp,Maps,Shizuku,EDUCBA,System update,Udemy,Uber,Swiggy,Waze,ADM,FV File Explorer,Firefox,X-plore,F-Droid,Gmail,Tor Browser,System UI,1DM,Fing,YouTube,Settings,System UI kits,Brave
+Notification Title: .*([Ff]inish|[Cc]omplete|[Dd]one).* (regex) (case ins) (invert) (invert)
+Notification Text: .*([Ff]inish|[Cc]omplete|[Dd]one).* (regex) (case ins) (invert) (invert)
+Notification Category Name: .*(([Dd]own|[Uu]p)loading|[Nn]avigat(e|ion)?|[Ww]aze|[Ii]n [Pp]rogress|([Ll]ook|[Ss]earch|[Uu]pdat|[Ss]ync|[Ff]etch|[Rr]efresh|[Pp](rogress|ost|atch))ing?).* (regex) (case ins)
+Get All Fields : true</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%anapp
+01. App name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%anbackgroundimage
+Background Image
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%anbigicon
+04. Icon When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%anbutton1action
+13. Button Action 1
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%anbutton1icon
+13. Button 1 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%anbutton1text
+12. Button 1 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%anbutton2action
+15. Button 2 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%anbutton2icon
+15. Button 2 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%anbutton2text
+14. Button 2 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%anbutton3action
+17. Button 3 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%anbutton3icon
+17. Button 3 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%anbutton3text
+16. Button 3 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%anbutton4action
+18. Button 4 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%anbutton4icon
+18. Button 4 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%anbutton4text
+18. Button 4 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%anbutton5action
+19. Button 5 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%anbutton5icon
+19. Button 5 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%anbutton5text
+19. Button 5 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%ancancelreason
+Reason Cancelled Code
+Code of the reason the notification was cancelled&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%ancancelreasontext
+Reason Cancelled Text
+Reason the notification was cancelled&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%ancategoryid
+Category ID
+Notification's category ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%ancategoryimportance
+Category Importance
+Notification's category Importance (0-5)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;%ancategoryname
+Category Name
+Notification's category Name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;%ancategorysound
+Category Sound
+Notification's category Sound URI&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;%ancolor
+Color
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;%anconversation
+Conversation
+JSON Structure with all conversation related fields, i.e. text, sender, image, etc&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;%andismissaction
+23. Action On Dismiss Id
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;%anextrainfo
+Extra Info
+Extra info that you can add to an AutoNotification notification when you create it. Empty for others.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;%anextras
+All Extras
+All extras from the notification that are not already in one of the other variables in JSON format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;%angroup
+Group
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;%anhasmediasession
+Has Media Session
+All extras from the notification that are not already in one of the other variables in JSON format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;%anicon
+04. Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;%anid
+Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;%animages()
+20. Images
+20. Images&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;%animagesbig()
+21. Images When Expanded
+21. Images When Expanded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;%aninfotext
+10. Info Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;%ankey
+Key
+A unique instance key for this notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;%anmediabutton_actions()
+Media Buttons Actions
+Use with AutoNotification Media action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;%anmediabutton_names()
+Media Buttons
+Names corresponding to Media Button Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;%annumber
+Number
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;%anpackage
+Package Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;%anpeople
+People
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;%anpersistent
+Is Persistent
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;%anpicture
+05. Picture
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;%anpriority
+Priority
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;%anprogress
+Progress
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;%anprogressindeterminate
+Progress Indeterminate
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;%anprogressmax
+Progress Max
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;%anreplyaction
+20. Action Reply
+Use with AutoNotification Reply&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;%anreplychoices()
+Reply Choices
+Choices for reply available as quick actions in the notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;%anshowchronometer
+Show Chronometer
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;%ansortkey
+Sort Key
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES52&gt;%anstatus
+Cancelled Or Created
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES52&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES53&gt;%anstatusbaricon
+07. Status Bar Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES53&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES54&gt;%anstatusbaricon
+Status Bar Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES54&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES55&gt;%ansubtext
+08. SubText
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES55&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES56&gt;%ansummary
+Is Summary
+Will be set to &amp;lt;b&amp;gt;1&amp;lt;/b&amp;gt; if it's a summary and &amp;lt;b&amp;gt;will not be set&amp;lt;/b&amp;gt; otherwise.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES56&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES57&gt;%ansummarytext
+09. Summary Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES57&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES58&gt;%antag
+Tag
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES58&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES59&gt;%antext
+03. Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES59&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES60&gt;%antextbig
+03. Text When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES60&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES61&gt;%antextlines()
+11. Text Lines
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES61&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES62&gt;%antexts()
+18. Texts
+18. Texts&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES62&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES63&gt;%antextsbig()
+19. Texts When Expanded
+19. Texts When Expanded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES63&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES64&gt;%anticker
+03. Ticker Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES64&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES65&gt;%antitle
+02. Title
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES65&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES66&gt;%antitlebig
+02. Title When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES66&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES67&gt;%antouchaction
+22. Action On Touch Id
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES67&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES68&gt;%anuserid
+User ID
+User ID for whom this notification is intended&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES68&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES69&gt;%anwhen
+Show When
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES69&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES70&gt;%anwhentime
+When
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES70&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
 					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
 					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>InterceptApps Title Text InterceptPersistent CategoryName plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
@@ -889,7 +1053,7 @@ Notific...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof135" ve="2">
 		<cdate>1782440284106</cdate>
 		<clp>true</clp>
-		<edate>1781750753237</edate>
+		<edate>1784705025189</edate>
 		<flags>8</flags>
 		<id>135</id>
 		<mid0>68</mid0>
@@ -1045,7 +1209,6 @@ Notes:
 		<edate>1783876321143</edate>
 		<flags>8</flags>
 		<id>139</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<mid1>21</mid1>
 		<nme>Wan Check Switch</nme>
@@ -1112,7 +1275,6 @@ Notes:
 		<edate>1784165513996</edate>
 		<flags>8</flags>
 		<id>140</id>
-		<limit>true</limit>
 		<mid0>84</mid0>
 		<mid1>39</mid1>
 		<nme>Ping Test</nme>
@@ -1464,7 +1626,6 @@ Notes:
 		<edate>1783876321460</edate>
 		<flags>8</flags>
 		<id>152</id>
-		<limit>true</limit>
 		<mid0>4</mid0>
 		<nme>Net Src Disconnected Switch</nme>
 		<State sr="con0" ve="2">
@@ -1565,7 +1726,7 @@ Notes:
 	<Profile sr="prof154" ve="2">
 		<cdate>1782440284182</cdate>
 		<clp>true</clp>
-		<edate>1783681813421</edate>
+		<edate>1786099733915</edate>
 		<flags>8</flags>
 		<id>154</id>
 		<mid0>66</mid0>
@@ -1676,7 +1837,7 @@ Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.t
 	<Profile sr="prof157" ve="2">
 		<cdate>1782440284192</cdate>
 		<clp>true</clp>
-		<edate>1783533954878</edate>
+		<edate>1784757527938</edate>
 		<flags>8</flags>
 		<id>157</id>
 		<mid0>86</mid0>
@@ -1940,7 +2101,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof169" ve="2">
 		<cdate>1782440284238</cdate>
 		<clp>true</clp>
-		<edate>1782759331742</edate>
+		<edate>1785081589777</edate>
 		<flags>8</flags>
 		<id>169</id>
 		<mid0>111</mid0>
@@ -2036,7 +2197,7 @@ SmartWakeupActivity</label5>
 	<Profile sr="prof174" ve="2">
 		<cdate>1782440284254</cdate>
 		<clp>true</clp>
-		<edate>1782115023761</edate>
+		<edate>1784973258522</edate>
 		<flags>8</flags>
 		<id>174</id>
 		<mid0>7</mid0>
@@ -2045,7 +2206,16 @@ SmartWakeupActivity</label5>
 			<code>2078</code>
 			<pri>0</pri>
 			<Bundle sr="arg0">
-				<Vals sr="val"/>
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
 			</Bundle>
 			<Str sr="arg1" ve="3">!com.android.launcher3</Str>
 		</Event>
@@ -2152,7 +2322,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof211" ve="2">
 		<cdate>1782440284200</cdate>
 		<clp>true</clp>
-		<edate>1784053081930</edate>
+		<edate>1785784577096</edate>
 		<flags>8</flags>
 		<id>211</id>
 		<mid0>205</mid0>
@@ -2257,7 +2427,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof231" ve="2">
 		<cdate>1782764717505</cdate>
 		<clp>true</clp>
-		<edate>1784022481654</edate>
+		<edate>1785784467916</edate>
 		<flags>8</flags>
 		<id>231</id>
 		<mid0>239</mid0>
@@ -2281,10 +2451,266 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<rad>30.0</rad>
 		</Loc>
 	</Profile>
+	<Profile sr="prof258" ve="2">
+		<cdate>1782440284101</cdate>
+		<clp>true</clp>
+		<edate>1784943919434</edate>
+		<flags>8</flags>
+		<id>258</id>
+		<limit>true</limit>
+		<mid0>259</mid0>
+		<mid1>264</mid1>
+		<nme>Bg Net (Un)Set</nme>
+		<State sr="con0" ve="2">
+			<code>40830242</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<AllFields>true</AllFields>
+					<AllFields-type>java.lang.Boolean</AllFields-type>
+					<App>&lt;null&gt;</App>
+					<App-type>java.lang.String</App-type>
+					<BigImageNames>&lt;null&gt;</BigImageNames>
+					<BigImageNames-type>java.lang.String</BigImageNames-type>
+					<BigTextNames>&lt;null&gt;</BigTextNames>
+					<BigTextNames-type>java.lang.String</BigTextNames-type>
+					<CaseinsensitiveApp>false</CaseinsensitiveApp>
+					<CaseinsensitiveApp-type>java.lang.Boolean</CaseinsensitiveApp-type>
+					<CaseinsensitiveCategoryName>true</CaseinsensitiveCategoryName>
+					<CaseinsensitiveCategoryName-type>java.lang.Boolean</CaseinsensitiveCategoryName-type>
+					<CaseinsensitivePackage>false</CaseinsensitivePackage>
+					<CaseinsensitivePackage-type>java.lang.Boolean</CaseinsensitivePackage-type>
+					<CaseinsensitiveText>true</CaseinsensitiveText>
+					<CaseinsensitiveText-type>java.lang.Boolean</CaseinsensitiveText-type>
+					<CaseinsensitiveTitle>true</CaseinsensitiveTitle>
+					<CaseinsensitiveTitle-type>java.lang.Boolean</CaseinsensitiveTitle-type>
+					<CategoryName>.*(([Dd]own|[Uu]p)loading|[Nn]avigat(e|ion)?|[Ww]aze|[Ii]n [Pp]rogress|([Ll]ook|[Ss]earch|[Uu]pdat|[Ss]ync|[Ff]etch|[Rr]efresh|[Pp](rogress|ost|atch))ing?).*</CategoryName>
+					<CategoryName-type>java.lang.String</CategoryName-type>
+					<ExactApp>false</ExactApp>
+					<ExactApp-type>java.lang.Boolean</ExactApp-type>
+					<ExactCategoryName>false</ExactCategoryName>
+					<ExactCategoryName-type>java.lang.Boolean</ExactCategoryName-type>
+					<ExactPackage>false</ExactPackage>
+					<ExactPackage-type>java.lang.Boolean</ExactPackage-type>
+					<ExactText>false</ExactText>
+					<ExactText-type>java.lang.Boolean</ExactText-type>
+					<ExactTitle>false</ExactTitle>
+					<ExactTitle-type>java.lang.Boolean</ExactTitle-type>
+					<HasMediaSession>false</HasMediaSession>
+					<HasMediaSession-type>java.lang.Boolean</HasMediaSession-type>
+					<HasReplyAction>false</HasReplyAction>
+					<HasReplyAction-type>java.lang.Boolean</HasReplyAction-type>
+					<Id>&lt;null&gt;</Id>
+					<Id-type>java.lang.String</Id-type>
+					<ImageNames>&lt;null&gt;</ImageNames>
+					<ImageNames-type>java.lang.String</ImageNames-type>
+					<InterceptApps>&lt;StringArray sr=""&gt;&lt;_array_InterceptApps10&gt;com.fooview.android.fooview.fvfile&lt;/_array_InterceptApps10&gt;&lt;_array_InterceptApps11&gt;org.mozilla.firefox&lt;/_array_InterceptApps11&gt;&lt;_array_InterceptApps12&gt;com.lonelycatgames.Xplore&lt;/_array_InterceptApps12&gt;&lt;_array_InterceptApps13&gt;org.fdroid.fdroid&lt;/_array_InterceptApps13&gt;&lt;_array_InterceptApps14&gt;com.google.android.gm&lt;/_array_InterceptApps14&gt;&lt;_array_InterceptApps15&gt;org.torproject.torbrowser&lt;/_array_InterceptApps15&gt;&lt;_array_InterceptApps16&gt;com.android.systemui&lt;/_array_InterceptApps16&gt;&lt;_array_InterceptApps17&gt;idm.internet.download.manager&lt;/_array_InterceptApps17&gt;&lt;_array_InterceptApps18&gt;com.overlook.android.fing&lt;/_array_InterceptApps18&gt;&lt;_array_InterceptApps19&gt;com.google.android.youtube&lt;/_array_InterceptApps19&gt;&lt;_array_InterceptApps20&gt;com.android.settings&lt;/_array_InterceptApps20&gt;&lt;_array_InterceptApps21&gt;com.vivo.systemuiplugin&lt;/_array_InterceptApps21&gt;&lt;_array_InterceptApps22&gt;com.brave.browser&lt;/_array_InterceptApps22&gt;&lt;_array_InterceptApps0&gt;com.whatsapp&lt;/_array_InterceptApps0&gt;&lt;_array_InterceptApps1&gt;com.google.android.apps.maps&lt;/_array_InterceptApps1&gt;&lt;_array_InterceptApps2&gt;moe.shizuku.privileged.api&lt;/_array_InterceptApps2&gt;&lt;_array_InterceptApps3&gt;com.educba.www&lt;/_array_InterceptApps3&gt;&lt;_array_InterceptApps4&gt;com.bbk.updater&lt;/_array_InterceptApps4&gt;&lt;_array_InterceptApps5&gt;com.udemy.android&lt;/_array_InterceptApps5&gt;&lt;_array_InterceptApps6&gt;com.ubercab&lt;/_array_InterceptApps6&gt;&lt;_array_InterceptApps7&gt;in.swiggy.android&lt;/_array_InterceptApps7&gt;&lt;_array_InterceptApps8&gt;com.waze&lt;/_array_InterceptApps8&gt;&lt;_array_InterceptApps9&gt;com.dv.adm&lt;/_array_InterceptApps9&gt;&lt;/StringArray&gt;</InterceptApps>
+					<InterceptApps-type>[Ljava.lang.String;</InterceptApps-type>
+					<InterceptEventBehaviour>false</InterceptEventBehaviour>
+					<InterceptEventBehaviour-type>java.lang.Boolean</InterceptEventBehaviour-type>
+					<InterceptPersistent>0</InterceptPersistent>
+					<InterceptPersistent-type>java.lang.String</InterceptPersistent-type>
+					<InvertApp>false</InvertApp>
+					<InvertApp-type>java.lang.Boolean</InvertApp-type>
+					<InvertCategoryName>false</InvertCategoryName>
+					<InvertCategoryName-type>java.lang.Boolean</InvertCategoryName-type>
+					<InvertPackage>false</InvertPackage>
+					<InvertPackage-type>java.lang.Boolean</InvertPackage-type>
+					<InvertText>true</InvertText>
+					<InvertText-type>java.lang.Boolean</InvertText-type>
+					<InvertTitle>true</InvertTitle>
+					<InvertTitle-type>java.lang.Boolean</InvertTitle-type>
+					<PackageName>&lt;null&gt;</PackageName>
+					<PackageName-type>java.lang.String</PackageName-type>
+					<RegexApp>false</RegexApp>
+					<RegexApp-type>java.lang.Boolean</RegexApp-type>
+					<RegexCategoryName>true</RegexCategoryName>
+					<RegexCategoryName-type>java.lang.Boolean</RegexCategoryName-type>
+					<RegexPackage>false</RegexPackage>
+					<RegexPackage-type>java.lang.Boolean</RegexPackage-type>
+					<RegexText>true</RegexText>
+					<RegexText-type>java.lang.Boolean</RegexText-type>
+					<RegexTitle>true</RegexTitle>
+					<RegexTitle-type>java.lang.Boolean</RegexTitle-type>
+					<Text>.*([Ff]inish|[Cc]omplete|[Dd]one).*</Text>
+					<Text-type>java.lang.String</Text-type>
+					<TextNames>&lt;null&gt;</TextNames>
+					<TextNames-type>java.lang.String</TextNames-type>
+					<Title>.*([Ff]inish|[Cc]omplete|[Dd]one).*</Title>
+					<Title-type>java.lang.String</Title-type>
+					<Type>&lt;null&gt;</Type>
+					<Type-type>java.lang.String</Type-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Persistency Type: Both
+Notification Apps: WhatsApp,Maps,Shizuku,EDUCBA,System update,Udemy,Uber,Swiggy,Waze,ADM,FV File Explorer,Firefox,X-plore,F-Droid,Gmail,Tor Browser,System UI,1DM,Fing,YouTube,Settings,System UI kits,Brave
+Notification Title: .*([Ff]inish|[Cc]omplete|[Dd]one).* (regex) (case ins) (invert) (invert)
+Notification Text: .*([Ff]inish|[Cc]omplete|[Dd]one).* (regex) (case ins) (invert) (invert)
+Notification Category Name: .*(([Dd]own|[Uu]p)loading|[Nn]avigat(e|ion)?|[Ww]aze|[Ii]n [Pp]rogress|([Ll]ook|[Ss]earch|[Uu]pdat|[Ss]ync|[Ff]etch|[Rr]efresh|[Pp](rogress|ost|atch))ing?).* (regex) (case ins)
+Get All Fields : true</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%anapp
+01. App name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%anbackgroundimage
+Background Image
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%anbigicon
+04. Icon When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%anbutton1action
+13. Button Action 1
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%anbutton1icon
+13. Button 1 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%anbutton1text
+12. Button 1 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%anbutton2action
+15. Button 2 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%anbutton2icon
+15. Button 2 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%anbutton2text
+14. Button 2 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%anbutton3action
+17. Button 3 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%anbutton3icon
+17. Button 3 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%anbutton3text
+16. Button 3 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%anbutton4action
+18. Button 4 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%anbutton4icon
+18. Button 4 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%anbutton4text
+18. Button 4 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%anbutton5action
+19. Button 5 Action
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%anbutton5icon
+19. Button 5 Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%anbutton5text
+19. Button 5 Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%ancancelreason
+Reason Cancelled Code
+Code of the reason the notification was cancelled&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%ancancelreasontext
+Reason Cancelled Text
+Reason the notification was cancelled&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%ancategoryid
+Category ID
+Notification's category ID&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%ancategoryimportance
+Category Importance
+Notification's category Importance (0-5)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;%ancategoryname
+Category Name
+Notification's category Name&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;%ancategorysound
+Category Sound
+Notification's category Sound URI&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;%ancolor
+Color
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;%anconversation
+Conversation
+JSON Structure with all conversation related fields, i.e. text, sender, image, etc&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;%andismissaction
+23. Action On Dismiss Id
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;%anextrainfo
+Extra Info
+Extra info that you can add to an AutoNotification notification when you create it. Empty for others.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;%anextras
+All Extras
+All extras from the notification that are not already in one of the other variables in JSON format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;%angroup
+Group
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;%anhasmediasession
+Has Media Session
+All extras from the notification that are not already in one of the other variables in JSON format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;%anicon
+04. Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;%anid
+Id
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;%animages()
+20. Images
+20. Images&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;%animagesbig()
+21. Images When Expanded
+21. Images When Expanded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;%aninfotext
+10. Info Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;%ankey
+Key
+A unique instance key for this notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;%anmediabutton_actions()
+Media Buttons Actions
+Use with AutoNotification Media action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;%anmediabutton_names()
+Media Buttons
+Names corresponding to Media Button Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;%annumber
+Number
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;%anpackage
+Package Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;%anpeople
+People
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;%anpersistent
+Is Persistent
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;%anpicture
+05. Picture
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;%anpriority
+Priority
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;%anprogress
+Progress
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;%anprogressindeterminate
+Progress Indeterminate
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;%anprogressmax
+Progress Max
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;%anreplyaction
+20. Action Reply
+Use with AutoNotification Reply&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;%anreplychoices()
+Reply Choices
+Choices for reply available as quick actions in the notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;%anshowchronometer
+Show Chronometer
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;%ansortkey
+Sort Key
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES52&gt;%anstatus
+Cancelled Or Created
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES52&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES53&gt;%anstatusbaricon
+07. Status Bar Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES53&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES54&gt;%anstatusbaricon
+Status Bar Icon
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES54&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES55&gt;%ansubtext
+08. SubText
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES55&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES56&gt;%ansummary
+Is Summary
+Will be set to &amp;lt;b&amp;gt;1&amp;lt;/b&amp;gt; if it's a summary and &amp;lt;b&amp;gt;will not be set&amp;lt;/b&amp;gt; otherwise.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES56&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES57&gt;%ansummarytext
+09. Summary Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES57&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES58&gt;%antag
+Tag
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES58&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES59&gt;%antext
+03. Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES59&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES60&gt;%antextbig
+03. Text When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES60&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES61&gt;%antextlines()
+11. Text Lines
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES61&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES62&gt;%antexts()
+18. Texts
+18. Texts&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES62&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES63&gt;%antextsbig()
+19. Texts When Expanded
+19. Texts When Expanded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES63&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES64&gt;%anticker
+03. Ticker Text
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES64&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES65&gt;%antitle
+02. Title
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES65&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES66&gt;%antitlebig
+02. Title When Expanded
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES66&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES67&gt;%antouchaction
+22. Action On Touch Id
+Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES67&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES68&gt;%anuserid
+User ID
+User ID for whom this notification is intended&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES68&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES69&gt;%anwhen
+Show When
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES69&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES70&gt;%anwhentime
+When
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES70&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>0</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>InterceptApps Title Text InterceptPersistent CategoryName plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>3bd4460b-43e8-43e4-9c80-53da2413a141</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentInterceptNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigNotificationInterceptTasker</Str>
+			<Int sr="arg3" val="1"/>
+		</State>
+	</Profile>
 	<Profile sr="prof260" ve="2">
 		<cdate>1783452639123</cdate>
 		<clp>true</clp>
-		<edate>1784670910178</edate>
+		<edate>1785077696046</edate>
 		<flags>8</flags>
 		<id>260</id>
 		<mid0>261</mid0>
@@ -2340,7 +2766,7 @@ Element T...</com.twofortyfouram.locale.intent.extra.BLURB>
 	<Profile sr="prof263" ve="2">
 		<cdate>1782440284251</cdate>
 		<clp>true</clp>
-		<edate>1784670380077</edate>
+		<edate>1784973721743</edate>
 		<flags>8</flags>
 		<id>263</id>
 		<mid0>270</mid0>
@@ -2440,8 +2866,8 @@ Text
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>126,168,263,165,134,176,116,128,151,170,171,143,112,113,129,229,132,127,125,136,174,160,145,135,162,140,158,218,211,122,115,142,260,150,153,133,148,172,175,216,144,154,146,124,152,147,149,141,155,203,169,139,234,137,131,118,212,123,163,114,271,167,117,138,231,157,130,166,120,156,159,121,164,161,119</pids>
-		<tids>31,94,63,80,98,37,32,34,39,16,11,58,23,17,41,106,91,57,77,105,52,69,73,20,75,108,47,84,230,78,61,88,2,35,90,3,96,68,53,36,13,103,28,65,43,56,66,206,107,256,86,83,262,79,59,102,82,55,19,261,235,50,30,213,89,10,22,93,269,76,54,8,46,70,14,51,104,100,270,92,26,29,7,81,109,87,12,255,4,33,18,72,71,40,15,85,48,21,24,111,110,45,97,74,42,64,242,101,38,99,25,95,49,44,205,239,60,9,275,27,274,241,67,62</tids>
+		<pids>163,162,127,113,124,150,263,122,128,175,258,134,229,140,271,137,126,116,143,112,129,135,161,120,115,133,172,125,169,155,146,117,157,148,156,136,145,149,165,212,174,164,159,260,131,168,132,218,130,211,203,158,139,216,170,138,141,166,152,171,160,144,147,151,119,118,154,114,121,234,142,123,167,231,153,176</pids>
+		<tids>2,96,213,84,98,23,4,47,106,12,73,76,75,31,81,32,91,17,30,83,45,71,256,235,57,74,261,61,94,241,40,51,50,64,110,27,35,37,14,108,111,67,29,46,8,16,66,269,43,42,259,270,65,107,95,102,82,24,13,33,92,86,72,100,62,60,38,78,90,56,28,89,10,77,39,68,230,11,264,80,63,97,53,206,69,7,101,26,242,52,205,48,103,36,3,255,44,79,274,18,262,58,275,34,70,49,109,55,41,21,87,19,59,20,25,15,85,93,9,54,22,105,104,88,99,239</tids>
 	</Project>
 	<Task sr="task10">
 		<cdate>1780800944669</cdate>
@@ -3262,7 +3688,7 @@ Text
 	</Task>
 	<Task sr="task111">
 		<cdate>1780786059094</cdate>
-		<edate>1782759330375</edate>
+		<edate>1785081589777</edate>
 		<id>111</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -4347,7 +4773,7 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 	</Task>
 	<Task sr="task205">
 		<cdate>1783313155403</cdate>
-		<edate>1784053081930</edate>
+		<edate>1785784577096</edate>
 		<id>205</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -4388,8 +4814,8 @@ return wm.isWifiApEnabled() == true ? "enabled" : "disabled"</Str>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%BATT</lhs>
-					<op>8</op>
-					<rhs>100</rhs>
+					<op>7</op>
+					<rhs>99</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -5090,7 +5516,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task239">
 		<cdate>1782764756998</cdate>
-		<edate>1784022481654</edate>
+		<edate>1785784467916</edate>
 		<id>239</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5175,7 +5601,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task25">
 		<cdate>1780344005462</cdate>
-		<edate>1783535343457</edate>
+		<edate>1785718111482</edate>
 		<id>25</id>
 		<nme>Bluetooth Unset</nme>
 		<Action sr="act0" ve="7">
@@ -5302,6 +5728,164 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
+	<Task sr="task259">
+		<cdate>1759613166125</cdate>
+		<edate>1782115176665</edate>
+		<id>259</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">bg net enter</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%bg_net_ongoing_regex</Str>
+			<Str sr="arg1" ve="3">.*([Dd]ownload|[Nn]avigat|[Ww]aze [Ii]s [Rr]unning).*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%bg_net_done_regex</Str>
+			<Str sr="arg1" ve="3">.*(Finish|Complete|done).*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<on>false</on>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<bool1>Or</bool1>
+				<Condition sr="c0" ve="3">
+					<lhs>%ancategoryname</lhs>
+					<op>5</op>
+					<rhs>%bg_net_ongoing_regex</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%antitle</lhs>
+					<op>4</op>
+					<rhs>%bg_net_done_regex</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%antext</lhs>
+					<op>2</op>
+					<rhs>%bg_net_done_regex</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>2046367074</code>
+			<on>false</on>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<CancelAll>false</CancelAll>
+					<CancelAll-type>java.lang.Boolean</CancelAll-type>
+					<CancelPersistent>false</CancelPersistent>
+					<CancelPersistent-type>java.lang.Boolean</CancelPersistent-type>
+					<CaseinsensitiveApp>false</CaseinsensitiveApp>
+					<CaseinsensitiveApp-type>java.lang.Boolean</CaseinsensitiveApp-type>
+					<CaseinsensitivePackage>false</CaseinsensitivePackage>
+					<CaseinsensitivePackage-type>java.lang.Boolean</CaseinsensitivePackage-type>
+					<CaseinsensitiveText>false</CaseinsensitiveText>
+					<CaseinsensitiveText-type>java.lang.Boolean</CaseinsensitiveText-type>
+					<CaseinsensitiveTitle>false</CaseinsensitiveTitle>
+					<CaseinsensitiveTitle-type>java.lang.Boolean</CaseinsensitiveTitle-type>
+					<ExactApp>false</ExactApp>
+					<ExactApp-type>java.lang.Boolean</ExactApp-type>
+					<ExactPackage>false</ExactPackage>
+					<ExactPackage-type>java.lang.Boolean</ExactPackage-type>
+					<ExactText>false</ExactText>
+					<ExactText-type>java.lang.Boolean</ExactText-type>
+					<ExactTitle>false</ExactTitle>
+					<ExactTitle-type>java.lang.Boolean</ExactTitle-type>
+					<InterceptApps>&lt;StringArray sr=""/&gt;</InterceptApps>
+					<InterceptApps-type>[Ljava.lang.String;</InterceptApps-type>
+					<InvertApp>false</InvertApp>
+					<InvertApp-type>java.lang.Boolean</InvertApp-type>
+					<InvertPackage>false</InvertPackage>
+					<InvertPackage-type>java.lang.Boolean</InvertPackage-type>
+					<InvertText>false</InvertText>
+					<InvertText-type>java.lang.Boolean</InvertText-type>
+					<InvertTitle>false</InvertTitle>
+					<InvertTitle-type>java.lang.Boolean</InvertTitle-type>
+					<RegexApp>false</RegexApp>
+					<RegexApp-type>java.lang.Boolean</RegexApp-type>
+					<RegexPackage>false</RegexPackage>
+					<RegexPackage-type>java.lang.Boolean</RegexPackage-type>
+					<RegexText>false</RegexText>
+					<RegexText-type>java.lang.Boolean</RegexText-type>
+					<RegexTitle>false</RegexTitle>
+					<RegexTitle-type>java.lang.Boolean</RegexTitle-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Id: %anid</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>notificaitionid plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<notificaitionid>%anid</notificaitionid>
+					<notificaitionid-type>java.lang.String</notificaitionid-type>
+					<plugininstanceid>d554f37e-c7ce-4773-bd19-7f061305ccc5</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autonotification.intent.IntentCancelNotification</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigCancelNotification</Str>
+			<Int sr="arg3" val="20"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>159</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Bg Net (Un)Set</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>38</code>
+			<on>false</on>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG_NET</Str>
+			<Str sr="arg1" ve="3">yes</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Net Set</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
 	<Task sr="task26">
 		<cdate>1761968949593</cdate>
 		<edate>1784241938499</edate>
@@ -5401,6 +5985,68 @@ Percentage representing the measured battery state of health (remaining estimate
 			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
+	<Task sr="task264">
+		<cdate>1759723867582</cdate>
+		<edate>1781625413341</edate>
+		<id>264</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">bg net exit</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">bg net exit</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BG_NET</Str>
+			<Str sr="arg1" ve="3">no</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Net Unset</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>159</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Bg Net (Un)Set</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
 	<Task sr="task269">
 		<cdate>1783861644378</cdate>
 		<edate>1784052865840</edate>
@@ -5458,7 +6104,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task270">
 		<cdate>1783876110817</cdate>
-		<edate>1784670380077</edate>
+		<edate>1784973721743</edate>
 		<id>270</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -5657,7 +6303,7 @@ Percentage representing the measured battery state of health (remaining estimate
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<label>Toggle Battery Audio profiles</label>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -5746,7 +6392,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task28">
 		<cdate>1747516216841</cdate>
-		<edate>1784631041892</edate>
+		<edate>1784973833151</edate>
 		<id>28</id>
 		<nme>Alarmy Call</nme>
 		<pri>6</pri>
@@ -6877,7 +7523,7 @@ A JSON structure with every available info about the networks that are not activ
 	</Task>
 	<Task sr="task32">
 		<cdate>1780414763292</cdate>
-		<edate>1784241989587</edate>
+		<edate>1784973268637</edate>
 		<id>32</id>
 		<nme>Toggle Profiles</nme>
 		<Action sr="act0" ve="7">
@@ -7890,7 +8536,7 @@ done</Str>
 	</Task>
 	<Task sr="task47">
 		<cdate>1657974116786</cdate>
-		<edate>1784242454309</edate>
+		<edate>1786208084601</edate>
 		<id>47</id>
 		<nme>Toggle Data</nme>
 		<pri>100</pri>
@@ -7970,122 +8616,54 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act12" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<label>if bluetooth ui mode is running, wait for it to finish</label>
-			<on>false</on>
+			<code>220</code>
 			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
-					<lhs>%TRUN</lhs>
-					<op>2</op>
-					<rhs>*Toggle Bluetooth*</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%EASER_FOR_BT</lhs>
-					<op>3</op>
-					<rhs>working</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%TASKER_HELPER_FOR_BT_TOGGLE</lhs>
-					<op>3</op>
-					<rhs>works</rhs>
+					<lhs>%SDK</lhs>
+					<op>6</op>
+					<rhs>36</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act13" ve="7">
-			<code>35</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
+			<code>877</code>
+			<Str sr="arg0" ve="3">android.intent.action.MAIN</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.android.phone</Str>
+			<Str sr="arg8" ve="3">com.android.phone.MobileNetworkSettings</Str>
+			<Int sr="arg9" val="1"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%TRUN</lhs>
-					<op>3</op>
-					<rhs>*Toggle Bluetooth*</rhs>
+					<lhs>%SDK</lhs>
+					<op>7</op>
+					<rhs>35</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act14" ve="7">
-			<code>38</code>
-			<on>false</on>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>220</code>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>107361459</code>
-			<label>back out of app from via autoinput just so the workflow doesn't get stuck in the settings activity for cases where autoinput timesout</label>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
-					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
-					<Password>&lt;null&gt;</Password>
-					<Password-type>java.lang.String</Password-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Actions To Perform: click(id,com.android.settings:id/switch_btn)
-
-backOutOfApp()
-Not In AutoInput: true
-Not In Tasker: true
-Separator: ,
-Pre-Action Delay: 1000
-Check Millis: 1500</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
-					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ailastbounds
-Last Bounds
-Bounds (left,top,right,bottom) of the item that the action last interacted with&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ailastcoordinates
-Last Coordinates
-Center coordinates (x,y) of the item that the action last interacted with&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
-Error Code
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
-Error Message
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<parameters>{"_action":"click(id,com.android.settings:id/switch_btn)\n\nbackOutOfApp()","_additionalOptions":{"checkMs":"1500","preActionDelay":"1000","separator":",","withCoordinates":false},"_whenToPerformAction":{"notInAutoInput":true,"notInTasker":true},"generatedValues":{}}</parameters>
-					<parameters-type>java.lang.String</parameters-type>
-					<plugininstanceid>17138f62-8868-4043-98d1-a75addcfb919</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autoinput.intent.IntentActionv2</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigActionv2</Str>
-			<Int sr="arg3">
-				<var>20</var>
-			</Int>
-			<Int sr="arg4" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%APP_NET</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act17" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<label>back to last app (kind of a workaround for apps go PiP/small window mode)</label>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%APP_NET</lhs>
 					<op>2</op>
 					<rhs>yes</rhs>
 				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%app_name</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act15" ve="7">
 			<code>107361459</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -8093,12 +8671,12 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
 					<Password>&lt;null&gt;</Password>
 					<Password-type>java.lang.String</Password-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Actions To Perform: click(id,com.android.settings:id/switch_btn)
+					<com.twofortyfouram.locale.intent.extra.BLURB>Actions To Perform: click(id,com.android.phone:id/switch_btn=:=Data network)
 Not In AutoInput: true
 Not In Tasker: true
 Separator: ,
-Pre-Action Delay: 1000
-Check Millis: 1500</com.twofortyfouram.locale.intent.extra.BLURB>
+Pre-Action Delay: 500
+Check Millis: 1000</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
 					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
@@ -8116,7 +8694,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
 					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<parameters>{"_action":"click(id,com.android.settings:id/switch_btn)","_additionalOptions":{"checkMs":"1500","preActionDelay":"1000","separator":",","withCoordinates":false},"_whenToPerformAction":{"notInAutoInput":true,"notInTasker":true},"generatedValues":{}}</parameters>
+					<parameters>{"_action":"click(id,com.android.phone:id/switch_btn=:=Data network)","_additionalOptions":{"checkMs":"1000","preActionDelay":"500","separator":",","withCoordinates":false},"_whenToPerformAction":{"notInAutoInput":true,"notInTasker":true},"generatedValues":{}}</parameters>
 					<parameters-type>java.lang.String</parameters-type>
 					<plugininstanceid>17138f62-8868-4043-98d1-a75addcfb919</plugininstanceid>
 					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
@@ -8127,11 +8705,22 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
 			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigActionv2</Str>
 			<Int sr="arg3">
-				<var>20</var>
+				<var>5</var>
 			</Int>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act16" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_name</lhs>
+					<op>3</op>
+					<rhs>%LAPP</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
 			<code>20</code>
 			<App sr="arg0">
 				<appClass></appClass>
@@ -8141,13 +8730,19 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%app_name</lhs>
-					<op>3</op>
+					<op>2</op>
 					<rhs>%LAPP</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>22</code>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>548</code>
@@ -8176,22 +8771,73 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			</ConditionList>
 		</Action>
 		<Action sr="act20" ve="7">
-			<code>22</code>
+			<code>38</code>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>43</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%app_name</lhs>
+					<lhs>%APP_NET</lhs>
 					<op>2</op>
-					<rhs>%LAPP</rhs>
+					<rhs>no</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act21" ve="7">
-			<code>38</code>
-		</Action>
 		<Action sr="act22" ve="7">
-			<code>38</code>
+			<code>107361459</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
+					<Password>&lt;null&gt;</Password>
+					<Password-type>java.lang.String</Password-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Actions To Perform: click(id,com.android.phone:id/switch_btn=:=Data network)
+
+backOutOfApp()
+Not In AutoInput: true
+Not In Tasker: true
+Separator: ,
+Pre-Action Delay: 500
+Check Millis: 1000</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%ailastbounds
+Last Bounds
+Bounds (left,top,right,bottom) of the item that the action last interacted with&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%ailastcoordinates
+Last Coordinates
+Center coordinates (x,y) of the item that the action last interacted with&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"_action":"click(id,com.android.phone:id/switch_btn=:=Data network)\n\nbackOutOfApp()","_additionalOptions":{"checkMs":"1000","preActionDelay":"500","separator":",","withCoordinates":false},"_whenToPerformAction":{"notInAutoInput":true,"notInTasker":true},"generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>17138f62-8868-4043-98d1-a75addcfb919</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autoinput.intent.IntentActionv2</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigActionv2</Str>
+			<Int sr="arg3">
+				<var>5</var>
+			</Int>
+			<Int sr="arg4" val="1"/>
 		</Action>
 		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act25" ve="7">
 			<code>433</code>
 			<label>toggle data from tasker's action if root, shizuku or tasker settings work</label>
 			<Int sr="arg0" val="2"/>
@@ -8678,7 +9324,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task56">
 		<cdate>1773002626961</cdate>
-		<edate>1783389740057</edate>
+		<edate>1784973837028</edate>
 		<id>56</id>
 		<nme>Gaming Clock</nme>
 		<pri>100</pri>
@@ -10091,7 +10737,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task66">
 		<cdate>1779917156944</cdate>
-		<edate>1783455999390</edate>
+		<edate>1786099733913</edate>
 		<id>66</id>
 		<nme>Custom Intent</nme>
 		<pri>6</pri>
@@ -10120,6 +10766,23 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>547</code>
+			<Str sr="arg0" ve="3">%LOW_POWER_MODE</Str>
+			<Str sr="arg1" ve="3">%low_power_mode</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%low_power_mode</lhs>
+					<op>12</op>
+					<rhs>ready</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
 			<Str sr="arg0" ve="3">%MDATA</Str>
 			<Str sr="arg1" ve="3">%data_state_at_boot</Str>
 			<Int sr="arg2" val="0"/>
@@ -10135,7 +10798,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%WL_HOTSPOT</Str>
 			<Str sr="arg1" ve="3">%wl_hotspot</Str>
@@ -10152,7 +10815,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%WIFI_CONNECTED</Str>
 			<Str sr="arg1" ve="3">%wifi_connected</Str>
@@ -10169,7 +10832,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Toggle Bluetooth</Str>
 			<Int sr="arg1">
@@ -10198,7 +10861,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
@@ -10257,9 +10920,25 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			</ConditionList>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>43</code>
+			<code>130</code>
+			<Str sr="arg0" ve="3">%task_name</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act8" ve="7">
 			<code>474</code>
 			<label>set incoming intent with payload of multiple keys as local variables</label>
 			<Str sr="arg0" ve="3">if (intent != void &amp;&amp; intent != null) {
@@ -10279,7 +10958,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<Str sr="arg1" ve="3"/>
 			<Int sr="arg2" val="1"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act9" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%WAKE_UP_NUM</Str>
 			<Str sr="arg1" ve="3">%ph_num</Str>
@@ -10299,23 +10978,6 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 					<lhs>%ph_num</lhs>
 					<op>3</op>
 					<rhs>%WAKE_UP_NUM</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%LOW_POWER_MODE</Str>
-			<Str sr="arg1" ve="3">%low_power_mode</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%low_power_mode</lhs>
-					<op>12</op>
-					<rhs>ready</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -10391,7 +11053,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task68">
 		<cdate>1779918003042</cdate>
-		<edate>1782817051098</edate>
+		<edate>1784704899472</edate>
 		<id>68</id>
 		<nme>Fg Map Actions</nme>
 		<Action sr="act0" ve="7">
@@ -10485,18 +11147,45 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 				<Vals sr="val">
 					<AppPackage>com.google.android.apps.maps</AppPackage>
 					<AppPackage-type>java.lang.String</AppPackage-type>
+					<EnableDisableAccessibilityService>&lt;null&gt;</EnableDisableAccessibilityService>
+					<EnableDisableAccessibilityService-type>java.lang.String</EnableDisableAccessibilityService-type>
 					<IsFirstAction>false</IsFirstAction>
 					<IsFirstAction-type>java.lang.Boolean</IsFirstAction-type>
 					<OnlyClickable>false</OnlyClickable>
 					<OnlyClickable-type>java.lang.Boolean</OnlyClickable-type>
 					<OnlyVisible>false</OnlyVisible>
 					<OnlyVisible-type>java.lang.Boolean</OnlyVisible-type>
+					<Password>&lt;null&gt;</Password>
+					<Password-type>java.lang.String</Password-type>
 					<Regex>false</Regex>
 					<Regex-type>java.lang.Boolean</Regex-type>
-					<UIUpdateFields>index:112=:=search_box,com.google.android.apps.maps:id/search_omnibox_text_box=:=search_box</UIUpdateFields>
+					<UIUpdateFields>index:112=:=search_box,com.google.android.apps.maps:id/search_omnibox_text_box=:=search_box,index:53=:=directions_btn</UIUpdateFields>
 					<UIUpdateFields-type>java.lang.String</UIUpdateFields-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>App Package: com.google.androi...</com.twofortyfouram.locale.intent.extra.BLURB>
+					<UIUpdateText>&lt;null&gt;</UIUpdateText>
+					<UIUpdateText-type>java.lang.String</UIUpdateText-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>App Package: com.google.android.apps.maps
+Variables: search_box, search_box, directions_btn</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%aiapp
+App Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%aicoordinates()
+Element Coordinates
+List of coordinates in the x,y format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%aiid()
+Element Ids
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%aipackage
+App Package Name
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%aitext()
+Element Texts
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%directions_btn
+directions_btn
+directions_btn&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%search_box
+search_box
+search_box&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>AppPackage UIUpdateFields plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
@@ -10537,9 +11226,15 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 			<Int sr="arg3" val="60"/>
 			<Int sr="arg4" val="1"/>
 			<ConditionList sr="if">
+				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%search_box</lhs>
 					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%directions_btn</lhs>
+					<op>13</op>
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
@@ -10965,7 +11660,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task7">
 		<cdate>1780518363397</cdate>
-		<edate>1782115023761</edate>
+		<edate>1784973258522</edate>
 		<id>7</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -11002,9 +11697,14 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 			<code>377</code>
 			<on>false</on>
 			<Bundle sr="arg0">
-				<Vals sr="val"/>
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%td_button
+Button
+The label of the button that was clicked&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
 			</Bundle>
-			<Str sr="arg1" ve="3">%app_package</Str>
+			<Str sr="arg1" ve="3">%app_package - %LAPP</Str>
 			<Str sr="arg2" ve="3">shell error - %errs
 
 shell output - %output</Str>
@@ -11084,7 +11784,7 @@ shell output - %output</Str>
 	</Task>
 	<Task sr="task71">
 		<cdate>1762037634313</cdate>
-		<edate>1783395527917</edate>
+		<edate>1785718139586</edate>
 		<id>71</id>
 		<nme>All Vol Set</nme>
 		<pri>100</pri>
@@ -11702,7 +12402,7 @@ Selected Index
 	</Task>
 	<Task sr="task80">
 		<cdate>1737079191529</cdate>
-		<edate>1783978953611</edate>
+		<edate>1785634109809</edate>
 		<id>80</id>
 		<nme>Sanitized URL Share</nme>
 		<pri>6</pri>
@@ -11979,7 +12679,7 @@ The text that was retrieved from the dialog&lt;/_array_net.dinglisch.android.tas
 	</Task>
 	<Task sr="task82">
 		<cdate>1774794130821</cdate>
-		<edate>1784671316376</edate>
+		<edate>1785067604567</edate>
 		<id>82</id>
 		<nme>Lazy Workflow Initializer</nme>
 		<pri>100</pri>
@@ -12757,7 +13457,7 @@ return new String [] {"false", ""};</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
+			<Int sr="arg7" val="0"/>
 			<Int sr="arg8" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -13548,7 +14248,7 @@ The text that was retrieved from the dialog&lt;/_array_net.dinglisch.android.tas
 	</Task>
 	<Task sr="task84">
 		<cdate>1771129901910</cdate>
-		<edate>1783862641295</edate>
+		<edate>1785193476513</edate>
 		<id>84</id>
 		<nme>Ping Test</nme>
 		<pri>100</pri>
@@ -13887,7 +14587,7 @@ The text that was retrieved from the dialog&lt;/_array_net.dinglisch.android.tas
 	</Task>
 	<Task sr="task86">
 		<cdate>1759623613029</cdate>
-		<edate>1783533954878</edate>
+		<edate>1784757527938</edate>
 		<id>86</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -13993,25 +14693,6 @@ The text that was retrieved from the dialog&lt;/_array_net.dinglisch.android.tas
 					<rhs>off</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%BLUE - %BT_CONNECTED</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task87">
@@ -14873,7 +15554,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task96">
 		<cdate>1737079191529</cdate>
-		<edate>1783786834565</edate>
+		<edate>1784950018163</edate>
 		<id>96</id>
 		<nme>Enable Low Power Mode</nme>
 		<pri>6</pri>
