@@ -278,7 +278,7 @@
 	<Profile sr="prof117" ve="2">
 		<cdate>1782440284042</cdate>
 		<clp>true</clp>
-		<edate>1783888249193</edate>
+		<edate>1786547489823</edate>
 		<flags>8</flags>
 		<id>117</id>
 		<mid0>67</mid0>
@@ -745,7 +745,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	<Profile sr="prof133" ve="2">
 		<cdate>1782440284097</cdate>
 		<clp>true</clp>
-		<edate>1783892208570</edate>
+		<edate>1786547519870</edate>
 		<flags>8</flags>
 		<id>133</id>
 		<mid0>99</mid0>
@@ -1320,7 +1320,7 @@ Notes:
 	<Profile sr="prof141" ve="2">
 		<cdate>1782440284130</cdate>
 		<clp>true</clp>
-		<edate>1783612270733</edate>
+		<edate>1786547393164</edate>
 		<flags>8</flags>
 		<id>141</id>
 		<mid0>96</mid0>
@@ -1329,8 +1329,14 @@ Notes:
 		<State sr="con0" ve="2">
 			<code>165</code>
 			<ConditionList sr="if">
+				<bool0>Or</bool0>
 				<Condition sr="c0" ve="3">
 					<lhs>%WORK_PROFILE</lhs>
+					<op>3</op>
+					<rhs>enabled</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%LOW_POWER_MODE</lhs>
 					<op>3</op>
 					<rhs>enabled</rhs>
 				</Condition>
@@ -1371,7 +1377,7 @@ Notes:
 	<Profile sr="prof143" ve="2">
 		<cdate>1782440284139</cdate>
 		<clp>true</clp>
-		<edate>1782120469009</edate>
+		<edate>1786547473426</edate>
 		<flags>8</flags>
 		<id>143</id>
 		<mid0>78</mid0>
@@ -1885,8 +1891,7 @@ Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.t
 	</Profile>
 	<Profile sr="prof160" ve="2">
 		<cdate>1782440284205</cdate>
-		<clp>true</clp>
-		<edate>1783892326251</edate>
+		<edate>1786547980319</edate>
 		<flags>8</flags>
 		<id>160</id>
 		<mid0>105</mid0>
@@ -1894,47 +1899,44 @@ Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.t
 		<App sr="con0" ve="2">
 			<cls0>com.android.settings.wifi.WifiStatusTest</cls0>
 			<cls1>com.android.settings.Settings$ConfigureWifiSettingsActivity</cls1>
-			<cls10>com.android.settings.Settings$WifiAPITestActivity</cls10>
-			<cls11>com.android.settings.Settings$WifiP2pSettingsActivity</cls11>
-			<cls12>com.android.settings.notification.history.NotificationHistoryActivity</cls12>
-			<cls13>com.android.settings.Settings$KeyboardSettingsActivity</cls13>
-			<cls14>com.android.settings.Settings$ApnSettingsActivity</cls14>
-			<cls15>com.android.mail.ui.settings.PublicPreferenceActivity</cls15>
-			<cls16>com.fooview.android.fooview.MainActivity</cls16>
+			<cls10>com.android.settings.Settings$WifiP2pSettingsActivity</cls10>
+			<cls11>com.android.settings.notification.history.NotificationHistoryActivity</cls11>
+			<cls12>com.android.settings.Settings$KeyboardSettingsActivity</cls12>
+			<cls13>com.android.settings.Settings$ApnSettingsActivity</cls13>
+			<cls14>com.android.mail.ui.settings.PublicPreferenceActivity</cls14>
+			<cls15>com.fooview.android.fooview.MainActivity</cls15>
 			<cls2>com.android.settings.Settings$WifiInfoActivity</cls2>
 			<cls3>com.android.settings.wifi.WifiConfigInfo</cls3>
 			<cls4>com.android.settings.Settings</cls4>
-			<cls5>com.android.settings.Settings$SmartWakeupActivity</cls5>
-			<cls6>com.android.settings.Settings$NetworkDashboardActivity</cls6>
-			<cls7>com.android.settings.Settings$TetherSettingsActivity</cls7>
-			<cls8>com.android.settings.Settings$BluetoothSettingsActivity</cls8>
-			<cls9>com.android.settings.Settings$PictureInPictureSettingsActivity</cls9>
+			<cls5>com.android.settings.Settings$NetworkDashboardActivity</cls5>
+			<cls6>com.android.settings.Settings$TetherSettingsActivity</cls6>
+			<cls7>com.android.settings.Settings$BluetoothSettingsActivity</cls7>
+			<cls8>com.android.settings.Settings$PictureInPictureSettingsActivity</cls8>
+			<cls9>com.android.settings.Settings$WifiAPITestActivity</cls9>
 			<flags>3</flags>
 			<label0>Settings
 wifi.WifiStatusTest</label0>
 			<label1>Wi‑Fi preferences</label1>
 			<label10>Settings
-WifiAPITestActivity</label10>
-			<label11>Settings
-WifiP2pSettingsActivity</label11>
-			<label12>Notification history</label12>
-			<label13>Keyboard</label13>
-			<label14>APNs</label14>
-			<label15>Settings
-com.android.mail.ui.settings.PublicPreferenceActivity</label15>
-			<label16>fooView</label16>
+WifiP2pSettingsActivity</label10>
+			<label11>Notification history</label11>
+			<label12>Keyboard</label12>
+			<label13>APNs</label13>
+			<label14>Settings
+com.android.mail.ui.settings.PublicPreferenceActivity</label14>
+			<label15>fooView</label15>
 			<label2>Settings
 WifiInfoActivity</label2>
 			<label3>Settings
 wifi.WifiConfigInfo</label3>
 			<label4>Settings
 Settings</label4>
-			<label5>Settings
-SmartWakeupActivity</label5>
-			<label6>Network &amp; internet</label6>
-			<label7>Hotspot &amp; tethering</label7>
-			<label8>Bluetooth</label8>
-			<label9>Picture-in-picture</label9>
+			<label5>Network &amp; internet</label5>
+			<label6>Hotspot &amp; tethering</label6>
+			<label7>Bluetooth</label7>
+			<label8>Picture-in-picture</label8>
+			<label9>Settings
+WifiAPITestActivity</label9>
 			<pin>true</pin>
 			<pkg0>com.android.settings</pkg0>
 			<pkg1>com.android.settings</pkg1>
@@ -1942,9 +1944,8 @@ SmartWakeupActivity</label5>
 			<pkg11>com.android.settings</pkg11>
 			<pkg12>com.android.settings</pkg12>
 			<pkg13>com.android.settings</pkg13>
-			<pkg14>com.android.settings</pkg14>
-			<pkg15>com.google.android.gm</pkg15>
-			<pkg16>com.fooview.android.fooview</pkg16>
+			<pkg14>com.google.android.gm</pkg14>
+			<pkg15>com.fooview.android.fooview</pkg15>
 			<pkg2>com.android.settings</pkg2>
 			<pkg3>com.android.settings</pkg3>
 			<pkg4>com.android.settings</pkg4>
@@ -1958,7 +1959,8 @@ SmartWakeupActivity</label5>
 			<code>165</code>
 			<ConditionList sr="if">
 				<bool0>And2</bool0>
-				<bool1>Or</bool1>
+				<bool1>And2</bool1>
+				<bool2>Or</bool2>
 				<Condition sr="c0" ve="3">
 					<lhs>%FG_NET_APP_NAME</lhs>
 					<op>13</op>
@@ -1970,6 +1972,11 @@ SmartWakeupActivity</label5>
 					<rhs>off</rhs>
 				</Condition>
 				<Condition sr="c2" ve="3">
+					<lhs>%CLIPBOARD_SHARE</lhs>
+					<op>2</op>
+					<rhs>inactive</rhs>
+				</Condition>
+				<Condition sr="c3" ve="3">
 					<lhs>%SCREEN</lhs>
 					<op>2</op>
 					<rhs>off</rhs>
@@ -2792,7 +2799,7 @@ When
 	<Profile sr="prof271" ve="2">
 		<cdate>1783880368870</cdate>
 		<clp>true</clp>
-		<edate>1783938841476</edate>
+		<edate>1786547408409</edate>
 		<flags>8</flags>
 		<id>271</id>
 		<mid0>275</mid0>
@@ -2830,11 +2837,11 @@ When
 					<RegexApp-type>java.lang.Boolean</RegexApp-type>
 					<RegexPackage>false</RegexPackage>
 					<RegexPackage-type>java.lang.Boolean</RegexPackage-type>
-					<RegexText>false</RegexText>
+					<RegexText>true</RegexText>
 					<RegexText-type>java.lang.Boolean</RegexText-type>
-					<Text>copied</Text>
+					<Text>copied|cut</Text>
 					<Text-type>java.lang.String</Text-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Notification Text: copied (case ins)</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Notification Text: copied|cut (regex) (case ins)</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
 					<net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
@@ -2866,8 +2873,8 @@ Text
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>163,162,127,113,124,150,263,122,128,175,258,134,229,140,271,137,126,116,143,112,129,135,161,120,115,133,172,125,169,155,146,117,157,148,156,136,145,149,165,212,174,164,159,260,131,168,132,218,130,211,203,158,139,216,170,138,141,166,152,171,160,144,147,151,119,118,154,114,121,234,142,123,167,231,153,176</pids>
-		<tids>2,96,213,84,98,23,4,47,106,12,73,76,75,31,81,32,91,17,30,83,45,71,256,235,57,74,261,61,94,241,40,51,50,64,110,27,35,37,14,108,111,67,29,46,8,16,66,269,43,42,259,270,65,107,95,102,82,24,13,33,92,86,72,100,62,60,38,78,90,56,28,89,10,77,39,68,230,11,264,80,63,97,53,206,69,7,101,26,242,52,205,48,103,36,3,255,44,79,274,18,262,58,275,34,70,49,109,55,41,21,87,19,59,20,25,15,85,93,9,54,22,105,104,88,99,239</tids>
+		<pids>127,139,112,140,113,260,211,124,271,154,132,258,143,263,168,128,129,123,119,145,165,116,144,138,161,169,162,120,121,126,231,147,176,146,137,158,142,174,171,115,212,166,130,135,122,118,175,125,131,148,155,170,172,164,163,136,153,157,229,156,149,159,160,234,141,133,117,167,203,216,151,152,134,150,218,114</pids>
+		<tids>78,48,88,262,23,70,82,259,57,51,56,94,71,84,37,43,32,17,47,76,93,66,213,2,91,101,96,98,31,25,11,18,34,39,77,72,3,30,109,90,35,61,270,13,75,58,19,85,74,33,62,108,103,264,15,95,111,206,99,235,86,41,65,100,50,38,42,73,49,106,81,274,10,20,261,97,87,80,83,256,52,107,63,110,45,29,4,21,239,69,255,36,22,104,54,16,275,14,60,105,92,79,230,53,26,9,242,102,59,68,269,55,27,28,7,64,24,46,205,12,241,89,44,40,8,67</tids>
 	</Project>
 	<Task sr="task10">
 		<cdate>1780800944669</cdate>
@@ -3215,7 +3222,7 @@ Text
 	</Task>
 	<Task sr="task105">
 		<cdate>1759612559032</cdate>
-		<edate>1783892326251</edate>
+		<edate>1786547911897</edate>
 		<id>105</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3815,7 +3822,7 @@ Text
 	</Task>
 	<Task sr="task14">
 		<cdate>1781439471125</cdate>
-		<edate>1783612270733</edate>
+		<edate>1786547393164</edate>
 		<id>14</id>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -3832,6 +3839,52 @@ Text
 			<code>159</code>
 			<Str sr="arg0" ve="3">screen Unlocked No Low Power</Str>
 			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%na_time_to_alarm_seconds</lhs>
+					<op>7</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">All Vol Set</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">16</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Screen State Based Msg</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">alarm vol set to max</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>38</code>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>159</code>
@@ -3883,6 +3936,36 @@ Text
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>364</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%na_day
+Day
+The day the next alarm is detected&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%na_time_to_alarm_days
+Days To Alarm
+The time remaining until the next alarm&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%na_time_to_alarm_hours
+Hours To Alarm
+The time remaining until the next alarm&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%na_time_to_alarm_minutes
+Minutes To Alarm
+The time remaining until the next alarm&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%na_month
+Month
+The month the next alarm is detected&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%na_package
+Package
+Package name of the app that created the alarm. To get more info on it use the App Info action.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%na_time_to_alarm_seconds
+Seconds To Alarm
+The time remaining until the next alarm&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%na_time
+Time
+The time the next alarm is detected in HH:mm format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%na_time_ms
+Time MilliSeconds
+Time since epoch in which the next alarm will occur&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%na_year
+Year
+The year the next alarm is detected&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task15">
@@ -4330,7 +4413,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 	</Task>
 	<Task sr="task2">
 		<cdate>1737079191529</cdate>
-		<edate>1783786841301</edate>
+		<edate>1786536562146</edate>
 		<id>2</id>
 		<nme>Disable Low Power Mode</nme>
 		<pri>6</pri>
@@ -6370,7 +6453,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task275">
 		<cdate>1783882727815</cdate>
-		<edate>1783938754688</edate>
+		<edate>1786547408409</edate>
 		<id>275</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -9072,7 +9155,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task53">
 		<cdate>1737034421599</cdate>
-		<edate>1783903927034</edate>
+		<edate>1786547410456</edate>
 		<id>53</id>
 		<nme>Autoread Whatsapp</nme>
 		<pri>6</pri>
@@ -12402,7 +12485,7 @@ Selected Index
 	</Task>
 	<Task sr="task80">
 		<cdate>1737079191529</cdate>
-		<edate>1785634109809</edate>
+		<edate>1786547446999</edate>
 		<id>80</id>
 		<nme>Sanitized URL Share</nme>
 		<pri>6</pri>
@@ -15554,7 +15637,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task96">
 		<cdate>1737079191529</cdate>
-		<edate>1784950018163</edate>
+		<edate>1786547266700</edate>
 		<id>96</id>
 		<nme>Enable Low Power Mode</nme>
 		<pri>6</pri>
