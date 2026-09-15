@@ -76,8 +76,9 @@
 * `Email Auto Sync (Un)Set` - sets autosync when email client is in foreground, unsets when not in foreground for more than one minute
 * `Alarm Vol Auto Set` - set all alarm vol to max when an alarm's about to ring
 * `Autoread Whatsapp` - literally what it says (except set your own interval if you need to)
-* `Alarmy Call` - to call one at a scheduled time if you forget to (I use this when one asks me to wake them up from a phone call). This profile is toggled by (enabling & disabling the profile & setting the phone number as a global var for the profile to use)  run `Tasker - Alarmy call.flo` from automate to set the number/contact
-* `Alarmy Call Disable` - disables `Alarmy Call` profile (and that the `Alarmy Call` also needing to be enabled is also a cndition) when the incoming caller is the same one set in `WAKE_UP_NUM` by the `Tasker - Alarmy Call.flo` flow causing the task to go inactive, which is why I set the action to disable itself
+* `Alarmy Call` - to call one at a scheduled time if you forget to (I use this when one asks me to wake them up from a phone call). This profile is toggled by (enabling & disabling the profile & setting the phone number as a global var for the profile to use) run `Tasker - Alarmy call.flo` from automate to set the number/contact. also sends an sms saying either call back or send an sms saying "am awak" to stop this "every 5 minute call"
+* `Alarmy Call Disable` - disables `Alarmy Call` profile (and that the `Alarmy Call` also needing to be enabled is also a condition) when the incoming caller is the same one set in `WAKE_UP_NUM` by the `Tasker - Alarmy Call.flo` flow causing the task to go inactive, which is why I set the action to disable itself
+* `Alarmy Call Disable Sms` - disables `Alarmy Call` profile when `WAKE_UP_NUM` replies to the sms sent by `Alarmy call` profile's task contaning the string <b>am awake</b>
 * `Gaming` - cpu state toggles when enter/opening games
 * `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane boarding.flo` running when enabling this profile
 * `App Based Disable Dev Mode Flag` - sets global var `%DEV_MODE_TOGGLE` to `disable`
