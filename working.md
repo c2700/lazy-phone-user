@@ -21,6 +21,7 @@
 * `Mobile Data Var Set via Automate` - set mobile data stats as global variable(s). (used by the net management profiles but triggered by intents sent from automate. Triggering flow beginning `Cellular Data state` in flow `Tasker - Settings & States Checks`)
 * `Wifi Hotspot State` - set wireless hotspot state via `WIFI_AP_STATE_CHANGED` broadcast
 * `Wifi Hotspot State Via Automate` - same `Wifi Hotspot State` but with automate (Triggering flow beginning `Hotspot state` in flow `Tasker - Settings & States Checks`)
+* `Dev Mode State` - sets global var `%DEV_MODE` to indicate developer mode state
 
 
 ##### 3. <b>profile for airplane mode based on sim presence</b>
@@ -79,7 +80,9 @@
 * `Alarmy Call Disable` - disables `Alarmy Call` profile (and that the `Alarmy Call` also needing to be enabled is also a cndition) when the incoming caller is the same one set in `WAKE_UP_NUM` by the `Tasker - Alarmy Call.flo` flow causing the task to go inactive, which is why I set the action to disable itself
 * `Gaming` - cpu state toggles when enter/opening games
 * `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane boarding.flo` running when enabling this profile
-* `Toggle Dev Mode Per App` - disable dev mode when entering apps that complain about it, enable when exiting with "show touches" & adb enabled
+* `App Based Disable Dev Mode Flag` - sets global var `%DEV_MODE_TOGGLE` to `disable`
+* `App Based Enable Dev Mode Flag` - sets global var `%DEV_MODE_TOGGLE` to `enable`
+* `Dev Mode Toggle` - Toggles developer mode based on `%DEV_MODE_TOGGLE` & sets `%DEV_MODE_TOGGLE_FLOW` indicating if the developer toggling flow is running
 * `Flashlight State Based Autobrightness` - toggle Flashlight & autobrightness will be toggled for 2 seconds
 
 
@@ -88,7 +91,7 @@
 * `Shutdown Audio` - play audios at randomly selected from a list of audio files set by the user at shutdown event
 * `Unplugged 1 Pcent Battery` - play audio at loop when at 1 percent battery
 * `Unplugged 2 Pcent Battery` - same as `Unplugged 1 Pcent Battery` but at 2 percent battery
-* `Battery Audios` - run the `Battery State` flow beginning when battery's between 3% & 99%. different audios at different battery levels when charger's plugged, pulled, charging & discharging (entry & exit at a battery range)
+* `Battery Audios` - run the `Battery State` flow beginning when battery's between 3% & 99%. different audios at different battery levels when charger's plugged, pulled, charging & discharging (entry & exit at a battery range). sets `%BATTERY_AUDIOS_RUNNING` val to true (sent by the `Tasker - Battery noise` flo as a check to see if the flow even ran which if not the intent to run the flow is sent until this var is set)
 * `Battery Full Audio Event` - runs a one time set audio set by the user in the profile's `Music Play` & run the `Plugged in Battery full`
 * `Power Connected` - at less than 3 percent battery, on plugging power source run a one time audio set by the user. if at 100% battery run the `Plugged in battery full` from flows
 * `Power Disconnected` - at less than 3 percent battery, on removing power source rus an audio set by the user in an infinite loop until power plugged in or when greater than 3%. if at 100% battery run the `Plugged in battery full` flow
@@ -145,6 +148,10 @@
     - not_installed - literally what it says
 * `TASKER_HELPER_FOR_DATA_TOGGLE` - same as `TASKER_HELPER_FOR_BT_TOGGLE` but for data action
 * `AUTOMATE_CONTENT_BASE_URI` (content://com.llabalab.automate.provider/flows) - stores only the content provider authority which is used across all other `AUTOMATE_` global var.s which are used as content uri's pointing to automate flows.
+* `BATTERY_AUDIOS_RUNNING` (true|false) - flag to say if the `Tasker - Battery noise.flo` is running
+* `DEV_MODE` (enabled|disabled) - flag to indicate developer mode state
+* `DEV_MODE_TOGGLE` (enable|disable)` - flag to indicate what SHOULD be the developer mode state
+* `DEV_MODE_TOGGLE_FLOW` (inactive|running)` - flag to indicate if the flow to change developer mode is running
 
 ## What each Tasker tasks do
 #### Tasks who's Description's given in the profile section with the same name as the task
@@ -210,6 +217,9 @@
     Profile Toggle Mgr
     Toggle Profiles
     ======== Global Var Setters ========
+    App Based Disable Dev Mode Flag
+    App Based Enable Dev Mode Flag
+    Dev Mode State
     Phone Lock State
     Phone Unlock State
     Low Power State
@@ -270,7 +280,6 @@
     Alarmy Call
     Alarmy Call Disable
     Gaming
-    Toggle Dev Mode Per App
     Sanitized URL share - Clipboard
     Sanitized URL share - Autonotification
     Alarm Vol Auto Set

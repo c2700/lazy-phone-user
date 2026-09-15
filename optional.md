@@ -7,7 +7,12 @@
 6. set an audio file in the `Music Play` action in `Unplugged 1 Pcent Batter`, `Unplugged 2 Pcent Battery`, `Battery Ful Audio Event`, `Power Connected` entry tasks & a list of audio of files (can be one file too since this is just selecting random files from said list) in to %par1 field of the `perform task` action that perform's `Random Audio Play` task in entry task of profiles `Phone Shutdown Audio`& Exit task of `Battery Audio Toggle` profiles
 7. To be done in `Tasker - Battery Noises` flow and in the `Automate flows/battery_audio.json.ref` (rename it by removing .ref or use the same file name in the flow) - set your preferred audio file paths in all the arrays & objects in the json file & set that json file path in the `Read file` blocks (blocks - 839, 834, 837) file input arg & in block 374...when power's unplugged at 100%
 8. Enable `Battery Audio Toggle` if Battery Audio tasks/profiles are to be used
-9. if you do not want the toast/tts msgs from the `Ping test` & `WAN check` the actions to disable/delete are the following
+9. Disable and or set app in `App Based Disable Dev Mode Flag` that mandate dev mode to be disabled. or disable the following Developer mode changing profiles altogether
+    - `App Based Disable Dev Mode Flag` 
+    - `App Based Enable Dev Mode Flag` 
+    - `Dev Mode State`
+
+10. if you do not want the toast/tts msgs from the `Ping test` & `WAN check` the actions to disable/delete are the following
     - `Ping Test` Task
         - action 5
         - action 10
