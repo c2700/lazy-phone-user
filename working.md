@@ -87,8 +87,8 @@
 * `Flashlight State Based Autobrightness` - toggle Flashlight & autobrightness will be toggled for 2 seconds
 
 
-##### 10. <b>not as a automation usage but something cosmetic. Play audios based on battery levels & power source plug events</b>
-* <b>Automate flow beginnings from the below profiles will be run from the `Tasker - Battery noise` flow (which is `(Template) Tasker - Battery noise.flo` in the repo) </b>
+##### 10. <b>not as a automation usage but something cosmetic & mayeb fun to use. Play audios on entering battery ranges & power source plug events within set battery ranges</b>
+* <b>Automate flow beginnings from the below profiles will be run from the `Tasker - Battery noise` flow</b>
 * `Shutdown Audio` - play audios at randomly selected from a list of audio files set by the user at shutdown event
 * `Unplugged 1 Pcent Battery` - play audio at loop when at 1 percent battery
 * `Unplugged 2 Pcent Battery` - same as `Unplugged 1 Pcent Battery` but at 2 percent battery
