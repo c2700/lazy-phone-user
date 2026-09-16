@@ -87,8 +87,7 @@
 * `Flashlight State Based Autobrightness` - toggle Flashlight & autobrightness will be toggled for 2 seconds
 
 
-##### 10. <b>not as a automation usage but something cosmetic & mayeb fun to use. Play audios on entering battery ranges & power source plug events within set battery ranges</b>
-* <b>Automate flow beginnings from the below profiles will be run from the `Tasker - Battery noise` flow</b>
+##### 10. <b>not as an automation usage but something fun to use. Play audios on entering battery ranges & power source plug events within set battery ranges</b>
 * `Shutdown Audio` - play audios at randomly selected from a list of audio files set by the user at shutdown event
 * `Unplugged 1 Pcent Battery` - play audio at loop when at 1 percent battery
 * `Unplugged 2 Pcent Battery` - same as `Unplugged 1 Pcent Battery` but at 2 percent battery
@@ -99,13 +98,13 @@
 * `Battery Audio Toggle` - any vol/audio stream set to 0 the, the aforementioned battery audio profiles will be disabled & flows will be stopped. exit task enables the profiles which in turns runs the relevant flows
 
 
-##### 11. <b>not as a automation usage but just for tasker interactivity convenience</b>
+##### 11. <b> also not as an automation usage but just for tasker interactivity convenience</b>
 * `Bottom "Buffer" Profile. Not To Be Used` - literally what it says. except I originally intended to use it as some sort "buffer" so that I could move the profiles around cuz profiles that were last in the task list I had a tough time getting it to move around. now that the AI button's been added which overlays itself on the profile toggle button (the ones that are last in the list), that "buffer" profile (still used as buffer) is also now a profile which will be last in the list who's toggle will remain obstructed instead of the one's that are of use to the user. (TLDR: just a UI inconvenience mitigator). or you could disable the "AI Generation Button Enabled" option by going to the 3 dots on top of the main activity -> UI tab -> "AI Generation Button Enabled".
 * the rest of the profiles (mostly being ones containing `=` & words in it like `Net Mgr`) are just profile separators. If enabled `Toggle Profiles` is set to disable them, including the `Bottom "Buffer" Profile. Not To Be Used` profile
 
 
 ### custom global vars set & used by profiles & tasks from the above group of profiles
-1. `APP_CTX_INVISIBLE_FG_NET_UNSET_PKG`, `PHONE_LOCK_SET`, `NET_SRC_TOGGLE_COUNT`, `APP_NET`, `BG_NET`, `WORK_PROFILE`, `MDATA`, `ADB_WIFI`, `WIFI_CONNECTED`, `WAN_ACCESSIBLE`, `VPN_CONN`, `FG_NET_APP_OPT`, `FG_NET_APP_NAME`, `ROOT_STAT`, `SHIZUKU_RUNNING`, `HIGH_PING` - [network toggle & check profiles](#global-var-setter-profiles-for-phone-settings), [low power & screen lock profiles](#low-power-based-on-lock-&-screen-state) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
+1. `APP_CTX_INVISIBLE_FG_NET_UNSET_PKG`, `PHONE_LOCK_SET`, `NET_SRC_TOGGLE_COUNT`, `APP_NET`, `BG_NET`, `WORK_PROFILE`, `MDATA`, `ADB_WIFI`, `WIFI_CONNECTED`, `WAN_ACCESSIBLE`, `VPN_CONN`, `FG_NET_APP_OPT`, `FG_NET_APP_NAME`, `ROOT_STAT`, `SHIZUKU_RUNNING`, `HIGH_PING`, `DEV_MODE`, `DEV_MODE_TOGGLE`, `DEV_MODE_TOGGLE_FLOW` - [network toggle & check profiles](#global-var-setter-profiles-for-phone-settings), [low power & screen lock profiles](#low-power-based-on-lock-&-screen-state) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
 2. `BG_OBD`,`FG_OBD`,`BT_CONNECTED`,  `ROOT_STAT`, `SHIZUKU_RUNNING` - [bluetooth toggle profiles](#bluetooth-toggle) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
 3. `LOW_POWER_MODE`, `PHONE_LOCKED`, `ROOT_STAT` - [low power & screen lock profiles](#low-power-based-on-lock-&-screen-state) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
 4. `BG_MAP`, `FG_MAP` - [Map settings toggling profiles](#map-settings)
@@ -136,7 +135,7 @@
 * `PHONE_LOCKED` (true|false) - toggled when phone is locked/unlocked
 * `FG_MAP` (true|false) - value is toggled when a map app is or is not running in the foreground
 * `BG_MAP` (true|false) - same as `FG_MAP` but for background
-* `TTS_ENGINE_VOICE` (default:default|<user set value>|<cleared>) - run by the `TTS Test` task which if a TTS engine is set/configured will use the `default:default` value in the `Engine:Voice` arg of the `say` action (action 1 in the task). Set your working/preffered TTS value here. The `TTS Test` task is also called by the `Lazy workflow initializer` task which is run at boot.
+* `TTS_ENGINE_VOICE` (default:default|&lt;user set value&gt;|&lt;cleared&gt;) - run by the `TTS Test` task which if a TTS engine is set/configured will use the `default:default` value in the `Engine:Voice` arg of the `say` action (action 1 in the task). Set your working/preffered TTS value here. The `TTS Test` task is also called by the `Lazy workflow initializer` task which is run at boot.
 * `WAKE_UP_NUM` (phone number) - stores the number of who needs to be called at a scheduled time set from automate's `Alarmy call` flow (mostly for when one is asked to be "woken up" & you're sound asleep)
 * `WL_HOTSPOT` (enabled|disabled) - wifi hostspot state 
 * `NET_SRC_TOGGLE_COUNT` - keeps a count of number of times WAN src was toggled which if exceeded (4 times) the workflow will prompt the user for if the toggling needs to continue to which if clicked yes will reset the counter back to 0 else will keep the WAN toggling profiles to inactive until ping state says "stable ping" which also resets the WAN switch counter to 0
@@ -185,7 +184,7 @@
 * `Tasker - Check Set boot stuff.flo` - sets variables, settings, flags & such after boot. Basically an initializer helper of sorts for tasker
 * `Tasker - Airplane boarding.flo` - flow to disable all phone settings that need to disabled on a flight
 * `Tasker - Alarmy call.flo` - pick a contact from popup, set a time for the fibre to be paused for, which then sends a broadcast to the `Custom Intent Recvr` profile in tasker enabling `Alarmy Call` &  `Alarmy Call Disable` profiles
-* `(Template) Tasker - Battery noise.flo` - plays audio files set by the user at set battery levels. Also invoked by tasker profiles.
+* `Tasker - Battery noise.flo` - plays audio files set by the user at set battery levels. Also invoked by tasker profiles.
     - `Zero Battery` - no battery checks, just, just called by the `Phone Shutdown Audio` profile which just plays set audio files at random
     - `Plugged in battery full` - if phone is connected & is ONLY taking power, then set audio files will play at random, else (adb, midi, usb-tether etc) just wait until disconnected from usb. Called by `Battery Full Audio Event` when reached full & `Power Connected` profile when not in 3-99 battery level range
     - `Battery State` - plays set audios at set battery levels (when plugging in, removing, entering & exiting battery level when charing & dischrging). called by `Battery Audios` profile
