@@ -3,7 +3,7 @@
 * profiles are active & tasks are run based on said global var values
 
 ## What each Tasker profiles do
-##### 1. <b>workflow base & entry point. stuff profiles here can be used to initiate/start the workflow & be used as a common entrypoint for implicit intents to trigger the profiles/tasks/actions</b>
+##### 1. <b>workflow base & entry point. stuff profiles here can be used to initiate/start the workflow & be used as a common entrypoint for implicit intents to trigger the profiles/tasks/actions</b> [profile ordering](#this-is-the-ordering-in-which-i-keep-the-profiles-in-tasker-to-make-maintainability-&-sensibility-relatively-easier-than-the-mixup-order-you-get-when-you-import-the-project-&-unfortunately-there's-no-option-to-preserve-the-profile-ordering)
 * `Check Set Stuff At Boot` - after boot (basically unlock after boot), initializes stuff for the workflow, like setting global vars & enables/disables profiles as needed for the workflow to work right. Also uses the `Tasker - Check Set boot stuff.flo`
 * `Custom Intent Recvr` - a "sinkhole"/"dump"/"intent slot"/"globally open slot for intents" of sorts for implicit intents (I use this to set global var.s & toggle profiles......for now atleast). There's a java code action in there to pull out keys/values from an intent payload that has multiple key/value pairs.
 
@@ -105,7 +105,7 @@
 
 ### custom global vars set & used by profiles & tasks from the above group of profiles
 1. `APP_CTX_INVISIBLE_FG_NET_UNSET_PKG`, `PHONE_LOCK_SET`, `NET_SRC_TOGGLE_COUNT`, `APP_NET`, `BG_NET`, `WORK_PROFILE`, `MDATA`, `ADB_WIFI`, `WIFI_CONNECTED`, `WAN_ACCESSIBLE`, `VPN_CONN`, `FG_NET_APP_OPT`, `FG_NET_APP_NAME`, `ROOT_STAT`, `SHIZUKU_RUNNING`, `HIGH_PING`, `DEV_MODE`, `DEV_MODE_TOGGLE`, `DEV_MODE_TOGGLE_FLOW` - [network toggle & check profiles](#global-var-setter-profiles-for-phone-settings), [low power & screen lock profiles](#low-power-based-on-lock-&-screen-state) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
-2. `BG_OBD`,`FG_OBD`,`BT_CONNECTED`,  `ROOT_STAT`, `SHIZUKU_RUNNING` - [bluetooth toggle profiles](#bluetooth-toggle) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
+2. `BG_OBD`,`FG_OBD`,`BT_CONNECTED`, `ROOT_STAT`, `SHIZUKU_RUNNING` - [bluetooth toggle profiles](#bluetooth-toggle) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
 3. `LOW_POWER_MODE`, `PHONE_LOCKED`, `ROOT_STAT` - [low power & screen lock profiles](#low-power-based-on-lock-&-screen-state) & [global var setter profiles for phone settings](#global-var-setter-profiles-for-phone-settings)
 4. `BG_MAP`, `FG_MAP` - [Map settings toggling profiles](#map-settings)
 5. `WAKE_UP_NUM` - [other stuff](#other-stuff)
@@ -122,7 +122,7 @@
 * `VPN_CONN` (yes|no) - set when any VPN connection is made 
 * `APP_CTX_INVISIBLE_FG_NET_UNSET_PKG` (pkg name) - set when app is changed, not listed in app context & exists in the `/sdcard/Tasker/projects/app_ctx_invisible_apps_for_fg_unset_profile.txt` file
 * `FG_NET_APP_NAME` (name of the foreground app opened) - name of the net needing foreground running app
-* `FG_NET_APP_OPT` (<empty value>|nonet) - when `Fg Net Flags Set (Optional)` is active the user will not prompt the user for enabling wan. the var is cleared by the `Fg Net Flags Set (Optional)` profile's exit task. `nonet` value is just saying that the app doesn't need to have wan connectivity. 2 cases where this var is cleared.
+* `FG_NET_APP_OPT` (&lt;<empty value&gt;>|nonet) - when `Fg Net Flags Set (Optional)` is active the user will not prompt the user for enabling wan. the var is cleared by the `Fg Net Flags Set (Optional)` profile's exit task. `nonet` value is just saying that the app doesn't need to have wan connectivity. 2 cases where this var is cleared.
     - stay out of the app for 15 seconds
     - wan is available within that 15 second window (`Fg Net Flags Set`, `Net Set (User)` & `Net Set` profiles)
 * `SHIZUKU_RUNNING` (yes|no) - set yes when shizuku is running else set to no
