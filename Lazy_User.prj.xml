@@ -1439,7 +1439,6 @@ When
 		<edate>1783876321143</edate>
 		<flags>8</flags>
 		<id>139</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<mid1>21</mid1>
 		<nme>Wan Check Switch</nme>
@@ -1506,7 +1505,6 @@ When
 		<edate>1784165513996</edate>
 		<flags>8</flags>
 		<id>140</id>
-		<limit>true</limit>
 		<mid0>84</mid0>
 		<mid1>39</mid1>
 		<nme>Ping Test</nme>
@@ -1864,7 +1862,6 @@ When
 		<edate>1783876321460</edate>
 		<flags>8</flags>
 		<id>152</id>
-		<limit>true</limit>
 		<mid0>4</mid0>
 		<nme>Net Src Disconnected Switch</nme>
 		<State sr="con0" ve="2">
@@ -3165,7 +3162,7 @@ Text
 	<Profile sr="prof297" ve="2">
 		<cdate>1782440284242</cdate>
 		<clp>true</clp>
-		<edate>1789473064960</edate>
+		<edate>1789567280621</edate>
 		<flags>8</flags>
 		<id>297</id>
 		<mid0>298</mid0>
@@ -3192,11 +3189,10 @@ Text
 	</Profile>
 	<Profile sr="prof299" ve="2">
 		<cdate>1782440284058</cdate>
-		<clp>true</clp>
-		<edate>1789431396075</edate>
+		<edate>1789579594600</edate>
 		<flags>8</flags>
 		<id>299</id>
-		<mid0>289</mid0>
+		<mid0>300</mid0>
 		<nme>Dev Mode Toggle</nme>
 		<State sr="con0" ve="2">
 			<code>165</code>
@@ -3219,8 +3215,8 @@ Text
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>116,112,122,260,234,132,145,115,172,126,153,263,113,141,171,124,267,158,148,140,231,135,138,120,154,127,150,229,166,156,123,133,142,170,297,118,128,218,129,271,131,114,212,278,163,149,147,117,175,136,134,258,176,161,125,137,160,144,299,143,162,159,139,146,169,216,203,164,151,165,168,121,211,119,130,152,157,174,167,155</pids>
-		<tids>91,47,2,31,206,104,4,103,76,17,92,44,274,83,50,101,20,30,261,57,60,11,98,259,84,61,32,230,96,63,25,12,24,39,256,23,289,68,81,213,78,9,54,109,15,22,270,255,19,3,75,70,262,71,67,66,27,94,77,51,56,80,102,35,33,74,28,21,53,87,10,40,37,99,97,105,110,108,72,7,73,277,281,69,65,242,95,45,275,62,14,49,59,241,64,239,82,298,58,26,79,106,48,89,52,29,16,107,269,264,205,34,235,41,36,88,43,18,46,86,90,8,100,38,93,55,13,85,111</tids>
+		<pids>124,149,212,162,176,148,112,128,131,147,120,267,166,144,122,115,218,143,137,145,263,138,113,118,126,170,127,271,211,140,151,142,260,158,141,234,157,146,161,117,136,116,174,132,229,297,154,168,129,299,152,123,216,114,167,231,172,150,153,175,159,119,169,171,121,139,134,164,125,163,160,135,165,156,203,133,278,258,130,155</pids>
+		<tids>14,205,65,98,87,47,11,94,23,31,18,77,55,230,35,91,43,103,213,37,41,15,17,32,108,84,2,96,71,83,57,25,82,75,277,52,21,106,80,63,34,206,39,111,30,255,20,76,16,60,101,78,3,70,105,270,275,102,61,56,298,48,88,242,28,92,44,27,40,54,274,300,7,4,235,46,239,58,259,99,64,264,68,262,19,85,12,49,69,107,26,81,256,104,109,95,45,86,89,66,50,110,97,269,53,73,29,9,51,261,93,59,36,100,8,90,79,38,241,62,24,33,10,281,13,22,67,74,72</tids>
 	</Project>
 	<Task sr="task10">
 		<cdate>1780800944669</cdate>
@@ -5455,7 +5451,7 @@ fi</Str>
 	</Task>
 	<Task sr="task23">
 		<cdate>1781050444998</cdate>
-		<edate>1783697125993</edate>
+		<edate>1789567378695</edate>
 		<id>23</id>
 		<nme>Toggle Dev Mode sensors</nme>
 		<Action sr="act0" ve="7">
@@ -6967,139 +6963,6 @@ Percentage representing the measured battery state of health (remaining estimate
 			</ConditionList>
 		</Action>
 	</Task>
-	<Task sr="task289">
-		<cdate>1788543916875</cdate>
-		<edate>1789430699395</edate>
-		<id>289</id>
-		<nme>Toggle Dev Mode</nme>
-		<pri>6</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%DEV_MODE_TOGGLE_FLOW</Str>
-			<Str sr="arg1" ve="3">running</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%evtprm2</lhs>
-					<op>2</op>
-					<rhs>enable</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>20</code>
-			<App sr="arg0">
-				<appClass></appClass>
-				<appPkg>%LAPP</appPkg>
-				<label>%LAPP</label>
-			</App>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">App Based Enable Dev Mode Flag</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="2"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">App Based Enable Dev Mode Flag</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%DEV_MODE_TOGGLE_FLOW</Str>
-			<Str sr="arg1" ve="3">inactive</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>39</code>
-			<coll>true</coll>
-			<Str sr="arg0" ve="3">%setting</Str>
-			<Str sr="arg1" ve="3">development_settings_enabled,vivo_development_show,adb_enabled</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>235</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">%setting</Str>
-			<Str sr="arg2" ve="3">1</Str>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>40</code>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>235</code>
-			<Int sr="arg0" val="2"/>
-			<Str sr="arg1" ve="3">show_touches</Str>
-			<Str sr="arg2" ve="3">1</Str>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>43</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%evtprm2</lhs>
-					<op>2</op>
-					<rhs>disable</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>235</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">development_settings_enabled</Str>
-			<Str sr="arg2" ve="3">0</Str>
-			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>20</code>
-			<App sr="arg0">
-				<appClass></appClass>
-				<appPkg>com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity</appPkg>
-				<label>com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity</label>
-			</App>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="2"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-	</Task>
 	<Task sr="task29">
 		<cdate>1776695605148</cdate>
 		<edate>1781922217920</edate>
@@ -7117,7 +6980,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task298">
 		<cdate>1780800474613</cdate>
-		<edate>1789473064960</edate>
+		<edate>1789567280621</edate>
 		<id>298</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -8128,6 +7991,205 @@ A JSON structure with every available info about the networks that are not activ
 			<Int sr="arg5" val="30"/>
 		</Action>
 	</Task>
+	<Task sr="task300">
+		<cdate>1788543916875</cdate>
+		<edate>1789579764424</edate>
+		<id>300</id>
+		<nme>Toggle Dev Mode</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%DEV_MODE_TOGGLE_FLOW</Str>
+			<Str sr="arg1" ve="3">running</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm2</lhs>
+					<op>2</op>
+					<rhs>enable</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>18</code>
+			<se>false</se>
+			<App sr="arg0">
+				<appClass></appClass>
+				<appPkg>%LAPP</appPkg>
+				<label>%LAPP</label>
+			</App>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>su</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>18</code>
+			<App sr="arg0">
+				<appClass></appClass>
+				<appPkg>%LAPP</appPkg>
+				<label>%LAPP</label>
+			</App>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%SHIZUKU_RUNNING</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>nosu</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass></appClass>
+				<appPkg>%LAPP</appPkg>
+				<label>%LAPP</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">App Based Enable Dev Mode Flag</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">App Based Enable Dev Mode Flag</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%DEV_MODE_TOGGLE_FLOW</Str>
+			<Str sr="arg1" ve="3">inactive</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>39</code>
+			<coll>false</coll>
+			<Str sr="arg0" ve="3">%setting</Str>
+			<Str sr="arg1" ve="3">development_settings_enabled,adb_enabled</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">%setting</Str>
+			<Str sr="arg2" ve="3">1</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3">show_touches</Str>
+			<Str sr="arg2" ve="3">1</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%evtprm2</lhs>
+					<op>2</op>
+					<rhs>disable</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">development_settings_enabled</Str>
+			<Str sr="arg2" ve="3">0</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>20</code>
+			<se>false</se>
+			<App sr="arg0">
+				<appClass></appClass>
+				<appPkg>com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity</appPkg>
+				<label>com.android.settings/com.android.settings.Settings$DevelopmentSettingsActivity</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">android.settings.APPLICATION_DEVELOPMENT_SETTINGS</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.android.settings</Str>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%errmsg</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%err</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
 	<Task sr="task31">
 		<cdate>1779915466783</cdate>
 		<edate>1783535538121</edate>
@@ -8190,7 +8252,7 @@ A JSON structure with every available info about the networks that are not activ
 	</Task>
 	<Task sr="task32">
 		<cdate>1780414763292</cdate>
-		<edate>1789169771958</edate>
+		<edate>1789567390025</edate>
 		<id>32</id>
 		<nme>Toggle Profiles</nme>
 		<Action sr="act0" ve="7">
