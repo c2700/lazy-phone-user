@@ -2,7 +2,7 @@
 	<Profile sr="prof112" ve="2">
 		<cdate>1782440284018</cdate>
 		<clp>true</clp>
-		<edate>1783785692166</edate>
+		<edate>1789801567230</edate>
 		<flags>8</flags>
 		<id>112</id>
 		<limit>true</limit>
@@ -77,7 +77,7 @@
 	<Profile sr="prof113" ve="2">
 		<cdate>1782440284022</cdate>
 		<clp>true</clp>
-		<edate>1783875509057</edate>
+		<edate>1789818007650</edate>
 		<flags>8</flags>
 		<id>113</id>
 		<mid0>31</mid0>
@@ -157,7 +157,7 @@
 	<Profile sr="prof114" ve="2">
 		<cdate>1782440284026</cdate>
 		<clp>true</clp>
-		<edate>1789430574671</edate>
+		<edate>1789801599332</edate>
 		<flags>8</flags>
 		<id>114</id>
 		<mid0>41</mid0>
@@ -188,7 +188,7 @@
 	<Profile sr="prof115" ve="2">
 		<cdate>1782440284033</cdate>
 		<clp>true</clp>
-		<edate>1788059871441</edate>
+		<edate>1789826668990</edate>
 		<flags>8</flags>
 		<id>115</id>
 		<mid0>61</mid0>
@@ -197,11 +197,14 @@
 		<App sr="con0" ve="2">
 			<cls0>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls0>
 			<cls1>com.whatsapp.Main</cls1>
+			<cls2>dev.clombardo.dnsnet.MainActivity</cls2>
 			<flags>2</flags>
 			<label0>YouTube</label0>
 			<label1>WhatsApp</label1>
+			<label2>DNSNet</label2>
 			<pkg0>com.google.android.youtube</pkg0>
 			<pkg1>com.whatsapp</pkg1>
+			<pkg2>dev.clombardo.dnsnet</pkg2>
 		</App>
 		<State sr="con1" ve="2">
 			<code>165</code>
@@ -229,7 +232,7 @@
 	<Profile sr="prof116" ve="2">
 		<cdate>1782440284038</cdate>
 		<clp>true</clp>
-		<edate>1789585574068</edate>
+		<edate>1789798932634</edate>
 		<flags>8</flags>
 		<id>116</id>
 		<mid0>65</mid0>
@@ -487,7 +490,7 @@
 	<Profile sr="prof125" ve="2">
 		<cdate>1782440284072</cdate>
 		<clp>true</clp>
-		<edate>1789463021591</edate>
+		<edate>1789801243931</edate>
 		<flags>8</flags>
 		<id>125</id>
 		<mid0>55</mid0>
@@ -609,7 +612,7 @@
 	<Profile sr="prof128" ve="2">
 		<cdate>1782440284080</cdate>
 		<clp>true</clp>
-		<edate>1789463026458</edate>
+		<edate>1789800774753</edate>
 		<flags>8</flags>
 		<id>128</id>
 		<mid0>2</mid0>
@@ -680,7 +683,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	<Profile sr="prof130" ve="2">
 		<cdate>1782440284087</cdate>
 		<clp>true</clp>
-		<edate>1788077465664</edate>
+		<edate>1789693001329</edate>
 		<flags>8</flags>
 		<id>130</id>
 		<mid0>102</mid0>
@@ -820,7 +823,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	<Profile sr="prof134" ve="2">
 		<cdate>1782440284101</cdate>
 		<clp>true</clp>
-		<edate>1789010837427</edate>
+		<edate>1789616466306</edate>
 		<flags>8</flags>
 		<id>134</id>
 		<mid0>103</mid0>
@@ -1075,7 +1078,7 @@ When
 	<Profile sr="prof135" ve="2">
 		<cdate>1782440284106</cdate>
 		<clp>true</clp>
-		<edate>1788056984906</edate>
+		<edate>1789733041161</edate>
 		<flags>8</flags>
 		<id>135</id>
 		<mid0>68</mid0>
@@ -1100,24 +1103,12 @@ When
 			<code>165</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
-				<bool1>And</bool1>
-				<bool2>And</bool2>
 				<Condition sr="c0" ve="3">
-					<lhs>%APP_CTX_INVISIBLE_FG_NET_UNSET_PKG</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%RECENTS_SCREEN</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
 					<lhs>%PHONE_LOCKED</lhs>
 					<op>2</op>
 					<rhs>false</rhs>
 				</Condition>
-				<Condition sr="c3" ve="3">
+				<Condition sr="c1" ve="3">
 					<lhs>%SCREEN</lhs>
 					<op>2</op>
 					<rhs>on</rhs>
@@ -1154,7 +1145,7 @@ Notes:
 	<Profile sr="prof137" ve="2">
 		<cdate>1782440284115</cdate>
 		<clp>true</clp>
-		<edate>1788235163920</edate>
+		<edate>1789805136790</edate>
 		<flags>8</flags>
 		<id>137</id>
 		<mid0>46</mid0>
@@ -1439,7 +1430,6 @@ When
 		<edate>1783876321143</edate>
 		<flags>8</flags>
 		<id>139</id>
-		<limit>true</limit>
 		<mid0>43</mid0>
 		<mid1>21</mid1>
 		<nme>Wan Check Switch</nme>
@@ -1506,7 +1496,6 @@ When
 		<edate>1784165513996</edate>
 		<flags>8</flags>
 		<id>140</id>
-		<limit>true</limit>
 		<mid0>84</mid0>
 		<mid1>39</mid1>
 		<nme>Ping Test</nme>
@@ -1552,7 +1541,7 @@ When
 	<Profile sr="prof141" ve="2">
 		<cdate>1782440284130</cdate>
 		<clp>true</clp>
-		<edate>1786760906560</edate>
+		<edate>1789801235976</edate>
 		<flags>8</flags>
 		<id>141</id>
 		<mid0>96</mid0>
@@ -1646,7 +1635,7 @@ When
 	<Profile sr="prof144" ve="2">
 		<cdate>1782440284144</cdate>
 		<clp>true</clp>
-		<edate>1788185326098</edate>
+		<edate>1789805154770</edate>
 		<flags>8</flags>
 		<id>144</id>
 		<mid0>60</mid0>
@@ -1671,6 +1660,22 @@ When
 		<State sr="con1" ve="2">
 			<code>100</code>
 			<pin>true</pin>
+		</State>
+		<State sr="con2" ve="2">
+			<code>165</code>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%APP_CTX_INVISIBLE_FG_NET_UNSET_PKG</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%RECENTS_SCREEN</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
 		</State>
 	</Profile>
 	<Profile sr="prof145" ve="2">
@@ -1864,7 +1869,6 @@ When
 		<edate>1783876321460</edate>
 		<flags>8</flags>
 		<id>152</id>
-		<limit>true</limit>
 		<mid0>4</mid0>
 		<nme>Net Src Disconnected Switch</nme>
 		<State sr="con0" ve="2">
@@ -1982,7 +1986,7 @@ Notes:
 	<Profile sr="prof155" ve="2">
 		<cdate>1782440284186</cdate>
 		<clp>true</clp>
-		<edate>1789010729143</edate>
+		<edate>1789732079323</edate>
 		<flags>8</flags>
 		<id>155</id>
 		<mid0>37</mid0>
@@ -2073,25 +2077,6 @@ Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.t
 			<Str sr="arg2" ve="3"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof157" ve="2">
-		<cdate>1782440284192</cdate>
-		<clp>true</clp>
-		<edate>1784757527938</edate>
-		<flags>8</flags>
-		<id>157</id>
-		<mid0>86</mid0>
-		<nme>Bluetooth Unset</nme>
-		<State sr="con0" ve="2">
-			<code>3</code>
-			<pin>true</pin>
-			<Str sr="arg0" ve="3"/>
-			<Str sr="arg1" ve="3"/>
-		</State>
-		<State sr="con1" ve="2">
-			<code>2</code>
-			<Int sr="arg0" val="1"/>
-		</State>
-	</Profile>
 	<Profile sr="prof158" ve="2">
 		<cdate>1782440284196</cdate>
 		<clp>true</clp>
@@ -2125,7 +2110,7 @@ Could be 'classic', 'le', 'dual' or 'unknown'&lt;/_array_net.dinglisch.android.t
 	<Profile sr="prof160" ve="2">
 		<cdate>1782440284205</cdate>
 		<clp>true</clp>
-		<edate>1788059867391</edate>
+		<edate>1789827021818</edate>
 		<flags>8</flags>
 		<id>160</id>
 		<mid0>105</mid0>
@@ -2432,8 +2417,7 @@ WifiAPITestActivity</label9>
 	</Profile>
 	<Profile sr="prof174" ve="2">
 		<cdate>1782440284254</cdate>
-		<clp>true</clp>
-		<edate>1789228028612</edate>
+		<edate>1789666173015</edate>
 		<flags>8</flags>
 		<id>174</id>
 		<mid0>7</mid0>
@@ -2946,7 +2930,7 @@ When
 	<Profile sr="prof260" ve="2">
 		<cdate>1783452639123</cdate>
 		<clp>true</clp>
-		<edate>1789425588920</edate>
+		<edate>1789693700237</edate>
 		<flags>8</flags>
 		<id>260</id>
 		<mid0>261</mid0>
@@ -3002,7 +2986,7 @@ When
 	<Profile sr="prof263" ve="2">
 		<cdate>1782440284251</cdate>
 		<clp>true</clp>
-		<edate>1787680499166</edate>
+		<edate>1789666164597</edate>
 		<flags>8</flags>
 		<id>263</id>
 		<mid0>270</mid0>
@@ -3028,7 +3012,7 @@ When
 	<Profile sr="prof267" ve="2">
 		<cdate>1782440284026</cdate>
 		<clp>true</clp>
-		<edate>1789429913654</edate>
+		<edate>1789801628030</edate>
 		<flags>8</flags>
 		<id>267</id>
 		<mid0>277</mid0>
@@ -3042,6 +3026,7 @@ When
 			<code>165</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
+				<bool1>And</bool1>
 				<Condition sr="c0" ve="3">
 					<lhs>%DEV_MODE_TOGGLE_FLOW</lhs>
 					<op>2</op>
@@ -3051,6 +3036,11 @@ When
 					<lhs>%RECENTS_SCREEN</lhs>
 					<op>2</op>
 					<rhs>no</rhs>
+				</Condition>
+				<Condition sr="c2" ve="3">
+					<lhs>%APP_CTX_INVISIBLE_FG_NET_UNSET_PKG</lhs>
+					<op>13</op>
+					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</State>
@@ -3149,7 +3139,7 @@ Text
 	<Profile sr="prof278" ve="2">
 		<cdate>1782440284058</cdate>
 		<clp>true</clp>
-		<edate>1789010772860</edate>
+		<edate>1789654244565</edate>
 		<flags>8</flags>
 		<id>278</id>
 		<mid0>281</mid0>
@@ -3164,6 +3154,7 @@ Text
 	</Profile>
 	<Profile sr="prof297" ve="2">
 		<cdate>1782440284242</cdate>
+		<clp>true</clp>
 		<edate>1789609861107</edate>
 		<flags>8</flags>
 		<id>297</id>
@@ -3192,7 +3183,7 @@ Text
 	<Profile sr="prof299" ve="2">
 		<cdate>1782440284058</cdate>
 		<clp>true</clp>
-		<edate>1789579594600</edate>
+		<edate>1789692481933</edate>
 		<flags>8</flags>
 		<id>299</id>
 		<mid0>300</mid0>
@@ -3215,11 +3206,41 @@ Text
 			<Int sr="arg2" val="0"/>
 		</Event>
 	</Profile>
+	<Profile sr="prof306" ve="2">
+		<cdate>1782440284192</cdate>
+		<clp>true</clp>
+		<edate>1789818038082</edate>
+		<flags>8</flags>
+		<id>306</id>
+		<mid0>307</mid0>
+		<nme>Bluetooth Unset</nme>
+		<State sr="con0" ve="2">
+			<code>3</code>
+			<pin>true</pin>
+			<Str sr="arg0" ve="3"/>
+			<Str sr="arg1" ve="3"/>
+		</State>
+		<State sr="con1" ve="2">
+			<code>2</code>
+			<Int sr="arg0" val="1"/>
+		</State>
+		<Event sr="con2" ve="2">
+			<code>2095</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""/&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">20000</Str>
+		</Event>
+	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>112,260,126,115,113,168,164,234,124,120,231,122,150,127,158,116,267,128,159,172,162,263,165,167,140,174,136,151,153,144,142,154,148,147,137,299,212,133,152,278,125,171,119,146,216,123,143,117,134,163,156,132,157,161,118,129,121,139,114,169,135,297,130,170,176,160,218,149,211,145,271,138,166,155,175,229,141,203,131,258</pids>
-		<tids>98,63,84,31,35,277,77,206,19,85,17,103,20,57,32,300,23,259,47,4,261,213,110,101,37,65,94,39,262,269,66,34,89,71,7,60,56,10,90,108,58,61,235,275,81,26,62,92,67,49,36,270,102,59,91,96,51,11,12,28,99,80,104,106,68,73,75,255,72,82,14,83,53,8,27,48,50,95,2,3,55,78,33,298,76,241,38,18,74,239,97,86,30,64,70,43,15,107,256,44,41,45,40,264,25,52,22,13,79,111,281,46,21,9,109,274,93,105,88,69,242,54,100,205,87,29,24,230,16</tids>
+		<pids>155,174,124,169,112,263,152,176,216,127,139,113,122,163,118,146,306,211,212,143,115,128,119,136,260,156,116,126,137,140,161,167,159,278,218,144,149,203,131,166,138,141,125,135,160,150,123,229,172,145,267,299,121,258,151,165,134,297,117,175,170,147,158,171,153,164,162,130,142,120,132,231,234,148,114,271,154,133,168,129</pids>
+		<tids>95,91,23,82,43,47,7,11,64,17,84,61,108,241,277,32,213,58,65,79,31,71,206,39,50,96,77,106,55,255,69,76,75,98,68,100,10,15,270,2,57,80,109,22,97,94,13,28,78,37,87,21,25,20,49,38,103,261,52,66,33,27,262,26,9,107,274,35,12,264,230,59,90,34,72,56,3,275,110,46,239,256,41,60,74,88,63,111,205,102,54,105,45,29,307,48,85,92,298,83,281,19,104,300,36,235,62,101,259,30,44,70,81,24,99,53,67,51,89,269,18,93,8,73,14,40,16,242,4</tids>
 	</Project>
 	<Task sr="task10">
 		<cdate>1780800944669</cdate>
@@ -3272,7 +3293,7 @@ Text
 	</Task>
 	<Task sr="task102">
 		<cdate>1770843983360</cdate>
-		<edate>1788077465664</edate>
+		<edate>1789668527709</edate>
 		<id>102</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -3514,9 +3535,9 @@ Text
 	</Task>
 	<Task sr="task105">
 		<cdate>1759612559032</cdate>
-		<edate>1788059867391</edate>
+		<edate>1789827021818</edate>
 		<id>105</id>
-		<pri>6</pri>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%pause_time</Str>
@@ -4114,7 +4135,7 @@ Text
 	</Task>
 	<Task sr="task14">
 		<cdate>1781439471125</cdate>
-		<edate>1786760906560</edate>
+		<edate>1789800742393</edate>
 		<id>14</id>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -4134,7 +4155,7 @@ Text
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
 				<Condition sr="c0" ve="3">
@@ -4712,7 +4733,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 	</Task>
 	<Task sr="task2">
 		<cdate>1737079191529</cdate>
-		<edate>1789580384836</edate>
+		<edate>1789800774753</edate>
 		<id>2</id>
 		<nme>Disable Low Power Mode</nme>
 		<pri>6</pri>
@@ -4796,6 +4817,7 @@ return String.join(",", pi.requestedPermissions).replaceAll("android\\.permissio
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>37</code>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%PACTIVE</lhs>
@@ -6307,7 +6329,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task261">
 		<cdate>1783452642099</cdate>
-		<edate>1784670910177</edate>
+		<edate>1789693700237</edate>
 		<id>261</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -6518,7 +6540,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task270">
 		<cdate>1783876110817</cdate>
-		<edate>1787680499166</edate>
+		<edate>1789666164597</edate>
 		<id>270</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -6806,7 +6828,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task277">
 		<cdate>1779092353234</cdate>
-		<edate>1789429913654</edate>
+		<edate>1789663768448</edate>
 		<id>277</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -6923,7 +6945,7 @@ Percentage representing the measured battery state of health (remaining estimate
 	</Task>
 	<Task sr="task281">
 		<cdate>1775110824754</cdate>
-		<edate>1789010772860</edate>
+		<edate>1789654239307</edate>
 		<id>281</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -7991,7 +8013,7 @@ A JSON structure with every available info about the networks that are not activ
 	</Task>
 	<Task sr="task300">
 		<cdate>1788543916875</cdate>
-		<edate>1789579764424</edate>
+		<edate>1789692481932</edate>
 		<id>300</id>
 		<nme>Toggle Dev Mode</nme>
 		<pri>6</pri>
@@ -8017,14 +8039,6 @@ A JSON structure with every available info about the networks that are not activ
 			</ConditionList>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="2"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
 			<code>18</code>
 			<se>false</se>
 			<App sr="arg0">
@@ -8041,7 +8055,7 @@ A JSON structure with every available info about the networks that are not activ
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act11" ve="7">
 			<code>18</code>
 			<App sr="arg0">
 				<appClass></appClass>
@@ -8062,6 +8076,14 @@ A JSON structure with every available info about the networks that are not activ
 					<rhs>nosu</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>20</code>
@@ -8188,9 +8210,74 @@ A JSON structure with every available info about the networks that are not activ
 			</ConditionList>
 		</Action>
 	</Task>
+	<Task sr="task307">
+		<cdate>1759623613029</cdate>
+		<edate>1789818038082</edate>
+		<id>307</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">No Root Screen Off BT Disconnected</Str>
+			<Int sr="arg1" val="1"/>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%ROOT_STAT</lhs>
+					<op>2</op>
+					<rhs>nosu</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%SHIZUKU_RUNNING</lhs>
+					<op>2</op>
+					<rhs>no</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Toggle Bluetooth</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%BLUE</lhs>
+					<op>2</op>
+					<rhs>on</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%BT_CONNECTED</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">No Root Screen Off BT Disconnected</Str>
+			<Int sr="arg1" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BLUE</lhs>
+					<op>2</op>
+					<rhs>off</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
 	<Task sr="task31">
 		<cdate>1779915466783</cdate>
-		<edate>1783535538121</edate>
+		<edate>1789818007650</edate>
 		<id>31</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -8250,7 +8337,7 @@ A JSON structure with every available info about the networks that are not activ
 	</Task>
 	<Task sr="task32">
 		<cdate>1780414763292</cdate>
-		<edate>1789567390025</edate>
+		<edate>1789799651807</edate>
 		<id>32</id>
 		<nme>Toggle Profiles</nme>
 		<Action sr="act0" ve="7">
@@ -9062,7 +9149,7 @@ done</Str>
 	</Task>
 	<Task sr="task41">
 		<cdate>1779092186071</cdate>
-		<edate>1789430574671</edate>
+		<edate>1789801599332</edate>
 		<id>41</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -9238,13 +9325,14 @@ done</Str>
 	</Task>
 	<Task sr="task47">
 		<cdate>1657974116786</cdate>
-		<edate>1788056910996</edate>
+		<edate>1789801389790</edate>
 		<id>47</id>
 		<nme>Toggle Data</nme>
 		<pri>100</pri>
 		<rty>1</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
+			<coll>false</coll>
 			<label>don't act on anything data when sim is either not in ready state or not present</label>
 			<ConditionList sr="if">
 				<bool0>Or</bool0>
@@ -9972,7 +10060,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task55">
 		<cdate>1771948370126</cdate>
-		<edate>1782115134913</edate>
+		<edate>1789801243931</edate>
 		<id>55</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -10647,7 +10735,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task61">
 		<cdate>1759612460120</cdate>
-		<edate>1783892288964</edate>
+		<edate>1789820734705</edate>
 		<id>61</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -11102,7 +11190,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task63">
 		<cdate>1775316698194</cdate>
-		<edate>1788059871441</edate>
+		<edate>1789821057085</edate>
 		<id>63</id>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -11319,7 +11407,7 @@ Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT
 	</Task>
 	<Task sr="task65">
 		<cdate>1759616184933</cdate>
-		<edate>1789585574061</edate>
+		<edate>1789798932634</edate>
 		<id>65</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -12380,7 +12468,7 @@ Variable...</com.twofortyfouram.locale.intent.extra.BLURB>
 	</Task>
 	<Task sr="task7">
 		<cdate>1780518363397</cdate>
-		<edate>1789228028612</edate>
+		<edate>1789666173015</edate>
 		<id>7</id>
 		<pri>6</pri>
 		<rty>1</rty>
@@ -12437,6 +12525,26 @@ shell output - %output</Str>
 			<Str sr="arg9" ve="3"/>
 		</Action>
 		<Action sr="act4" ve="7">
+			<code>548</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%app_package</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%APP_CTX_INVISIBLE_FG_NET_UNSET_PKG</Str>
 			<Str sr="arg1" ve="3">%app_package</Str>
@@ -12453,7 +12561,7 @@ shell output - %output</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%APP_CTX_INVISIBLE_FG_NET_UNSET_PKG</Str>
 			<Int sr="arg1" val="0"/>
@@ -15377,116 +15485,6 @@ The text that was retrieved from the dialog&lt;/_array_net.dinglisch.android.tas
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task86">
-		<cdate>1759623613029</cdate>
-		<edate>1784757527938</edate>
-		<id>86</id>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>35</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<bool1>Or</bool1>
-				<Condition sr="c0" ve="3">
-					<lhs>%qtime</lhs>
-					<op>7</op>
-					<rhs>15</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%BT_CONNECTED</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-				<Condition sr="c2" ve="3">
-					<lhs>%BLUE</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%BT_CONNECTED</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%BLUE</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">No Root Screen Off BT Disconnected</Str>
-			<Int sr="arg1" val="1"/>
-			<ConditionList sr="if">
-				<bool0>Or</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%ROOT_STAT</lhs>
-					<op>2</op>
-					<rhs>nosu</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%SHIZUKU_RUNNING</lhs>
-					<op>2</op>
-					<rhs>no</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Toggle Bluetooth</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%BLUE</lhs>
-					<op>2</op>
-					<rhs>on</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%BT_CONNECTED</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">No Root Screen Off BT Disconnected</Str>
-			<Int sr="arg1" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%BLUE</lhs>
-					<op>2</op>
-					<rhs>off</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-	</Task>
 	<Task sr="task87">
 		<cdate>1774261499905</cdate>
 		<edate>1781922222477</edate>
@@ -16346,7 +16344,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task96">
 		<cdate>1737079191529</cdate>
-		<edate>1786736609993</edate>
+		<edate>1789801235976</edate>
 		<id>96</id>
 		<nme>Enable Low Power Mode</nme>
 		<pri>6</pri>
@@ -16767,7 +16765,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task98">
 		<cdate>1779915466783</cdate>
-		<edate>1783611987698</edate>
+		<edate>1789801567230</edate>
 		<id>98</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -16831,6 +16829,11 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 					<rhs>on</rhs>
 				</Condition>
 			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>248</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task99">

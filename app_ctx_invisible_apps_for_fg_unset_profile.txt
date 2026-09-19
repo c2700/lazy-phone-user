@@ -1,2 +1,4 @@
 com.google.android.documentsui
 com.android.incallui
+com.android.intentresolver
+com.google.android.permissioncontroller
