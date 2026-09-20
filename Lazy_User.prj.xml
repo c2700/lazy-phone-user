@@ -2,7 +2,7 @@
 	<Profile sr="prof112" ve="2">
 		<cdate>1782440284018</cdate>
 		<clp>true</clp>
-		<edate>1789801567230</edate>
+		<edate>1789882776096</edate>
 		<flags>8</flags>
 		<id>112</id>
 		<limit>true</limit>
@@ -1413,7 +1413,7 @@ When
 	<Profile sr="prof138" ve="2">
 		<cdate>1782440284121</cdate>
 		<clp>true</clp>
-		<edate>1789463920865</edate>
+		<edate>1789875122360</edate>
 		<flags>8</flags>
 		<id>138</id>
 		<mid0>36</mid0>
@@ -1827,7 +1827,7 @@ When
 	<Profile sr="prof150" ve="2">
 		<cdate>1782440284170</cdate>
 		<clp>true</clp>
-		<edate>1781922288902</edate>
+		<edate>1789841137590</edate>
 		<flags>8</flags>
 		<id>150</id>
 		<mid0>95</mid0>
@@ -2417,6 +2417,7 @@ WifiAPITestActivity</label9>
 	</Profile>
 	<Profile sr="prof174" ve="2">
 		<cdate>1782440284254</cdate>
+		<clp>true</clp>
 		<edate>1789666173015</edate>
 		<flags>8</flags>
 		<id>174</id>
@@ -3209,7 +3210,7 @@ Text
 	<Profile sr="prof306" ve="2">
 		<cdate>1782440284192</cdate>
 		<clp>true</clp>
-		<edate>1789818038082</edate>
+		<edate>1789874794898</edate>
 		<flags>8</flags>
 		<id>306</id>
 		<mid0>307</mid0>
@@ -3239,8 +3240,8 @@ Text
 	<Project sr="proj0" ve="2">
 		<cdate>1771276200203</cdate>
 		<name>Lazy User</name>
-		<pids>155,174,124,169,112,263,152,176,216,127,139,113,122,163,118,146,306,211,212,143,115,128,119,136,260,156,116,126,137,140,161,167,159,278,218,144,149,203,131,166,138,141,125,135,160,150,123,229,172,145,267,299,121,258,151,165,134,297,117,175,170,147,158,171,153,164,162,130,142,120,132,231,234,148,114,271,154,133,168,129</pids>
-		<tids>95,91,23,82,43,47,7,11,64,17,84,61,108,241,277,32,213,58,65,79,31,71,206,39,50,96,77,106,55,255,69,76,75,98,68,100,10,15,270,2,57,80,109,22,97,94,13,28,78,37,87,21,25,20,49,38,103,261,52,66,33,27,262,26,9,107,274,35,12,264,230,59,90,34,72,56,3,275,110,46,239,256,41,60,74,88,63,111,205,102,54,105,45,29,307,48,85,92,298,83,281,19,104,300,36,235,62,101,259,30,44,70,81,24,99,53,67,51,89,269,18,93,8,73,14,40,16,242,4</tids>
+		<pids>172,148,218,127,137,128,160,126,122,112,258,171,151,125,211,153,140,113,132,116,176,145,260,271,263,114,133,136,138,167,131,159,123,130,121,115,124,299,150,231,267,168,152,146,203,143,142,161,144,154,166,120,139,119,297,135,155,174,170,162,278,149,129,134,163,229,175,234,141,118,117,306,165,169,212,158,216,156,164,147</pids>
+		<tids>47,91,75,50,262,277,57,21,78,3,68,11,16,96,109,37,30,32,17,2,31,56,92,55,15,23,48,76,63,13,270,28,34,69,104,83,14,39,44,84,206,98,20,54,255,213,10,18,58,74,46,40,94,77,100,101,87,19,107,35,108,261,71,256,269,81,274,49,26,239,25,275,80,235,88,53,9,62,230,300,307,51,105,264,67,22,65,33,12,99,66,90,60,93,89,259,103,64,61,85,52,97,29,106,82,72,36,110,205,41,4,79,45,298,43,242,70,27,281,38,73,59,24,7,241,102,111,95,8</tids>
 	</Project>
 	<Task sr="task10">
 		<cdate>1780800944669</cdate>
@@ -3822,7 +3823,7 @@ Text
 	</Task>
 	<Task sr="task108">
 		<cdate>1780705476936</cdate>
-		<edate>1783893663064</edate>
+		<edate>1789874840867</edate>
 		<id>108</id>
 		<nme>TTS Test</nme>
 		<Action sr="act0" ve="7">
@@ -8212,7 +8213,7 @@ A JSON structure with every available info about the networks that are not activ
 	</Task>
 	<Task sr="task307">
 		<cdate>1759623613029</cdate>
-		<edate>1789818038082</edate>
+		<edate>1789874794898</edate>
 		<id>307</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -8536,7 +8537,7 @@ A JSON structure with every available info about the networks that are not activ
 	</Task>
 	<Task sr="task36">
 		<cdate>1775427384957</cdate>
-		<edate>1789463920865</edate>
+		<edate>1789875122360</edate>
 		<id>36</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -16297,7 +16298,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task95">
 		<cdate>1759618008133</cdate>
-		<edate>1781922288902</edate>
+		<edate>1789841137590</edate>
 		<id>95</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -16765,7 +16766,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task98">
 		<cdate>1779915466783</cdate>
-		<edate>1789801567230</edate>
+		<edate>1789882776096</edate>
 		<id>98</id>
 		<pri>6</pri>
 		<Action sr="act0" ve="7">
@@ -16829,11 +16830,6 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 					<rhs>on</rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>248</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task99">
