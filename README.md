@@ -5,7 +5,7 @@ phone Automation workflow to make phone self-handled or self-managed. works on r
 auto-toggle settings/automate user actions based on set apps/notifications/conditions/global var.s/settings which are normally done by the user. [working parts & tldr of what works](working.md)<br>
 
 ## demo:
-The demo is on a non-rooted phone (there is no autoinput working on non-rooted or when shizuku is in-effect or atleast when the helper settings works). This just shows how the location auto-set, redundant net source switching (wifi & data) & ping checks (when connectd to internet) tasks & profiles for map apps works (google maps in this case). when in an app that OPTIONALLY requires net, will prompt the user for wan which if "yes" is selected then just as how the "redundant net src switching" & "ping test" worked for google maps, it works the same way here & this is just the 2 functionalities of the workflow
+The demo is on a non-rooted phone (when the same workflow is on a rooted phone, when shizuku is in-effect or atleast when the helper settings works, autoinput is not used in that case). This just shows how the location auto-set, redundant net source switching (wifi & data) & ping checks (when connectd to internet) tasks & profiles for map apps works (google maps in this case). when in an app that OPTIONALLY requires net, will prompt the user for wan which if "yes" is selected then just as how the "redundant net src switching" & "ping test" worked for google maps, it works the same way here & this is just the 2 functionalities of the workflow
 
 https://github.com/user-attachments/assets/20a7dbfb-2aa6-4dee-bc2c-e31450f833d5
 
