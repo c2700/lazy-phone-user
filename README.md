@@ -1,8 +1,8 @@
 # lazy-phone-user
 phone Automation workflow to make phone self-handled or self-managed. works on rooted & non-rooted phones (which works via UI simulation or via working/reliable helper apps or shizuku to do things that require higher privileges to do with one action block). Configure once & forget until maybe few more apps to be plugged in to relevant profiles
 
-# TLDR of what this workflow does:
-auto-toggle settings/automate user actions based on set apps/notifications/conditions/global var.s/settings which are normally done by the user. [working parts](working.md)<br>
+# extreme TLDR of what this workflow does:
+auto-toggle settings/automate user actions based on set apps/notifications/conditions/global var.s/settings which are normally done by the user. [working parts & tldr of what works](working.md)<br>
 
 ## demo:
 this just shows how the location auto-set, redundant net source switching (wifi & data) & ping checks (when connectd to internet) tasks & profiles for map apps works (google maps in this case). when in an app that OPTIONALLY requires net, will prompt the user for wan which if "yes" is selected then just as how the "redundant net src switching" & "ping test" worked for google maps, it works the same way here & this is just the 2 functionalities of the workflow

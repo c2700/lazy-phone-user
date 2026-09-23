@@ -1,6 +1,16 @@
-## TLDR of how this works:
-* global var profile setters sets global vars 
-* profiles are active & tasks are run based on said global var values
+## TLDR of what works:
+* app & work profile state based Redundant network switching which is enable wifi & data which after a set timeout if no wifi is connected, disable wifi else disable data. same applies with optionally wan needing apps except that it prompts the user for wan access
+* map app based autoinput stuff with location toggling & stuff like auto brightness toggle (Redundant net switching applies here too)
+* toggle low power mode (battery) & disable everyting that are not in use when screen is off (sets cpu to extreme low clock if rooted)
+* call someone at a set time which will be disabled if either they reply or call you back 
+* setting the phone to an appropriate state when boarding an airplane. disable stuff when deboarding
+* app based developer mode toggling (for of those annoying apps that doesn't let the user use the app when this setting is enabled)
+* set cpu numbers to "performance mode" (set by the user) when games are opend & set back to "regular" mode when closed
+* play audios (set in the `Automate flows/battery_audio.json` file) everytime a battery enters/exits a battery range, plugged to or unplugged from a power source within that battery range
+* toggle auto-sync when opening an email app 
+* sanitizes links (from youtube, instagram & google for now) copied to clipboard & calls the intent resolver with the sanitized clipboard data as the payload
+* autoset bluetooth settings when device is disconnected and or when obd apps are in use 
+* toggle auto-brightness when using the flashlight 
 
 ## What each Tasker profiles do
 ##### 1. <b>workflow base & entry point. stuff profiles here can be used to initiate/start the workflow & be used as a common entrypoint for implicit intents to trigger the profiles/tasks/actions</b> [profile ordering](#this-is-the-ordering-in-which-i-keep-the-profiles-in-tasker-to-make-maintainability-&-sensibility-relatively-easier-than-the-mixup-order-you-get-when-you-import-the-project-&-unfortunately-there's-no-option-to-preserve-the-profile-ordering)
