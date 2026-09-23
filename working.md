@@ -83,7 +83,8 @@
 * `Airplane Boarding` - settings to toggle when boarding/deboarding an airplane. keep the `Tasker - Airplane boarding.flo` running when enabling this profile
 * `App Based Disable Dev Mode Flag` - sets global var `%DEV_MODE_TOGGLE` to `disable`
 * `App Based Enable Dev Mode Flag` - sets global var `%DEV_MODE_TOGGLE` to `enable`
-* `Dev Mode Toggle` - Toggles developer mode based on `%DEV_MODE_TOGGLE` & sets `%DEV_MODE_TOGGLE_FLOW` indicating if the developer toggling flow is running
+* `Dev Mode Enable` - Enables developer mode & sets `%DEV_MODE_TOGGLE_FLOW` indicating if the developer toggling flow is running
+* `Dev Mode Disable` - Disables developer mode & sets `%DEV_MODE_TOGGLE_FLOW` indicating if the developer toggling flow is running
 * `Flashlight State Based Autobrightness` - toggle Flashlight & autobrightness will be toggled for 2 seconds
 
 
@@ -151,7 +152,8 @@
 * `BATTERY_AUDIOS_RUNNING` (true|false) - flag to say if the `Tasker - Battery noise.flo` is running
 * `DEV_MODE` (enabled|disabled) - flag to indicate developer mode state
 * `DEV_MODE_TOGGLE` (enable|disable)` - flag to indicate what SHOULD be the developer mode state
-* `DEV_MODE_TOGGLE_FLOW` (inactive|running)` - flag to indicate if the flow to change developer mode is running
+* `DEV_MODE_TOGGLE_FLOW` (inactive|running) - flag to indicate if the flow to change developer mode is running
+* `POWER_SRC_EVENT` (plugged|unplugged) - flag used used to check for power source plug & unplug events. A substitue for the `ACTION_POWER_DISCONNECTED` & `ACTION_BATTERY_CHANGED` broadcasts
 
 ## What each Tasker tasks do
 #### Tasks who's Description's given in the profile section with the same name as the task
@@ -193,6 +195,7 @@
     - `Sim Presence` - sends a custom `android.intent.action.SIM_PRESENT` broadcast to the `(Un)Set Sim Presence Airplane Mode via Automate` profile to set airplane mode based the `%SIM_STATE` var which can't be used in the variable state context in a profile. Disables `(Un)Set Sim Presence Airplane Mode` profile on 1st run
     - `Hotspot State` - sets the `WL_HOTSPOT` global var to "enabled"|"disabled". Disables `Wifi Hotspot State` profile on 1st run
     - `Wifi State` - sets `WIFI_CONNECTED` on wifi connection state. Disables `wifi var set` profile on 1st run
+    - `Power src plug event` - flow to get power src plug event, set it as tasker var `%POWER_SRC_EVENT`. doing it this way as the ACTION_POWER_DISCONNECTED & ACTION_BATTERY_CHANGED broadcasts caused way too many task copies (which was rejected)
 
 ### Easer Setup:
 <b>(event & profile names literally do what the names imply)</b>
@@ -282,10 +285,10 @@
     Gaming
     Sanitized URL share - Clipboard
     Sanitized URL share - Autonotification
+    Dev Mode Enable
+    Dev Mode Disable
     Alarm Vol Auto Set
     Autoread Whatsapp
     Airplane Boarding
     Flashlight State Based Autobrightness
     Bottom "Buffer" Profile. Not To Be Used
-
-
